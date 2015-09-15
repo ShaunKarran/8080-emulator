@@ -92,19 +92,19 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
 			fprintf(asm_file, "NOP\n");
 			pc += 1;
 			break;
-		case 0x01: /* LXI B,#$data16 */
+		case 0x01:	/* LXI B,data16 */
 			fprintf(asm_file, "LXI\t\tB,#$%0.2x%0.2x\n", opcode[2], opcode[1]);
 			pc += 3;
 			break;
-		case 0x02:
+		case 0x02:	/* STAX B */
 			fprintf(asm_file, "STAX\tB\n");
 			pc += 1;
 			break;
-		case 0x03:
+		case 0x03:	/* INX B */
 			fprintf(asm_file, "INX\t\tB\n");
 			pc += 1;
 			break;
-		case 0xc3:
+		case 0xc3:	/* JMP addr*/
 			fprintf(asm_file, "JMP\t\t$%0.2x%0.2x\n", opcode[2], opcode[1]);
 			pc += 3;
 			break;
