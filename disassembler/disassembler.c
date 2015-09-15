@@ -14,11 +14,10 @@ int main(int argc, char *argv[])
 	FILE *asm_file;
 	unsigned char *rom_buffer;
 	int rom_size, pc = 0;
-	char **asm_line;
 
 	/* Check input arguments */
 	if (argc != 3) {
-		printf("Usage: ./a.out <input rom> <output assembly>\n");
+		printf("Usage: ./a.out <rom file> <assembly file>\n");
 		exit(EXIT_FAILURE);
 	}
 
@@ -34,7 +33,9 @@ int main(int argc, char *argv[])
 
 	/* While pc hasnt reached the end of the buffer */
 	while (pc < rom_size) {
+		/* Write opcode positon at start of line */
 		fprintf(asm_file, "0x%0.4x\t", pc);
+
 		/* Decode opcode and write to assembly file */
 		pc = disassemble_8080(rom_buffer, pc, asm_file);
 	}
@@ -70,7 +71,7 @@ int load_rom(char *file_name, unsigned char *buffer[])
 		exit(EXIT_FAILURE);
 	}
 
-		/* Read rom into buffer */
+	/* Read rom into buffer */
 	if (fread(*buffer, sizeof(char), rom_size, rom_file) != rom_size) {
 		perror("Error reading rom to buffer.");
 		exit(EXIT_FAILURE);
@@ -84,7 +85,6 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
 {
 	unsigned char *opcode;
 
-	/* Get opcode */
 	opcode = &buffer[pc];
 
 	switch (*opcode) {
@@ -92,7 +92,7 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
 			fprintf(asm_file, "NOP\n");
 			pc += 1;
 			break;
-		case 0x01:
+		case 0x01: /* LXI B,#$data16 */
 			fprintf(asm_file, "LXI\t\tB,#$%0.2x%0.2x\n", opcode[2], opcode[1]);
 			pc += 3;
 			break;
@@ -105,7 +105,7 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
 			pc += 1;
 			break;
 		case 0xc3:
-			fprintf(asm_file, "JMP\t\t#$%0.2x%0.2x\n", opcode[2], opcode[1]);
+			fprintf(asm_file, "JMP\t\t$%0.2x%0.2x\n", opcode[2], opcode[1]);
 			pc += 3;
 			break;
 		default:

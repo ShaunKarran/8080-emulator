@@ -1,14 +1,14 @@
 0x0000	NOP
 0x0001	NOP
 0x0002	NOP
-0x0003	JMP		#$18d4
+0x0003	JMP		$18d4
 0x0006	NOP
 0x0007	NOP
 0x0008	Not handled yet
 0x0009	Not handled yet
 0x000a	Not handled yet
 0x000b	Not handled yet
-0x000c	JMP		#$008c
+0x000c	JMP		$008c
 0x000f	NOP
 0x0010	Not handled yet
 0x0011	Not handled yet
@@ -80,7 +80,7 @@
 0x0057	Not handled yet
 0x0058	Not handled yet
 0x0059	Not handled yet
-0x005a	JMP		#$0082
+0x005a	JMP		$0082
 0x005d	Not handled yet
 0x005e	Not handled yet
 0x005f	Not handled yet
@@ -88,11 +88,11 @@
 0x0061	Not handled yet
 0x0062	Not handled yet
 0x0063	NOP
-0x0064	JMP		#$0765
+0x0064	JMP		$0765
 0x0067	Not handled yet
 0x0068	LXI		B,#$ea32
 0x006b	Not handled yet
-0x006c	JMP		#$003f
+0x006c	JMP		$003f
 0x006f	Not handled yet
 0x0070	Not handled yet
 0x0071	Not handled yet
@@ -201,7 +201,7 @@
 0x00dc	Not handled yet
 0x00dd	Not handled yet
 0x00de	Not handled yet
-0x00df	JMP		#$08e4
+0x00df	JMP		$08e4
 0x00e2	NOP
 0x00e3	NOP
 0x00e4	NOP
@@ -363,7 +363,7 @@
 0x018e	Not handled yet
 0x018f	Not handled yet
 0x0190	Not handled yet
-0x0191	JMP		#$0183
+0x0191	JMP		$0183
 0x0194	Not handled yet
 0x0195	Not handled yet
 0x0196	Not handled yet
@@ -374,7 +374,7 @@
 0x019b	Not handled yet
 0x019c	Not handled yet
 0x019d	Not handled yet
-0x019e	JMP		#$0195
+0x019e	JMP		$0195
 0x01a1	Not handled yet
 0x01a2	Not handled yet
 0x01a3	Not handled yet
@@ -416,7 +416,7 @@
 0x01d3	Not handled yet
 0x01d4	STAX	B
 0x01d5	Not handled yet
-0x01d6	JMP		#$14cc
+0x01d6	JMP		$14cc
 0x01d9	Not handled yet
 0x01da	Not handled yet
 0x01db	Not handled yet
@@ -436,11 +436,11 @@
 0x01e9	Not handled yet
 0x01ea	NOP
 0x01eb	Not handled yet
-0x01ec	JMP		#$1a32
+0x01ec	JMP		$1a32
 0x01ef	Not handled yet
 0x01f0	Not handled yet
 0x01f1	Not handled yet
-0x01f2	JMP		#$01f8
+0x01f2	JMP		$01f8
 0x01f5	Not handled yet
 0x01f6	Not handled yet
 0x01f7	Not handled yet
@@ -469,7 +469,7 @@
 0x0214	Not handled yet
 0x0215	Not handled yet
 0x0216	Not handled yet
-0x0217	JMP		#$021e
+0x0217	JMP		$021e
 0x021a	Not handled yet
 0x021b	Not handled yet
 0x021c	Not handled yet
@@ -505,11 +505,11 @@
 0x023c	STAX	B
 0x023d	Not handled yet
 0x023e	Not handled yet
-0x023f	JMP		#$0229
+0x023f	JMP		$0229
 0x0242	Not handled yet
 0x0243	Not handled yet
 0x0244	Not handled yet
-0x0245	JMP		#$0235
+0x0245	JMP		$0235
 0x0248	Not handled yet
 0x0249	Not handled yet
 0x024a	Not handled yet
@@ -554,7 +554,7 @@
 0x0271	Not handled yet
 0x0272	NOP
 0x0273	Not handled yet
-0x0274	JMP		#$024b
+0x0274	JMP		$024b
 0x0277	Not handled yet
 0x0278	Not handled yet
 0x0279	Not handled yet
@@ -569,11 +569,11 @@
 0x0282	Not handled yet
 0x0283	NOP
 0x0284	Not handled yet
-0x0285	JMP		#$024b
+0x0285	JMP		$024b
 0x0288	Not handled yet
 0x0289	Not handled yet
 0x028a	Not handled yet
-0x028b	JMP		#$0281
+0x028b	JMP		$0281
 0x028e	Not handled yet
 0x028f	Not handled yet
 0x0290	Not handled yet
@@ -727,15 +727,15 @@
 0x0326	Not handled yet
 0x0327	Not handled yet
 0x0328	Not handled yet
-0x0329	JMP		#$07f9
+0x0329	JMP		$07f9
 0x032c	Not handled yet
 0x032d	Not handled yet
 0x032e	Not handled yet
-0x032f	JMP		#$0817
+0x032f	JMP		$0817
 0x0332	Not handled yet
 0x0333	Not handled yet
 0x0334	STAX	B
-0x0335	JMP		#$02f8
+0x0335	JMP		$02f8
 0x0338	NOP
 0x0339	NOP
 0x033a	NOP
@@ -745,7 +745,7 @@
 0x033e	Not handled yet
 0x033f	LXI		B,#$7e23
 0x0342	Not handled yet
-0x0343	JMP		#$03b0
+0x0343	JMP		$03b0
 0x0346	NOP
 0x0347	Not handled yet
 0x0348	Not handled yet
@@ -770,7 +770,7 @@
 0x035d	Not handled yet
 0x035e	Not handled yet
 0x035f	INX		B
-0x0360	JMP		#$036f
+0x0360	JMP		$036f
 0x0363	Not handled yet
 0x0364	Not handled yet
 0x0365	Not handled yet
@@ -811,7 +811,7 @@
 0x0388	Not handled yet
 0x0389	Not handled yet
 0x038a	Not handled yet
-0x038b	JMP		#$036f
+0x038b	JMP		$036f
 0x038e	Not handled yet
 0x038f	Not handled yet
 0x0390	Not handled yet
@@ -822,7 +822,7 @@
 0x0395	Not handled yet
 0x0396	Not handled yet
 0x0397	Not handled yet
-0x0398	JMP		#$036f
+0x0398	JMP		$036f
 0x039b	Not handled yet
 0x039c	Not handled yet
 0x039d	LXI		B,#$1532
@@ -839,7 +839,7 @@
 0x03aa	Not handled yet
 0x03ab	Not handled yet
 0x03ac	Not handled yet
-0x03ad	JMP		#$036f
+0x03ad	JMP		$036f
 0x03b0	Not handled yet
 0x03b1	Not handled yet
 0x03b2	INX		B
@@ -848,7 +848,7 @@
 0x03b5	Not handled yet
 0x03b6	Not handled yet
 0x03b7	INX		B
-0x03b8	JMP		#$0346
+0x03b8	JMP		$0346
 0x03bb	Not handled yet
 0x03bc	Not handled yet
 0x03bd	Not handled yet
@@ -907,7 +907,7 @@
 0x03f4	Not handled yet
 0x03f5	Not handled yet
 0x03f6	Not handled yet
-0x03f7	JMP		#$1400
+0x03f7	JMP		$1400
 0x03fa	Not handled yet
 0x03fb	Not handled yet
 0x03fc	Not handled yet
@@ -921,7 +921,7 @@
 0x0404	Not handled yet
 0x0405	Not handled yet
 0x0406	Not handled yet
-0x0407	JMP		#$1400
+0x0407	JMP		$1400
 0x040a	Not handled yet
 0x040b	Not handled yet
 0x040c	Not handled yet
@@ -957,11 +957,11 @@
 0x042a	Not handled yet
 0x042b	Not handled yet
 0x042c	Not handled yet
-0x042d	JMP		#$0436
+0x042d	JMP		$0436
 0x0430	Not handled yet
 0x0431	Not handled yet
 0x0432	Not handled yet
-0x0433	JMP		#$1a3b
+0x0433	JMP		$1a3b
 0x0436	Not handled yet
 0x0437	Not handled yet
 0x0438	Not handled yet
@@ -1083,7 +1083,7 @@
 0x04b0	Not handled yet
 0x04b1	Not handled yet
 0x04b2	Not handled yet
-0x04b3	JMP		#$1a32
+0x04b3	JMP		$1a32
 0x04b6	Not handled yet
 0x04b7	Not handled yet
 0x04b8	Not handled yet
@@ -1165,7 +1165,7 @@
 0x0508	Not handled yet
 0x0509	Not handled yet
 0x050a	Not handled yet
-0x050b	JMP		#$067e
+0x050b	JMP		$067e
 0x050e	Not handled yet
 0x050f	Not handled yet
 0x0510	Not handled yet
@@ -1240,13 +1240,13 @@
 0x0555	Not handled yet
 0x0556	Not handled yet
 0x0557	Not handled yet
-0x0558	JMP		#$1a32
+0x0558	JMP		$1a32
 0x055b	Not handled yet
 0x055c	Not handled yet
 0x055d	Not handled yet
 0x055e	Not handled yet
 0x055f	Not handled yet
-0x0560	JMP		#$1a32
+0x0560	JMP		$1a32
 0x0563	Not handled yet
 0x0564	Not handled yet
 0x0565	Not handled yet
@@ -1442,7 +1442,7 @@
 0x0629	Not handled yet
 0x062a	Not handled yet
 0x062b	Not handled yet
-0x062c	JMP		#$05a5
+0x062c	JMP		$05a5
 0x062f	Not handled yet
 0x0630	Not handled yet
 0x0631	Not handled yet
@@ -1496,24 +1496,24 @@
 0x0661	Not handled yet
 0x0662	Not handled yet
 0x0663	Not handled yet
-0x0664	JMP		#$066c
+0x0664	JMP		$066c
 0x0667	Not handled yet
 0x0668	Not handled yet
-0x0669	JMP		#$0675
+0x0669	JMP		$0675
 0x066c	Not handled yet
 0x066d	Not handled yet
 0x066e	Not handled yet
 0x066f	Not handled yet
 0x0670	Not handled yet
 0x0671	Not handled yet
-0x0672	JMP		#$1491
+0x0672	JMP		$1491
 0x0675	Not handled yet
 0x0676	Not handled yet
 0x0677	Not handled yet
 0x0678	Not handled yet
 0x0679	Not handled yet
 0x067a	Not handled yet
-0x067b	JMP		#$1452
+0x067b	JMP		$1452
 0x067e	Not handled yet
 0x067f	Not handled yet
 0x0680	Not handled yet
@@ -1651,7 +1651,7 @@
 0x0706	Not handled yet
 0x0707	Not handled yet
 0x0708	Not handled yet
-0x0709	JMP		#$19dc
+0x0709	JMP		$19dc
 0x070c	Not handled yet
 0x070d	LXI		B,#$f132
 0x0710	Not handled yet
@@ -1695,18 +1695,18 @@
 0x0736	Not handled yet
 0x0737	Not handled yet
 0x0738	Not handled yet
-0x0739	JMP		#$08f1
+0x0739	JMP		$08f1
 0x073c	Not handled yet
 0x073d	Not handled yet
 0x073e	Not handled yet
-0x073f	JMP		#$1439
+0x073f	JMP		$1439
 0x0742	Not handled yet
 0x0743	Not handled yet
 0x0744	Not handled yet
 0x0745	Not handled yet
 0x0746	Not handled yet
 0x0747	Not handled yet
-0x0748	JMP		#$1a47
+0x0748	JMP		$1a47
 0x074b	Not handled yet
 0x074c	Not handled yet
 0x074d	Not handled yet
@@ -1724,11 +1724,11 @@
 0x0759	Not handled yet
 0x075a	Not handled yet
 0x075b	Not handled yet
-0x075c	JMP		#$073c
+0x075c	JMP		$073c
 0x075f	Not handled yet
 0x0760	Not handled yet
 0x0761	Not handled yet
-0x0762	JMP		#$1a32
+0x0762	JMP		$1a32
 0x0765	Not handled yet
 0x0766	LXI		B,#$9332
 0x0769	Not handled yet
@@ -1947,7 +1947,7 @@
 0x084e	Not handled yet
 0x084f	Not handled yet
 0x0850	Not handled yet
-0x0851	JMP		#$081f
+0x0851	JMP		$081f
 0x0854	NOP
 0x0855	NOP
 0x0856	NOP
@@ -1968,14 +1968,14 @@
 0x0867	Not handled yet
 0x0868	Not handled yet
 0x0869	Not handled yet
-0x086a	JMP		#$077f
+0x086a	JMP		$077f
 0x086d	Not handled yet
 0x086e	LXI		B,#$9bc3
 0x0871	Not handled yet
 0x0872	Not handled yet
 0x0873	Not handled yet
 0x0874	STAX	B
-0x0875	JMP		#$0814
+0x0875	JMP		$0814
 0x0878	Not handled yet
 0x0879	Not handled yet
 0x087a	Not handled yet
@@ -1984,7 +1984,7 @@
 0x087d	Not handled yet
 0x087e	Not handled yet
 0x087f	Not handled yet
-0x0880	JMP		#$0886
+0x0880	JMP		$0886
 0x0883	NOP
 0x0884	NOP
 0x0885	NOP
@@ -2039,7 +2039,7 @@
 0x08b6	Not handled yet
 0x08b7	Not handled yet
 0x08b8	Not handled yet
-0x08b9	JMP		#$08a9
+0x08b9	JMP		$08a9
 0x08bc	Not handled yet
 0x08bd	Not handled yet
 0x08be	Not handled yet
@@ -2058,7 +2058,7 @@
 0x08cb	Not handled yet
 0x08cc	Not handled yet
 0x08cd	Not handled yet
-0x08ce	JMP		#$08a9
+0x08ce	JMP		$08a9
 0x08d1	Not handled yet
 0x08d2	STAX	B
 0x08d3	Not handled yet
@@ -2088,7 +2088,7 @@
 0x08eb	Not handled yet
 0x08ec	Not handled yet
 0x08ed	Not handled yet
-0x08ee	JMP		#$14cb
+0x08ee	JMP		$14cb
 0x08f1	Not handled yet
 0x08f2	INX		B
 0x08f3	Not handled yet
@@ -2120,7 +2120,7 @@
 0x090d	Not handled yet
 0x090e	Not handled yet
 0x090f	Not handled yet
-0x0910	JMP		#$1439
+0x0910	JMP		$1439
 0x0913	Not handled yet
 0x0914	Not handled yet
 0x0915	Not handled yet
@@ -2219,7 +2219,7 @@
 0x0976	Not handled yet
 0x0977	Not handled yet
 0x0978	Not handled yet
-0x0979	JMP		#$18fa
+0x0979	JMP		$18fa
 0x097c	Not handled yet
 0x097d	Not handled yet
 0x097e	Not handled yet
@@ -2266,7 +2266,7 @@
 0x09a7	Not handled yet
 0x09a8	Not handled yet
 0x09a9	Not handled yet
-0x09aa	JMP		#$09ad
+0x09aa	JMP		$09ad
 0x09ad	Not handled yet
 0x09ae	Not handled yet
 0x09af	Not handled yet
@@ -2293,7 +2293,7 @@
 0x09c4	Not handled yet
 0x09c5	Not handled yet
 0x09c6	Not handled yet
-0x09c7	JMP		#$08ff
+0x09c7	JMP		$08ff
 0x09ca	Not handled yet
 0x09cb	Not handled yet
 0x09cc	Not handled yet
@@ -2392,7 +2392,7 @@
 0x0a2b	Not handled yet
 0x0a2c	LXI		B,#$04cd
 0x0a2f	Not handled yet
-0x0a30	JMP		#$0804
+0x0a30	JMP		$0804
 0x0a33	Not handled yet
 0x0a34	Not handled yet
 0x0a35	LXI		B,#$c0cd
@@ -2510,15 +2510,15 @@
 0x0aab	Not handled yet
 0x0aac	Not handled yet
 0x0aad	Not handled yet
-0x0aae	JMP		#$024b
+0x0aae	JMP		$024b
 0x0ab1	Not handled yet
 0x0ab2	Not handled yet
-0x0ab3	JMP		#$0ad7
+0x0ab3	JMP		$0ad7
 0x0ab6	Not handled yet
 0x0ab7	Not handled yet
-0x0ab8	JMP		#$0ad7
+0x0ab8	JMP		$0ad7
 0x0abb	Not handled yet
-0x0abc	JMP		#$0072
+0x0abc	JMP		$0072
 0x0abf	Not handled yet
 0x0ac0	Not handled yet
 0x0ac1	Not handled yet
@@ -2540,7 +2540,7 @@
 0x0ad1	Not handled yet
 0x0ad2	Not handled yet
 0x0ad3	Not handled yet
-0x0ad4	JMP		#$0a93
+0x0ad4	JMP		$0a93
 0x0ad7	Not handled yet
 0x0ad8	Not handled yet
 0x0ad9	Not handled yet
@@ -2557,7 +2557,7 @@
 0x0ae4	Not handled yet
 0x0ae5	Not handled yet
 0x0ae6	Not handled yet
-0x0ae7	JMP		#$1a32
+0x0ae7	JMP		$1a32
 0x0aea	Not handled yet
 0x0aeb	Not handled yet
 0x0aec	INX		B
@@ -2755,7 +2755,7 @@
 0x0bb8	STAX	B
 0x0bb9	Not handled yet
 0x0bba	Not handled yet
-0x0bbb	JMP		#$010b
+0x0bbb	JMP		$010b
 0x0bbe	Not handled yet
 0x0bbf	Not handled yet
 0x0bc0	Not handled yet
@@ -2793,18 +2793,18 @@
 0x0be0	LXI		B,#$cd77
 0x0be3	Not handled yet
 0x0be4	Not handled yet
-0x0be5	JMP		#$18df
+0x0be5	JMP		$18df
 0x0be8	Not handled yet
 0x0be9	Not handled yet
 0x0bea	Not handled yet
 0x0beb	Not handled yet
 0x0bec	Not handled yet
 0x0bed	Not handled yet
-0x0bee	JMP		#$0b0b
+0x0bee	JMP		$0b0b
 0x0bf1	Not handled yet
 0x0bf2	Not handled yet
 0x0bf3	Not handled yet
-0x0bf4	JMP		#$199a
+0x0bf4	JMP		$199a
 0x0bf7	Not handled yet
 0x0bf8	NOP
 0x0bf9	Not handled yet
@@ -4975,7 +4975,7 @@
 0x1476	Not handled yet
 0x1477	Not handled yet
 0x1478	STAX	B
-0x1479	JMP		#$1a47
+0x1479	JMP		$1a47
 0x147c	Not handled yet
 0x147d	Not handled yet
 0x147e	Not handled yet
@@ -5151,7 +5151,7 @@
 0x1532	Not handled yet
 0x1533	Not handled yet
 0x1534	Not handled yet
-0x1535	JMP		#$154a
+0x1535	JMP		$154a
 0x1538	Not handled yet
 0x1539	INX		B
 0x153a	Not handled yet
@@ -5176,7 +5176,7 @@
 0x154d	Not handled yet
 0x154e	Not handled yet
 0x154f	Not handled yet
-0x1550	JMP		#$19dc
+0x1550	JMP		$19dc
 0x1553	NOP
 0x1554	Not handled yet
 0x1555	NOP
@@ -5189,7 +5189,7 @@
 0x155c	Not handled yet
 0x155d	Not handled yet
 0x155e	Not handled yet
-0x155f	JMP		#$155a
+0x155f	JMP		$155a
 0x1562	Not handled yet
 0x1563	Not handled yet
 0x1564	Not handled yet
@@ -5216,7 +5216,7 @@
 0x1579	Not handled yet
 0x157a	LXI		B,#$8532
 0x157d	Not handled yet
-0x157e	JMP		#$1545
+0x157e	JMP		$1545
 0x1581	Not handled yet
 0x1582	Not handled yet
 0x1583	Not handled yet
@@ -5280,7 +5280,7 @@
 0x15bf	Not handled yet
 0x15c0	Not handled yet
 0x15c1	Not handled yet
-0x15c2	JMP		#$15a9
+0x15c2	JMP		$15a9
 0x15c5	Not handled yet
 0x15c6	Not handled yet
 0x15c7	Not handled yet
@@ -5464,7 +5464,7 @@
 0x1685	Not handled yet
 0x1686	Not handled yet
 0x1687	Not handled yet
-0x1688	JMP		#$168f
+0x1688	JMP		$168f
 0x168b	Not handled yet
 0x168c	Not handled yet
 0x168d	Not handled yet
@@ -5524,7 +5524,7 @@
 0x16c3	Not handled yet
 0x16c4	Not handled yet
 0x16c5	Not handled yet
-0x16c6	JMP		#$02ed
+0x16c6	JMP		$02ed
 0x16c9	Not handled yet
 0x16ca	Not handled yet
 0x16cb	Not handled yet
@@ -5551,7 +5551,7 @@
 0x16e0	Not handled yet
 0x16e1	Not handled yet
 0x16e2	Not handled yet
-0x16e3	JMP		#$0b89
+0x16e3	JMP		$0b89
 0x16e6	Not handled yet
 0x16e7	NOP
 0x16e8	Not handled yet
@@ -5587,7 +5587,7 @@
 0x1708	Not handled yet
 0x1709	Not handled yet
 0x170a	Not handled yet
-0x170b	JMP		#$196b
+0x170b	JMP		$196b
 0x170e	Not handled yet
 0x170f	Not handled yet
 0x1710	Not handled yet
@@ -5628,10 +5628,10 @@
 0x1733	Not handled yet
 0x1734	Not handled yet
 0x1735	Not handled yet
-0x1736	JMP		#$19dc
+0x1736	JMP		$19dc
 0x1739	Not handled yet
 0x173a	STAX	B
-0x173b	JMP		#$18fa
+0x173b	JMP		$18fa
 0x173e	NOP
 0x173f	NOP
 0x1740	Not handled yet
@@ -5707,7 +5707,7 @@
 0x1788	Not handled yet
 0x1789	Not handled yet
 0x178a	Not handled yet
-0x178b	JMP		#$1785
+0x178b	JMP		$1785
 0x178e	Not handled yet
 0x178f	Not handled yet
 0x1790	Not handled yet
@@ -5741,7 +5741,7 @@
 0x17ae	Not handled yet
 0x17af	Not handled yet
 0x17b0	Not handled yet
-0x17b1	JMP		#$19dc
+0x17b1	JMP		$19dc
 0x17b4	Not handled yet
 0x17b5	Not handled yet
 0x17b6	Not handled yet
@@ -5815,7 +5815,7 @@
 0x17fe	Not handled yet
 0x17ff	Not handled yet
 0x1800	Not handled yet
-0x1801	JMP		#$16c9
+0x1801	JMP		$16c9
 0x1804	Not handled yet
 0x1805	Not handled yet
 0x1806	Not handled yet
@@ -5857,7 +5857,7 @@
 0x182e	Not handled yet
 0x182f	Not handled yet
 0x1830	Not handled yet
-0x1831	JMP		#$1828
+0x1831	JMP		$1828
 0x1834	Not handled yet
 0x1835	Not handled yet
 0x1836	Not handled yet
@@ -5869,7 +5869,7 @@
 0x183e	Not handled yet
 0x183f	Not handled yet
 0x1840	Not handled yet
-0x1841	JMP		#$183a
+0x1841	JMP		$183a
 0x1844	Not handled yet
 0x1845	Not handled yet
 0x1846	Not handled yet
@@ -5946,7 +5946,7 @@
 0x188f	Not handled yet
 0x1890	Not handled yet
 0x1891	Not handled yet
-0x1892	JMP		#$15d3
+0x1892	JMP		$15d3
 0x1895	NOP
 0x1896	NOP
 0x1897	NOP
@@ -6001,7 +6001,7 @@
 0x18ce	Not handled yet
 0x18cf	Not handled yet
 0x18d0	Not handled yet
-0x18d1	JMP		#$0ab6
+0x18d1	JMP		$0ab6
 0x18d4	Not handled yet
 0x18d5	NOP
 0x18d6	Not handled yet
@@ -6016,7 +6016,7 @@
 0x18e1	Not handled yet
 0x18e2	Not handled yet
 0x18e3	Not handled yet
-0x18e4	JMP		#$0aea
+0x18e4	JMP		$0aea
 0x18e7	Not handled yet
 0x18e8	Not handled yet
 0x18e9	Not handled yet
@@ -6049,11 +6049,11 @@
 0x1904	Not handled yet
 0x1905	NOP
 0x1906	Not handled yet
-0x1907	JMP		#$01c3
+0x1907	JMP		$01c3
 0x190a	Not handled yet
 0x190b	Not handled yet
 0x190c	Not handled yet
-0x190d	JMP		#$1597
+0x190d	JMP		$1597
 0x1910	Not handled yet
 0x1911	Not handled yet
 0x1912	Not handled yet
@@ -6072,15 +6072,15 @@
 0x191f	Not handled yet
 0x1920	Not handled yet
 0x1921	Not handled yet
-0x1922	JMP		#$08f3
+0x1922	JMP		$08f3
 0x1925	Not handled yet
 0x1926	Not handled yet
 0x1927	Not handled yet
-0x1928	JMP		#$1931
+0x1928	JMP		$1931
 0x192b	Not handled yet
 0x192c	Not handled yet
 0x192d	Not handled yet
-0x192e	JMP		#$1931
+0x192e	JMP		$1931
 0x1931	Not handled yet
 0x1932	Not handled yet
 0x1933	Not handled yet
@@ -6089,14 +6089,14 @@
 0x1936	Not handled yet
 0x1937	Not handled yet
 0x1938	Not handled yet
-0x1939	JMP		#$09ad
+0x1939	JMP		$09ad
 0x193c	Not handled yet
 0x193d	Not handled yet
 0x193e	Not handled yet
 0x193f	LXI		B,#$1135
 0x1942	Not handled yet
 0x1943	Not handled yet
-0x1944	JMP		#$08f3
+0x1944	JMP		$08f3
 0x1947	Not handled yet
 0x1948	Not handled yet
 0x1949	Not handled yet
@@ -6107,7 +6107,7 @@
 0x1950	Not handled yet
 0x1951	Not handled yet
 0x1952	Not handled yet
-0x1953	JMP		#$1931
+0x1953	JMP		$1931
 0x1956	Not handled yet
 0x1957	Not handled yet
 0x1958	Not handled yet
@@ -6126,29 +6126,29 @@
 0x1965	Not handled yet
 0x1966	Not handled yet
 0x1967	Not handled yet
-0x1968	JMP		#$1947
+0x1968	JMP		$1947
 0x196b	Not handled yet
 0x196c	Not handled yet
 0x196d	Not handled yet
-0x196e	JMP		#$1671
+0x196e	JMP		$1671
 0x1971	Not handled yet
 0x1972	LXI		B,#$6d32
 0x1975	Not handled yet
-0x1976	JMP		#$16e6
+0x1976	JMP		$16e6
 0x1979	Not handled yet
 0x197a	Not handled yet
 0x197b	Not handled yet
 0x197c	Not handled yet
 0x197d	Not handled yet
 0x197e	Not handled yet
-0x197f	JMP		#$193c
+0x197f	JMP		$193c
 0x1982	Not handled yet
 0x1983	Not handled yet
 0x1984	Not handled yet
 0x1985	Not handled yet
 0x1986	Not handled yet
 0x1987	Not handled yet
-0x1988	JMP		#$09d6
+0x1988	JMP		$09d6
 0x198b	Not handled yet
 0x198c	INX		B
 0x198d	Not handled yet
@@ -6157,7 +6157,7 @@
 0x1990	Not handled yet
 0x1991	Not handled yet
 0x1992	Not handled yet
-0x1993	JMP		#$08f3
+0x1993	JMP		$08f3
 0x1996	NOP
 0x1997	NOP
 0x1998	NOP
@@ -6191,7 +6191,7 @@
 0x19b8	Not handled yet
 0x19b9	Not handled yet
 0x19ba	Not handled yet
-0x19bb	JMP		#$08f3
+0x19bb	JMP		$08f3
 0x19be	Not handled yet
 0x19bf	Not handled yet
 0x19c0	NOP
@@ -6216,7 +6216,7 @@
 0x19d5	Not handled yet
 0x19d6	Not handled yet
 0x19d7	Not handled yet
-0x19d8	JMP		#$19d3
+0x19d8	JMP		$19d3
 0x19db	NOP
 0x19dc	Not handled yet
 0x19dd	Not handled yet
@@ -6390,7 +6390,7 @@
 0x1a8b	Not handled yet
 0x1a8c	LXI		B,#$e625
 0x1a8f	Not handled yet
-0x1a90	JMP		#$09c5
+0x1a90	JMP		$09c5
 0x1a93	NOP
 0x1a94	NOP
 0x1a95	NOP
