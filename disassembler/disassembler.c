@@ -209,6 +209,23 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
             pc += 1;
             break;
 
+        case 0xc5: /* PUSH B */
+            fprintf(asm_file, "PUSH\tB\n");
+            pc += 1;
+            break;
+        case 0xd5: /* PUSH D */
+            fprintf(asm_file, "PUSH\tD\n");
+            pc += 1;
+            break;
+        case 0xe5: /* PUSH H */
+            fprintf(asm_file, "PUSH\tH\n");
+            pc += 1;
+            break;
+        case 0xf5: /* PUSH PSW */
+            fprintf(asm_file, "PUSH\tPSW\n");
+            pc += 1;
+            break;
+
         case 0x40: /* MOV B, B */
             fprintf(asm_file, "MOV\t\tB, B\n");
             pc += 1;
@@ -459,23 +476,6 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
             break;
         case 0x7f: /* MOV A, A */
             fprintf(asm_file, "MOV\t\tA, A\n");
-            pc += 1;
-            break;
-
-        case 0xc5: /* PUSH B */
-            fprintf(asm_file, "PUSH\tB\n");
-            pc += 1;
-            break;
-        case 0xd5: /* PUSH D */
-            fprintf(asm_file, "PUSH\tD\n");
-            pc += 1;
-            break;
-        case 0xe5: /* PUSH H */
-            fprintf(asm_file, "PUSH\tH\n");
-            pc += 1;
-            break;
-        case 0xf5: /* PUSH PSW */
-            fprintf(asm_file, "PUSH\tPSW\n");
             pc += 1;
             break;
             
