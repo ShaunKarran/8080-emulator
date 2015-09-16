@@ -1,7718 +1,6456 @@
-0x0000	NOP
-0x0001	NOP
-0x0002	NOP
-0x0003	JMP		$18d4
-0x0006	NOP
-0x0007	NOP
-0x0008	Not handled yet
-0x0009	Not handled yet
-0x000a	Not handled yet
-0x000b	Not handled yet
-0x000c	JMP		$008c
-0x000f	NOP
-0x0010	Not handled yet
-0x0011	Not handled yet
-0x0012	Not handled yet
-0x0013	Not handled yet
-0x0014	Not handled yet
-0x0015	Not handled yet
-0x0016	Not handled yet
-0x0017	Not handled yet
-0x0018	Not handled yet
-0x0019	Not handled yet
-0x001a	Not handled yet
-0x001b	Not handled yet
-0x001c	Not handled yet
-0x001d	Not handled yet
-0x001e	Not handled yet
-0x001f	Not handled yet
-0x0020	Not handled yet
-0x0021	LXI		B,#$da0f
-0x0024	Not handled yet
-0x0025	NOP
-0x0026	Not handled yet
-0x0027	Not handled yet
-0x0028	Not handled yet
-0x0029	Not handled yet
-0x002a	Not handled yet
-0x002b	Not handled yet
-0x002c	NOP
-0x002d	Not handled yet
-0x002e	Not handled yet
-0x002f	Not handled yet
-0x0030	Not handled yet
-0x0031	Not handled yet
-0x0032	Not handled yet
-0x0033	Not handled yet
-0x0034	NOP
-0x0035	Not handled yet
-0x0036	LXI		B,#$3227
-0x0039	Not handled yet
-0x003a	Not handled yet
-0x003b	Not handled yet
-0x003c	Not handled yet
-0x003d	Not handled yet
-0x003e	Not handled yet
-0x003f	Not handled yet
-0x0040	Not handled yet
-0x0041	Not handled yet
-0x0042	Not handled yet
-0x0043	Not handled yet
-0x0044	Not handled yet
-0x0045	Not handled yet
-0x0046	Not handled yet
-0x0047	Not handled yet
-0x0048	NOP
-0x0049	Not handled yet
-0x004a	Not handled yet
-0x004b	Not handled yet
-0x004c	Not handled yet
-0x004d	Not handled yet
-0x004e	Not handled yet
-0x004f	NOP
-0x0050	Not handled yet
-0x0051	Not handled yet
-0x0052	Not handled yet
-0x0053	Not handled yet
-0x0054	Not handled yet
-0x0055	Not handled yet
-0x0056	NOP
-0x0057	Not handled yet
-0x0058	Not handled yet
-0x0059	Not handled yet
-0x005a	JMP		$0082
-0x005d	Not handled yet
-0x005e	Not handled yet
-0x005f	Not handled yet
-0x0060	Not handled yet
-0x0061	Not handled yet
-0x0062	Not handled yet
-0x0063	NOP
-0x0064	JMP		$0765
-0x0067	Not handled yet
-0x0068	LXI		B,#$ea32
-0x006b	Not handled yet
-0x006c	JMP		$003f
-0x006f	Not handled yet
-0x0070	Not handled yet
-0x0071	Not handled yet
-0x0072	Not handled yet
-0x0073	Not handled yet
-0x0074	Not handled yet
-0x0075	Not handled yet
-0x0076	Not handled yet
-0x0077	Not handled yet
-0x0078	Not handled yet
-0x0079	NOP
-0x007a	LXI		B,#$48cd
-0x007d	STAX	B
-0x007e	Not handled yet
-0x007f	Not handled yet
-0x0080	Not handled yet
-0x0081	NOP
-0x0082	Not handled yet
-0x0083	Not handled yet
-0x0084	Not handled yet
-0x0085	Not handled yet
-0x0086	Not handled yet
-0x0087	Not handled yet
-0x0088	NOP
-0x0089	NOP
-0x008a	NOP
-0x008b	NOP
-0x008c	Not handled yet
-0x008d	Not handled yet
-0x008e	Not handled yet
-0x008f	Not handled yet
-0x0090	Not handled yet
-0x0091	Not handled yet
-0x0092	Not handled yet
-0x0093	Not handled yet
-0x0094	Not handled yet
-0x0095	Not handled yet
-0x0096	NOP
-0x0097	Not handled yet
-0x0098	Not handled yet
-0x0099	Not handled yet
-0x009a	Not handled yet
-0x009b	Not handled yet
-0x009c	Not handled yet
-0x009d	NOP
-0x009e	Not handled yet
-0x009f	Not handled yet
-0x00a0	Not handled yet
-0x00a1	Not handled yet
-0x00a2	Not handled yet
-0x00a3	Not handled yet
-0x00a4	NOP
-0x00a5	Not handled yet
-0x00a6	Not handled yet
-0x00a7	Not handled yet
-0x00a8	Not handled yet
-0x00a9	Not handled yet
-0x00aa	STAX	B
-0x00ab	Not handled yet
-0x00ac	Not handled yet
-0x00ad	LXI		B,#$82c3
-0x00b0	NOP
-0x00b1	Not handled yet
-0x00b2	Not handled yet
-0x00b3	Not handled yet
-0x00b4	Not handled yet
-0x00b5	Not handled yet
-0x00b6	Not handled yet
-0x00b7	Not handled yet
-0x00b8	Not handled yet
-0x00b9	Not handled yet
-0x00ba	Not handled yet
-0x00bb	Not handled yet
-0x00bc	Not handled yet
-0x00bd	Not handled yet
-0x00be	Not handled yet
-0x00bf	Not handled yet
-0x00c0	Not handled yet
-0x00c1	Not handled yet
-0x00c2	Not handled yet
-0x00c3	INX		B
-0x00c4	Not handled yet
-0x00c5	Not handled yet
-0x00c6	NOP
-0x00c7	Not handled yet
-0x00c8	Not handled yet
-0x00c9	Not handled yet
-0x00ca	Not handled yet
-0x00cb	Not handled yet
-0x00cc	Not handled yet
-0x00cd	Not handled yet
-0x00ce	NOP
-0x00cf	Not handled yet
-0x00d0	Not handled yet
-0x00d1	NOP
-0x00d2	Not handled yet
-0x00d3	Not handled yet
-0x00d4	Not handled yet
-0x00d5	Not handled yet
-0x00d6	Not handled yet
-0x00d7	Not handled yet
-0x00d8	STAX	B
-0x00d9	Not handled yet
-0x00da	Not handled yet
-0x00db	Not handled yet
-0x00dc	Not handled yet
-0x00dd	Not handled yet
-0x00de	Not handled yet
-0x00df	JMP		$08e4
-0x00e2	NOP
-0x00e3	NOP
-0x00e4	NOP
-0x00e5	NOP
-0x00e6	NOP
-0x00e7	NOP
-0x00e8	NOP
-0x00e9	NOP
-0x00ea	NOP
-0x00eb	NOP
-0x00ec	NOP
-0x00ed	NOP
-0x00ee	NOP
-0x00ef	NOP
-0x00f0	NOP
-0x00f1	NOP
-0x00f2	NOP
-0x00f3	NOP
-0x00f4	NOP
-0x00f5	NOP
-0x00f6	NOP
-0x00f7	NOP
-0x00f8	NOP
-0x00f9	NOP
-0x00fa	NOP
-0x00fb	NOP
-0x00fc	NOP
-0x00fd	NOP
-0x00fe	NOP
-0x00ff	NOP
-0x0100	Not handled yet
-0x0101	STAX	B
-0x0102	Not handled yet
-0x0103	Not handled yet
-0x0104	Not handled yet
-0x0105	Not handled yet
-0x0106	Not handled yet
-0x0107	Not handled yet
-0x0108	Not handled yet
-0x0109	Not handled yet
-0x010a	Not handled yet
-0x010b	Not handled yet
-0x010c	Not handled yet
-0x010d	Not handled yet
-0x010e	Not handled yet
-0x010f	Not handled yet
-0x0110	Not handled yet
-0x0111	Not handled yet
-0x0112	Not handled yet
-0x0113	Not handled yet
-0x0114	Not handled yet
-0x0115	Not handled yet
-0x0116	LXI		B,#$2323
-0x0119	Not handled yet
-0x011a	Not handled yet
-0x011b	Not handled yet
-0x011c	Not handled yet
-0x011d	Not handled yet
-0x011e	Not handled yet
-0x011f	Not handled yet
-0x0120	Not handled yet
-0x0121	Not handled yet
-0x0122	Not handled yet
-0x0123	NOP
-0x0124	Not handled yet
-0x0125	NOP
-0x0126	Not handled yet
-0x0127	Not handled yet
-0x0128	Not handled yet
-0x0129	Not handled yet
-0x012a	Not handled yet
-0x012b	Not handled yet
-0x012c	Not handled yet
-0x012d	LXI		B,#$0b2a
-0x0130	Not handled yet
-0x0131	Not handled yet
-0x0132	Not handled yet
-0x0133	Not handled yet
-0x0134	Not handled yet
-0x0135	Not handled yet
-0x0136	Not handled yet
-0x0137	Not handled yet
-0x0138	NOP
-0x0139	Not handled yet
-0x013a	Not handled yet
-0x013b	Not handled yet
-0x013c	Not handled yet
-0x013d	NOP
-0x013e	Not handled yet
-0x013f	Not handled yet
-0x0140	Not handled yet
-0x0141	Not handled yet
-0x0142	Not handled yet
-0x0143	Not handled yet
-0x0144	Not handled yet
-0x0145	Not handled yet
-0x0146	Not handled yet
-0x0147	NOP
-0x0148	Not handled yet
-0x0149	Not handled yet
-0x014a	Not handled yet
-0x014b	Not handled yet
-0x014c	Not handled yet
-0x014d	Not handled yet
-0x014e	Not handled yet
-0x014f	Not handled yet
-0x0150	Not handled yet
-0x0151	Not handled yet
-0x0152	Not handled yet
-0x0153	STAX	B
-0x0154	Not handled yet
-0x0155	Not handled yet
-0x0156	Not handled yet
-0x0157	Not handled yet
-0x0158	Not handled yet
-0x0159	LXI		B,#$466f
-0x015c	Not handled yet
-0x015d	Not handled yet
-0x015e	Not handled yet
-0x015f	LXI		B,#$0632
-0x0162	Not handled yet
-0x0163	Not handled yet
-0x0164	Not handled yet
-0x0165	LXI		B,#$2261
-0x0168	Not handled yet
-0x0169	Not handled yet
-0x016a	Not handled yet
-0x016b	Not handled yet
-0x016c	Not handled yet
-0x016d	Not handled yet
-0x016e	Not handled yet
-0x016f	Not handled yet
-0x0170	Not handled yet
-0x0171	Not handled yet
-0x0172	Not handled yet
-0x0173	Not handled yet
-0x0174	Not handled yet
-0x0175	LXI		B,#$0032
-0x0178	Not handled yet
-0x0179	Not handled yet
-0x017a	Not handled yet
-0x017b	NOP
-0x017c	Not handled yet
-0x017d	Not handled yet
-0x017e	Not handled yet
-0x017f	Not handled yet
-0x0180	Not handled yet
-0x0181	Not handled yet
-0x0182	Not handled yet
-0x0183	Not handled yet
-0x0184	Not handled yet
-0x0185	Not handled yet
-0x0186	Not handled yet
-0x0187	LXI		B,#$0bde
-0x018a	Not handled yet
-0x018b	Not handled yet
-0x018c	Not handled yet
-0x018d	Not handled yet
-0x018e	Not handled yet
-0x018f	Not handled yet
-0x0190	Not handled yet
-0x0191	JMP		$0183
-0x0194	Not handled yet
-0x0195	Not handled yet
-0x0196	Not handled yet
-0x0197	Not handled yet
-0x0198	Not handled yet
-0x0199	Not handled yet
-0x019a	Not handled yet
-0x019b	Not handled yet
-0x019c	Not handled yet
-0x019d	Not handled yet
-0x019e	JMP		$0195
-0x01a1	Not handled yet
-0x01a2	Not handled yet
-0x01a3	Not handled yet
-0x01a4	LXI		B,#$0621
-0x01a7	Not handled yet
-0x01a8	Not handled yet
-0x01a9	NOP
-0x01aa	Not handled yet
-0x01ab	Not handled yet
-0x01ac	Not handled yet
-0x01ad	NOP
-0x01ae	Not handled yet
-0x01af	Not handled yet
-0x01b0	LXI		B,#$0521
-0x01b3	Not handled yet
-0x01b4	Not handled yet
-0x01b5	Not handled yet
-0x01b6	Not handled yet
-0x01b7	LXI		B,#$af77
-0x01ba	Not handled yet
-0x01bb	Not handled yet
-0x01bc	Not handled yet
-0x01bd	Not handled yet
-0x01be	Not handled yet
-0x01bf	NOP
-0x01c0	Not handled yet
-0x01c1	NOP
-0x01c2	Not handled yet
-0x01c3	Not handled yet
-0x01c4	Not handled yet
-0x01c5	Not handled yet
-0x01c6	LXI		B,#$0523
-0x01c9	Not handled yet
-0x01ca	Not handled yet
-0x01cb	LXI		B,#$e1c9
-0x01ce	Not handled yet
-0x01cf	Not handled yet
-0x01d0	LXI		B,#$e006
-0x01d3	Not handled yet
-0x01d4	STAX	B
-0x01d5	Not handled yet
-0x01d6	JMP		$14cc
-0x01d9	Not handled yet
-0x01da	Not handled yet
-0x01db	Not handled yet
-0x01dc	Not handled yet
-0x01dd	Not handled yet
-0x01de	Not handled yet
-0x01df	Not handled yet
-0x01e0	Not handled yet
-0x01e1	Not handled yet
-0x01e2	Not handled yet
-0x01e3	Not handled yet
-0x01e4	Not handled yet
-0x01e5	Not handled yet
-0x01e6	Not handled yet
-0x01e7	NOP
-0x01e8	Not handled yet
-0x01e9	Not handled yet
-0x01ea	NOP
-0x01eb	Not handled yet
-0x01ec	JMP		$1a32
-0x01ef	Not handled yet
-0x01f0	Not handled yet
-0x01f1	Not handled yet
-0x01f2	JMP		$01f8
-0x01f5	Not handled yet
-0x01f6	Not handled yet
-0x01f7	Not handled yet
-0x01f8	Not handled yet
-0x01f9	Not handled yet
-0x01fa	Not handled yet
-0x01fb	Not handled yet
-0x01fc	Not handled yet
-0x01fd	Not handled yet
-0x01fe	Not handled yet
-0x01ff	Not handled yet
-0x0200	Not handled yet
-0x0201	Not handled yet
-0x0202	Not handled yet
-0x0203	Not handled yet
-0x0204	Not handled yet
-0x0205	Not handled yet
-0x0206	Not handled yet
-0x0207	LXI		B,#$3ec9
-0x020a	LXI		B,#$1bc3
-0x020d	STAX	B
-0x020e	Not handled yet
-0x020f	LXI		B,#$14c3
-0x0212	STAX	B
-0x0213	Not handled yet
-0x0214	Not handled yet
-0x0215	Not handled yet
-0x0216	Not handled yet
-0x0217	JMP		$021e
-0x021a	Not handled yet
-0x021b	Not handled yet
-0x021c	Not handled yet
-0x021d	Not handled yet
-0x021e	Not handled yet
-0x021f	Not handled yet
-0x0220	Not handled yet
-0x0221	LXI		B,#$1602
-0x0224	Not handled yet
-0x0225	Not handled yet
-0x0226	Not handled yet
-0x0227	Not handled yet
-0x0228	Not handled yet
-0x0229	Not handled yet
-0x022a	Not handled yet
-0x022b	Not handled yet
-0x022c	Not handled yet
-0x022d	Not handled yet
-0x022e	Not handled yet
-0x022f	Not handled yet
-0x0230	Not handled yet
-0x0231	STAX	B
-0x0232	Not handled yet
-0x0233	Not handled yet
-0x0234	Not handled yet
-0x0235	Not handled yet
-0x0236	Not handled yet
-0x0237	Not handled yet
-0x0238	Not handled yet
-0x0239	Not handled yet
-0x023a	Not handled yet
-0x023b	Not handled yet
-0x023c	STAX	B
-0x023d	Not handled yet
-0x023e	Not handled yet
-0x023f	JMP		$0229
-0x0242	Not handled yet
-0x0243	Not handled yet
-0x0244	Not handled yet
-0x0245	JMP		$0235
-0x0248	Not handled yet
-0x0249	Not handled yet
-0x024a	Not handled yet
-0x024b	Not handled yet
-0x024c	Not handled yet
-0x024d	Not handled yet
-0x024e	Not handled yet
-0x024f	Not handled yet
-0x0250	Not handled yet
-0x0251	Not handled yet
-0x0252	Not handled yet
-0x0253	STAX	B
-0x0254	Not handled yet
-0x0255	Not handled yet
-0x0256	Not handled yet
-0x0257	Not handled yet
-0x0258	Not handled yet
-0x0259	Not handled yet
-0x025a	Not handled yet
-0x025b	STAX	B
-0x025c	Not handled yet
-0x025d	Not handled yet
-0x025e	Not handled yet
-0x025f	Not handled yet
-0x0260	Not handled yet
-0x0261	STAX	B
-0x0262	Not handled yet
-0x0263	Not handled yet
-0x0264	Not handled yet
-0x0265	Not handled yet
-0x0266	Not handled yet
-0x0267	Not handled yet
-0x0268	Not handled yet
-0x0269	Not handled yet
-0x026a	Not handled yet
-0x026b	STAX	B
-0x026c	Not handled yet
-0x026d	Not handled yet
-0x026e	Not handled yet
-0x026f	Not handled yet
-0x0270	Not handled yet
-0x0271	Not handled yet
-0x0272	NOP
-0x0273	Not handled yet
-0x0274	JMP		$024b
-0x0277	Not handled yet
-0x0278	Not handled yet
-0x0279	Not handled yet
-0x027a	Not handled yet
-0x027b	STAX	B
-0x027c	Not handled yet
-0x027d	Not handled yet
-0x027e	Not handled yet
-0x027f	Not handled yet
-0x0280	Not handled yet
-0x0281	Not handled yet
-0x0282	Not handled yet
-0x0283	NOP
-0x0284	Not handled yet
-0x0285	JMP		$024b
-0x0288	Not handled yet
-0x0289	Not handled yet
-0x028a	Not handled yet
-0x028b	JMP		$0281
-0x028e	Not handled yet
-0x028f	Not handled yet
-0x0290	Not handled yet
-0x0291	Not handled yet
-0x0292	Not handled yet
-0x0293	Not handled yet
-0x0294	Not handled yet
-0x0295	INX		B
-0x0296	Not handled yet
-0x0297	Not handled yet
-0x0298	Not handled yet
-0x0299	Not handled yet
-0x029a	Not handled yet
-0x029b	Not handled yet
-0x029c	Not handled yet
-0x029d	Not handled yet
-0x029e	Not handled yet
-0x029f	Not handled yet
-0x02a0	Not handled yet
-0x02a1	Not handled yet
-0x02a2	Not handled yet
-0x02a3	Not handled yet
-0x02a4	Not handled yet
-0x02a5	Not handled yet
-0x02a6	Not handled yet
-0x02a7	Not handled yet
-0x02a8	Not handled yet
-0x02a9	Not handled yet
-0x02aa	Not handled yet
-0x02ab	Not handled yet
-0x02ac	Not handled yet
-0x02ad	INX		B
-0x02ae	Not handled yet
-0x02af	Not handled yet
-0x02b0	Not handled yet
-0x02b1	Not handled yet
-0x02b2	Not handled yet
-0x02b3	Not handled yet
-0x02b4	Not handled yet
-0x02b5	Not handled yet
-0x02b6	Not handled yet
-0x02b7	Not handled yet
-0x02b8	Not handled yet
-0x02b9	Not handled yet
-0x02ba	Not handled yet
-0x02bb	Not handled yet
-0x02bc	Not handled yet
-0x02bd	Not handled yet
-0x02be	Not handled yet
-0x02bf	Not handled yet
-0x02c0	Not handled yet
-0x02c1	Not handled yet
-0x02c2	NOP
-0x02c3	Not handled yet
-0x02c4	Not handled yet
-0x02c5	Not handled yet
-0x02c6	Not handled yet
-0x02c7	Not handled yet
-0x02c8	Not handled yet
-0x02c9	Not handled yet
-0x02ca	Not handled yet
-0x02cb	Not handled yet
-0x02cc	Not handled yet
-0x02cd	Not handled yet
-0x02ce	Not handled yet
-0x02cf	Not handled yet
-0x02d0	Not handled yet
-0x02d1	NOP
-0x02d2	Not handled yet
-0x02d3	Not handled yet
-0x02d4	Not handled yet
-0x02d5	Not handled yet
-0x02d6	Not handled yet
-0x02d7	Not handled yet
-0x02d8	Not handled yet
-0x02d9	Not handled yet
-0x02da	Not handled yet
-0x02db	Not handled yet
-0x02dc	Not handled yet
-0x02dd	Not handled yet
-0x02de	Not handled yet
-0x02df	Not handled yet
-0x02e0	Not handled yet
-0x02e1	Not handled yet
-0x02e2	Not handled yet
-0x02e3	Not handled yet
-0x02e4	Not handled yet
-0x02e5	INX		B
-0x02e6	Not handled yet
-0x02e7	Not handled yet
-0x02e8	Not handled yet
-0x02e9	Not handled yet
-0x02ea	Not handled yet
-0x02eb	Not handled yet
-0x02ec	INX		B
-0x02ed	Not handled yet
-0x02ee	Not handled yet
-0x02ef	Not handled yet
-0x02f0	Not handled yet
-0x02f1	Not handled yet
-0x02f2	Not handled yet
-0x02f3	Not handled yet
-0x02f4	INX		B
-0x02f5	Not handled yet
-0x02f6	Not handled yet
-0x02f7	STAX	B
-0x02f8	Not handled yet
-0x02f9	Not handled yet
-0x02fa	Not handled yet
-0x02fb	Not handled yet
-0x02fc	Not handled yet
-0x02fd	Not handled yet
-0x02fe	Not handled yet
-0x02ff	Not handled yet
-0x0300	Not handled yet
-0x0301	NOP
-0x0302	Not handled yet
-0x0303	Not handled yet
-0x0304	LXI		B,#$0ff1
-0x0307	Not handled yet
-0x0308	Not handled yet
-0x0309	Not handled yet
-0x030a	NOP
-0x030b	Not handled yet
-0x030c	Not handled yet
-0x030d	INX		B
-0x030e	Not handled yet
-0x030f	Not handled yet
-0x0310	Not handled yet
-0x0311	Not handled yet
-0x0312	Not handled yet
-0x0313	Not handled yet
-0x0314	Not handled yet
-0x0315	Not handled yet
-0x0316	Not handled yet
-0x0317	Not handled yet
-0x0318	Not handled yet
-0x0319	Not handled yet
-0x031a	Not handled yet
-0x031b	Not handled yet
-0x031c	Not handled yet
-0x031d	Not handled yet
-0x031e	Not handled yet
-0x031f	Not handled yet
-0x0320	Not handled yet
-0x0321	Not handled yet
-0x0322	Not handled yet
-0x0323	Not handled yet
-0x0324	Not handled yet
-0x0325	Not handled yet
-0x0326	Not handled yet
-0x0327	Not handled yet
-0x0328	Not handled yet
-0x0329	JMP		$07f9
-0x032c	Not handled yet
-0x032d	Not handled yet
-0x032e	Not handled yet
-0x032f	JMP		$0817
-0x0332	Not handled yet
-0x0333	Not handled yet
-0x0334	STAX	B
-0x0335	JMP		$02f8
-0x0338	NOP
-0x0339	NOP
-0x033a	NOP
-0x033b	Not handled yet
-0x033c	Not handled yet
-0x033d	Not handled yet
-0x033e	Not handled yet
-0x033f	LXI		B,#$7e23
-0x0342	Not handled yet
-0x0343	JMP		$03b0
-0x0346	NOP
-0x0347	Not handled yet
-0x0348	Not handled yet
-0x0349	LXI		B,#$1b3a
-0x034c	Not handled yet
-0x034d	Not handled yet
-0x034e	Not handled yet
-0x034f	Not handled yet
-0x0350	Not handled yet
-0x0351	Not handled yet
-0x0352	Not handled yet
-0x0353	Not handled yet
-0x0354	INX		B
-0x0355	Not handled yet
-0x0356	Not handled yet
-0x0357	Not handled yet
-0x0358	Not handled yet
-0x0359	Not handled yet
-0x035a	Not handled yet
-0x035b	INX		B
-0x035c	Not handled yet
-0x035d	Not handled yet
-0x035e	Not handled yet
-0x035f	INX		B
-0x0360	JMP		$036f
-0x0363	Not handled yet
-0x0364	Not handled yet
-0x0365	Not handled yet
-0x0366	Not handled yet
-0x0367	Not handled yet
-0x0368	Not handled yet
-0x0369	Not handled yet
-0x036a	INX		B
-0x036b	Not handled yet
-0x036c	Not handled yet
-0x036d	Not handled yet
-0x036e	INX		B
-0x036f	Not handled yet
-0x0370	Not handled yet
-0x0371	Not handled yet
-0x0372	Not handled yet
-0x0373	Not handled yet
-0x0374	Not handled yet
-0x0375	Not handled yet
-0x0376	Not handled yet
-0x0377	Not handled yet
-0x0378	Not handled yet
-0x0379	Not handled yet
-0x037a	Not handled yet
-0x037b	Not handled yet
-0x037c	NOP
-0x037d	Not handled yet
-0x037e	Not handled yet
-0x037f	Not handled yet
-0x0380	Not handled yet
-0x0381	Not handled yet
-0x0382	Not handled yet
-0x0383	Not handled yet
-0x0384	Not handled yet
-0x0385	Not handled yet
-0x0386	INX		B
-0x0387	Not handled yet
-0x0388	Not handled yet
-0x0389	Not handled yet
-0x038a	Not handled yet
-0x038b	JMP		$036f
-0x038e	Not handled yet
-0x038f	Not handled yet
-0x0390	Not handled yet
-0x0391	Not handled yet
-0x0392	Not handled yet
-0x0393	INX		B
-0x0394	Not handled yet
-0x0395	Not handled yet
-0x0396	Not handled yet
-0x0397	Not handled yet
-0x0398	JMP		$036f
-0x039b	Not handled yet
-0x039c	Not handled yet
-0x039d	LXI		B,#$1532
-0x03a0	Not handled yet
-0x03a1	Not handled yet
-0x03a2	Not handled yet
-0x03a3	Not handled yet
-0x03a4	Not handled yet
-0x03a5	Not handled yet
-0x03a6	Not handled yet
-0x03a7	Not handled yet
-0x03a8	Not handled yet
-0x03a9	Not handled yet
-0x03aa	Not handled yet
-0x03ab	Not handled yet
-0x03ac	Not handled yet
-0x03ad	JMP		$036f
-0x03b0	Not handled yet
-0x03b1	Not handled yet
-0x03b2	INX		B
-0x03b3	Not handled yet
-0x03b4	Not handled yet
-0x03b5	Not handled yet
-0x03b6	Not handled yet
-0x03b7	INX		B
-0x03b8	JMP		$0346
-0x03bb	Not handled yet
-0x03bc	Not handled yet
-0x03bd	Not handled yet
-0x03be	Not handled yet
-0x03bf	Not handled yet
-0x03c0	Not handled yet
-0x03c1	Not handled yet
-0x03c2	Not handled yet
-0x03c3	Not handled yet
-0x03c4	Not handled yet
-0x03c5	Not handled yet
-0x03c6	Not handled yet
-0x03c7	Not handled yet
-0x03c8	LXI		B,#$faca
-0x03cb	INX		B
-0x03cc	Not handled yet
-0x03cd	STAX	B
-0x03ce	Not handled yet
-0x03cf	Not handled yet
-0x03d0	Not handled yet
-0x03d1	Not handled yet
-0x03d2	Not handled yet
-0x03d3	INX		B
-0x03d4	Not handled yet
-0x03d5	Not handled yet
-0x03d6	Not handled yet
-0x03d7	Not handled yet
-0x03d8	Not handled yet
-0x03d9	Not handled yet
-0x03da	Not handled yet
-0x03db	Not handled yet
-0x03dc	Not handled yet
-0x03dd	Not handled yet
-0x03de	Not handled yet
-0x03df	Not handled yet
-0x03e0	Not handled yet
-0x03e1	Not handled yet
-0x03e2	Not handled yet
-0x03e3	Not handled yet
-0x03e4	Not handled yet
-0x03e5	Not handled yet
-0x03e6	Not handled yet
-0x03e7	Not handled yet
-0x03e8	Not handled yet
-0x03e9	Not handled yet
-0x03ea	Not handled yet
-0x03eb	Not handled yet
-0x03ec	Not handled yet
-0x03ed	Not handled yet
-0x03ee	Not handled yet
-0x03ef	Not handled yet
-0x03f0	Not handled yet
-0x03f1	Not handled yet
-0x03f2	Not handled yet
-0x03f3	Not handled yet
-0x03f4	Not handled yet
-0x03f5	Not handled yet
-0x03f6	Not handled yet
-0x03f7	JMP		$1400
-0x03fa	Not handled yet
-0x03fb	Not handled yet
-0x03fc	Not handled yet
-0x03fd	Not handled yet
-0x03fe	Not handled yet
-0x03ff	Not handled yet
-0x0400	Not handled yet
-0x0401	Not handled yet
-0x0402	Not handled yet
-0x0403	Not handled yet
-0x0404	Not handled yet
-0x0405	Not handled yet
-0x0406	Not handled yet
-0x0407	JMP		$1400
-0x040a	Not handled yet
-0x040b	Not handled yet
-0x040c	Not handled yet
-0x040d	Not handled yet
-0x040e	Not handled yet
-0x040f	Not handled yet
-0x0410	Not handled yet
-0x0411	Not handled yet
-0x0412	Not handled yet
-0x0413	Not handled yet
-0x0414	Not handled yet
-0x0415	Not handled yet
-0x0416	Not handled yet
-0x0417	Not handled yet
-0x0418	Not handled yet
-0x0419	Not handled yet
-0x041a	Not handled yet
-0x041b	Not handled yet
-0x041c	Not handled yet
-0x041d	Not handled yet
-0x041e	Not handled yet
-0x041f	Not handled yet
-0x0420	Not handled yet
-0x0421	Not handled yet
-0x0422	Not handled yet
-0x0423	Not handled yet
-0x0424	Not handled yet
-0x0425	Not handled yet
-0x0426	Not handled yet
-0x0427	STAX	B
-0x0428	Not handled yet
-0x0429	Not handled yet
-0x042a	Not handled yet
-0x042b	Not handled yet
-0x042c	Not handled yet
-0x042d	JMP		$0436
-0x0430	Not handled yet
-0x0431	Not handled yet
-0x0432	Not handled yet
-0x0433	JMP		$1a3b
-0x0436	Not handled yet
-0x0437	Not handled yet
-0x0438	Not handled yet
-0x0439	Not handled yet
-0x043a	Not handled yet
-0x043b	Not handled yet
-0x043c	Not handled yet
-0x043d	Not handled yet
-0x043e	Not handled yet
-0x043f	Not handled yet
-0x0440	Not handled yet
-0x0441	Not handled yet
-0x0442	Not handled yet
-0x0443	Not handled yet
-0x0444	Not handled yet
-0x0445	Not handled yet
-0x0446	Not handled yet
-0x0447	Not handled yet
-0x0448	Not handled yet
-0x0449	Not handled yet
-0x044a	Not handled yet
-0x044b	Not handled yet
-0x044c	Not handled yet
-0x044d	Not handled yet
-0x044e	Not handled yet
-0x044f	Not handled yet
-0x0450	Not handled yet
-0x0451	Not handled yet
-0x0452	Not handled yet
-0x0453	Not handled yet
-0x0454	Not handled yet
-0x0455	Not handled yet
-0x0456	Not handled yet
-0x0457	Not handled yet
-0x0458	Not handled yet
-0x0459	Not handled yet
-0x045a	Not handled yet
-0x045b	Not handled yet
-0x045c	Not handled yet
-0x045d	Not handled yet
-0x045e	Not handled yet
-0x045f	Not handled yet
-0x0460	Not handled yet
-0x0461	Not handled yet
-0x0462	Not handled yet
-0x0463	Not handled yet
-0x0464	LXI		B,#$2901
-0x0467	STAX	B
-0x0468	Not handled yet
-0x0469	Not handled yet
-0x046a	Not handled yet
-0x046b	LXI		B,#$fee0
-0x046e	Not handled yet
-0x046f	Not handled yet
-0x0470	Not handled yet
-0x0471	Not handled yet
-0x0472	Not handled yet
-0x0473	Not handled yet
-0x0474	Not handled yet
-0x0475	Not handled yet
-0x0476	Not handled yet
-0x0477	Not handled yet
-0x0478	Not handled yet
-0x0479	Not handled yet
-0x047a	Not handled yet
-0x047b	Not handled yet
-0x047c	Not handled yet
-0x047d	Not handled yet
-0x047e	Not handled yet
-0x047f	Not handled yet
-0x0480	Not handled yet
-0x0481	Not handled yet
-0x0482	Not handled yet
-0x0483	Not handled yet
-0x0484	Not handled yet
-0x0485	Not handled yet
-0x0486	Not handled yet
-0x0487	Not handled yet
-0x0488	Not handled yet
-0x0489	Not handled yet
-0x048a	Not handled yet
-0x048b	Not handled yet
-0x048c	Not handled yet
-0x048d	Not handled yet
-0x048e	Not handled yet
-0x048f	Not handled yet
-0x0490	Not handled yet
-0x0491	Not handled yet
-0x0492	Not handled yet
-0x0493	Not handled yet
-0x0494	Not handled yet
-0x0495	Not handled yet
-0x0496	Not handled yet
-0x0497	Not handled yet
-0x0498	Not handled yet
-0x0499	Not handled yet
-0x049a	Not handled yet
-0x049b	Not handled yet
-0x049c	Not handled yet
-0x049d	Not handled yet
-0x049e	Not handled yet
-0x049f	Not handled yet
-0x04a0	Not handled yet
-0x04a1	Not handled yet
-0x04a2	Not handled yet
-0x04a3	Not handled yet
-0x04a4	Not handled yet
-0x04a5	Not handled yet
-0x04a6	Not handled yet
-0x04a7	Not handled yet
-0x04a8	Not handled yet
-0x04a9	Not handled yet
-0x04aa	Not handled yet
-0x04ab	Not handled yet
-0x04ac	Not handled yet
-0x04ad	Not handled yet
-0x04ae	Not handled yet
-0x04af	Not handled yet
-0x04b0	Not handled yet
-0x04b1	Not handled yet
-0x04b2	Not handled yet
-0x04b3	JMP		$1a32
-0x04b6	Not handled yet
-0x04b7	Not handled yet
-0x04b8	Not handled yet
-0x04b9	Not handled yet
-0x04ba	Not handled yet
-0x04bb	Not handled yet
-0x04bc	Not handled yet
-0x04bd	Not handled yet
-0x04be	Not handled yet
-0x04bf	Not handled yet
-0x04c0	LXI		B,#$11c0
-0x04c3	Not handled yet
-0x04c4	Not handled yet
-0x04c5	Not handled yet
-0x04c6	Not handled yet
-0x04c7	Not handled yet
-0x04c8	Not handled yet
-0x04c9	Not handled yet
-0x04ca	Not handled yet
-0x04cb	Not handled yet
-0x04cc	Not handled yet
-0x04cd	Not handled yet
-0x04ce	Not handled yet
-0x04cf	Not handled yet
-0x04d0	Not handled yet
-0x04d1	Not handled yet
-0x04d2	Not handled yet
-0x04d3	Not handled yet
-0x04d4	Not handled yet
-0x04d5	Not handled yet
-0x04d6	Not handled yet
-0x04d7	Not handled yet
-0x04d8	Not handled yet
-0x04d9	Not handled yet
-0x04da	Not handled yet
-0x04db	Not handled yet
-0x04dc	Not handled yet
-0x04dd	Not handled yet
-0x04de	Not handled yet
-0x04df	Not handled yet
-0x04e0	Not handled yet
-0x04e1	Not handled yet
-0x04e2	Not handled yet
-0x04e3	Not handled yet
-0x04e4	Not handled yet
-0x04e5	Not handled yet
-0x04e6	Not handled yet
-0x04e7	Not handled yet
-0x04e8	Not handled yet
-0x04e9	Not handled yet
-0x04ea	Not handled yet
-0x04eb	Not handled yet
-0x04ec	Not handled yet
-0x04ed	Not handled yet
-0x04ee	Not handled yet
-0x04ef	Not handled yet
-0x04f0	Not handled yet
-0x04f1	Not handled yet
-0x04f2	Not handled yet
-0x04f3	Not handled yet
-0x04f4	Not handled yet
-0x04f5	Not handled yet
-0x04f6	Not handled yet
-0x04f7	Not handled yet
-0x04f8	Not handled yet
-0x04f9	Not handled yet
-0x04fa	Not handled yet
-0x04fb	Not handled yet
-0x04fc	Not handled yet
-0x04fd	Not handled yet
-0x04fe	Not handled yet
-0x04ff	Not handled yet
-0x0500	Not handled yet
-0x0501	Not handled yet
-0x0502	Not handled yet
-0x0503	Not handled yet
-0x0504	LXI		B,#$6e32
-0x0507	Not handled yet
-0x0508	Not handled yet
-0x0509	Not handled yet
-0x050a	Not handled yet
-0x050b	JMP		$067e
-0x050e	Not handled yet
-0x050f	Not handled yet
-0x0510	Not handled yet
-0x0511	Not handled yet
-0x0512	Not handled yet
-0x0513	Not handled yet
-0x0514	Not handled yet
-0x0515	Not handled yet
-0x0516	Not handled yet
-0x0517	Not handled yet
-0x0518	Not handled yet
-0x0519	Not handled yet
-0x051a	Not handled yet
-0x051b	Not handled yet
-0x051c	Not handled yet
-0x051d	Not handled yet
-0x051e	Not handled yet
-0x051f	Not handled yet
-0x0520	Not handled yet
-0x0521	Not handled yet
-0x0522	Not handled yet
-0x0523	Not handled yet
-0x0524	Not handled yet
-0x0525	Not handled yet
-0x0526	Not handled yet
-0x0527	Not handled yet
-0x0528	Not handled yet
-0x0529	Not handled yet
-0x052a	Not handled yet
-0x052b	Not handled yet
-0x052c	Not handled yet
-0x052d	Not handled yet
-0x052e	Not handled yet
-0x052f	Not handled yet
-0x0530	Not handled yet
-0x0531	Not handled yet
-0x0532	Not handled yet
-0x0533	Not handled yet
-0x0534	Not handled yet
-0x0535	Not handled yet
-0x0536	Not handled yet
-0x0537	Not handled yet
-0x0538	Not handled yet
-0x0539	Not handled yet
-0x053a	Not handled yet
-0x053b	Not handled yet
-0x053c	Not handled yet
-0x053d	Not handled yet
-0x053e	Not handled yet
-0x053f	Not handled yet
-0x0540	Not handled yet
-0x0541	Not handled yet
-0x0542	Not handled yet
-0x0543	Not handled yet
-0x0544	Not handled yet
-0x0545	Not handled yet
-0x0546	Not handled yet
-0x0547	Not handled yet
-0x0548	Not handled yet
-0x0549	Not handled yet
-0x054a	Not handled yet
-0x054b	Not handled yet
-0x054c	Not handled yet
-0x054d	Not handled yet
-0x054e	Not handled yet
-0x054f	Not handled yet
-0x0550	Not handled yet
-0x0551	Not handled yet
-0x0552	Not handled yet
-0x0553	Not handled yet
-0x0554	Not handled yet
-0x0555	Not handled yet
-0x0556	Not handled yet
-0x0557	Not handled yet
-0x0558	JMP		$1a32
-0x055b	Not handled yet
-0x055c	Not handled yet
-0x055d	Not handled yet
-0x055e	Not handled yet
-0x055f	Not handled yet
-0x0560	JMP		$1a32
-0x0563	Not handled yet
-0x0564	Not handled yet
-0x0565	Not handled yet
-0x0566	Not handled yet
-0x0567	Not handled yet
-0x0568	Not handled yet
-0x0569	Not handled yet
-0x056a	Not handled yet
-0x056b	Not handled yet
-0x056c	Not handled yet
-0x056d	Not handled yet
-0x056e	Not handled yet
-0x056f	Not handled yet
-0x0570	Not handled yet
-0x0571	Not handled yet
-0x0572	Not handled yet
-0x0573	Not handled yet
-0x0574	Not handled yet
-0x0575	Not handled yet
-0x0576	Not handled yet
-0x0577	Not handled yet
-0x0578	Not handled yet
-0x0579	Not handled yet
-0x057a	Not handled yet
-0x057b	NOP
-0x057c	Not handled yet
-0x057d	Not handled yet
-0x057e	Not handled yet
-0x057f	Not handled yet
-0x0580	Not handled yet
-0x0581	Not handled yet
-0x0582	Not handled yet
-0x0583	Not handled yet
-0x0584	Not handled yet
-0x0585	Not handled yet
-0x0586	Not handled yet
-0x0587	Not handled yet
-0x0588	Not handled yet
-0x0589	Not handled yet
-0x058a	Not handled yet
-0x058b	Not handled yet
-0x058c	Not handled yet
-0x058d	Not handled yet
-0x058e	Not handled yet
-0x058f	Not handled yet
-0x0590	Not handled yet
-0x0591	Not handled yet
-0x0592	Not handled yet
-0x0593	Not handled yet
-0x0594	Not handled yet
-0x0595	Not handled yet
-0x0596	Not handled yet
-0x0597	Not handled yet
-0x0598	Not handled yet
-0x0599	Not handled yet
-0x059a	Not handled yet
-0x059b	Not handled yet
-0x059c	Not handled yet
-0x059d	Not handled yet
-0x059e	Not handled yet
-0x059f	Not handled yet
-0x05a0	Not handled yet
-0x05a1	NOP
-0x05a2	Not handled yet
-0x05a3	Not handled yet
-0x05a4	Not handled yet
-0x05a5	Not handled yet
-0x05a6	Not handled yet
-0x05a7	Not handled yet
-0x05a8	Not handled yet
-0x05a9	Not handled yet
-0x05aa	Not handled yet
-0x05ab	LXI		B,#$c679
-0x05ae	Not handled yet
-0x05af	Not handled yet
-0x05b0	Not handled yet
-0x05b1	Not handled yet
-0x05b2	Not handled yet
-0x05b3	Not handled yet
-0x05b4	Not handled yet
-0x05b5	Not handled yet
-0x05b6	Not handled yet
-0x05b7	Not handled yet
-0x05b8	Not handled yet
-0x05b9	Not handled yet
-0x05ba	Not handled yet
-0x05bb	Not handled yet
-0x05bc	Not handled yet
-0x05bd	Not handled yet
-0x05be	Not handled yet
-0x05bf	Not handled yet
-0x05c0	Not handled yet
-0x05c1	Not handled yet
-0x05c2	Not handled yet
-0x05c3	Not handled yet
-0x05c4	Not handled yet
-0x05c5	Not handled yet
-0x05c6	Not handled yet
-0x05c7	Not handled yet
-0x05c8	Not handled yet
-0x05c9	Not handled yet
-0x05ca	Not handled yet
-0x05cb	LXI		B,#$44c2
-0x05ce	Not handled yet
-0x05cf	Not handled yet
-0x05d0	Not handled yet
-0x05d1	Not handled yet
-0x05d2	Not handled yet
-0x05d3	Not handled yet
-0x05d4	Not handled yet
-0x05d5	Not handled yet
-0x05d6	Not handled yet
-0x05d7	Not handled yet
-0x05d8	INX		B
-0x05d9	Not handled yet
-0x05da	Not handled yet
-0x05db	Not handled yet
-0x05dc	Not handled yet
-0x05dd	Not handled yet
-0x05de	Not handled yet
-0x05df	Not handled yet
-0x05e0	Not handled yet
-0x05e1	Not handled yet
-0x05e2	Not handled yet
-0x05e3	Not handled yet
-0x05e4	Not handled yet
-0x05e5	Not handled yet
-0x05e6	Not handled yet
-0x05e7	Not handled yet
-0x05e8	Not handled yet
-0x05e9	Not handled yet
-0x05ea	Not handled yet
-0x05eb	Not handled yet
-0x05ec	Not handled yet
-0x05ed	Not handled yet
-0x05ee	Not handled yet
-0x05ef	Not handled yet
-0x05f0	Not handled yet
-0x05f1	Not handled yet
-0x05f2	Not handled yet
-0x05f3	Not handled yet
-0x05f4	Not handled yet
-0x05f5	Not handled yet
-0x05f6	Not handled yet
-0x05f7	Not handled yet
-0x05f8	Not handled yet
-0x05f9	Not handled yet
-0x05fa	Not handled yet
-0x05fb	Not handled yet
-0x05fc	Not handled yet
-0x05fd	Not handled yet
-0x05fe	Not handled yet
-0x05ff	Not handled yet
-0x0600	Not handled yet
-0x0601	Not handled yet
-0x0602	Not handled yet
-0x0603	Not handled yet
-0x0604	Not handled yet
-0x0605	Not handled yet
-0x0606	Not handled yet
-0x0607	Not handled yet
-0x0608	Not handled yet
-0x0609	Not handled yet
-0x060a	NOP
-0x060b	Not handled yet
-0x060c	Not handled yet
-0x060d	Not handled yet
-0x060e	Not handled yet
-0x060f	Not handled yet
-0x0610	Not handled yet
-0x0611	Not handled yet
-0x0612	Not handled yet
-0x0613	Not handled yet
-0x0614	Not handled yet
-0x0615	Not handled yet
-0x0616	LXI		B,#$7332
-0x0619	Not handled yet
-0x061a	Not handled yet
-0x061b	Not handled yet
-0x061c	Not handled yet
-0x061d	Not handled yet
-0x061e	Not handled yet
-0x061f	Not handled yet
-0x0620	Not handled yet
-0x0621	Not handled yet
-0x0622	Not handled yet
-0x0623	Not handled yet
-0x0624	Not handled yet
-0x0625	Not handled yet
-0x0626	Not handled yet
-0x0627	Not handled yet
-0x0628	Not handled yet
-0x0629	Not handled yet
-0x062a	Not handled yet
-0x062b	Not handled yet
-0x062c	JMP		$05a5
-0x062f	Not handled yet
-0x0630	Not handled yet
-0x0631	Not handled yet
-0x0632	Not handled yet
-0x0633	Not handled yet
-0x0634	Not handled yet
-0x0635	Not handled yet
-0x0636	Not handled yet
-0x0637	Not handled yet
-0x0638	Not handled yet
-0x0639	Not handled yet
-0x063a	Not handled yet
-0x063b	Not handled yet
-0x063c	Not handled yet
-0x063d	Not handled yet
-0x063e	Not handled yet
-0x063f	Not handled yet
-0x0640	Not handled yet
-0x0641	Not handled yet
-0x0642	Not handled yet
-0x0643	Not handled yet
-0x0644	Not handled yet
-0x0645	Not handled yet
-0x0646	Not handled yet
-0x0647	Not handled yet
-0x0648	Not handled yet
-0x0649	Not handled yet
-0x064a	INX		B
-0x064b	Not handled yet
-0x064c	Not handled yet
-0x064d	Not handled yet
-0x064e	Not handled yet
-0x064f	Not handled yet
-0x0650	Not handled yet
-0x0651	Not handled yet
-0x0652	Not handled yet
-0x0653	Not handled yet
-0x0654	Not handled yet
-0x0655	Not handled yet
-0x0656	Not handled yet
-0x0657	Not handled yet
-0x0658	Not handled yet
-0x0659	Not handled yet
-0x065a	Not handled yet
-0x065b	Not handled yet
-0x065c	Not handled yet
-0x065d	Not handled yet
-0x065e	Not handled yet
-0x065f	Not handled yet
-0x0660	Not handled yet
-0x0661	Not handled yet
-0x0662	Not handled yet
-0x0663	Not handled yet
-0x0664	JMP		$066c
-0x0667	Not handled yet
-0x0668	Not handled yet
-0x0669	JMP		$0675
-0x066c	Not handled yet
-0x066d	Not handled yet
-0x066e	Not handled yet
-0x066f	Not handled yet
-0x0670	Not handled yet
-0x0671	Not handled yet
-0x0672	JMP		$1491
-0x0675	Not handled yet
-0x0676	Not handled yet
-0x0677	Not handled yet
-0x0678	Not handled yet
-0x0679	Not handled yet
-0x067a	Not handled yet
-0x067b	JMP		$1452
-0x067e	Not handled yet
-0x067f	Not handled yet
-0x0680	Not handled yet
-0x0681	Not handled yet
-0x0682	Not handled yet
-0x0683	Not handled yet
-0x0684	Not handled yet
-0x0685	Not handled yet
-0x0686	Not handled yet
-0x0687	STAX	B
-0x0688	Not handled yet
-0x0689	Not handled yet
-0x068a	Not handled yet
-0x068b	Not handled yet
-0x068c	Not handled yet
-0x068d	Not handled yet
-0x068e	Not handled yet
-0x068f	Not handled yet
-0x0690	Not handled yet
-0x0691	Not handled yet
-0x0692	Not handled yet
-0x0693	Not handled yet
-0x0694	Not handled yet
-0x0695	Not handled yet
-0x0696	Not handled yet
-0x0697	Not handled yet
-0x0698	Not handled yet
-0x0699	Not handled yet
-0x069a	Not handled yet
-0x069b	Not handled yet
-0x069c	Not handled yet
-0x069d	Not handled yet
-0x069e	Not handled yet
-0x069f	Not handled yet
-0x06a0	Not handled yet
-0x06a1	Not handled yet
-0x06a2	Not handled yet
-0x06a3	Not handled yet
-0x06a4	Not handled yet
-0x06a5	Not handled yet
-0x06a6	Not handled yet
-0x06a7	LXI		B,#$3ccd
-0x06aa	Not handled yet
-0x06ab	Not handled yet
-0x06ac	Not handled yet
-0x06ad	Not handled yet
-0x06ae	Not handled yet
-0x06af	Not handled yet
-0x06b0	Not handled yet
-0x06b1	Not handled yet
-0x06b2	Not handled yet
-0x06b3	Not handled yet
-0x06b4	Not handled yet
-0x06b5	Not handled yet
-0x06b6	Not handled yet
-0x06b7	Not handled yet
-0x06b8	Not handled yet
-0x06b9	Not handled yet
-0x06ba	Not handled yet
-0x06bb	Not handled yet
-0x06bc	Not handled yet
-0x06bd	Not handled yet
-0x06be	Not handled yet
-0x06bf	Not handled yet
-0x06c0	Not handled yet
-0x06c1	Not handled yet
-0x06c2	Not handled yet
-0x06c3	Not handled yet
-0x06c4	Not handled yet
-0x06c5	Not handled yet
-0x06c6	Not handled yet
-0x06c7	Not handled yet
-0x06c8	Not handled yet
-0x06c9	Not handled yet
-0x06ca	Not handled yet
-0x06cb	Not handled yet
-0x06cc	Not handled yet
-0x06cd	Not handled yet
-0x06ce	Not handled yet
-0x06cf	Not handled yet
-0x06d0	Not handled yet
-0x06d1	Not handled yet
-0x06d2	Not handled yet
-0x06d3	Not handled yet
-0x06d4	Not handled yet
-0x06d5	Not handled yet
-0x06d6	Not handled yet
-0x06d7	Not handled yet
-0x06d8	Not handled yet
-0x06d9	Not handled yet
-0x06da	Not handled yet
-0x06db	Not handled yet
-0x06dc	Not handled yet
-0x06dd	Not handled yet
-0x06de	Not handled yet
-0x06df	Not handled yet
-0x06e0	Not handled yet
-0x06e1	Not handled yet
-0x06e2	Not handled yet
-0x06e3	Not handled yet
-0x06e4	Not handled yet
-0x06e5	Not handled yet
-0x06e6	Not handled yet
-0x06e7	Not handled yet
-0x06e8	Not handled yet
-0x06e9	Not handled yet
-0x06ea	Not handled yet
-0x06eb	Not handled yet
-0x06ec	Not handled yet
-0x06ed	Not handled yet
-0x06ee	Not handled yet
-0x06ef	Not handled yet
-0x06f0	Not handled yet
-0x06f1	Not handled yet
-0x06f2	Not handled yet
-0x06f3	Not handled yet
-0x06f4	Not handled yet
-0x06f5	Not handled yet
-0x06f6	NOP
-0x06f7	NOP
-0x06f8	NOP
-0x06f9	Not handled yet
-0x06fa	Not handled yet
-0x06fb	Not handled yet
-0x06fc	Not handled yet
-0x06fd	Not handled yet
-0x06fe	Not handled yet
-0x06ff	Not handled yet
-0x0700	Not handled yet
-0x0701	Not handled yet
-0x0702	Not handled yet
-0x0703	Not handled yet
-0x0704	Not handled yet
-0x0705	Not handled yet
-0x0706	Not handled yet
-0x0707	Not handled yet
-0x0708	Not handled yet
-0x0709	JMP		$19dc
-0x070c	Not handled yet
-0x070d	LXI		B,#$f132
-0x0710	Not handled yet
-0x0711	Not handled yet
-0x0712	Not handled yet
-0x0713	Not handled yet
-0x0714	Not handled yet
-0x0715	Not handled yet
-0x0716	Not handled yet
-0x0717	Not handled yet
-0x0718	Not handled yet
-0x0719	Not handled yet
-0x071a	Not handled yet
-0x071b	Not handled yet
-0x071c	Not handled yet
-0x071d	Not handled yet
-0x071e	Not handled yet
-0x071f	Not handled yet
-0x0720	Not handled yet
-0x0721	Not handled yet
-0x0722	Not handled yet
-0x0723	Not handled yet
-0x0724	Not handled yet
-0x0725	Not handled yet
-0x0726	Not handled yet
-0x0727	Not handled yet
-0x0728	Not handled yet
-0x0729	Not handled yet
-0x072a	Not handled yet
-0x072b	Not handled yet
-0x072c	Not handled yet
-0x072d	NOP
-0x072e	Not handled yet
-0x072f	Not handled yet
-0x0730	Not handled yet
-0x0731	Not handled yet
-0x0732	Not handled yet
-0x0733	Not handled yet
-0x0734	Not handled yet
-0x0735	Not handled yet
-0x0736	Not handled yet
-0x0737	Not handled yet
-0x0738	Not handled yet
-0x0739	JMP		$08f1
-0x073c	Not handled yet
-0x073d	Not handled yet
-0x073e	Not handled yet
-0x073f	JMP		$1439
-0x0742	Not handled yet
-0x0743	Not handled yet
-0x0744	Not handled yet
-0x0745	Not handled yet
-0x0746	Not handled yet
-0x0747	Not handled yet
-0x0748	JMP		$1a47
-0x074b	Not handled yet
-0x074c	Not handled yet
-0x074d	Not handled yet
-0x074e	Not handled yet
-0x074f	Not handled yet
-0x0750	Not handled yet
-0x0751	Not handled yet
-0x0752	Not handled yet
-0x0753	Not handled yet
-0x0754	Not handled yet
-0x0755	Not handled yet
-0x0756	Not handled yet
-0x0757	Not handled yet
-0x0758	Not handled yet
-0x0759	Not handled yet
-0x075a	Not handled yet
-0x075b	Not handled yet
-0x075c	JMP		$073c
-0x075f	Not handled yet
-0x0760	Not handled yet
-0x0761	Not handled yet
-0x0762	JMP		$1a32
-0x0765	Not handled yet
-0x0766	LXI		B,#$9332
-0x0769	Not handled yet
-0x076a	Not handled yet
-0x076b	NOP
-0x076c	Not handled yet
-0x076d	Not handled yet
-0x076e	Not handled yet
-0x076f	Not handled yet
-0x0770	Not handled yet
-0x0771	Not handled yet
-0x0772	Not handled yet
-0x0773	Not handled yet
-0x0774	Not handled yet
-0x0775	Not handled yet
-0x0776	Not handled yet
-0x0777	Not handled yet
-0x0778	Not handled yet
-0x0779	Not handled yet
-0x077a	Not handled yet
-0x077b	Not handled yet
-0x077c	Not handled yet
-0x077d	Not handled yet
-0x077e	Not handled yet
-0x077f	Not handled yet
-0x0780	Not handled yet
-0x0781	Not handled yet
-0x0782	Not handled yet
-0x0783	Not handled yet
-0x0784	Not handled yet
-0x0785	Not handled yet
-0x0786	Not handled yet
-0x0787	Not handled yet
-0x0788	Not handled yet
-0x0789	Not handled yet
-0x078a	Not handled yet
-0x078b	Not handled yet
-0x078c	Not handled yet
-0x078d	Not handled yet
-0x078e	Not handled yet
-0x078f	Not handled yet
-0x0790	Not handled yet
-0x0791	Not handled yet
-0x0792	LXI		B,#$04e6
-0x0795	Not handled yet
-0x0796	Not handled yet
-0x0797	Not handled yet
-0x0798	Not handled yet
-0x0799	Not handled yet
-0x079a	Not handled yet
-0x079b	Not handled yet
-0x079c	Not handled yet
-0x079d	Not handled yet
-0x079e	Not handled yet
-0x079f	Not handled yet
-0x07a0	Not handled yet
-0x07a1	Not handled yet
-0x07a2	Not handled yet
-0x07a3	Not handled yet
-0x07a4	Not handled yet
-0x07a5	Not handled yet
-0x07a6	Not handled yet
-0x07a7	Not handled yet
-0x07a8	Not handled yet
-0x07a9	Not handled yet
-0x07aa	NOP
-0x07ab	NOP
-0x07ac	Not handled yet
-0x07ad	Not handled yet
-0x07ae	Not handled yet
-0x07af	Not handled yet
-0x07b0	Not handled yet
-0x07b1	Not handled yet
-0x07b2	Not handled yet
-0x07b3	Not handled yet
-0x07b4	Not handled yet
-0x07b5	Not handled yet
-0x07b6	Not handled yet
-0x07b7	Not handled yet
-0x07b8	Not handled yet
-0x07b9	Not handled yet
-0x07ba	Not handled yet
-0x07bb	Not handled yet
-0x07bc	LXI		B,#$7c01
-0x07bf	Not handled yet
-0x07c0	Not handled yet
-0x07c1	Not handled yet
-0x07c2	Not handled yet
-0x07c3	Not handled yet
-0x07c4	Not handled yet
-0x07c5	Not handled yet
-0x07c6	Not handled yet
-0x07c7	Not handled yet
-0x07c8	Not handled yet
-0x07c9	Not handled yet
-0x07ca	Not handled yet
-0x07cb	Not handled yet
-0x07cc	Not handled yet
-0x07cd	LXI		B,#$f5cd
-0x07d0	LXI		B,#$d1cd
-0x07d3	Not handled yet
-0x07d4	Not handled yet
-0x07d5	Not handled yet
-0x07d6	Not handled yet
-0x07d7	Not handled yet
-0x07d8	Not handled yet
-0x07d9	Not handled yet
-0x07da	Not handled yet
-0x07db	Not handled yet
-0x07dc	NOP
-0x07dd	Not handled yet
-0x07de	Not handled yet
-0x07df	Not handled yet
-0x07e0	Not handled yet
-0x07e1	Not handled yet
-0x07e2	Not handled yet
-0x07e3	Not handled yet
-0x07e4	Not handled yet
-0x07e5	Not handled yet
-0x07e6	LXI		B,#$04cd
-0x07e9	Not handled yet
-0x07ea	Not handled yet
-0x07eb	Not handled yet
-0x07ec	Not handled yet
-0x07ed	Not handled yet
-0x07ee	Not handled yet
-0x07ef	Not handled yet
-0x07f0	Not handled yet
-0x07f1	Not handled yet
-0x07f2	Not handled yet
-0x07f3	Not handled yet
-0x07f4	Not handled yet
-0x07f5	LXI		B,#$7fcd
-0x07f8	Not handled yet
-0x07f9	Not handled yet
-0x07fa	Not handled yet
-0x07fb	Not handled yet
-0x07fc	Not handled yet
-0x07fd	Not handled yet
-0x07fe	Not handled yet
-0x07ff	NOP
-0x0800	Not handled yet
-0x0801	Not handled yet
-0x0802	Not handled yet
-0x0803	Not handled yet
-0x0804	Not handled yet
-0x0805	Not handled yet
-0x0806	LXI		B,#$673a
-0x0809	Not handled yet
-0x080a	Not handled yet
-0x080b	Not handled yet
-0x080c	Not handled yet
-0x080d	Not handled yet
-0x080e	Not handled yet
-0x080f	Not handled yet
-0x0810	STAX	B
-0x0811	Not handled yet
-0x0812	Not handled yet
-0x0813	LXI		B,#$b1cd
-0x0816	NOP
-0x0817	Not handled yet
-0x0818	Not handled yet
-0x0819	Not handled yet
-0x081a	Not handled yet
-0x081b	Not handled yet
-0x081c	Not handled yet
-0x081d	Not handled yet
-0x081e	Not handled yet
-0x081f	Not handled yet
-0x0820	Not handled yet
-0x0821	Not handled yet
-0x0822	Not handled yet
-0x0823	Not handled yet
-0x0824	Not handled yet
-0x0825	Not handled yet
-0x0826	Not handled yet
-0x0827	Not handled yet
-0x0828	Not handled yet
-0x0829	Not handled yet
-0x082a	Not handled yet
-0x082b	Not handled yet
-0x082c	Not handled yet
-0x082d	Not handled yet
-0x082e	Not handled yet
-0x082f	Not handled yet
-0x0830	Not handled yet
-0x0831	Not handled yet
-0x0832	Not handled yet
-0x0833	Not handled yet
-0x0834	Not handled yet
-0x0835	Not handled yet
-0x0836	Not handled yet
-0x0837	Not handled yet
-0x0838	Not handled yet
-0x0839	Not handled yet
-0x083a	Not handled yet
-0x083b	Not handled yet
-0x083c	Not handled yet
-0x083d	Not handled yet
-0x083e	Not handled yet
-0x083f	Not handled yet
-0x0840	Not handled yet
-0x0841	Not handled yet
-0x0842	Not handled yet
-0x0843	Not handled yet
-0x0844	Not handled yet
-0x0845	Not handled yet
-0x0846	Not handled yet
-0x0847	Not handled yet
-0x0848	Not handled yet
-0x0849	Not handled yet
-0x084a	Not handled yet
-0x084b	Not handled yet
-0x084c	Not handled yet
-0x084d	Not handled yet
-0x084e	Not handled yet
-0x084f	Not handled yet
-0x0850	Not handled yet
-0x0851	JMP		$081f
-0x0854	NOP
-0x0855	NOP
-0x0856	NOP
-0x0857	Not handled yet
-0x0858	Not handled yet
-0x0859	Not handled yet
-0x085a	Not handled yet
-0x085b	Not handled yet
-0x085c	Not handled yet
-0x085d	Not handled yet
-0x085e	Not handled yet
-0x085f	Not handled yet
-0x0860	LXI		B,#$0f0f
-0x0863	Not handled yet
-0x0864	Not handled yet
-0x0865	Not handled yet
-0x0866	Not handled yet
-0x0867	Not handled yet
-0x0868	Not handled yet
-0x0869	Not handled yet
-0x086a	JMP		$077f
-0x086d	Not handled yet
-0x086e	LXI		B,#$9bc3
-0x0871	Not handled yet
-0x0872	Not handled yet
-0x0873	Not handled yet
-0x0874	STAX	B
-0x0875	JMP		$0814
-0x0878	Not handled yet
-0x0879	Not handled yet
-0x087a	Not handled yet
-0x087b	Not handled yet
-0x087c	Not handled yet
-0x087d	Not handled yet
-0x087e	Not handled yet
-0x087f	Not handled yet
-0x0880	JMP		$0886
-0x0883	NOP
-0x0884	NOP
-0x0885	NOP
-0x0886	Not handled yet
-0x0887	Not handled yet
-0x0888	Not handled yet
-0x0889	Not handled yet
-0x088a	Not handled yet
-0x088b	Not handled yet
-0x088c	Not handled yet
-0x088d	Not handled yet
-0x088e	Not handled yet
-0x088f	Not handled yet
-0x0890	Not handled yet
-0x0891	Not handled yet
-0x0892	Not handled yet
-0x0893	Not handled yet
-0x0894	Not handled yet
-0x0895	Not handled yet
-0x0896	Not handled yet
-0x0897	Not handled yet
-0x0898	Not handled yet
-0x0899	Not handled yet
-0x089a	Not handled yet
-0x089b	Not handled yet
-0x089c	Not handled yet
-0x089d	Not handled yet
-0x089e	Not handled yet
-0x089f	Not handled yet
-0x08a0	Not handled yet
-0x08a1	Not handled yet
-0x08a2	Not handled yet
-0x08a3	Not handled yet
-0x08a4	Not handled yet
-0x08a5	Not handled yet
-0x08a6	Not handled yet
-0x08a7	Not handled yet
-0x08a8	Not handled yet
-0x08a9	Not handled yet
-0x08aa	Not handled yet
-0x08ab	Not handled yet
-0x08ac	Not handled yet
-0x08ad	Not handled yet
-0x08ae	Not handled yet
-0x08af	Not handled yet
-0x08b0	Not handled yet
-0x08b1	Not handled yet
-0x08b2	Not handled yet
-0x08b3	Not handled yet
-0x08b4	Not handled yet
-0x08b5	Not handled yet
-0x08b6	Not handled yet
-0x08b7	Not handled yet
-0x08b8	Not handled yet
-0x08b9	JMP		$08a9
-0x08bc	Not handled yet
-0x08bd	Not handled yet
-0x08be	Not handled yet
-0x08bf	Not handled yet
-0x08c0	Not handled yet
-0x08c1	Not handled yet
-0x08c2	Not handled yet
-0x08c3	Not handled yet
-0x08c4	Not handled yet
-0x08c5	Not handled yet
-0x08c6	Not handled yet
-0x08c7	Not handled yet
-0x08c8	Not handled yet
-0x08c9	Not handled yet
-0x08ca	Not handled yet
-0x08cb	Not handled yet
-0x08cc	Not handled yet
-0x08cd	Not handled yet
-0x08ce	JMP		$08a9
-0x08d1	Not handled yet
-0x08d2	STAX	B
-0x08d3	Not handled yet
-0x08d4	INX		B
-0x08d5	Not handled yet
-0x08d6	INX		B
-0x08d7	Not handled yet
-0x08d8	Not handled yet
-0x08d9	Not handled yet
-0x08da	Not handled yet
-0x08db	Not handled yet
-0x08dc	Not handled yet
-0x08dd	Not handled yet
-0x08de	Not handled yet
-0x08df	Not handled yet
-0x08e0	Not handled yet
-0x08e1	Not handled yet
-0x08e2	Not handled yet
-0x08e3	Not handled yet
-0x08e4	Not handled yet
-0x08e5	Not handled yet
-0x08e6	Not handled yet
-0x08e7	Not handled yet
-0x08e8	Not handled yet
-0x08e9	Not handled yet
-0x08ea	Not handled yet
-0x08eb	Not handled yet
-0x08ec	Not handled yet
-0x08ed	Not handled yet
-0x08ee	JMP		$14cb
-0x08f1	Not handled yet
-0x08f2	INX		B
-0x08f3	Not handled yet
-0x08f4	Not handled yet
-0x08f5	Not handled yet
-0x08f6	Not handled yet
-0x08f7	Not handled yet
-0x08f8	Not handled yet
-0x08f9	Not handled yet
-0x08fa	Not handled yet
-0x08fb	Not handled yet
-0x08fc	Not handled yet
-0x08fd	Not handled yet
-0x08fe	Not handled yet
-0x08ff	Not handled yet
-0x0900	NOP
-0x0901	Not handled yet
-0x0902	Not handled yet
-0x0903	Not handled yet
-0x0904	NOP
-0x0905	Not handled yet
-0x0906	Not handled yet
-0x0907	Not handled yet
-0x0908	Not handled yet
-0x0909	Not handled yet
-0x090a	Not handled yet
-0x090b	Not handled yet
-0x090c	Not handled yet
-0x090d	Not handled yet
-0x090e	Not handled yet
-0x090f	Not handled yet
-0x0910	JMP		$1439
-0x0913	Not handled yet
-0x0914	Not handled yet
-0x0915	Not handled yet
-0x0916	Not handled yet
-0x0917	Not handled yet
-0x0918	Not handled yet
-0x0919	Not handled yet
-0x091a	Not handled yet
-0x091b	Not handled yet
-0x091c	Not handled yet
-0x091d	Not handled yet
-0x091e	Not handled yet
-0x091f	Not handled yet
-0x0920	Not handled yet
-0x0921	Not handled yet
-0x0922	NOP
-0x0923	Not handled yet
-0x0924	Not handled yet
-0x0925	LXI		B,#$8332
-0x0928	Not handled yet
-0x0929	Not handled yet
-0x092a	Not handled yet
-0x092b	Not handled yet
-0x092c	Not handled yet
-0x092d	Not handled yet
-0x092e	Not handled yet
-0x092f	Not handled yet
-0x0930	Not handled yet
-0x0931	Not handled yet
-0x0932	Not handled yet
-0x0933	Not handled yet
-0x0934	Not handled yet
-0x0935	Not handled yet
-0x0936	Not handled yet
-0x0937	Not handled yet
-0x0938	Not handled yet
-0x0939	Not handled yet
-0x093a	Not handled yet
-0x093b	Not handled yet
-0x093c	Not handled yet
-0x093d	Not handled yet
-0x093e	Not handled yet
-0x093f	Not handled yet
-0x0940	STAX	B
-0x0941	Not handled yet
-0x0942	Not handled yet
-0x0943	Not handled yet
-0x0944	Not handled yet
-0x0945	Not handled yet
-0x0946	Not handled yet
-0x0947	Not handled yet
-0x0948	Not handled yet
-0x0949	Not handled yet
-0x094a	Not handled yet
-0x094b	Not handled yet
-0x094c	Not handled yet
-0x094d	Not handled yet
-0x094e	Not handled yet
-0x094f	Not handled yet
-0x0950	Not handled yet
-0x0951	Not handled yet
-0x0952	Not handled yet
-0x0953	Not handled yet
-0x0954	Not handled yet
-0x0955	Not handled yet
-0x0956	LXI		B,#$2425
-0x0959	Not handled yet
-0x095a	Not handled yet
-0x095b	Not handled yet
-0x095c	Not handled yet
-0x095d	Not handled yet
-0x095e	Not handled yet
-0x095f	Not handled yet
-0x0960	Not handled yet
-0x0961	Not handled yet
-0x0962	Not handled yet
-0x0963	Not handled yet
-0x0964	Not handled yet
-0x0965	Not handled yet
-0x0966	Not handled yet
-0x0967	Not handled yet
-0x0968	Not handled yet
-0x0969	Not handled yet
-0x096a	Not handled yet
-0x096b	Not handled yet
-0x096c	Not handled yet
-0x096d	Not handled yet
-0x096e	Not handled yet
-0x096f	Not handled yet
-0x0970	Not handled yet
-0x0971	NOP
-0x0972	Not handled yet
-0x0973	Not handled yet
-0x0974	Not handled yet
-0x0975	Not handled yet
-0x0976	Not handled yet
-0x0977	Not handled yet
-0x0978	Not handled yet
-0x0979	JMP		$18fa
-0x097c	Not handled yet
-0x097d	Not handled yet
-0x097e	Not handled yet
-0x097f	Not handled yet
-0x0980	STAX	B
-0x0981	Not handled yet
-0x0982	Not handled yet
-0x0983	Not handled yet
-0x0984	Not handled yet
-0x0985	Not handled yet
-0x0986	Not handled yet
-0x0987	Not handled yet
-0x0988	Not handled yet
-0x0989	Not handled yet
-0x098a	Not handled yet
-0x098b	Not handled yet
-0x098c	Not handled yet
-0x098d	Not handled yet
-0x098e	Not handled yet
-0x098f	Not handled yet
-0x0990	Not handled yet
-0x0991	Not handled yet
-0x0992	Not handled yet
-0x0993	Not handled yet
-0x0994	Not handled yet
-0x0995	Not handled yet
-0x0996	Not handled yet
-0x0997	Not handled yet
-0x0998	Not handled yet
-0x0999	Not handled yet
-0x099a	Not handled yet
-0x099b	Not handled yet
-0x099c	Not handled yet
-0x099d	Not handled yet
-0x099e	Not handled yet
-0x099f	Not handled yet
-0x09a0	Not handled yet
-0x09a1	Not handled yet
-0x09a2	Not handled yet
-0x09a3	Not handled yet
-0x09a4	Not handled yet
-0x09a5	Not handled yet
-0x09a6	Not handled yet
-0x09a7	Not handled yet
-0x09a8	Not handled yet
-0x09a9	Not handled yet
-0x09aa	JMP		$09ad
-0x09ad	Not handled yet
-0x09ae	Not handled yet
-0x09af	Not handled yet
-0x09b0	Not handled yet
-0x09b1	Not handled yet
-0x09b2	Not handled yet
-0x09b3	Not handled yet
-0x09b4	Not handled yet
-0x09b5	Not handled yet
-0x09b6	Not handled yet
-0x09b7	Not handled yet
-0x09b8	Not handled yet
-0x09b9	Not handled yet
-0x09ba	Not handled yet
-0x09bb	Not handled yet
-0x09bc	Not handled yet
-0x09bd	Not handled yet
-0x09be	Not handled yet
-0x09bf	Not handled yet
-0x09c0	Not handled yet
-0x09c1	Not handled yet
-0x09c2	Not handled yet
-0x09c3	Not handled yet
-0x09c4	Not handled yet
-0x09c5	Not handled yet
-0x09c6	Not handled yet
-0x09c7	JMP		$08ff
-0x09ca	Not handled yet
-0x09cb	Not handled yet
-0x09cc	Not handled yet
-0x09cd	Not handled yet
-0x09ce	Not handled yet
-0x09cf	Not handled yet
-0x09d0	Not handled yet
-0x09d1	Not handled yet
-0x09d2	Not handled yet
-0x09d3	Not handled yet
-0x09d4	Not handled yet
-0x09d5	Not handled yet
-0x09d6	Not handled yet
-0x09d7	STAX	B
-0x09d8	Not handled yet
-0x09d9	Not handled yet
-0x09da	NOP
-0x09db	Not handled yet
-0x09dc	Not handled yet
-0x09dd	Not handled yet
-0x09de	Not handled yet
-0x09df	Not handled yet
-0x09e0	Not handled yet
-0x09e1	Not handled yet
-0x09e2	Not handled yet
-0x09e3	Not handled yet
-0x09e4	Not handled yet
-0x09e5	Not handled yet
-0x09e6	NOP
-0x09e7	Not handled yet
-0x09e8	Not handled yet
-0x09e9	Not handled yet
-0x09ea	Not handled yet
-0x09eb	Not handled yet
-0x09ec	Not handled yet
-0x09ed	Not handled yet
-0x09ee	Not handled yet
-0x09ef	Not handled yet
-0x09f0	Not handled yet
-0x09f1	Not handled yet
-0x09f2	Not handled yet
-0x09f3	Not handled yet
-0x09f4	Not handled yet
-0x09f5	Not handled yet
-0x09f6	Not handled yet
-0x09f7	Not handled yet
-0x09f8	Not handled yet
-0x09f9	Not handled yet
-0x09fa	Not handled yet
-0x09fb	Not handled yet
-0x09fc	Not handled yet
-0x09fd	Not handled yet
-0x09fe	Not handled yet
-0x09ff	LXI		B,#$32f1
-0x0a02	Not handled yet
-0x0a03	Not handled yet
-0x0a04	Not handled yet
-0x0a05	Not handled yet
-0x0a06	Not handled yet
-0x0a07	Not handled yet
-0x0a08	Not handled yet
-0x0a09	Not handled yet
-0x0a0a	Not handled yet
-0x0a0b	Not handled yet
-0x0a0c	Not handled yet
-0x0a0d	Not handled yet
-0x0a0e	Not handled yet
-0x0a0f	Not handled yet
-0x0a10	Not handled yet
-0x0a11	Not handled yet
-0x0a12	Not handled yet
-0x0a13	Not handled yet
-0x0a14	Not handled yet
-0x0a15	Not handled yet
-0x0a16	Not handled yet
-0x0a17	Not handled yet
-0x0a18	Not handled yet
-0x0a19	Not handled yet
-0x0a1a	Not handled yet
-0x0a1b	Not handled yet
-0x0a1c	Not handled yet
-0x0a1d	Not handled yet
-0x0a1e	Not handled yet
-0x0a1f	Not handled yet
-0x0a20	Not handled yet
-0x0a21	Not handled yet
-0x0a22	Not handled yet
-0x0a23	Not handled yet
-0x0a24	Not handled yet
-0x0a25	Not handled yet
-0x0a26	Not handled yet
-0x0a27	Not handled yet
-0x0a28	Not handled yet
-0x0a29	Not handled yet
-0x0a2a	Not handled yet
-0x0a2b	Not handled yet
-0x0a2c	LXI		B,#$04cd
-0x0a2f	Not handled yet
-0x0a30	JMP		$0804
-0x0a33	Not handled yet
-0x0a34	Not handled yet
-0x0a35	LXI		B,#$c0cd
-0x0a38	LXI		B,#$04c3
-0x0a3b	Not handled yet
-0x0a3c	Not handled yet
-0x0a3d	Not handled yet
-0x0a3e	Not handled yet
-0x0a3f	Not handled yet
-0x0a40	Not handled yet
-0x0a41	Not handled yet
-0x0a42	Not handled yet
-0x0a43	Not handled yet
-0x0a44	Not handled yet
-0x0a45	Not handled yet
-0x0a46	Not handled yet
-0x0a47	Not handled yet
-0x0a48	Not handled yet
-0x0a49	Not handled yet
-0x0a4a	Not handled yet
-0x0a4b	Not handled yet
-0x0a4c	Not handled yet
-0x0a4d	Not handled yet
-0x0a4e	Not handled yet
-0x0a4f	Not handled yet
-0x0a50	Not handled yet
-0x0a51	Not handled yet
-0x0a52	Not handled yet
-0x0a53	Not handled yet
-0x0a54	Not handled yet
-0x0a55	Not handled yet
-0x0a56	Not handled yet
-0x0a57	Not handled yet
-0x0a58	Not handled yet
-0x0a59	Not handled yet
-0x0a5a	Not handled yet
-0x0a5b	Not handled yet
-0x0a5c	Not handled yet
-0x0a5d	Not handled yet
-0x0a5e	Not handled yet
-0x0a5f	Not handled yet
-0x0a60	Not handled yet
-0x0a61	Not handled yet
-0x0a62	Not handled yet
-0x0a63	Not handled yet
-0x0a64	Not handled yet
-0x0a65	Not handled yet
-0x0a66	Not handled yet
-0x0a67	Not handled yet
-0x0a68	Not handled yet
-0x0a69	Not handled yet
-0x0a6a	Not handled yet
-0x0a6b	Not handled yet
-0x0a6c	Not handled yet
-0x0a6d	Not handled yet
-0x0a6e	Not handled yet
-0x0a6f	Not handled yet
-0x0a70	Not handled yet
-0x0a71	Not handled yet
-0x0a72	Not handled yet
-0x0a73	Not handled yet
-0x0a74	Not handled yet
-0x0a75	Not handled yet
-0x0a76	NOP
-0x0a77	Not handled yet
-0x0a78	Not handled yet
-0x0a79	Not handled yet
-0x0a7a	Not handled yet
-0x0a7b	LXI		B,#$6221
-0x0a7e	Not handled yet
-0x0a7f	Not handled yet
-0x0a80	Not handled yet
-0x0a81	STAX	B
-0x0a82	Not handled yet
-0x0a83	Not handled yet
-0x0a84	Not handled yet
-0x0a85	Not handled yet
-0x0a86	Not handled yet
-0x0a87	Not handled yet
-0x0a88	Not handled yet
-0x0a89	Not handled yet
-0x0a8a	Not handled yet
-0x0a8b	Not handled yet
-0x0a8c	Not handled yet
-0x0a8d	Not handled yet
-0x0a8e	Not handled yet
-0x0a8f	Not handled yet
-0x0a90	Not handled yet
-0x0a91	Not handled yet
-0x0a92	Not handled yet
-0x0a93	Not handled yet
-0x0a94	Not handled yet
-0x0a95	Not handled yet
-0x0a96	Not handled yet
-0x0a97	Not handled yet
-0x0a98	Not handled yet
-0x0a99	Not handled yet
-0x0a9a	Not handled yet
-0x0a9b	Not handled yet
-0x0a9c	Not handled yet
-0x0a9d	Not handled yet
-0x0a9e	Not handled yet
-0x0a9f	Not handled yet
-0x0aa0	Not handled yet
-0x0aa1	Not handled yet
-0x0aa2	Not handled yet
-0x0aa3	Not handled yet
-0x0aa4	Not handled yet
-0x0aa5	Not handled yet
-0x0aa6	Not handled yet
-0x0aa7	Not handled yet
-0x0aa8	Not handled yet
-0x0aa9	Not handled yet
-0x0aaa	Not handled yet
-0x0aab	Not handled yet
-0x0aac	Not handled yet
-0x0aad	Not handled yet
-0x0aae	JMP		$024b
-0x0ab1	Not handled yet
-0x0ab2	Not handled yet
-0x0ab3	JMP		$0ad7
-0x0ab6	Not handled yet
-0x0ab7	Not handled yet
-0x0ab8	JMP		$0ad7
-0x0abb	Not handled yet
-0x0abc	JMP		$0072
-0x0abf	Not handled yet
-0x0ac0	Not handled yet
-0x0ac1	Not handled yet
-0x0ac2	Not handled yet
-0x0ac3	Not handled yet
-0x0ac4	Not handled yet
-0x0ac5	Not handled yet
-0x0ac6	Not handled yet
-0x0ac7	Not handled yet
-0x0ac8	Not handled yet
-0x0ac9	Not handled yet
-0x0aca	Not handled yet
-0x0acb	Not handled yet
-0x0acc	Not handled yet
-0x0acd	Not handled yet
-0x0ace	Not handled yet
-0x0acf	Not handled yet
-0x0ad0	Not handled yet
-0x0ad1	Not handled yet
-0x0ad2	Not handled yet
-0x0ad3	Not handled yet
-0x0ad4	JMP		$0a93
-0x0ad7	Not handled yet
-0x0ad8	Not handled yet
-0x0ad9	Not handled yet
-0x0ada	Not handled yet
-0x0adb	Not handled yet
-0x0adc	Not handled yet
-0x0add	Not handled yet
-0x0ade	Not handled yet
-0x0adf	Not handled yet
-0x0ae0	Not handled yet
-0x0ae1	Not handled yet
-0x0ae2	Not handled yet
-0x0ae3	Not handled yet
-0x0ae4	Not handled yet
-0x0ae5	Not handled yet
-0x0ae6	Not handled yet
-0x0ae7	JMP		$1a32
-0x0aea	Not handled yet
-0x0aeb	Not handled yet
-0x0aec	INX		B
-0x0aed	Not handled yet
-0x0aee	Not handled yet
-0x0aef	Not handled yet
-0x0af0	Not handled yet
-0x0af1	Not handled yet
-0x0af2	Not handled yet
-0x0af3	Not handled yet
-0x0af4	Not handled yet
-0x0af5	Not handled yet
-0x0af6	Not handled yet
-0x0af7	Not handled yet
-0x0af8	Not handled yet
-0x0af9	Not handled yet
-0x0afa	Not handled yet
-0x0afb	Not handled yet
-0x0afc	Not handled yet
-0x0afd	Not handled yet
-0x0afe	Not handled yet
-0x0aff	Not handled yet
-0x0b00	Not handled yet
-0x0b01	Not handled yet
-0x0b02	Not handled yet
-0x0b03	Not handled yet
-0x0b04	Not handled yet
-0x0b05	Not handled yet
-0x0b06	Not handled yet
-0x0b07	Not handled yet
-0x0b08	Not handled yet
-0x0b09	Not handled yet
-0x0b0a	Not handled yet
-0x0b0b	Not handled yet
-0x0b0c	Not handled yet
-0x0b0d	Not handled yet
-0x0b0e	Not handled yet
-0x0b0f	Not handled yet
-0x0b10	Not handled yet
-0x0b11	Not handled yet
-0x0b12	Not handled yet
-0x0b13	Not handled yet
-0x0b14	Not handled yet
-0x0b15	Not handled yet
-0x0b16	Not handled yet
-0x0b17	Not handled yet
-0x0b18	Not handled yet
-0x0b19	Not handled yet
-0x0b1a	Not handled yet
-0x0b1b	Not handled yet
-0x0b1c	Not handled yet
-0x0b1d	Not handled yet
-0x0b1e	Not handled yet
-0x0b1f	Not handled yet
-0x0b20	Not handled yet
-0x0b21	Not handled yet
-0x0b22	Not handled yet
-0x0b23	Not handled yet
-0x0b24	Not handled yet
-0x0b25	Not handled yet
-0x0b26	Not handled yet
-0x0b27	Not handled yet
-0x0b28	Not handled yet
-0x0b29	Not handled yet
-0x0b2a	Not handled yet
-0x0b2b	Not handled yet
-0x0b2c	Not handled yet
-0x0b2d	Not handled yet
-0x0b2e	Not handled yet
-0x0b2f	Not handled yet
-0x0b30	Not handled yet
-0x0b31	Not handled yet
-0x0b32	Not handled yet
-0x0b33	Not handled yet
-0x0b34	Not handled yet
-0x0b35	Not handled yet
-0x0b36	Not handled yet
-0x0b37	Not handled yet
-0x0b38	Not handled yet
-0x0b39	Not handled yet
-0x0b3a	Not handled yet
-0x0b3b	Not handled yet
-0x0b3c	Not handled yet
-0x0b3d	Not handled yet
-0x0b3e	Not handled yet
-0x0b3f	Not handled yet
-0x0b40	Not handled yet
-0x0b41	Not handled yet
-0x0b42	Not handled yet
-0x0b43	Not handled yet
-0x0b44	Not handled yet
-0x0b45	Not handled yet
-0x0b46	Not handled yet
-0x0b47	Not handled yet
-0x0b48	Not handled yet
-0x0b49	Not handled yet
-0x0b4a	Not handled yet
-0x0b4b	Not handled yet
-0x0b4c	Not handled yet
-0x0b4d	Not handled yet
-0x0b4e	Not handled yet
-0x0b4f	Not handled yet
-0x0b50	Not handled yet
-0x0b51	Not handled yet
-0x0b52	Not handled yet
-0x0b53	Not handled yet
-0x0b54	Not handled yet
-0x0b55	Not handled yet
-0x0b56	Not handled yet
-0x0b57	Not handled yet
-0x0b58	Not handled yet
-0x0b59	Not handled yet
-0x0b5a	Not handled yet
-0x0b5b	Not handled yet
-0x0b5c	Not handled yet
-0x0b5d	Not handled yet
-0x0b5e	Not handled yet
-0x0b5f	LXI		B,#$c0cd
-0x0b62	LXI		B,#$efcd
-0x0b65	LXI		B,#$1acd
-0x0b68	STAX	B
-0x0b69	Not handled yet
-0x0b6a	LXI		B,#$c132
-0x0b6d	Not handled yet
-0x0b6e	Not handled yet
-0x0b6f	Not handled yet
-0x0b70	LXI		B,#$18cd
-0x0b73	Not handled yet
-0x0b74	Not handled yet
-0x0b75	Not handled yet
-0x0b76	Not handled yet
-0x0b77	Not handled yet
-0x0b78	Not handled yet
-0x0b79	Not handled yet
-0x0b7a	Not handled yet
-0x0b7b	Not handled yet
-0x0b7c	Not handled yet
-0x0b7d	Not handled yet
-0x0b7e	Not handled yet
-0x0b7f	Not handled yet
-0x0b80	Not handled yet
-0x0b81	Not handled yet
-0x0b82	Not handled yet
-0x0b83	Not handled yet
-0x0b84	Not handled yet
-0x0b85	Not handled yet
-0x0b86	Not handled yet
-0x0b87	Not handled yet
-0x0b88	Not handled yet
-0x0b89	Not handled yet
-0x0b8a	Not handled yet
-0x0b8b	Not handled yet
-0x0b8c	Not handled yet
-0x0b8d	Not handled yet
-0x0b8e	Not handled yet
-0x0b8f	Not handled yet
-0x0b90	Not handled yet
-0x0b91	Not handled yet
-0x0b92	Not handled yet
-0x0b93	Not handled yet
-0x0b94	Not handled yet
-0x0b95	Not handled yet
-0x0b96	Not handled yet
-0x0b97	Not handled yet
-0x0b98	Not handled yet
-0x0b99	Not handled yet
-0x0b9a	Not handled yet
-0x0b9b	Not handled yet
-0x0b9c	Not handled yet
-0x0b9d	Not handled yet
-0x0b9e	Not handled yet
-0x0b9f	Not handled yet
-0x0ba0	Not handled yet
-0x0ba1	Not handled yet
-0x0ba2	NOP
-0x0ba3	Not handled yet
-0x0ba4	Not handled yet
-0x0ba5	Not handled yet
-0x0ba6	Not handled yet
-0x0ba7	Not handled yet
-0x0ba8	Not handled yet
-0x0ba9	Not handled yet
-0x0baa	STAX	B
-0x0bab	Not handled yet
-0x0bac	Not handled yet
-0x0bad	Not handled yet
-0x0bae	LXI		B,#$1f9c
-0x0bb1	Not handled yet
-0x0bb2	Not handled yet
-0x0bb3	Not handled yet
-0x0bb4	Not handled yet
-0x0bb5	Not handled yet
-0x0bb6	Not handled yet
-0x0bb7	Not handled yet
-0x0bb8	STAX	B
-0x0bb9	Not handled yet
-0x0bba	Not handled yet
-0x0bbb	JMP		$010b
-0x0bbe	Not handled yet
-0x0bbf	Not handled yet
-0x0bc0	Not handled yet
-0x0bc1	Not handled yet
-0x0bc2	Not handled yet
-0x0bc3	Not handled yet
-0x0bc4	Not handled yet
-0x0bc5	Not handled yet
-0x0bc6	Not handled yet
-0x0bc7	Not handled yet
-0x0bc8	Not handled yet
-0x0bc9	Not handled yet
-0x0bca	NOP
-0x0bcb	Not handled yet
-0x0bcc	Not handled yet
-0x0bcd	Not handled yet
-0x0bce	Not handled yet
-0x0bcf	Not handled yet
-0x0bd0	Not handled yet
-0x0bd1	Not handled yet
-0x0bd2	Not handled yet
-0x0bd3	Not handled yet
-0x0bd4	Not handled yet
-0x0bd5	Not handled yet
-0x0bd6	Not handled yet
-0x0bd7	Not handled yet
-0x0bd8	Not handled yet
-0x0bd9	Not handled yet
-0x0bda	Not handled yet
-0x0bdb	Not handled yet
-0x0bdc	Not handled yet
-0x0bdd	Not handled yet
-0x0bde	Not handled yet
-0x0bdf	Not handled yet
-0x0be0	LXI		B,#$cd77
-0x0be3	Not handled yet
-0x0be4	Not handled yet
-0x0be5	JMP		$18df
-0x0be8	Not handled yet
-0x0be9	Not handled yet
-0x0bea	Not handled yet
-0x0beb	Not handled yet
-0x0bec	Not handled yet
-0x0bed	Not handled yet
-0x0bee	JMP		$0b0b
-0x0bf1	Not handled yet
-0x0bf2	Not handled yet
-0x0bf3	Not handled yet
-0x0bf4	JMP		$199a
-0x0bf7	Not handled yet
-0x0bf8	NOP
-0x0bf9	Not handled yet
-0x0bfa	Not handled yet
-0x0bfb	Not handled yet
-0x0bfc	Not handled yet
-0x0bfd	STAX	B
-0x0bfe	Not handled yet
-0x0bff	Not handled yet
-0x0c00	NOP
-0x0c01	NOP
-0x0c02	NOP
-0x0c03	NOP
-0x0c04	NOP
-0x0c05	NOP
-0x0c06	NOP
-0x0c07	NOP
-0x0c08	NOP
-0x0c09	NOP
-0x0c0a	NOP
-0x0c0b	NOP
-0x0c0c	NOP
-0x0c0d	NOP
-0x0c0e	NOP
-0x0c0f	NOP
-0x0c10	NOP
-0x0c11	NOP
-0x0c12	NOP
-0x0c13	NOP
-0x0c14	NOP
-0x0c15	NOP
-0x0c16	NOP
-0x0c17	NOP
-0x0c18	NOP
-0x0c19	NOP
-0x0c1a	NOP
-0x0c1b	NOP
-0x0c1c	NOP
-0x0c1d	NOP
-0x0c1e	NOP
-0x0c1f	NOP
-0x0c20	NOP
-0x0c21	NOP
-0x0c22	NOP
-0x0c23	NOP
-0x0c24	NOP
-0x0c25	NOP
-0x0c26	NOP
-0x0c27	NOP
-0x0c28	NOP
-0x0c29	NOP
-0x0c2a	NOP
-0x0c2b	NOP
-0x0c2c	NOP
-0x0c2d	NOP
-0x0c2e	NOP
-0x0c2f	NOP
-0x0c30	NOP
-0x0c31	NOP
-0x0c32	NOP
-0x0c33	NOP
-0x0c34	NOP
-0x0c35	NOP
-0x0c36	NOP
-0x0c37	NOP
-0x0c38	NOP
-0x0c39	NOP
-0x0c3a	NOP
-0x0c3b	NOP
-0x0c3c	NOP
-0x0c3d	NOP
-0x0c3e	NOP
-0x0c3f	NOP
-0x0c40	NOP
-0x0c41	NOP
-0x0c42	NOP
-0x0c43	NOP
-0x0c44	NOP
-0x0c45	NOP
-0x0c46	NOP
-0x0c47	NOP
-0x0c48	NOP
-0x0c49	NOP
-0x0c4a	NOP
-0x0c4b	NOP
-0x0c4c	NOP
-0x0c4d	NOP
-0x0c4e	NOP
-0x0c4f	NOP
-0x0c50	NOP
-0x0c51	NOP
-0x0c52	NOP
-0x0c53	NOP
-0x0c54	NOP
-0x0c55	NOP
-0x0c56	NOP
-0x0c57	NOP
-0x0c58	NOP
-0x0c59	NOP
-0x0c5a	NOP
-0x0c5b	NOP
-0x0c5c	NOP
-0x0c5d	NOP
-0x0c5e	NOP
-0x0c5f	NOP
-0x0c60	NOP
-0x0c61	NOP
-0x0c62	NOP
-0x0c63	NOP
-0x0c64	NOP
-0x0c65	NOP
-0x0c66	NOP
-0x0c67	NOP
-0x0c68	NOP
-0x0c69	NOP
-0x0c6a	NOP
-0x0c6b	NOP
-0x0c6c	NOP
-0x0c6d	NOP
-0x0c6e	NOP
-0x0c6f	NOP
-0x0c70	NOP
-0x0c71	NOP
-0x0c72	NOP
-0x0c73	NOP
-0x0c74	NOP
-0x0c75	NOP
-0x0c76	NOP
-0x0c77	NOP
-0x0c78	NOP
-0x0c79	NOP
-0x0c7a	NOP
-0x0c7b	NOP
-0x0c7c	NOP
-0x0c7d	NOP
-0x0c7e	NOP
-0x0c7f	NOP
-0x0c80	NOP
-0x0c81	NOP
-0x0c82	NOP
-0x0c83	NOP
-0x0c84	NOP
-0x0c85	NOP
-0x0c86	NOP
-0x0c87	NOP
-0x0c88	NOP
-0x0c89	NOP
-0x0c8a	NOP
-0x0c8b	NOP
-0x0c8c	NOP
-0x0c8d	NOP
-0x0c8e	NOP
-0x0c8f	NOP
-0x0c90	NOP
-0x0c91	NOP
-0x0c92	NOP
-0x0c93	NOP
-0x0c94	NOP
-0x0c95	NOP
-0x0c96	NOP
-0x0c97	NOP
-0x0c98	NOP
-0x0c99	NOP
-0x0c9a	NOP
-0x0c9b	NOP
-0x0c9c	NOP
-0x0c9d	NOP
-0x0c9e	NOP
-0x0c9f	NOP
-0x0ca0	NOP
-0x0ca1	NOP
-0x0ca2	NOP
-0x0ca3	NOP
-0x0ca4	NOP
-0x0ca5	NOP
-0x0ca6	NOP
-0x0ca7	NOP
-0x0ca8	NOP
-0x0ca9	NOP
-0x0caa	NOP
-0x0cab	NOP
-0x0cac	NOP
-0x0cad	NOP
-0x0cae	NOP
-0x0caf	NOP
-0x0cb0	NOP
-0x0cb1	NOP
-0x0cb2	NOP
-0x0cb3	NOP
-0x0cb4	NOP
-0x0cb5	NOP
-0x0cb6	NOP
-0x0cb7	NOP
-0x0cb8	NOP
-0x0cb9	NOP
-0x0cba	NOP
-0x0cbb	NOP
-0x0cbc	NOP
-0x0cbd	NOP
-0x0cbe	NOP
-0x0cbf	NOP
-0x0cc0	NOP
-0x0cc1	NOP
-0x0cc2	NOP
-0x0cc3	NOP
-0x0cc4	NOP
-0x0cc5	NOP
-0x0cc6	NOP
-0x0cc7	NOP
-0x0cc8	NOP
-0x0cc9	NOP
-0x0cca	NOP
-0x0ccb	NOP
-0x0ccc	NOP
-0x0ccd	NOP
-0x0cce	NOP
-0x0ccf	NOP
-0x0cd0	NOP
-0x0cd1	NOP
-0x0cd2	NOP
-0x0cd3	NOP
-0x0cd4	NOP
-0x0cd5	NOP
-0x0cd6	NOP
-0x0cd7	NOP
-0x0cd8	NOP
-0x0cd9	NOP
-0x0cda	NOP
-0x0cdb	NOP
-0x0cdc	NOP
-0x0cdd	NOP
-0x0cde	NOP
-0x0cdf	NOP
-0x0ce0	NOP
-0x0ce1	NOP
-0x0ce2	NOP
-0x0ce3	NOP
-0x0ce4	NOP
-0x0ce5	NOP
-0x0ce6	NOP
-0x0ce7	NOP
-0x0ce8	NOP
-0x0ce9	NOP
-0x0cea	NOP
-0x0ceb	NOP
-0x0cec	NOP
-0x0ced	NOP
-0x0cee	NOP
-0x0cef	NOP
-0x0cf0	NOP
-0x0cf1	NOP
-0x0cf2	NOP
-0x0cf3	NOP
-0x0cf4	NOP
-0x0cf5	NOP
-0x0cf6	NOP
-0x0cf7	NOP
-0x0cf8	NOP
-0x0cf9	NOP
-0x0cfa	NOP
-0x0cfb	NOP
-0x0cfc	NOP
-0x0cfd	NOP
-0x0cfe	NOP
-0x0cff	NOP
-0x0d00	NOP
-0x0d01	NOP
-0x0d02	NOP
-0x0d03	NOP
-0x0d04	NOP
-0x0d05	NOP
-0x0d06	NOP
-0x0d07	NOP
-0x0d08	NOP
-0x0d09	NOP
-0x0d0a	NOP
-0x0d0b	NOP
-0x0d0c	NOP
-0x0d0d	NOP
-0x0d0e	NOP
-0x0d0f	NOP
-0x0d10	NOP
-0x0d11	NOP
-0x0d12	NOP
-0x0d13	NOP
-0x0d14	NOP
-0x0d15	NOP
-0x0d16	NOP
-0x0d17	NOP
-0x0d18	NOP
-0x0d19	NOP
-0x0d1a	NOP
-0x0d1b	NOP
-0x0d1c	NOP
-0x0d1d	NOP
-0x0d1e	NOP
-0x0d1f	NOP
-0x0d20	NOP
-0x0d21	NOP
-0x0d22	NOP
-0x0d23	NOP
-0x0d24	NOP
-0x0d25	NOP
-0x0d26	NOP
-0x0d27	NOP
-0x0d28	NOP
-0x0d29	NOP
-0x0d2a	NOP
-0x0d2b	NOP
-0x0d2c	NOP
-0x0d2d	NOP
-0x0d2e	NOP
-0x0d2f	NOP
-0x0d30	NOP
-0x0d31	NOP
-0x0d32	NOP
-0x0d33	NOP
-0x0d34	NOP
-0x0d35	NOP
-0x0d36	NOP
-0x0d37	NOP
-0x0d38	NOP
-0x0d39	NOP
-0x0d3a	NOP
-0x0d3b	NOP
-0x0d3c	NOP
-0x0d3d	NOP
-0x0d3e	NOP
-0x0d3f	NOP
-0x0d40	NOP
-0x0d41	NOP
-0x0d42	NOP
-0x0d43	NOP
-0x0d44	NOP
-0x0d45	NOP
-0x0d46	NOP
-0x0d47	NOP
-0x0d48	NOP
-0x0d49	NOP
-0x0d4a	NOP
-0x0d4b	NOP
-0x0d4c	NOP
-0x0d4d	NOP
-0x0d4e	NOP
-0x0d4f	NOP
-0x0d50	NOP
-0x0d51	NOP
-0x0d52	NOP
-0x0d53	NOP
-0x0d54	NOP
-0x0d55	NOP
-0x0d56	NOP
-0x0d57	NOP
-0x0d58	NOP
-0x0d59	NOP
-0x0d5a	NOP
-0x0d5b	NOP
-0x0d5c	NOP
-0x0d5d	NOP
-0x0d5e	NOP
-0x0d5f	NOP
-0x0d60	NOP
-0x0d61	NOP
-0x0d62	NOP
-0x0d63	NOP
-0x0d64	NOP
-0x0d65	NOP
-0x0d66	NOP
-0x0d67	NOP
-0x0d68	NOP
-0x0d69	NOP
-0x0d6a	NOP
-0x0d6b	NOP
-0x0d6c	NOP
-0x0d6d	NOP
-0x0d6e	NOP
-0x0d6f	NOP
-0x0d70	NOP
-0x0d71	NOP
-0x0d72	NOP
-0x0d73	NOP
-0x0d74	NOP
-0x0d75	NOP
-0x0d76	NOP
-0x0d77	NOP
-0x0d78	NOP
-0x0d79	NOP
-0x0d7a	NOP
-0x0d7b	NOP
-0x0d7c	NOP
-0x0d7d	NOP
-0x0d7e	NOP
-0x0d7f	NOP
-0x0d80	NOP
-0x0d81	NOP
-0x0d82	NOP
-0x0d83	NOP
-0x0d84	NOP
-0x0d85	NOP
-0x0d86	NOP
-0x0d87	NOP
-0x0d88	NOP
-0x0d89	NOP
-0x0d8a	NOP
-0x0d8b	NOP
-0x0d8c	NOP
-0x0d8d	NOP
-0x0d8e	NOP
-0x0d8f	NOP
-0x0d90	NOP
-0x0d91	NOP
-0x0d92	NOP
-0x0d93	NOP
-0x0d94	NOP
-0x0d95	NOP
-0x0d96	NOP
-0x0d97	NOP
-0x0d98	NOP
-0x0d99	NOP
-0x0d9a	NOP
-0x0d9b	NOP
-0x0d9c	NOP
-0x0d9d	NOP
-0x0d9e	NOP
-0x0d9f	NOP
-0x0da0	NOP
-0x0da1	NOP
-0x0da2	NOP
-0x0da3	NOP
-0x0da4	NOP
-0x0da5	NOP
-0x0da6	NOP
-0x0da7	NOP
-0x0da8	NOP
-0x0da9	NOP
-0x0daa	NOP
-0x0dab	NOP
-0x0dac	NOP
-0x0dad	NOP
-0x0dae	NOP
-0x0daf	NOP
-0x0db0	NOP
-0x0db1	NOP
-0x0db2	NOP
-0x0db3	NOP
-0x0db4	NOP
-0x0db5	NOP
-0x0db6	NOP
-0x0db7	NOP
-0x0db8	NOP
-0x0db9	NOP
-0x0dba	NOP
-0x0dbb	NOP
-0x0dbc	NOP
-0x0dbd	NOP
-0x0dbe	NOP
-0x0dbf	NOP
-0x0dc0	NOP
-0x0dc1	NOP
-0x0dc2	NOP
-0x0dc3	NOP
-0x0dc4	NOP
-0x0dc5	NOP
-0x0dc6	NOP
-0x0dc7	NOP
-0x0dc8	NOP
-0x0dc9	NOP
-0x0dca	NOP
-0x0dcb	NOP
-0x0dcc	NOP
-0x0dcd	NOP
-0x0dce	NOP
-0x0dcf	NOP
-0x0dd0	NOP
-0x0dd1	NOP
-0x0dd2	NOP
-0x0dd3	NOP
-0x0dd4	NOP
-0x0dd5	NOP
-0x0dd6	NOP
-0x0dd7	NOP
-0x0dd8	NOP
-0x0dd9	NOP
-0x0dda	NOP
-0x0ddb	NOP
-0x0ddc	NOP
-0x0ddd	NOP
-0x0dde	NOP
-0x0ddf	NOP
-0x0de0	NOP
-0x0de1	NOP
-0x0de2	NOP
-0x0de3	NOP
-0x0de4	NOP
-0x0de5	NOP
-0x0de6	NOP
-0x0de7	NOP
-0x0de8	NOP
-0x0de9	NOP
-0x0dea	NOP
-0x0deb	NOP
-0x0dec	NOP
-0x0ded	NOP
-0x0dee	NOP
-0x0def	NOP
-0x0df0	NOP
-0x0df1	NOP
-0x0df2	NOP
-0x0df3	NOP
-0x0df4	NOP
-0x0df5	NOP
-0x0df6	NOP
-0x0df7	NOP
-0x0df8	NOP
-0x0df9	NOP
-0x0dfa	NOP
-0x0dfb	NOP
-0x0dfc	NOP
-0x0dfd	NOP
-0x0dfe	NOP
-0x0dff	NOP
-0x0e00	NOP
-0x0e01	NOP
-0x0e02	NOP
-0x0e03	NOP
-0x0e04	NOP
-0x0e05	NOP
-0x0e06	NOP
-0x0e07	NOP
-0x0e08	NOP
-0x0e09	NOP
-0x0e0a	NOP
-0x0e0b	NOP
-0x0e0c	NOP
-0x0e0d	NOP
-0x0e0e	NOP
-0x0e0f	NOP
-0x0e10	NOP
-0x0e11	NOP
-0x0e12	NOP
-0x0e13	NOP
-0x0e14	NOP
-0x0e15	NOP
-0x0e16	NOP
-0x0e17	NOP
-0x0e18	NOP
-0x0e19	NOP
-0x0e1a	NOP
-0x0e1b	NOP
-0x0e1c	NOP
-0x0e1d	NOP
-0x0e1e	NOP
-0x0e1f	NOP
-0x0e20	NOP
-0x0e21	NOP
-0x0e22	NOP
-0x0e23	NOP
-0x0e24	NOP
-0x0e25	NOP
-0x0e26	NOP
-0x0e27	NOP
-0x0e28	NOP
-0x0e29	NOP
-0x0e2a	NOP
-0x0e2b	NOP
-0x0e2c	NOP
-0x0e2d	NOP
-0x0e2e	NOP
-0x0e2f	NOP
-0x0e30	NOP
-0x0e31	NOP
-0x0e32	NOP
-0x0e33	NOP
-0x0e34	NOP
-0x0e35	NOP
-0x0e36	NOP
-0x0e37	NOP
-0x0e38	NOP
-0x0e39	NOP
-0x0e3a	NOP
-0x0e3b	NOP
-0x0e3c	NOP
-0x0e3d	NOP
-0x0e3e	NOP
-0x0e3f	NOP
-0x0e40	NOP
-0x0e41	NOP
-0x0e42	NOP
-0x0e43	NOP
-0x0e44	NOP
-0x0e45	NOP
-0x0e46	NOP
-0x0e47	NOP
-0x0e48	NOP
-0x0e49	NOP
-0x0e4a	NOP
-0x0e4b	NOP
-0x0e4c	NOP
-0x0e4d	NOP
-0x0e4e	NOP
-0x0e4f	NOP
-0x0e50	NOP
-0x0e51	NOP
-0x0e52	NOP
-0x0e53	NOP
-0x0e54	NOP
-0x0e55	NOP
-0x0e56	NOP
-0x0e57	NOP
-0x0e58	NOP
-0x0e59	NOP
-0x0e5a	NOP
-0x0e5b	NOP
-0x0e5c	NOP
-0x0e5d	NOP
-0x0e5e	NOP
-0x0e5f	NOP
-0x0e60	NOP
-0x0e61	NOP
-0x0e62	NOP
-0x0e63	NOP
-0x0e64	NOP
-0x0e65	NOP
-0x0e66	NOP
-0x0e67	NOP
-0x0e68	NOP
-0x0e69	NOP
-0x0e6a	NOP
-0x0e6b	NOP
-0x0e6c	NOP
-0x0e6d	NOP
-0x0e6e	NOP
-0x0e6f	NOP
-0x0e70	NOP
-0x0e71	NOP
-0x0e72	NOP
-0x0e73	NOP
-0x0e74	NOP
-0x0e75	NOP
-0x0e76	NOP
-0x0e77	NOP
-0x0e78	NOP
-0x0e79	NOP
-0x0e7a	NOP
-0x0e7b	NOP
-0x0e7c	NOP
-0x0e7d	NOP
-0x0e7e	NOP
-0x0e7f	NOP
-0x0e80	NOP
-0x0e81	NOP
-0x0e82	NOP
-0x0e83	NOP
-0x0e84	NOP
-0x0e85	NOP
-0x0e86	NOP
-0x0e87	NOP
-0x0e88	NOP
-0x0e89	NOP
-0x0e8a	NOP
-0x0e8b	NOP
-0x0e8c	NOP
-0x0e8d	NOP
-0x0e8e	NOP
-0x0e8f	NOP
-0x0e90	NOP
-0x0e91	NOP
-0x0e92	NOP
-0x0e93	NOP
-0x0e94	NOP
-0x0e95	NOP
-0x0e96	NOP
-0x0e97	NOP
-0x0e98	NOP
-0x0e99	NOP
-0x0e9a	NOP
-0x0e9b	NOP
-0x0e9c	NOP
-0x0e9d	NOP
-0x0e9e	NOP
-0x0e9f	NOP
-0x0ea0	NOP
-0x0ea1	NOP
-0x0ea2	NOP
-0x0ea3	NOP
-0x0ea4	NOP
-0x0ea5	NOP
-0x0ea6	NOP
-0x0ea7	NOP
-0x0ea8	NOP
-0x0ea9	NOP
-0x0eaa	NOP
-0x0eab	NOP
-0x0eac	NOP
-0x0ead	NOP
-0x0eae	NOP
-0x0eaf	NOP
-0x0eb0	NOP
-0x0eb1	NOP
-0x0eb2	NOP
-0x0eb3	NOP
-0x0eb4	NOP
-0x0eb5	NOP
-0x0eb6	NOP
-0x0eb7	NOP
-0x0eb8	NOP
-0x0eb9	NOP
-0x0eba	NOP
-0x0ebb	NOP
-0x0ebc	NOP
-0x0ebd	NOP
-0x0ebe	NOP
-0x0ebf	NOP
-0x0ec0	NOP
-0x0ec1	NOP
-0x0ec2	NOP
-0x0ec3	NOP
-0x0ec4	NOP
-0x0ec5	NOP
-0x0ec6	NOP
-0x0ec7	NOP
-0x0ec8	NOP
-0x0ec9	NOP
-0x0eca	NOP
-0x0ecb	NOP
-0x0ecc	NOP
-0x0ecd	NOP
-0x0ece	NOP
-0x0ecf	NOP
-0x0ed0	NOP
-0x0ed1	NOP
-0x0ed2	NOP
-0x0ed3	NOP
-0x0ed4	NOP
-0x0ed5	NOP
-0x0ed6	NOP
-0x0ed7	NOP
-0x0ed8	NOP
-0x0ed9	NOP
-0x0eda	NOP
-0x0edb	NOP
-0x0edc	NOP
-0x0edd	NOP
-0x0ede	NOP
-0x0edf	NOP
-0x0ee0	NOP
-0x0ee1	NOP
-0x0ee2	NOP
-0x0ee3	NOP
-0x0ee4	NOP
-0x0ee5	NOP
-0x0ee6	NOP
-0x0ee7	NOP
-0x0ee8	NOP
-0x0ee9	NOP
-0x0eea	NOP
-0x0eeb	NOP
-0x0eec	NOP
-0x0eed	NOP
-0x0eee	NOP
-0x0eef	NOP
-0x0ef0	NOP
-0x0ef1	NOP
-0x0ef2	NOP
-0x0ef3	NOP
-0x0ef4	NOP
-0x0ef5	NOP
-0x0ef6	NOP
-0x0ef7	NOP
-0x0ef8	NOP
-0x0ef9	NOP
-0x0efa	NOP
-0x0efb	NOP
-0x0efc	NOP
-0x0efd	NOP
-0x0efe	NOP
-0x0eff	NOP
-0x0f00	NOP
-0x0f01	NOP
-0x0f02	NOP
-0x0f03	NOP
-0x0f04	NOP
-0x0f05	NOP
-0x0f06	NOP
-0x0f07	NOP
-0x0f08	NOP
-0x0f09	NOP
-0x0f0a	NOP
-0x0f0b	NOP
-0x0f0c	NOP
-0x0f0d	NOP
-0x0f0e	NOP
-0x0f0f	NOP
-0x0f10	NOP
-0x0f11	NOP
-0x0f12	NOP
-0x0f13	NOP
-0x0f14	NOP
-0x0f15	NOP
-0x0f16	NOP
-0x0f17	NOP
-0x0f18	NOP
-0x0f19	NOP
-0x0f1a	NOP
-0x0f1b	NOP
-0x0f1c	NOP
-0x0f1d	NOP
-0x0f1e	NOP
-0x0f1f	NOP
-0x0f20	NOP
-0x0f21	NOP
-0x0f22	NOP
-0x0f23	NOP
-0x0f24	NOP
-0x0f25	NOP
-0x0f26	NOP
-0x0f27	NOP
-0x0f28	NOP
-0x0f29	NOP
-0x0f2a	NOP
-0x0f2b	NOP
-0x0f2c	NOP
-0x0f2d	NOP
-0x0f2e	NOP
-0x0f2f	NOP
-0x0f30	NOP
-0x0f31	NOP
-0x0f32	NOP
-0x0f33	NOP
-0x0f34	NOP
-0x0f35	NOP
-0x0f36	NOP
-0x0f37	NOP
-0x0f38	NOP
-0x0f39	NOP
-0x0f3a	NOP
-0x0f3b	NOP
-0x0f3c	NOP
-0x0f3d	NOP
-0x0f3e	NOP
-0x0f3f	NOP
-0x0f40	NOP
-0x0f41	NOP
-0x0f42	NOP
-0x0f43	NOP
-0x0f44	NOP
-0x0f45	NOP
-0x0f46	NOP
-0x0f47	NOP
-0x0f48	NOP
-0x0f49	NOP
-0x0f4a	NOP
-0x0f4b	NOP
-0x0f4c	NOP
-0x0f4d	NOP
-0x0f4e	NOP
-0x0f4f	NOP
-0x0f50	NOP
-0x0f51	NOP
-0x0f52	NOP
-0x0f53	NOP
-0x0f54	NOP
-0x0f55	NOP
-0x0f56	NOP
-0x0f57	NOP
-0x0f58	NOP
-0x0f59	NOP
-0x0f5a	NOP
-0x0f5b	NOP
-0x0f5c	NOP
-0x0f5d	NOP
-0x0f5e	NOP
-0x0f5f	NOP
-0x0f60	NOP
-0x0f61	NOP
-0x0f62	NOP
-0x0f63	NOP
-0x0f64	NOP
-0x0f65	NOP
-0x0f66	NOP
-0x0f67	NOP
-0x0f68	NOP
-0x0f69	NOP
-0x0f6a	NOP
-0x0f6b	NOP
-0x0f6c	NOP
-0x0f6d	NOP
-0x0f6e	NOP
-0x0f6f	NOP
-0x0f70	NOP
-0x0f71	NOP
-0x0f72	NOP
-0x0f73	NOP
-0x0f74	NOP
-0x0f75	NOP
-0x0f76	NOP
-0x0f77	NOP
-0x0f78	NOP
-0x0f79	NOP
-0x0f7a	NOP
-0x0f7b	NOP
-0x0f7c	NOP
-0x0f7d	NOP
-0x0f7e	NOP
-0x0f7f	NOP
-0x0f80	NOP
-0x0f81	NOP
-0x0f82	NOP
-0x0f83	NOP
-0x0f84	NOP
-0x0f85	NOP
-0x0f86	NOP
-0x0f87	NOP
-0x0f88	NOP
-0x0f89	NOP
-0x0f8a	NOP
-0x0f8b	NOP
-0x0f8c	NOP
-0x0f8d	NOP
-0x0f8e	NOP
-0x0f8f	NOP
-0x0f90	NOP
-0x0f91	NOP
-0x0f92	NOP
-0x0f93	NOP
-0x0f94	NOP
-0x0f95	NOP
-0x0f96	NOP
-0x0f97	NOP
-0x0f98	NOP
-0x0f99	NOP
-0x0f9a	NOP
-0x0f9b	NOP
-0x0f9c	NOP
-0x0f9d	NOP
-0x0f9e	NOP
-0x0f9f	NOP
-0x0fa0	NOP
-0x0fa1	NOP
-0x0fa2	NOP
-0x0fa3	NOP
-0x0fa4	NOP
-0x0fa5	NOP
-0x0fa6	NOP
-0x0fa7	NOP
-0x0fa8	NOP
-0x0fa9	NOP
-0x0faa	NOP
-0x0fab	NOP
-0x0fac	NOP
-0x0fad	NOP
-0x0fae	NOP
-0x0faf	NOP
-0x0fb0	NOP
-0x0fb1	NOP
-0x0fb2	NOP
-0x0fb3	NOP
-0x0fb4	NOP
-0x0fb5	NOP
-0x0fb6	NOP
-0x0fb7	NOP
-0x0fb8	NOP
-0x0fb9	NOP
-0x0fba	NOP
-0x0fbb	NOP
-0x0fbc	NOP
-0x0fbd	NOP
-0x0fbe	NOP
-0x0fbf	NOP
-0x0fc0	NOP
-0x0fc1	NOP
-0x0fc2	NOP
-0x0fc3	NOP
-0x0fc4	NOP
-0x0fc5	NOP
-0x0fc6	NOP
-0x0fc7	NOP
-0x0fc8	NOP
-0x0fc9	NOP
-0x0fca	NOP
-0x0fcb	NOP
-0x0fcc	NOP
-0x0fcd	NOP
-0x0fce	NOP
-0x0fcf	NOP
-0x0fd0	NOP
-0x0fd1	NOP
-0x0fd2	NOP
-0x0fd3	NOP
-0x0fd4	NOP
-0x0fd5	NOP
-0x0fd6	NOP
-0x0fd7	NOP
-0x0fd8	NOP
-0x0fd9	NOP
-0x0fda	NOP
-0x0fdb	NOP
-0x0fdc	NOP
-0x0fdd	NOP
-0x0fde	NOP
-0x0fdf	NOP
-0x0fe0	NOP
-0x0fe1	NOP
-0x0fe2	NOP
-0x0fe3	NOP
-0x0fe4	NOP
-0x0fe5	NOP
-0x0fe6	NOP
-0x0fe7	NOP
-0x0fe8	NOP
-0x0fe9	NOP
-0x0fea	NOP
-0x0feb	NOP
-0x0fec	NOP
-0x0fed	NOP
-0x0fee	NOP
-0x0fef	NOP
-0x0ff0	NOP
-0x0ff1	NOP
-0x0ff2	NOP
-0x0ff3	NOP
-0x0ff4	NOP
-0x0ff5	NOP
-0x0ff6	NOP
-0x0ff7	NOP
-0x0ff8	NOP
-0x0ff9	NOP
-0x0ffa	NOP
-0x0ffb	NOP
-0x0ffc	NOP
-0x0ffd	NOP
-0x0ffe	NOP
-0x0fff	NOP
-0x1000	NOP
-0x1001	NOP
-0x1002	NOP
-0x1003	NOP
-0x1004	NOP
-0x1005	NOP
-0x1006	NOP
-0x1007	NOP
-0x1008	NOP
-0x1009	NOP
-0x100a	NOP
-0x100b	NOP
-0x100c	NOP
-0x100d	NOP
-0x100e	NOP
-0x100f	NOP
-0x1010	NOP
-0x1011	NOP
-0x1012	NOP
-0x1013	NOP
-0x1014	NOP
-0x1015	NOP
-0x1016	NOP
-0x1017	NOP
-0x1018	NOP
-0x1019	NOP
-0x101a	NOP
-0x101b	NOP
-0x101c	NOP
-0x101d	NOP
-0x101e	NOP
-0x101f	NOP
-0x1020	NOP
-0x1021	NOP
-0x1022	NOP
-0x1023	NOP
-0x1024	NOP
-0x1025	NOP
-0x1026	NOP
-0x1027	NOP
-0x1028	NOP
-0x1029	NOP
-0x102a	NOP
-0x102b	NOP
-0x102c	NOP
-0x102d	NOP
-0x102e	NOP
-0x102f	NOP
-0x1030	NOP
-0x1031	NOP
-0x1032	NOP
-0x1033	NOP
-0x1034	NOP
-0x1035	NOP
-0x1036	NOP
-0x1037	NOP
-0x1038	NOP
-0x1039	NOP
-0x103a	NOP
-0x103b	NOP
-0x103c	NOP
-0x103d	NOP
-0x103e	NOP
-0x103f	NOP
-0x1040	NOP
-0x1041	NOP
-0x1042	NOP
-0x1043	NOP
-0x1044	NOP
-0x1045	NOP
-0x1046	NOP
-0x1047	NOP
-0x1048	NOP
-0x1049	NOP
-0x104a	NOP
-0x104b	NOP
-0x104c	NOP
-0x104d	NOP
-0x104e	NOP
-0x104f	NOP
-0x1050	NOP
-0x1051	NOP
-0x1052	NOP
-0x1053	NOP
-0x1054	NOP
-0x1055	NOP
-0x1056	NOP
-0x1057	NOP
-0x1058	NOP
-0x1059	NOP
-0x105a	NOP
-0x105b	NOP
-0x105c	NOP
-0x105d	NOP
-0x105e	NOP
-0x105f	NOP
-0x1060	NOP
-0x1061	NOP
-0x1062	NOP
-0x1063	NOP
-0x1064	NOP
-0x1065	NOP
-0x1066	NOP
-0x1067	NOP
-0x1068	NOP
-0x1069	NOP
-0x106a	NOP
-0x106b	NOP
-0x106c	NOP
-0x106d	NOP
-0x106e	NOP
-0x106f	NOP
-0x1070	NOP
-0x1071	NOP
-0x1072	NOP
-0x1073	NOP
-0x1074	NOP
-0x1075	NOP
-0x1076	NOP
-0x1077	NOP
-0x1078	NOP
-0x1079	NOP
-0x107a	NOP
-0x107b	NOP
-0x107c	NOP
-0x107d	NOP
-0x107e	NOP
-0x107f	NOP
-0x1080	NOP
-0x1081	NOP
-0x1082	NOP
-0x1083	NOP
-0x1084	NOP
-0x1085	NOP
-0x1086	NOP
-0x1087	NOP
-0x1088	NOP
-0x1089	NOP
-0x108a	NOP
-0x108b	NOP
-0x108c	NOP
-0x108d	NOP
-0x108e	NOP
-0x108f	NOP
-0x1090	NOP
-0x1091	NOP
-0x1092	NOP
-0x1093	NOP
-0x1094	NOP
-0x1095	NOP
-0x1096	NOP
-0x1097	NOP
-0x1098	NOP
-0x1099	NOP
-0x109a	NOP
-0x109b	NOP
-0x109c	NOP
-0x109d	NOP
-0x109e	NOP
-0x109f	NOP
-0x10a0	NOP
-0x10a1	NOP
-0x10a2	NOP
-0x10a3	NOP
-0x10a4	NOP
-0x10a5	NOP
-0x10a6	NOP
-0x10a7	NOP
-0x10a8	NOP
-0x10a9	NOP
-0x10aa	NOP
-0x10ab	NOP
-0x10ac	NOP
-0x10ad	NOP
-0x10ae	NOP
-0x10af	NOP
-0x10b0	NOP
-0x10b1	NOP
-0x10b2	NOP
-0x10b3	NOP
-0x10b4	NOP
-0x10b5	NOP
-0x10b6	NOP
-0x10b7	NOP
-0x10b8	NOP
-0x10b9	NOP
-0x10ba	NOP
-0x10bb	NOP
-0x10bc	NOP
-0x10bd	NOP
-0x10be	NOP
-0x10bf	NOP
-0x10c0	NOP
-0x10c1	NOP
-0x10c2	NOP
-0x10c3	NOP
-0x10c4	NOP
-0x10c5	NOP
-0x10c6	NOP
-0x10c7	NOP
-0x10c8	NOP
-0x10c9	NOP
-0x10ca	NOP
-0x10cb	NOP
-0x10cc	NOP
-0x10cd	NOP
-0x10ce	NOP
-0x10cf	NOP
-0x10d0	NOP
-0x10d1	NOP
-0x10d2	NOP
-0x10d3	NOP
-0x10d4	NOP
-0x10d5	NOP
-0x10d6	NOP
-0x10d7	NOP
-0x10d8	NOP
-0x10d9	NOP
-0x10da	NOP
-0x10db	NOP
-0x10dc	NOP
-0x10dd	NOP
-0x10de	NOP
-0x10df	NOP
-0x10e0	NOP
-0x10e1	NOP
-0x10e2	NOP
-0x10e3	NOP
-0x10e4	NOP
-0x10e5	NOP
-0x10e6	NOP
-0x10e7	NOP
-0x10e8	NOP
-0x10e9	NOP
-0x10ea	NOP
-0x10eb	NOP
-0x10ec	NOP
-0x10ed	NOP
-0x10ee	NOP
-0x10ef	NOP
-0x10f0	NOP
-0x10f1	NOP
-0x10f2	NOP
-0x10f3	NOP
-0x10f4	NOP
-0x10f5	NOP
-0x10f6	NOP
-0x10f7	NOP
-0x10f8	NOP
-0x10f9	NOP
-0x10fa	NOP
-0x10fb	NOP
-0x10fc	NOP
-0x10fd	NOP
-0x10fe	NOP
-0x10ff	NOP
-0x1100	NOP
-0x1101	NOP
-0x1102	NOP
-0x1103	NOP
-0x1104	NOP
-0x1105	NOP
-0x1106	NOP
-0x1107	NOP
-0x1108	NOP
-0x1109	NOP
-0x110a	NOP
-0x110b	NOP
-0x110c	NOP
-0x110d	NOP
-0x110e	NOP
-0x110f	NOP
-0x1110	NOP
-0x1111	NOP
-0x1112	NOP
-0x1113	NOP
-0x1114	NOP
-0x1115	NOP
-0x1116	NOP
-0x1117	NOP
-0x1118	NOP
-0x1119	NOP
-0x111a	NOP
-0x111b	NOP
-0x111c	NOP
-0x111d	NOP
-0x111e	NOP
-0x111f	NOP
-0x1120	NOP
-0x1121	NOP
-0x1122	NOP
-0x1123	NOP
-0x1124	NOP
-0x1125	NOP
-0x1126	NOP
-0x1127	NOP
-0x1128	NOP
-0x1129	NOP
-0x112a	NOP
-0x112b	NOP
-0x112c	NOP
-0x112d	NOP
-0x112e	NOP
-0x112f	NOP
-0x1130	NOP
-0x1131	NOP
-0x1132	NOP
-0x1133	NOP
-0x1134	NOP
-0x1135	NOP
-0x1136	NOP
-0x1137	NOP
-0x1138	NOP
-0x1139	NOP
-0x113a	NOP
-0x113b	NOP
-0x113c	NOP
-0x113d	NOP
-0x113e	NOP
-0x113f	NOP
-0x1140	NOP
-0x1141	NOP
-0x1142	NOP
-0x1143	NOP
-0x1144	NOP
-0x1145	NOP
-0x1146	NOP
-0x1147	NOP
-0x1148	NOP
-0x1149	NOP
-0x114a	NOP
-0x114b	NOP
-0x114c	NOP
-0x114d	NOP
-0x114e	NOP
-0x114f	NOP
-0x1150	NOP
-0x1151	NOP
-0x1152	NOP
-0x1153	NOP
-0x1154	NOP
-0x1155	NOP
-0x1156	NOP
-0x1157	NOP
-0x1158	NOP
-0x1159	NOP
-0x115a	NOP
-0x115b	NOP
-0x115c	NOP
-0x115d	NOP
-0x115e	NOP
-0x115f	NOP
-0x1160	NOP
-0x1161	NOP
-0x1162	NOP
-0x1163	NOP
-0x1164	NOP
-0x1165	NOP
-0x1166	NOP
-0x1167	NOP
-0x1168	NOP
-0x1169	NOP
-0x116a	NOP
-0x116b	NOP
-0x116c	NOP
-0x116d	NOP
-0x116e	NOP
-0x116f	NOP
-0x1170	NOP
-0x1171	NOP
-0x1172	NOP
-0x1173	NOP
-0x1174	NOP
-0x1175	NOP
-0x1176	NOP
-0x1177	NOP
-0x1178	NOP
-0x1179	NOP
-0x117a	NOP
-0x117b	NOP
-0x117c	NOP
-0x117d	NOP
-0x117e	NOP
-0x117f	NOP
-0x1180	NOP
-0x1181	NOP
-0x1182	NOP
-0x1183	NOP
-0x1184	NOP
-0x1185	NOP
-0x1186	NOP
-0x1187	NOP
-0x1188	NOP
-0x1189	NOP
-0x118a	NOP
-0x118b	NOP
-0x118c	NOP
-0x118d	NOP
-0x118e	NOP
-0x118f	NOP
-0x1190	NOP
-0x1191	NOP
-0x1192	NOP
-0x1193	NOP
-0x1194	NOP
-0x1195	NOP
-0x1196	NOP
-0x1197	NOP
-0x1198	NOP
-0x1199	NOP
-0x119a	NOP
-0x119b	NOP
-0x119c	NOP
-0x119d	NOP
-0x119e	NOP
-0x119f	NOP
-0x11a0	NOP
-0x11a1	NOP
-0x11a2	NOP
-0x11a3	NOP
-0x11a4	NOP
-0x11a5	NOP
-0x11a6	NOP
-0x11a7	NOP
-0x11a8	NOP
-0x11a9	NOP
-0x11aa	NOP
-0x11ab	NOP
-0x11ac	NOP
-0x11ad	NOP
-0x11ae	NOP
-0x11af	NOP
-0x11b0	NOP
-0x11b1	NOP
-0x11b2	NOP
-0x11b3	NOP
-0x11b4	NOP
-0x11b5	NOP
-0x11b6	NOP
-0x11b7	NOP
-0x11b8	NOP
-0x11b9	NOP
-0x11ba	NOP
-0x11bb	NOP
-0x11bc	NOP
-0x11bd	NOP
-0x11be	NOP
-0x11bf	NOP
-0x11c0	NOP
-0x11c1	NOP
-0x11c2	NOP
-0x11c3	NOP
-0x11c4	NOP
-0x11c5	NOP
-0x11c6	NOP
-0x11c7	NOP
-0x11c8	NOP
-0x11c9	NOP
-0x11ca	NOP
-0x11cb	NOP
-0x11cc	NOP
-0x11cd	NOP
-0x11ce	NOP
-0x11cf	NOP
-0x11d0	NOP
-0x11d1	NOP
-0x11d2	NOP
-0x11d3	NOP
-0x11d4	NOP
-0x11d5	NOP
-0x11d6	NOP
-0x11d7	NOP
-0x11d8	NOP
-0x11d9	NOP
-0x11da	NOP
-0x11db	NOP
-0x11dc	NOP
-0x11dd	NOP
-0x11de	NOP
-0x11df	NOP
-0x11e0	NOP
-0x11e1	NOP
-0x11e2	NOP
-0x11e3	NOP
-0x11e4	NOP
-0x11e5	NOP
-0x11e6	NOP
-0x11e7	NOP
-0x11e8	NOP
-0x11e9	NOP
-0x11ea	NOP
-0x11eb	NOP
-0x11ec	NOP
-0x11ed	NOP
-0x11ee	NOP
-0x11ef	NOP
-0x11f0	NOP
-0x11f1	NOP
-0x11f2	NOP
-0x11f3	NOP
-0x11f4	NOP
-0x11f5	NOP
-0x11f6	NOP
-0x11f7	NOP
-0x11f8	NOP
-0x11f9	NOP
-0x11fa	NOP
-0x11fb	NOP
-0x11fc	NOP
-0x11fd	NOP
-0x11fe	NOP
-0x11ff	NOP
-0x1200	NOP
-0x1201	NOP
-0x1202	NOP
-0x1203	NOP
-0x1204	NOP
-0x1205	NOP
-0x1206	NOP
-0x1207	NOP
-0x1208	NOP
-0x1209	NOP
-0x120a	NOP
-0x120b	NOP
-0x120c	NOP
-0x120d	NOP
-0x120e	NOP
-0x120f	NOP
-0x1210	NOP
-0x1211	NOP
-0x1212	NOP
-0x1213	NOP
-0x1214	NOP
-0x1215	NOP
-0x1216	NOP
-0x1217	NOP
-0x1218	NOP
-0x1219	NOP
-0x121a	NOP
-0x121b	NOP
-0x121c	NOP
-0x121d	NOP
-0x121e	NOP
-0x121f	NOP
-0x1220	NOP
-0x1221	NOP
-0x1222	NOP
-0x1223	NOP
-0x1224	NOP
-0x1225	NOP
-0x1226	NOP
-0x1227	NOP
-0x1228	NOP
-0x1229	NOP
-0x122a	NOP
-0x122b	NOP
-0x122c	NOP
-0x122d	NOP
-0x122e	NOP
-0x122f	NOP
-0x1230	NOP
-0x1231	NOP
-0x1232	NOP
-0x1233	NOP
-0x1234	NOP
-0x1235	NOP
-0x1236	NOP
-0x1237	NOP
-0x1238	NOP
-0x1239	NOP
-0x123a	NOP
-0x123b	NOP
-0x123c	NOP
-0x123d	NOP
-0x123e	NOP
-0x123f	NOP
-0x1240	NOP
-0x1241	NOP
-0x1242	NOP
-0x1243	NOP
-0x1244	NOP
-0x1245	NOP
-0x1246	NOP
-0x1247	NOP
-0x1248	NOP
-0x1249	NOP
-0x124a	NOP
-0x124b	NOP
-0x124c	NOP
-0x124d	NOP
-0x124e	NOP
-0x124f	NOP
-0x1250	NOP
-0x1251	NOP
-0x1252	NOP
-0x1253	NOP
-0x1254	NOP
-0x1255	NOP
-0x1256	NOP
-0x1257	NOP
-0x1258	NOP
-0x1259	NOP
-0x125a	NOP
-0x125b	NOP
-0x125c	NOP
-0x125d	NOP
-0x125e	NOP
-0x125f	NOP
-0x1260	NOP
-0x1261	NOP
-0x1262	NOP
-0x1263	NOP
-0x1264	NOP
-0x1265	NOP
-0x1266	NOP
-0x1267	NOP
-0x1268	NOP
-0x1269	NOP
-0x126a	NOP
-0x126b	NOP
-0x126c	NOP
-0x126d	NOP
-0x126e	NOP
-0x126f	NOP
-0x1270	NOP
-0x1271	NOP
-0x1272	NOP
-0x1273	NOP
-0x1274	NOP
-0x1275	NOP
-0x1276	NOP
-0x1277	NOP
-0x1278	NOP
-0x1279	NOP
-0x127a	NOP
-0x127b	NOP
-0x127c	NOP
-0x127d	NOP
-0x127e	NOP
-0x127f	NOP
-0x1280	NOP
-0x1281	NOP
-0x1282	NOP
-0x1283	NOP
-0x1284	NOP
-0x1285	NOP
-0x1286	NOP
-0x1287	NOP
-0x1288	NOP
-0x1289	NOP
-0x128a	NOP
-0x128b	NOP
-0x128c	NOP
-0x128d	NOP
-0x128e	NOP
-0x128f	NOP
-0x1290	NOP
-0x1291	NOP
-0x1292	NOP
-0x1293	NOP
-0x1294	NOP
-0x1295	NOP
-0x1296	NOP
-0x1297	NOP
-0x1298	NOP
-0x1299	NOP
-0x129a	NOP
-0x129b	NOP
-0x129c	NOP
-0x129d	NOP
-0x129e	NOP
-0x129f	NOP
-0x12a0	NOP
-0x12a1	NOP
-0x12a2	NOP
-0x12a3	NOP
-0x12a4	NOP
-0x12a5	NOP
-0x12a6	NOP
-0x12a7	NOP
-0x12a8	NOP
-0x12a9	NOP
-0x12aa	NOP
-0x12ab	NOP
-0x12ac	NOP
-0x12ad	NOP
-0x12ae	NOP
-0x12af	NOP
-0x12b0	NOP
-0x12b1	NOP
-0x12b2	NOP
-0x12b3	NOP
-0x12b4	NOP
-0x12b5	NOP
-0x12b6	NOP
-0x12b7	NOP
-0x12b8	NOP
-0x12b9	NOP
-0x12ba	NOP
-0x12bb	NOP
-0x12bc	NOP
-0x12bd	NOP
-0x12be	NOP
-0x12bf	NOP
-0x12c0	NOP
-0x12c1	NOP
-0x12c2	NOP
-0x12c3	NOP
-0x12c4	NOP
-0x12c5	NOP
-0x12c6	NOP
-0x12c7	NOP
-0x12c8	NOP
-0x12c9	NOP
-0x12ca	NOP
-0x12cb	NOP
-0x12cc	NOP
-0x12cd	NOP
-0x12ce	NOP
-0x12cf	NOP
-0x12d0	NOP
-0x12d1	NOP
-0x12d2	NOP
-0x12d3	NOP
-0x12d4	NOP
-0x12d5	NOP
-0x12d6	NOP
-0x12d7	NOP
-0x12d8	NOP
-0x12d9	NOP
-0x12da	NOP
-0x12db	NOP
-0x12dc	NOP
-0x12dd	NOP
-0x12de	NOP
-0x12df	NOP
-0x12e0	NOP
-0x12e1	NOP
-0x12e2	NOP
-0x12e3	NOP
-0x12e4	NOP
-0x12e5	NOP
-0x12e6	NOP
-0x12e7	NOP
-0x12e8	NOP
-0x12e9	NOP
-0x12ea	NOP
-0x12eb	NOP
-0x12ec	NOP
-0x12ed	NOP
-0x12ee	NOP
-0x12ef	NOP
-0x12f0	NOP
-0x12f1	NOP
-0x12f2	NOP
-0x12f3	NOP
-0x12f4	NOP
-0x12f5	NOP
-0x12f6	NOP
-0x12f7	NOP
-0x12f8	NOP
-0x12f9	NOP
-0x12fa	NOP
-0x12fb	NOP
-0x12fc	NOP
-0x12fd	NOP
-0x12fe	NOP
-0x12ff	NOP
-0x1300	NOP
-0x1301	NOP
-0x1302	NOP
-0x1303	NOP
-0x1304	NOP
-0x1305	NOP
-0x1306	NOP
-0x1307	NOP
-0x1308	NOP
-0x1309	NOP
-0x130a	NOP
-0x130b	NOP
-0x130c	NOP
-0x130d	NOP
-0x130e	NOP
-0x130f	NOP
-0x1310	NOP
-0x1311	NOP
-0x1312	NOP
-0x1313	NOP
-0x1314	NOP
-0x1315	NOP
-0x1316	NOP
-0x1317	NOP
-0x1318	NOP
-0x1319	NOP
-0x131a	NOP
-0x131b	NOP
-0x131c	NOP
-0x131d	NOP
-0x131e	NOP
-0x131f	NOP
-0x1320	NOP
-0x1321	NOP
-0x1322	NOP
-0x1323	NOP
-0x1324	NOP
-0x1325	NOP
-0x1326	NOP
-0x1327	NOP
-0x1328	NOP
-0x1329	NOP
-0x132a	NOP
-0x132b	NOP
-0x132c	NOP
-0x132d	NOP
-0x132e	NOP
-0x132f	NOP
-0x1330	NOP
-0x1331	NOP
-0x1332	NOP
-0x1333	NOP
-0x1334	NOP
-0x1335	NOP
-0x1336	NOP
-0x1337	NOP
-0x1338	NOP
-0x1339	NOP
-0x133a	NOP
-0x133b	NOP
-0x133c	NOP
-0x133d	NOP
-0x133e	NOP
-0x133f	NOP
-0x1340	NOP
-0x1341	NOP
-0x1342	NOP
-0x1343	NOP
-0x1344	NOP
-0x1345	NOP
-0x1346	NOP
-0x1347	NOP
-0x1348	NOP
-0x1349	NOP
-0x134a	NOP
-0x134b	NOP
-0x134c	NOP
-0x134d	NOP
-0x134e	NOP
-0x134f	NOP
-0x1350	NOP
-0x1351	NOP
-0x1352	NOP
-0x1353	NOP
-0x1354	NOP
-0x1355	NOP
-0x1356	NOP
-0x1357	NOP
-0x1358	NOP
-0x1359	NOP
-0x135a	NOP
-0x135b	NOP
-0x135c	NOP
-0x135d	NOP
-0x135e	NOP
-0x135f	NOP
-0x1360	NOP
-0x1361	NOP
-0x1362	NOP
-0x1363	NOP
-0x1364	NOP
-0x1365	NOP
-0x1366	NOP
-0x1367	NOP
-0x1368	NOP
-0x1369	NOP
-0x136a	NOP
-0x136b	NOP
-0x136c	NOP
-0x136d	NOP
-0x136e	NOP
-0x136f	NOP
-0x1370	NOP
-0x1371	NOP
-0x1372	NOP
-0x1373	NOP
-0x1374	NOP
-0x1375	NOP
-0x1376	NOP
-0x1377	NOP
-0x1378	NOP
-0x1379	NOP
-0x137a	NOP
-0x137b	NOP
-0x137c	NOP
-0x137d	NOP
-0x137e	NOP
-0x137f	NOP
-0x1380	NOP
-0x1381	NOP
-0x1382	NOP
-0x1383	NOP
-0x1384	NOP
-0x1385	NOP
-0x1386	NOP
-0x1387	NOP
-0x1388	NOP
-0x1389	NOP
-0x138a	NOP
-0x138b	NOP
-0x138c	NOP
-0x138d	NOP
-0x138e	NOP
-0x138f	NOP
-0x1390	NOP
-0x1391	NOP
-0x1392	NOP
-0x1393	NOP
-0x1394	NOP
-0x1395	NOP
-0x1396	NOP
-0x1397	NOP
-0x1398	NOP
-0x1399	NOP
-0x139a	NOP
-0x139b	NOP
-0x139c	NOP
-0x139d	NOP
-0x139e	NOP
-0x139f	NOP
-0x13a0	NOP
-0x13a1	NOP
-0x13a2	NOP
-0x13a3	NOP
-0x13a4	NOP
-0x13a5	NOP
-0x13a6	NOP
-0x13a7	NOP
-0x13a8	NOP
-0x13a9	NOP
-0x13aa	NOP
-0x13ab	NOP
-0x13ac	NOP
-0x13ad	NOP
-0x13ae	NOP
-0x13af	NOP
-0x13b0	NOP
-0x13b1	NOP
-0x13b2	NOP
-0x13b3	NOP
-0x13b4	NOP
-0x13b5	NOP
-0x13b6	NOP
-0x13b7	NOP
-0x13b8	NOP
-0x13b9	NOP
-0x13ba	NOP
-0x13bb	NOP
-0x13bc	NOP
-0x13bd	NOP
-0x13be	NOP
-0x13bf	NOP
-0x13c0	NOP
-0x13c1	NOP
-0x13c2	NOP
-0x13c3	NOP
-0x13c4	NOP
-0x13c5	NOP
-0x13c6	NOP
-0x13c7	NOP
-0x13c8	NOP
-0x13c9	NOP
-0x13ca	NOP
-0x13cb	NOP
-0x13cc	NOP
-0x13cd	NOP
-0x13ce	NOP
-0x13cf	NOP
-0x13d0	NOP
-0x13d1	NOP
-0x13d2	NOP
-0x13d3	NOP
-0x13d4	NOP
-0x13d5	NOP
-0x13d6	NOP
-0x13d7	NOP
-0x13d8	NOP
-0x13d9	NOP
-0x13da	NOP
-0x13db	NOP
-0x13dc	NOP
-0x13dd	NOP
-0x13de	NOP
-0x13df	NOP
-0x13e0	NOP
-0x13e1	NOP
-0x13e2	NOP
-0x13e3	NOP
-0x13e4	NOP
-0x13e5	NOP
-0x13e6	NOP
-0x13e7	NOP
-0x13e8	NOP
-0x13e9	NOP
-0x13ea	NOP
-0x13eb	NOP
-0x13ec	NOP
-0x13ed	NOP
-0x13ee	NOP
-0x13ef	NOP
-0x13f0	NOP
-0x13f1	NOP
-0x13f2	NOP
-0x13f3	NOP
-0x13f4	NOP
-0x13f5	NOP
-0x13f6	NOP
-0x13f7	NOP
-0x13f8	NOP
-0x13f9	NOP
-0x13fa	NOP
-0x13fb	NOP
-0x13fc	NOP
-0x13fd	NOP
-0x13fe	NOP
-0x13ff	NOP
-0x1400	NOP
-0x1401	Not handled yet
-0x1402	Not handled yet
-0x1403	Not handled yet
-0x1404	NOP
-0x1405	Not handled yet
-0x1406	Not handled yet
-0x1407	Not handled yet
-0x1408	Not handled yet
-0x1409	Not handled yet
-0x140a	Not handled yet
-0x140b	INX		B
-0x140c	Not handled yet
-0x140d	Not handled yet
-0x140e	Not handled yet
-0x140f	Not handled yet
-0x1410	Not handled yet
-0x1411	Not handled yet
-0x1412	Not handled yet
-0x1413	Not handled yet
-0x1414	INX		B
-0x1415	Not handled yet
-0x1416	Not handled yet
-0x1417	Not handled yet
-0x1418	LXI		B,#$0020
-0x141b	Not handled yet
-0x141c	Not handled yet
-0x141d	Not handled yet
-0x141e	Not handled yet
-0x141f	Not handled yet
-0x1420	Not handled yet
-0x1421	Not handled yet
-0x1422	NOP
-0x1423	NOP
-0x1424	Not handled yet
-0x1425	Not handled yet
-0x1426	Not handled yet
-0x1427	Not handled yet
-0x1428	Not handled yet
-0x1429	Not handled yet
-0x142a	Not handled yet
-0x142b	Not handled yet
-0x142c	Not handled yet
-0x142d	Not handled yet
-0x142e	Not handled yet
-0x142f	LXI		B,#$0020
-0x1432	Not handled yet
-0x1433	Not handled yet
-0x1434	Not handled yet
-0x1435	Not handled yet
-0x1436	Not handled yet
-0x1437	Not handled yet
-0x1438	Not handled yet
-0x1439	Not handled yet
-0x143a	Not handled yet
-0x143b	Not handled yet
-0x143c	Not handled yet
-0x143d	LXI		B,#$0020
-0x1440	Not handled yet
-0x1441	Not handled yet
-0x1442	Not handled yet
-0x1443	Not handled yet
-0x1444	Not handled yet
-0x1445	Not handled yet
-0x1446	Not handled yet
-0x1447	NOP
-0x1448	NOP
-0x1449	NOP
-0x144a	NOP
-0x144b	NOP
-0x144c	NOP
-0x144d	NOP
-0x144e	NOP
-0x144f	NOP
-0x1450	NOP
-0x1451	NOP
-0x1452	Not handled yet
-0x1453	Not handled yet
-0x1454	Not handled yet
-0x1455	Not handled yet
-0x1456	Not handled yet
-0x1457	Not handled yet
-0x1458	Not handled yet
-0x1459	Not handled yet
-0x145a	Not handled yet
-0x145b	INX		B
-0x145c	Not handled yet
-0x145d	Not handled yet
-0x145e	Not handled yet
-0x145f	Not handled yet
-0x1460	Not handled yet
-0x1461	Not handled yet
-0x1462	Not handled yet
-0x1463	Not handled yet
-0x1464	Not handled yet
-0x1465	INX		B
-0x1466	Not handled yet
-0x1467	Not handled yet
-0x1468	Not handled yet
-0x1469	Not handled yet
-0x146a	LXI		B,#$0020
-0x146d	Not handled yet
-0x146e	Not handled yet
-0x146f	Not handled yet
-0x1470	Not handled yet
-0x1471	Not handled yet
-0x1472	Not handled yet
-0x1473	Not handled yet
-0x1474	Not handled yet
-0x1475	Not handled yet
-0x1476	Not handled yet
-0x1477	Not handled yet
-0x1478	STAX	B
-0x1479	JMP		$1a47
-0x147c	Not handled yet
-0x147d	Not handled yet
-0x147e	Not handled yet
-0x147f	Not handled yet
-0x1480	Not handled yet
-0x1481	Not handled yet
-0x1482	Not handled yet
-0x1483	Not handled yet
-0x1484	Not handled yet
-0x1485	Not handled yet
-0x1486	Not handled yet
-0x1487	LXI		B,#$0020
-0x148a	Not handled yet
-0x148b	Not handled yet
-0x148c	Not handled yet
-0x148d	Not handled yet
-0x148e	Not handled yet
-0x148f	Not handled yet
-0x1490	Not handled yet
-0x1491	Not handled yet
-0x1492	Not handled yet
-0x1493	Not handled yet
-0x1494	Not handled yet
-0x1495	Not handled yet
-0x1496	Not handled yet
-0x1497	Not handled yet
-0x1498	Not handled yet
-0x1499	Not handled yet
-0x149a	Not handled yet
-0x149b	Not handled yet
-0x149c	Not handled yet
-0x149d	Not handled yet
-0x149e	INX		B
-0x149f	Not handled yet
-0x14a0	Not handled yet
-0x14a1	Not handled yet
-0x14a2	Not handled yet
-0x14a3	Not handled yet
-0x14a4	Not handled yet
-0x14a5	LXI		B,#$6132
-0x14a8	Not handled yet
-0x14a9	Not handled yet
-0x14aa	Not handled yet
-0x14ab	Not handled yet
-0x14ac	Not handled yet
-0x14ad	Not handled yet
-0x14ae	Not handled yet
-0x14af	Not handled yet
-0x14b0	Not handled yet
-0x14b1	Not handled yet
-0x14b2	INX		B
-0x14b3	Not handled yet
-0x14b4	Not handled yet
-0x14b5	Not handled yet
-0x14b6	Not handled yet
-0x14b7	Not handled yet
-0x14b8	Not handled yet
-0x14b9	LXI		B,#$6132
-0x14bc	Not handled yet
-0x14bd	Not handled yet
-0x14be	Not handled yet
-0x14bf	Not handled yet
-0x14c0	Not handled yet
-0x14c1	LXI		B,#$0020
-0x14c4	Not handled yet
-0x14c5	Not handled yet
-0x14c6	Not handled yet
-0x14c7	Not handled yet
-0x14c8	Not handled yet
-0x14c9	Not handled yet
-0x14ca	Not handled yet
-0x14cb	Not handled yet
-0x14cc	Not handled yet
-0x14cd	Not handled yet
-0x14ce	LXI		B,#$0020
-0x14d1	Not handled yet
-0x14d2	Not handled yet
-0x14d3	Not handled yet
-0x14d4	Not handled yet
-0x14d5	Not handled yet
-0x14d6	Not handled yet
-0x14d7	Not handled yet
-0x14d8	Not handled yet
-0x14d9	Not handled yet
-0x14da	Not handled yet
-0x14db	Not handled yet
-0x14dc	Not handled yet
-0x14dd	Not handled yet
-0x14de	Not handled yet
-0x14df	STAX	B
-0x14e0	Not handled yet
-0x14e1	Not handled yet
-0x14e2	Not handled yet
-0x14e3	Not handled yet
-0x14e4	Not handled yet
-0x14e5	Not handled yet
-0x14e6	Not handled yet
-0x14e7	Not handled yet
-0x14e8	Not handled yet
-0x14e9	Not handled yet
-0x14ea	Not handled yet
-0x14eb	STAX	B
-0x14ec	Not handled yet
-0x14ed	Not handled yet
-0x14ee	Not handled yet
-0x14ef	Not handled yet
-0x14f0	Not handled yet
-0x14f1	Not handled yet
-0x14f2	Not handled yet
-0x14f3	Not handled yet
-0x14f4	Not handled yet
-0x14f5	Not handled yet
-0x14f6	Not handled yet
-0x14f7	Not handled yet
-0x14f8	Not handled yet
-0x14f9	Not handled yet
-0x14fa	Not handled yet
-0x14fb	Not handled yet
-0x14fc	Not handled yet
-0x14fd	Not handled yet
-0x14fe	Not handled yet
-0x14ff	Not handled yet
-0x1500	Not handled yet
-0x1501	Not handled yet
-0x1502	Not handled yet
-0x1503	Not handled yet
-0x1504	Not handled yet
-0x1505	Not handled yet
-0x1506	Not handled yet
-0x1507	Not handled yet
-0x1508	Not handled yet
-0x1509	Not handled yet
-0x150a	Not handled yet
-0x150b	Not handled yet
-0x150c	Not handled yet
-0x150d	Not handled yet
-0x150e	Not handled yet
-0x150f	Not handled yet
-0x1510	Not handled yet
-0x1511	Not handled yet
-0x1512	Not handled yet
-0x1513	Not handled yet
-0x1514	Not handled yet
-0x1515	Not handled yet
-0x1516	Not handled yet
-0x1517	Not handled yet
-0x1518	Not handled yet
-0x1519	Not handled yet
-0x151a	Not handled yet
-0x151b	Not handled yet
-0x151c	Not handled yet
-0x151d	Not handled yet
-0x151e	Not handled yet
-0x151f	Not handled yet
-0x1520	NOP
-0x1521	Not handled yet
-0x1522	Not handled yet
-0x1523	Not handled yet
-0x1524	Not handled yet
-0x1525	Not handled yet
-0x1526	Not handled yet
-0x1527	Not handled yet
-0x1528	Not handled yet
-0x1529	Not handled yet
-0x152a	Not handled yet
-0x152b	Not handled yet
-0x152c	Not handled yet
-0x152d	INX		B
-0x152e	Not handled yet
-0x152f	Not handled yet
-0x1530	Not handled yet
-0x1531	INX		B
-0x1532	Not handled yet
-0x1533	Not handled yet
-0x1534	Not handled yet
-0x1535	JMP		$154a
-0x1538	Not handled yet
-0x1539	INX		B
-0x153a	Not handled yet
-0x153b	Not handled yet
-0x153c	Not handled yet
-0x153d	Not handled yet
-0x153e	Not handled yet
-0x153f	Not handled yet
-0x1540	Not handled yet
-0x1541	Not handled yet
-0x1542	Not handled yet
-0x1543	Not handled yet
-0x1544	Not handled yet
-0x1545	Not handled yet
-0x1546	Not handled yet
-0x1547	Not handled yet
-0x1548	Not handled yet
-0x1549	Not handled yet
-0x154a	Not handled yet
-0x154b	Not handled yet
-0x154c	STAX	B
-0x154d	Not handled yet
-0x154e	Not handled yet
-0x154f	Not handled yet
-0x1550	JMP		$19dc
-0x1553	NOP
-0x1554	Not handled yet
-0x1555	NOP
-0x1556	Not handled yet
-0x1557	Not handled yet
-0x1558	Not handled yet
-0x1559	Not handled yet
-0x155a	Not handled yet
-0x155b	Not handled yet
-0x155c	Not handled yet
-0x155d	Not handled yet
-0x155e	Not handled yet
-0x155f	JMP		$155a
-0x1562	Not handled yet
-0x1563	Not handled yet
-0x1564	Not handled yet
-0x1565	Not handled yet
-0x1566	Not handled yet
-0x1567	Not handled yet
-0x1568	Not handled yet
-0x1569	Not handled yet
-0x156a	Not handled yet
-0x156b	Not handled yet
-0x156c	Not handled yet
-0x156d	Not handled yet
-0x156e	Not handled yet
-0x156f	Not handled yet
-0x1570	Not handled yet
-0x1571	Not handled yet
-0x1572	Not handled yet
-0x1573	Not handled yet
-0x1574	Not handled yet
-0x1575	Not handled yet
-0x1576	Not handled yet
-0x1577	Not handled yet
-0x1578	Not handled yet
-0x1579	Not handled yet
-0x157a	LXI		B,#$8532
-0x157d	Not handled yet
-0x157e	JMP		$1545
-0x1581	Not handled yet
-0x1582	Not handled yet
-0x1583	Not handled yet
-0x1584	Not handled yet
-0x1585	Not handled yet
-0x1586	Not handled yet
-0x1587	Not handled yet
-0x1588	Not handled yet
-0x1589	Not handled yet
-0x158a	Not handled yet
-0x158b	Not handled yet
-0x158c	Not handled yet
-0x158d	Not handled yet
-0x158e	Not handled yet
-0x158f	Not handled yet
-0x1590	Not handled yet
-0x1591	Not handled yet
-0x1592	Not handled yet
-0x1593	Not handled yet
-0x1594	Not handled yet
-0x1595	Not handled yet
-0x1596	Not handled yet
-0x1597	Not handled yet
-0x1598	Not handled yet
-0x1599	Not handled yet
-0x159a	Not handled yet
-0x159b	Not handled yet
-0x159c	Not handled yet
-0x159d	Not handled yet
-0x159e	Not handled yet
-0x159f	Not handled yet
-0x15a0	Not handled yet
-0x15a1	Not handled yet
-0x15a2	Not handled yet
-0x15a3	Not handled yet
-0x15a4	Not handled yet
-0x15a5	Not handled yet
-0x15a6	Not handled yet
-0x15a7	Not handled yet
-0x15a8	LXI		B,#$0d32
-0x15ab	Not handled yet
-0x15ac	Not handled yet
-0x15ad	Not handled yet
-0x15ae	Not handled yet
-0x15af	Not handled yet
-0x15b0	Not handled yet
-0x15b1	Not handled yet
-0x15b2	Not handled yet
-0x15b3	Not handled yet
-0x15b4	Not handled yet
-0x15b5	Not handled yet
-0x15b6	Not handled yet
-0x15b7	Not handled yet
-0x15b8	Not handled yet
-0x15b9	Not handled yet
-0x15ba	Not handled yet
-0x15bb	Not handled yet
-0x15bc	Not handled yet
-0x15bd	Not handled yet
-0x15be	Not handled yet
-0x15bf	Not handled yet
-0x15c0	Not handled yet
-0x15c1	Not handled yet
-0x15c2	JMP		$15a9
-0x15c5	Not handled yet
-0x15c6	Not handled yet
-0x15c7	Not handled yet
-0x15c8	Not handled yet
-0x15c9	Not handled yet
-0x15ca	Not handled yet
-0x15cb	Not handled yet
-0x15cc	Not handled yet
-0x15cd	Not handled yet
-0x15ce	Not handled yet
-0x15cf	Not handled yet
-0x15d0	Not handled yet
-0x15d1	Not handled yet
-0x15d2	NOP
-0x15d3	Not handled yet
-0x15d4	Not handled yet
-0x15d5	Not handled yet
-0x15d6	Not handled yet
-0x15d7	Not handled yet
-0x15d8	Not handled yet
-0x15d9	Not handled yet
-0x15da	Not handled yet
-0x15db	Not handled yet
-0x15dc	Not handled yet
-0x15dd	INX		B
-0x15de	Not handled yet
-0x15df	Not handled yet
-0x15e0	Not handled yet
-0x15e1	Not handled yet
-0x15e2	Not handled yet
-0x15e3	Not handled yet
-0x15e4	Not handled yet
-0x15e5	INX		B
-0x15e6	Not handled yet
-0x15e7	Not handled yet
-0x15e8	LXI		B,#$0020
-0x15eb	Not handled yet
-0x15ec	Not handled yet
-0x15ed	Not handled yet
-0x15ee	Not handled yet
-0x15ef	Not handled yet
-0x15f0	Not handled yet
-0x15f1	Not handled yet
-0x15f2	Not handled yet
-0x15f3	Not handled yet
-0x15f4	Not handled yet
-0x15f5	Not handled yet
-0x15f6	LXI		B,#$3700
-0x15f9	Not handled yet
-0x15fa	Not handled yet
-0x15fb	Not handled yet
-0x15fc	Not handled yet
-0x15fd	Not handled yet
-0x15fe	Not handled yet
-0x15ff	Not handled yet
-0x1600	Not handled yet
-0x1601	Not handled yet
-0x1602	Not handled yet
-0x1603	Not handled yet
-0x1604	Not handled yet
-0x1605	Not handled yet
-0x1606	Not handled yet
-0x1607	Not handled yet
-0x1608	Not handled yet
-0x1609	LXI		B,#$21c0
-0x160c	Not handled yet
-0x160d	Not handled yet
-0x160e	Not handled yet
-0x160f	LXI		B,#$2ec9
-0x1612	NOP
-0x1613	Not handled yet
-0x1614	Not handled yet
-0x1615	Not handled yet
-0x1616	Not handled yet
-0x1617	Not handled yet
-0x1618	Not handled yet
-0x1619	Not handled yet
-0x161a	Not handled yet
-0x161b	Not handled yet
-0x161c	Not handled yet
-0x161d	Not handled yet
-0x161e	Not handled yet
-0x161f	Not handled yet
-0x1620	Not handled yet
-0x1621	Not handled yet
-0x1622	Not handled yet
-0x1623	Not handled yet
-0x1624	Not handled yet
-0x1625	Not handled yet
-0x1626	Not handled yet
-0x1627	Not handled yet
-0x1628	Not handled yet
-0x1629	Not handled yet
-0x162a	Not handled yet
-0x162b	Not handled yet
-0x162c	Not handled yet
-0x162d	Not handled yet
-0x162e	Not handled yet
-0x162f	Not handled yet
-0x1630	Not handled yet
-0x1631	Not handled yet
-0x1632	Not handled yet
-0x1633	Not handled yet
-0x1634	Not handled yet
-0x1635	Not handled yet
-0x1636	Not handled yet
-0x1637	Not handled yet
-0x1638	Not handled yet
-0x1639	Not handled yet
-0x163a	Not handled yet
-0x163b	Not handled yet
-0x163c	Not handled yet
-0x163d	Not handled yet
-0x163e	Not handled yet
-0x163f	Not handled yet
-0x1640	LXI		B,#$2532
-0x1643	Not handled yet
-0x1644	Not handled yet
-0x1645	Not handled yet
-0x1646	Not handled yet
-0x1647	Not handled yet
-0x1648	Not handled yet
-0x1649	Not handled yet
-0x164a	Not handled yet
-0x164b	Not handled yet
-0x164c	Not handled yet
-0x164d	Not handled yet
-0x164e	Not handled yet
-0x164f	Not handled yet
-0x1650	Not handled yet
-0x1651	Not handled yet
-0x1652	Not handled yet
-0x1653	Not handled yet
-0x1654	Not handled yet
-0x1655	Not handled yet
-0x1656	LXI		B,#$ed2a
-0x1659	Not handled yet
-0x165a	Not handled yet
-0x165b	Not handled yet
-0x165c	Not handled yet
-0x165d	Not handled yet
-0x165e	Not handled yet
-0x165f	Not handled yet
-0x1660	Not handled yet
-0x1661	Not handled yet
-0x1662	Not handled yet
-0x1663	Not handled yet
-0x1664	Not handled yet
-0x1665	Not handled yet
-0x1666	Not handled yet
-0x1667	Not handled yet
-0x1668	Not handled yet
-0x1669	Not handled yet
-0x166a	Not handled yet
-0x166b	Not handled yet
-0x166c	Not handled yet
-0x166d	Not handled yet
-0x166e	Not handled yet
-0x166f	Not handled yet
-0x1670	Not handled yet
-0x1671	Not handled yet
-0x1672	Not handled yet
-0x1673	Not handled yet
-0x1674	Not handled yet
-0x1675	NOP
-0x1676	Not handled yet
-0x1677	Not handled yet
-0x1678	Not handled yet
-0x1679	Not handled yet
-0x167a	Not handled yet
-0x167b	Not handled yet
-0x167c	Not handled yet
-0x167d	Not handled yet
-0x167e	Not handled yet
-0x167f	Not handled yet
-0x1680	Not handled yet
-0x1681	Not handled yet
-0x1682	Not handled yet
-0x1683	Not handled yet
-0x1684	Not handled yet
-0x1685	Not handled yet
-0x1686	Not handled yet
-0x1687	Not handled yet
-0x1688	JMP		$168f
-0x168b	Not handled yet
-0x168c	Not handled yet
-0x168d	Not handled yet
-0x168e	Not handled yet
-0x168f	Not handled yet
-0x1690	Not handled yet
-0x1691	Not handled yet
-0x1692	Not handled yet
-0x1693	Not handled yet
-0x1694	Not handled yet
-0x1695	Not handled yet
-0x1696	Not handled yet
-0x1697	Not handled yet
-0x1698	Not handled yet
-0x1699	Not handled yet
-0x169a	Not handled yet
-0x169b	Not handled yet
-0x169c	Not handled yet
-0x169d	Not handled yet
-0x169e	Not handled yet
-0x169f	Not handled yet
-0x16a0	INX		B
-0x16a1	Not handled yet
-0x16a2	Not handled yet
-0x16a3	Not handled yet
-0x16a4	Not handled yet
-0x16a5	Not handled yet
-0x16a6	Not handled yet
-0x16a7	Not handled yet
-0x16a8	Not handled yet
-0x16a9	Not handled yet
-0x16aa	Not handled yet
-0x16ab	Not handled yet
-0x16ac	Not handled yet
-0x16ad	Not handled yet
-0x16ae	Not handled yet
-0x16af	Not handled yet
-0x16b0	Not handled yet
-0x16b1	Not handled yet
-0x16b2	Not handled yet
-0x16b3	Not handled yet
-0x16b4	Not handled yet
-0x16b5	Not handled yet
-0x16b6	Not handled yet
-0x16b7	Not handled yet
-0x16b8	Not handled yet
-0x16b9	Not handled yet
-0x16ba	Not handled yet
-0x16bb	Not handled yet
-0x16bc	Not handled yet
-0x16bd	Not handled yet
-0x16be	Not handled yet
-0x16bf	Not handled yet
-0x16c0	Not handled yet
-0x16c1	Not handled yet
-0x16c2	Not handled yet
-0x16c3	Not handled yet
-0x16c4	Not handled yet
-0x16c5	Not handled yet
-0x16c6	JMP		$02ed
-0x16c9	Not handled yet
-0x16ca	Not handled yet
-0x16cb	Not handled yet
-0x16cc	Not handled yet
-0x16cd	Not handled yet
-0x16ce	Not handled yet
-0x16cf	Not handled yet
-0x16d0	Not handled yet
-0x16d1	Not handled yet
-0x16d2	Not handled yet
-0x16d3	Not handled yet
-0x16d4	Not handled yet
-0x16d5	Not handled yet
-0x16d6	Not handled yet
-0x16d7	Not handled yet
-0x16d8	Not handled yet
-0x16d9	Not handled yet
-0x16da	Not handled yet
-0x16db	Not handled yet
-0x16dc	Not handled yet
-0x16dd	Not handled yet
-0x16de	Not handled yet
-0x16df	Not handled yet
-0x16e0	Not handled yet
-0x16e1	Not handled yet
-0x16e2	Not handled yet
-0x16e3	JMP		$0b89
-0x16e6	Not handled yet
-0x16e7	NOP
-0x16e8	Not handled yet
-0x16e9	Not handled yet
-0x16ea	Not handled yet
-0x16eb	Not handled yet
-0x16ec	Not handled yet
-0x16ed	Not handled yet
-0x16ee	Not handled yet
-0x16ef	Not handled yet
-0x16f0	Not handled yet
-0x16f1	Not handled yet
-0x16f2	Not handled yet
-0x16f3	Not handled yet
-0x16f4	Not handled yet
-0x16f5	Not handled yet
-0x16f6	Not handled yet
-0x16f7	Not handled yet
-0x16f8	Not handled yet
-0x16f9	Not handled yet
-0x16fa	Not handled yet
-0x16fb	Not handled yet
-0x16fc	Not handled yet
-0x16fd	Not handled yet
-0x16fe	Not handled yet
-0x16ff	Not handled yet
-0x1700	LXI		B,#$cd27
-0x1703	Not handled yet
-0x1704	Not handled yet
-0x1705	Not handled yet
-0x1706	Not handled yet
-0x1707	Not handled yet
-0x1708	Not handled yet
-0x1709	Not handled yet
-0x170a	Not handled yet
-0x170b	JMP		$196b
-0x170e	Not handled yet
-0x170f	Not handled yet
-0x1710	Not handled yet
-0x1711	Not handled yet
-0x1712	Not handled yet
-0x1713	Not handled yet
-0x1714	Not handled yet
-0x1715	Not handled yet
-0x1716	Not handled yet
-0x1717	Not handled yet
-0x1718	Not handled yet
-0x1719	Not handled yet
-0x171a	Not handled yet
-0x171b	Not handled yet
-0x171c	Not handled yet
-0x171d	Not handled yet
-0x171e	Not handled yet
-0x171f	Not handled yet
-0x1720	Not handled yet
-0x1721	Not handled yet
-0x1722	Not handled yet
-0x1723	Not handled yet
-0x1724	Not handled yet
-0x1725	Not handled yet
-0x1726	Not handled yet
-0x1727	Not handled yet
-0x1728	Not handled yet
-0x1729	Not handled yet
-0x172a	Not handled yet
-0x172b	Not handled yet
-0x172c	Not handled yet
-0x172d	Not handled yet
-0x172e	Not handled yet
-0x172f	Not handled yet
-0x1730	NOP
-0x1731	Not handled yet
-0x1732	Not handled yet
-0x1733	Not handled yet
-0x1734	Not handled yet
-0x1735	Not handled yet
-0x1736	JMP		$19dc
-0x1739	Not handled yet
-0x173a	STAX	B
-0x173b	JMP		$18fa
-0x173e	NOP
-0x173f	NOP
-0x1740	Not handled yet
-0x1741	Not handled yet
-0x1742	Not handled yet
-0x1743	Not handled yet
-0x1744	Not handled yet
-0x1745	Not handled yet
-0x1746	Not handled yet
-0x1747	Not handled yet
-0x1748	Not handled yet
-0x1749	Not handled yet
-0x174a	Not handled yet
-0x174b	Not handled yet
-0x174c	Not handled yet
-0x174d	Not handled yet
-0x174e	Not handled yet
-0x174f	Not handled yet
-0x1750	Not handled yet
-0x1751	Not handled yet
-0x1752	Not handled yet
-0x1753	Not handled yet
-0x1754	Not handled yet
-0x1755	Not handled yet
-0x1756	Not handled yet
-0x1757	Not handled yet
-0x1758	Not handled yet
-0x1759	Not handled yet
-0x175a	Not handled yet
-0x175b	Not handled yet
-0x175c	Not handled yet
-0x175d	Not handled yet
-0x175e	Not handled yet
-0x175f	Not handled yet
-0x1760	Not handled yet
-0x1761	Not handled yet
-0x1762	Not handled yet
-0x1763	Not handled yet
-0x1764	Not handled yet
-0x1765	Not handled yet
-0x1766	LXI		B,#$043e
-0x1769	Not handled yet
-0x176a	Not handled yet
-0x176b	Not handled yet
-0x176c	Not handled yet
-0x176d	Not handled yet
-0x176e	Not handled yet
-0x176f	Not handled yet
-0x1770	Not handled yet
-0x1771	Not handled yet
-0x1772	Not handled yet
-0x1773	Not handled yet
-0x1774	Not handled yet
-0x1775	Not handled yet
-0x1776	Not handled yet
-0x1777	Not handled yet
-0x1778	Not handled yet
-0x1779	Not handled yet
-0x177a	Not handled yet
-0x177b	Not handled yet
-0x177c	Not handled yet
-0x177d	Not handled yet
-0x177e	Not handled yet
-0x177f	Not handled yet
-0x1780	Not handled yet
-0x1781	Not handled yet
-0x1782	Not handled yet
-0x1783	Not handled yet
-0x1784	Not handled yet
-0x1785	Not handled yet
-0x1786	Not handled yet
-0x1787	Not handled yet
-0x1788	Not handled yet
-0x1789	Not handled yet
-0x178a	Not handled yet
-0x178b	JMP		$1785
-0x178e	Not handled yet
-0x178f	Not handled yet
-0x1790	Not handled yet
-0x1791	Not handled yet
-0x1792	Not handled yet
-0x1793	Not handled yet
-0x1794	Not handled yet
-0x1795	Not handled yet
-0x1796	Not handled yet
-0x1797	Not handled yet
-0x1798	Not handled yet
-0x1799	Not handled yet
-0x179a	Not handled yet
-0x179b	Not handled yet
-0x179c	Not handled yet
-0x179d	Not handled yet
-0x179e	Not handled yet
-0x179f	Not handled yet
-0x17a0	Not handled yet
-0x17a1	Not handled yet
-0x17a2	Not handled yet
-0x17a3	LXI		B,#$77b0
-0x17a6	Not handled yet
-0x17a7	Not handled yet
-0x17a8	Not handled yet
-0x17a9	Not handled yet
-0x17aa	Not handled yet
-0x17ab	Not handled yet
-0x17ac	Not handled yet
-0x17ad	Not handled yet
-0x17ae	Not handled yet
-0x17af	Not handled yet
-0x17b0	Not handled yet
-0x17b1	JMP		$19dc
-0x17b4	Not handled yet
-0x17b5	Not handled yet
-0x17b6	Not handled yet
-0x17b7	Not handled yet
-0x17b8	Not handled yet
-0x17b9	Not handled yet
-0x17ba	Not handled yet
-0x17bb	Not handled yet
-0x17bc	Not handled yet
-0x17bd	Not handled yet
-0x17be	Not handled yet
-0x17bf	NOP
-0x17c0	Not handled yet
-0x17c1	Not handled yet
-0x17c2	Not handled yet
-0x17c3	Not handled yet
-0x17c4	Not handled yet
-0x17c5	Not handled yet
-0x17c6	Not handled yet
-0x17c7	Not handled yet
-0x17c8	LXI		B,#$dbc9
-0x17cb	STAX	B
-0x17cc	Not handled yet
-0x17cd	Not handled yet
-0x17ce	STAX	B
-0x17cf	Not handled yet
-0x17d0	Not handled yet
-0x17d1	Not handled yet
-0x17d2	Not handled yet
-0x17d3	Not handled yet
-0x17d4	Not handled yet
-0x17d5	Not handled yet
-0x17d6	Not handled yet
-0x17d7	Not handled yet
-0x17d8	NOP
-0x17d9	Not handled yet
-0x17da	Not handled yet
-0x17db	Not handled yet
-0x17dc	Not handled yet
-0x17dd	Not handled yet
-0x17de	Not handled yet
-0x17df	Not handled yet
-0x17e0	Not handled yet
-0x17e1	Not handled yet
-0x17e2	Not handled yet
-0x17e3	Not handled yet
-0x17e4	LXI		B,#$9a32
-0x17e7	Not handled yet
-0x17e8	Not handled yet
-0x17e9	Not handled yet
-0x17ea	Not handled yet
-0x17eb	Not handled yet
-0x17ec	Not handled yet
-0x17ed	Not handled yet
-0x17ee	Not handled yet
-0x17ef	Not handled yet
-0x17f0	Not handled yet
-0x17f1	Not handled yet
-0x17f2	Not handled yet
-0x17f3	Not handled yet
-0x17f4	Not handled yet
-0x17f5	Not handled yet
-0x17f6	Not handled yet
-0x17f7	Not handled yet
-0x17f8	Not handled yet
-0x17f9	Not handled yet
-0x17fa	Not handled yet
-0x17fb	Not handled yet
-0x17fc	Not handled yet
-0x17fd	Not handled yet
-0x17fe	Not handled yet
-0x17ff	Not handled yet
-0x1800	Not handled yet
-0x1801	JMP		$16c9
-0x1804	Not handled yet
-0x1805	Not handled yet
-0x1806	Not handled yet
-0x1807	Not handled yet
-0x1808	Not handled yet
-0x1809	Not handled yet
-0x180a	Not handled yet
-0x180b	Not handled yet
-0x180c	Not handled yet
-0x180d	Not handled yet
-0x180e	Not handled yet
-0x180f	Not handled yet
-0x1810	Not handled yet
-0x1811	LXI		B,#$fac3
-0x1814	Not handled yet
-0x1815	Not handled yet
-0x1816	Not handled yet
-0x1817	Not handled yet
-0x1818	Not handled yet
-0x1819	Not handled yet
-0x181a	Not handled yet
-0x181b	Not handled yet
-0x181c	Not handled yet
-0x181d	Not handled yet
-0x181e	Not handled yet
-0x181f	Not handled yet
-0x1820	Not handled yet
-0x1821	Not handled yet
-0x1822	Not handled yet
-0x1823	Not handled yet
-0x1824	Not handled yet
-0x1825	LXI		B,#$1dbe
-0x1828	Not handled yet
-0x1829	Not handled yet
-0x182a	Not handled yet
-0x182b	Not handled yet
-0x182c	Not handled yet
-0x182d	Not handled yet
-0x182e	Not handled yet
-0x182f	Not handled yet
-0x1830	Not handled yet
-0x1831	JMP		$1828
-0x1834	Not handled yet
-0x1835	Not handled yet
-0x1836	Not handled yet
-0x1837	LXI		B,#$1dcf
-0x183a	Not handled yet
-0x183b	Not handled yet
-0x183c	Not handled yet
-0x183d	Not handled yet
-0x183e	Not handled yet
-0x183f	Not handled yet
-0x1840	Not handled yet
-0x1841	JMP		$183a
-0x1844	Not handled yet
-0x1845	Not handled yet
-0x1846	Not handled yet
-0x1847	Not handled yet
-0x1848	Not handled yet
-0x1849	Not handled yet
-0x184a	Not handled yet
-0x184b	Not handled yet
-0x184c	Not handled yet
-0x184d	Not handled yet
-0x184e	Not handled yet
-0x184f	Not handled yet
-0x1850	Not handled yet
-0x1851	Not handled yet
-0x1852	Not handled yet
-0x1853	Not handled yet
-0x1854	Not handled yet
-0x1855	Not handled yet
-0x1856	Not handled yet
-0x1857	Not handled yet
-0x1858	Not handled yet
-0x1859	Not handled yet
-0x185a	Not handled yet
-0x185b	Not handled yet
-0x185c	INX		B
-0x185d	Not handled yet
-0x185e	Not handled yet
-0x185f	INX		B
-0x1860	Not handled yet
-0x1861	Not handled yet
-0x1862	INX		B
-0x1863	Not handled yet
-0x1864	Not handled yet
-0x1865	INX		B
-0x1866	Not handled yet
-0x1867	Not handled yet
-0x1868	Not handled yet
-0x1869	Not handled yet
-0x186a	Not handled yet
-0x186b	Not handled yet
-0x186c	Not handled yet
-0x186d	Not handled yet
-0x186e	Not handled yet
-0x186f	Not handled yet
-0x1870	LXI		B,#$3a47
-0x1873	Not handled yet
-0x1874	Not handled yet
-0x1875	Not handled yet
-0x1876	Not handled yet
-0x1877	Not handled yet
-0x1878	Not handled yet
-0x1879	Not handled yet
-0x187a	Not handled yet
-0x187b	Not handled yet
-0x187c	Not handled yet
-0x187d	Not handled yet
-0x187e	Not handled yet
-0x187f	Not handled yet
-0x1880	Not handled yet
-0x1881	Not handled yet
-0x1882	Not handled yet
-0x1883	Not handled yet
-0x1884	Not handled yet
-0x1885	Not handled yet
-0x1886	NOP
-0x1887	Not handled yet
-0x1888	Not handled yet
-0x1889	Not handled yet
-0x188a	Not handled yet
-0x188b	Not handled yet
-0x188c	Not handled yet
-0x188d	Not handled yet
-0x188e	Not handled yet
-0x188f	Not handled yet
-0x1890	Not handled yet
-0x1891	Not handled yet
-0x1892	JMP		$15d3
-0x1895	NOP
-0x1896	NOP
-0x1897	NOP
-0x1898	Not handled yet
-0x1899	LXI		B,#$cb32
-0x189c	Not handled yet
-0x189d	Not handled yet
-0x189e	Not handled yet
-0x189f	Not handled yet
-0x18a0	Not handled yet
-0x18a1	Not handled yet
-0x18a2	Not handled yet
-0x18a3	Not handled yet
-0x18a4	Not handled yet
-0x18a5	Not handled yet
-0x18a6	Not handled yet
-0x18a7	Not handled yet
-0x18a8	Not handled yet
-0x18a9	Not handled yet
-0x18aa	STAX	B
-0x18ab	Not handled yet
-0x18ac	Not handled yet
-0x18ad	Not handled yet
-0x18ae	Not handled yet
-0x18af	Not handled yet
-0x18b0	Not handled yet
-0x18b1	Not handled yet
-0x18b2	Not handled yet
-0x18b3	Not handled yet
-0x18b4	Not handled yet
-0x18b5	Not handled yet
-0x18b6	Not handled yet
-0x18b7	Not handled yet
-0x18b8	Not handled yet
-0x18b9	Not handled yet
-0x18ba	Not handled yet
-0x18bb	Not handled yet
-0x18bc	LXI		B,#$b8ca
-0x18bf	Not handled yet
-0x18c0	Not handled yet
-0x18c1	Not handled yet
-0x18c2	Not handled yet
-0x18c3	Not handled yet
-0x18c4	LXI		B,#$c0c2
-0x18c7	Not handled yet
-0x18c8	Not handled yet
-0x18c9	Not handled yet
-0x18ca	Not handled yet
-0x18cb	Not handled yet
-0x18cc	Not handled yet
-0x18cd	NOP
-0x18ce	Not handled yet
-0x18cf	Not handled yet
-0x18d0	Not handled yet
-0x18d1	JMP		$0ab6
-0x18d4	Not handled yet
-0x18d5	NOP
-0x18d6	Not handled yet
-0x18d7	Not handled yet
-0x18d8	NOP
-0x18d9	Not handled yet
-0x18da	Not handled yet
-0x18db	LXI		B,#$56cd
-0x18de	Not handled yet
-0x18df	Not handled yet
-0x18e0	Not handled yet
-0x18e1	Not handled yet
-0x18e2	Not handled yet
-0x18e3	Not handled yet
-0x18e4	JMP		$0aea
-0x18e7	Not handled yet
-0x18e8	Not handled yet
-0x18e9	Not handled yet
-0x18ea	Not handled yet
-0x18eb	Not handled yet
-0x18ec	Not handled yet
-0x18ed	Not handled yet
-0x18ee	Not handled yet
-0x18ef	Not handled yet
-0x18f0	Not handled yet
-0x18f1	Not handled yet
-0x18f2	STAX	B
-0x18f3	Not handled yet
-0x18f4	Not handled yet
-0x18f5	Not handled yet
-0x18f6	Not handled yet
-0x18f7	Not handled yet
-0x18f8	Not handled yet
-0x18f9	Not handled yet
-0x18fa	Not handled yet
-0x18fb	Not handled yet
-0x18fc	Not handled yet
-0x18fd	Not handled yet
-0x18fe	Not handled yet
-0x18ff	Not handled yet
-0x1900	Not handled yet
-0x1901	Not handled yet
-0x1902	INX		B
-0x1903	Not handled yet
-0x1904	Not handled yet
-0x1905	NOP
-0x1906	Not handled yet
-0x1907	JMP		$01c3
-0x190a	Not handled yet
-0x190b	Not handled yet
-0x190c	Not handled yet
-0x190d	JMP		$1597
-0x1910	Not handled yet
-0x1911	Not handled yet
-0x1912	Not handled yet
-0x1913	Not handled yet
-0x1914	Not handled yet
-0x1915	Not handled yet
-0x1916	Not handled yet
-0x1917	Not handled yet
-0x1918	Not handled yet
-0x1919	Not handled yet
-0x191a	Not handled yet
-0x191b	Not handled yet
-0x191c	Not handled yet
-0x191d	Not handled yet
-0x191e	Not handled yet
-0x191f	Not handled yet
-0x1920	Not handled yet
-0x1921	Not handled yet
-0x1922	JMP		$08f3
-0x1925	Not handled yet
-0x1926	Not handled yet
-0x1927	Not handled yet
-0x1928	JMP		$1931
-0x192b	Not handled yet
-0x192c	Not handled yet
-0x192d	Not handled yet
-0x192e	JMP		$1931
-0x1931	Not handled yet
-0x1932	Not handled yet
-0x1933	Not handled yet
-0x1934	Not handled yet
-0x1935	Not handled yet
-0x1936	Not handled yet
-0x1937	Not handled yet
-0x1938	Not handled yet
-0x1939	JMP		$09ad
-0x193c	Not handled yet
-0x193d	Not handled yet
-0x193e	Not handled yet
-0x193f	LXI		B,#$1135
-0x1942	Not handled yet
-0x1943	Not handled yet
-0x1944	JMP		$08f3
-0x1947	Not handled yet
-0x1948	Not handled yet
-0x1949	Not handled yet
-0x194a	Not handled yet
-0x194b	LXI		B,#$c33c
-0x194e	Not handled yet
-0x194f	Not handled yet
-0x1950	Not handled yet
-0x1951	Not handled yet
-0x1952	Not handled yet
-0x1953	JMP		$1931
-0x1956	Not handled yet
-0x1957	Not handled yet
-0x1958	Not handled yet
-0x1959	Not handled yet
-0x195a	Not handled yet
-0x195b	Not handled yet
-0x195c	Not handled yet
-0x195d	Not handled yet
-0x195e	Not handled yet
-0x195f	Not handled yet
-0x1960	Not handled yet
-0x1961	Not handled yet
-0x1962	Not handled yet
-0x1963	Not handled yet
-0x1964	Not handled yet
-0x1965	Not handled yet
-0x1966	Not handled yet
-0x1967	Not handled yet
-0x1968	JMP		$1947
-0x196b	Not handled yet
-0x196c	Not handled yet
-0x196d	Not handled yet
-0x196e	JMP		$1671
-0x1971	Not handled yet
-0x1972	LXI		B,#$6d32
-0x1975	Not handled yet
-0x1976	JMP		$16e6
-0x1979	Not handled yet
-0x197a	Not handled yet
-0x197b	Not handled yet
-0x197c	Not handled yet
-0x197d	Not handled yet
-0x197e	Not handled yet
-0x197f	JMP		$193c
-0x1982	Not handled yet
-0x1983	Not handled yet
-0x1984	Not handled yet
-0x1985	Not handled yet
-0x1986	Not handled yet
-0x1987	Not handled yet
-0x1988	JMP		$09d6
-0x198b	Not handled yet
-0x198c	INX		B
-0x198d	Not handled yet
-0x198e	Not handled yet
-0x198f	Not handled yet
-0x1990	Not handled yet
-0x1991	Not handled yet
-0x1992	Not handled yet
-0x1993	JMP		$08f3
-0x1996	NOP
-0x1997	NOP
-0x1998	NOP
-0x1999	NOP
-0x199a	Not handled yet
-0x199b	Not handled yet
-0x199c	Not handled yet
-0x199d	Not handled yet
-0x199e	Not handled yet
-0x199f	Not handled yet
-0x19a0	Not handled yet
-0x19a1	Not handled yet
-0x19a2	LXI		B,#$76e6
-0x19a5	Not handled yet
-0x19a6	Not handled yet
-0x19a7	Not handled yet
-0x19a8	Not handled yet
-0x19a9	Not handled yet
-0x19aa	Not handled yet
-0x19ab	Not handled yet
-0x19ac	Not handled yet
-0x19ad	LXI		B,#$76e6
-0x19b0	Not handled yet
-0x19b1	Not handled yet
-0x19b2	Not handled yet
-0x19b3	Not handled yet
-0x19b4	Not handled yet
-0x19b5	Not handled yet
-0x19b6	Not handled yet
-0x19b7	Not handled yet
-0x19b8	Not handled yet
-0x19b9	Not handled yet
-0x19ba	Not handled yet
-0x19bb	JMP		$08f3
-0x19be	Not handled yet
-0x19bf	Not handled yet
-0x19c0	NOP
-0x19c1	Not handled yet
-0x19c2	Not handled yet
-0x19c3	Not handled yet
-0x19c4	Not handled yet
-0x19c5	STAX	B
-0x19c6	Not handled yet
-0x19c7	Not handled yet
-0x19c8	Not handled yet
-0x19c9	Not handled yet
-0x19ca	Not handled yet
-0x19cb	NOP
-0x19cc	Not handled yet
-0x19cd	Not handled yet
-0x19ce	Not handled yet
-0x19cf	Not handled yet
-0x19d0	Not handled yet
-0x19d1	Not handled yet
-0x19d2	LXI		B,#$e932
-0x19d5	Not handled yet
-0x19d6	Not handled yet
-0x19d7	Not handled yet
-0x19d8	JMP		$19d3
-0x19db	NOP
-0x19dc	Not handled yet
-0x19dd	Not handled yet
-0x19de	Not handled yet
-0x19df	Not handled yet
-0x19e0	Not handled yet
-0x19e1	Not handled yet
-0x19e2	Not handled yet
-0x19e3	Not handled yet
-0x19e4	INX		B
-0x19e5	Not handled yet
-0x19e6	Not handled yet
-0x19e7	LXI		B,#$ca27
-0x19ea	Not handled yet
-0x19eb	Not handled yet
-0x19ec	Not handled yet
-0x19ed	Not handled yet
-0x19ee	Not handled yet
-0x19ef	Not handled yet
-0x19f0	Not handled yet
-0x19f1	Not handled yet
-0x19f2	Not handled yet
-0x19f3	Not handled yet
-0x19f4	Not handled yet
-0x19f5	Not handled yet
-0x19f6	Not handled yet
-0x19f7	Not handled yet
-0x19f8	Not handled yet
-0x19f9	Not handled yet
-0x19fa	Not handled yet
-0x19fb	Not handled yet
-0x19fc	Not handled yet
-0x19fd	Not handled yet
-0x19fe	Not handled yet
-0x19ff	Not handled yet
-0x1a00	Not handled yet
-0x1a01	Not handled yet
-0x1a02	Not handled yet
-0x1a03	Not handled yet
-0x1a04	Not handled yet
-0x1a05	Not handled yet
-0x1a06	Not handled yet
-0x1a07	Not handled yet
-0x1a08	Not handled yet
-0x1a09	Not handled yet
-0x1a0a	Not handled yet
-0x1a0b	Not handled yet
-0x1a0c	Not handled yet
-0x1a0d	Not handled yet
-0x1a0e	Not handled yet
-0x1a0f	Not handled yet
-0x1a10	Not handled yet
-0x1a11	Not handled yet
-0x1a12	Not handled yet
-0x1a13	Not handled yet
-0x1a14	Not handled yet
-0x1a15	Not handled yet
-0x1a16	Not handled yet
-0x1a17	Not handled yet
-0x1a18	Not handled yet
-0x1a19	Not handled yet
-0x1a1a	Not handled yet
-0x1a1b	Not handled yet
-0x1a1c	Not handled yet
-0x1a1d	Not handled yet
-0x1a1e	INX		B
-0x1a1f	STAX	B
-0x1a20	LXI		B,#$2e34
-0x1a23	Not handled yet
-0x1a24	Not handled yet
-0x1a25	Not handled yet
-0x1a26	Not handled yet
-0x1a27	Not handled yet
-0x1a28	Not handled yet
-0x1a29	Not handled yet
-0x1a2a	Not handled yet
-0x1a2b	Not handled yet
-0x1a2c	Not handled yet
-0x1a2d	Not handled yet
-0x1a2e	Not handled yet
-0x1a2f	Not handled yet
-0x1a30	Not handled yet
-0x1a31	Not handled yet
-0x1a32	Not handled yet
-0x1a33	Not handled yet
-0x1a34	Not handled yet
-0x1a35	Not handled yet
-0x1a36	Not handled yet
-0x1a37	Not handled yet
-0x1a38	Not handled yet
-0x1a39	Not handled yet
-0x1a3a	Not handled yet
-0x1a3b	Not handled yet
-0x1a3c	Not handled yet
-0x1a3d	Not handled yet
-0x1a3e	Not handled yet
-0x1a3f	Not handled yet
-0x1a40	Not handled yet
-0x1a41	Not handled yet
-0x1a42	Not handled yet
-0x1a43	Not handled yet
-0x1a44	Not handled yet
-0x1a45	Not handled yet
-0x1a46	Not handled yet
-0x1a47	Not handled yet
-0x1a48	Not handled yet
-0x1a49	INX		B
-0x1a4a	Not handled yet
-0x1a4b	Not handled yet
-0x1a4c	Not handled yet
-0x1a4d	Not handled yet
-0x1a4e	Not handled yet
-0x1a4f	Not handled yet
-0x1a50	Not handled yet
-0x1a51	Not handled yet
-0x1a52	Not handled yet
-0x1a53	Not handled yet
-0x1a54	Not handled yet
-0x1a55	Not handled yet
-0x1a56	Not handled yet
-0x1a57	Not handled yet
-0x1a58	Not handled yet
-0x1a59	Not handled yet
-0x1a5a	Not handled yet
-0x1a5b	Not handled yet
-0x1a5c	Not handled yet
-0x1a5d	NOP
-0x1a5e	Not handled yet
-0x1a5f	Not handled yet
-0x1a60	NOP
-0x1a61	Not handled yet
-0x1a62	Not handled yet
-0x1a63	Not handled yet
-0x1a64	Not handled yet
-0x1a65	Not handled yet
-0x1a66	Not handled yet
-0x1a67	Not handled yet
-0x1a68	Not handled yet
-0x1a69	Not handled yet
-0x1a6a	Not handled yet
-0x1a6b	Not handled yet
-0x1a6c	Not handled yet
-0x1a6d	Not handled yet
-0x1a6e	Not handled yet
-0x1a6f	Not handled yet
-0x1a70	Not handled yet
-0x1a71	Not handled yet
-0x1a72	Not handled yet
-0x1a73	Not handled yet
-0x1a74	Not handled yet
-0x1a75	LXI		B,#$0020
-0x1a78	Not handled yet
-0x1a79	Not handled yet
-0x1a7a	Not handled yet
-0x1a7b	Not handled yet
-0x1a7c	Not handled yet
-0x1a7d	Not handled yet
-0x1a7e	Not handled yet
-0x1a7f	Not handled yet
-0x1a80	Not handled yet
-0x1a81	Not handled yet
-0x1a82	Not handled yet
-0x1a83	Not handled yet
-0x1a84	Not handled yet
-0x1a85	Not handled yet
-0x1a86	Not handled yet
-0x1a87	Not handled yet
-0x1a88	Not handled yet
-0x1a89	Not handled yet
-0x1a8a	Not handled yet
-0x1a8b	Not handled yet
-0x1a8c	LXI		B,#$e625
-0x1a8f	Not handled yet
-0x1a90	JMP		$09c5
-0x1a93	NOP
-0x1a94	NOP
-0x1a95	NOP
-0x1a96	NOP
-0x1a97	Not handled yet
-0x1a98	Not handled yet
-0x1a99	Not handled yet
-0x1a9a	Not handled yet
-0x1a9b	Not handled yet
-0x1a9c	Not handled yet
-0x1a9d	Not handled yet
-0x1a9e	NOP
-0x1a9f	Not handled yet
-0x1aa0	Not handled yet
-0x1aa1	Not handled yet
-0x1aa2	Not handled yet
-0x1aa3	Not handled yet
-0x1aa4	Not handled yet
-0x1aa5	Not handled yet
-0x1aa6	Not handled yet
-0x1aa7	NOP
-0x1aa8	Not handled yet
-0x1aa9	Not handled yet
-0x1aaa	Not handled yet
-0x1aab	Not handled yet
-0x1aac	Not handled yet
-0x1aad	Not handled yet
-0x1aae	Not handled yet
-0x1aaf	Not handled yet
-0x1ab0	Not handled yet
-0x1ab1	Not handled yet
-0x1ab2	Not handled yet
-0x1ab3	NOP
-0x1ab4	Not handled yet
-0x1ab5	Not handled yet
-0x1ab6	Not handled yet
-0x1ab7	Not handled yet
-0x1ab8	Not handled yet
-0x1ab9	Not handled yet
-0x1aba	Not handled yet
-0x1abb	Not handled yet
-0x1abc	Not handled yet
-0x1abd	Not handled yet
-0x1abe	Not handled yet
-0x1abf	Not handled yet
-0x1ac0	Not handled yet
-0x1ac1	Not handled yet
-0x1ac2	NOP
-0x1ac3	Not handled yet
-0x1ac4	Not handled yet
-0x1ac5	Not handled yet
-0x1ac6	Not handled yet
-0x1ac7	Not handled yet
-0x1ac8	LXI		B,#$1314
-0x1acb	Not handled yet
-0x1acc	Not handled yet
-0x1acd	Not handled yet
-0x1ace	Not handled yet
-0x1acf	Not handled yet
-0x1ad0	Not handled yet
-0x1ad1	Not handled yet
-0x1ad2	Not handled yet
-0x1ad3	Not handled yet
-0x1ad4	Not handled yet
-0x1ad5	Not handled yet
-0x1ad6	Not handled yet
-0x1ad7	NOP
-0x1ad8	Not handled yet
-0x1ad9	Not handled yet
-0x1ada	Not handled yet
-0x1adb	Not handled yet
-0x1adc	Not handled yet
-0x1add	LXI		B,#$1314
-0x1ae0	Not handled yet
-0x1ae1	Not handled yet
-0x1ae2	Not handled yet
-0x1ae3	Not handled yet
-0x1ae4	Not handled yet
-0x1ae5	Not handled yet
-0x1ae6	STAX	B
-0x1ae7	Not handled yet
-0x1ae8	Not handled yet
-0x1ae9	Not handled yet
-0x1aea	Not handled yet
-0x1aeb	Not handled yet
-0x1aec	Not handled yet
-0x1aed	Not handled yet
-0x1aee	Not handled yet
-0x1aef	Not handled yet
-0x1af0	Not handled yet
-0x1af1	Not handled yet
-0x1af2	STAX	B
-0x1af3	Not handled yet
-0x1af4	Not handled yet
-0x1af5	Not handled yet
-0x1af6	Not handled yet
-0x1af7	Not handled yet
-0x1af8	STAX	B
-0x1af9	Not handled yet
-0x1afa	Not handled yet
-0x1afb	Not handled yet
-0x1afc	Not handled yet
-0x1afd	Not handled yet
-0x1afe	Not handled yet
-0x1aff	Not handled yet
-0x1b00	LXI		B,#$0000
-0x1b03	Not handled yet
-0x1b04	NOP
-0x1b05	NOP
-0x1b06	NOP
-0x1b07	NOP
-0x1b08	STAX	B
-0x1b09	Not handled yet
-0x1b0a	Not handled yet
-0x1b0b	Not handled yet
-0x1b0c	Not handled yet
-0x1b0d	NOP
-0x1b0e	Not handled yet
-0x1b0f	NOP
-0x1b10	NOP
-0x1b11	Not handled yet
-0x1b12	NOP
-0x1b13	Not handled yet
-0x1b14	STAX	B
-0x1b15	Not handled yet
-0x1b16	Not handled yet
-0x1b17	Not handled yet
-0x1b18	Not handled yet
-0x1b19	Not handled yet
-0x1b1a	Not handled yet
-0x1b1b	Not handled yet
-0x1b1c	Not handled yet
-0x1b1d	LXI		B,#$0000
-0x1b20	NOP
-0x1b21	NOP
-0x1b22	NOP
-0x1b23	Not handled yet
-0x1b24	INX		B
-0x1b25	NOP
-0x1b26	Not handled yet
-0x1b27	Not handled yet
-0x1b28	Not handled yet
-0x1b29	Not handled yet
-0x1b2a	Not handled yet
-0x1b2b	LXI		B,#$0004
-0x1b2e	Not handled yet
-0x1b2f	Not handled yet
-0x1b30	NOP
-0x1b31	NOP
-0x1b32	STAX	B
-0x1b33	Not handled yet
-0x1b34	Not handled yet
-0x1b35	NOP
-0x1b36	NOP
-0x1b37	NOP
-0x1b38	NOP
-0x1b39	NOP
-0x1b3a	Not handled yet
-0x1b3b	Not handled yet
-0x1b3c	Not handled yet
-0x1b3d	NOP
-0x1b3e	NOP
-0x1b3f	INX		B
-0x1b40	NOP
-0x1b41	NOP
-0x1b42	NOP
-0x1b43	Not handled yet
-0x1b44	Not handled yet
-0x1b45	NOP
-0x1b46	NOP
-0x1b47	LXI		B,#$1d00
-0x1b4a	Not handled yet
-0x1b4b	Not handled yet
-0x1b4c	Not handled yet
-0x1b4d	NOP
-0x1b4e	NOP
-0x1b4f	INX		B
-0x1b50	NOP
-0x1b51	NOP
-0x1b52	NOP
-0x1b53	Not handled yet
-0x1b54	Not handled yet
-0x1b55	NOP
-0x1b56	NOP
-0x1b57	LXI		B,#$1d06
-0x1b5a	Not handled yet
-0x1b5b	Not handled yet
-0x1b5c	Not handled yet
-0x1b5d	NOP
-0x1b5e	NOP
-0x1b5f	INX		B
-0x1b60	Not handled yet
-0x1b61	NOP
-0x1b62	Not handled yet
-0x1b63	Not handled yet
-0x1b64	NOP
-0x1b65	NOP
-0x1b66	Not handled yet
-0x1b67	Not handled yet
-0x1b68	LXI		B,#$3000
-0x1b6b	NOP
-0x1b6c	Not handled yet
-0x1b6d	NOP
-0x1b6e	NOP
-0x1b6f	NOP
-0x1b70	Not handled yet
-0x1b71	Not handled yet
-0x1b72	NOP
-0x1b73	Not handled yet
-0x1b74	Not handled yet
-0x1b75	Not handled yet
-0x1b76	Not handled yet
-0x1b77	NOP
-0x1b78	Not handled yet
-0x1b79	Not handled yet
-0x1b7a	Not handled yet
-0x1b7b	Not handled yet
-0x1b7c	Not handled yet
-0x1b7d	Not handled yet
-0x1b7e	Not handled yet
-0x1b7f	NOP
-0x1b80	LXI		B,#$ffff
-0x1b83	NOP
-0x1b84	NOP
-0x1b85	NOP
-0x1b86	Not handled yet
-0x1b87	Not handled yet
-0x1b88	Not handled yet
-0x1b89	Not handled yet
-0x1b8a	Not handled yet
-0x1b8b	Not handled yet
-0x1b8c	STAX	B
-0x1b8d	Not handled yet
-0x1b8e	Not handled yet
-0x1b8f	NOP
-0x1b90	Not handled yet
-0x1b91	NOP
-0x1b92	Not handled yet
-0x1b93	NOP
-0x1b94	NOP
-0x1b95	LXI		B,#$0040
-0x1b98	LXI		B,#$0000
-0x1b9b	Not handled yet
-0x1b9c	Not handled yet
-0x1b9d	NOP
-0x1b9e	Not handled yet
-0x1b9f	Not handled yet
-0x1ba0	NOP
-0x1ba1	INX		B
-0x1ba2	Not handled yet
-0x1ba3	Not handled yet
-0x1ba4	Not handled yet
-0x1ba5	Not handled yet
-0x1ba6	Not handled yet
-0x1ba7	Not handled yet
-0x1ba8	Not handled yet
-0x1ba9	Not handled yet
-0x1baa	Not handled yet
-0x1bab	Not handled yet
-0x1bac	Not handled yet
-0x1bad	Not handled yet
-0x1bae	Not handled yet
-0x1baf	NOP
-0x1bb0	NOP
-0x1bb1	NOP
-0x1bb2	LXI		B,#$98b8
-0x1bb5	Not handled yet
-0x1bb6	Not handled yet
-0x1bb7	Not handled yet
-0x1bb8	Not handled yet
-0x1bb9	NOP
-0x1bba	Not handled yet
-0x1bbb	Not handled yet
-0x1bbc	NOP
-0x1bbd	NOP
-0x1bbe	NOP
-0x1bbf	NOP
-0x1bc0	NOP
-0x1bc1	Not handled yet
-0x1bc2	NOP
-0x1bc3	Not handled yet
-0x1bc4	Not handled yet
-0x1bc5	NOP
-0x1bc6	NOP
-0x1bc7	NOP
-0x1bc8	NOP
-0x1bc9	NOP
-0x1bca	Not handled yet
-0x1bcb	Not handled yet
-0x1bcc	Not handled yet
-0x1bcd	Not handled yet
-0x1bce	Not handled yet
-0x1bcf	INX		B
-0x1bd0	NOP
-0x1bd1	NOP
-0x1bd2	INX		B
-0x1bd3	Not handled yet
-0x1bd4	Not handled yet
-0x1bd5	Not handled yet
-0x1bd6	Not handled yet
-0x1bd7	Not handled yet
-0x1bd8	Not handled yet
-0x1bd9	Not handled yet
-0x1bda	Not handled yet
-0x1bdb	Not handled yet
-0x1bdc	Not handled yet
-0x1bdd	Not handled yet
-0x1bde	Not handled yet
-0x1bdf	NOP
-0x1be0	NOP
-0x1be1	NOP
-0x1be2	NOP
-0x1be3	NOP
-0x1be4	NOP
-0x1be5	NOP
-0x1be6	NOP
-0x1be7	NOP
-0x1be8	NOP
-0x1be9	LXI		B,#$0000
-0x1bec	LXI		B,#$1f74
-0x1bef	NOP
-0x1bf0	Not handled yet
-0x1bf1	NOP
-0x1bf2	NOP
-0x1bf3	NOP
-0x1bf4	NOP
-0x1bf5	NOP
-0x1bf6	Not handled yet
-0x1bf7	Not handled yet
-0x1bf8	NOP
-0x1bf9	NOP
-0x1bfa	Not handled yet
-0x1bfb	Not handled yet
-0x1bfc	NOP
-0x1bfd	NOP
-0x1bfe	Not handled yet
-0x1bff	Not handled yet
-0x1c00	NOP
-0x1c01	NOP
-0x1c02	Not handled yet
-0x1c03	Not handled yet
-0x1c04	Not handled yet
-0x1c05	Not handled yet
-0x1c06	Not handled yet
-0x1c07	Not handled yet
-0x1c08	Not handled yet
-0x1c09	Not handled yet
-0x1c0a	Not handled yet
-0x1c0b	Not handled yet
-0x1c0c	Not handled yet
-0x1c0d	Not handled yet
-0x1c0e	NOP
-0x1c0f	NOP
-0x1c10	NOP
-0x1c11	NOP
-0x1c12	NOP
-0x1c13	Not handled yet
-0x1c14	Not handled yet
-0x1c15	Not handled yet
-0x1c16	Not handled yet
-0x1c17	Not handled yet
-0x1c18	Not handled yet
-0x1c19	Not handled yet
-0x1c1a	Not handled yet
-0x1c1b	Not handled yet
-0x1c1c	Not handled yet
-0x1c1d	Not handled yet
-0x1c1e	NOP
-0x1c1f	NOP
-0x1c20	NOP
-0x1c21	NOP
-0x1c22	NOP
-0x1c23	NOP
-0x1c24	Not handled yet
-0x1c25	Not handled yet
-0x1c26	Not handled yet
-0x1c27	Not handled yet
-0x1c28	Not handled yet
-0x1c29	Not handled yet
-0x1c2a	Not handled yet
-0x1c2b	Not handled yet
-0x1c2c	NOP
-0x1c2d	NOP
-0x1c2e	NOP
-0x1c2f	NOP
-0x1c30	NOP
-0x1c31	NOP
-0x1c32	Not handled yet
-0x1c33	Not handled yet
-0x1c34	Not handled yet
-0x1c35	Not handled yet
-0x1c36	Not handled yet
-0x1c37	Not handled yet
-0x1c38	Not handled yet
-0x1c39	Not handled yet
-0x1c3a	Not handled yet
-0x1c3b	Not handled yet
-0x1c3c	Not handled yet
-0x1c3d	Not handled yet
-0x1c3e	NOP
-0x1c3f	NOP
-0x1c40	NOP
-0x1c41	NOP
-0x1c42	NOP
-0x1c43	Not handled yet
-0x1c44	Not handled yet
-0x1c45	Not handled yet
-0x1c46	Not handled yet
-0x1c47	Not handled yet
-0x1c48	Not handled yet
-0x1c49	Not handled yet
-0x1c4a	Not handled yet
-0x1c4b	Not handled yet
-0x1c4c	Not handled yet
-0x1c4d	Not handled yet
-0x1c4e	NOP
-0x1c4f	NOP
-0x1c50	NOP
-0x1c51	NOP
-0x1c52	NOP
-0x1c53	NOP
-0x1c54	Not handled yet
-0x1c55	Not handled yet
-0x1c56	Not handled yet
-0x1c57	Not handled yet
-0x1c58	Not handled yet
-0x1c59	Not handled yet
-0x1c5a	Not handled yet
-0x1c5b	Not handled yet
-0x1c5c	NOP
-0x1c5d	NOP
-0x1c5e	NOP
-0x1c5f	NOP
-0x1c60	NOP
-0x1c61	NOP
-0x1c62	Not handled yet
-0x1c63	Not handled yet
-0x1c64	Not handled yet
-0x1c65	Not handled yet
-0x1c66	Not handled yet
-0x1c67	Not handled yet
-0x1c68	Not handled yet
-0x1c69	Not handled yet
-0x1c6a	Not handled yet
-0x1c6b	Not handled yet
-0x1c6c	Not handled yet
-0x1c6d	Not handled yet
-0x1c6e	Not handled yet
-0x1c6f	NOP
-0x1c70	NOP
-0x1c71	Not handled yet
-0x1c72	LXI		B,#$0313
-0x1c75	Not handled yet
-0x1c76	Not handled yet
-0x1c77	Not handled yet
-0x1c78	Not handled yet
-0x1c79	INX		B
-0x1c7a	Not handled yet
-0x1c7b	Not handled yet
-0x1c7c	Not handled yet
-0x1c7d	INX		B
-0x1c7e	NOP
-0x1c7f	LXI		B,#$0840
-0x1c82	Not handled yet
-0x1c83	Not handled yet
-0x1c84	Not handled yet
-0x1c85	INX		B
-0x1c86	Not handled yet
-0x1c87	Not handled yet
-0x1c88	Not handled yet
-0x1c89	Not handled yet
-0x1c8a	Not handled yet
-0x1c8b	Not handled yet
-0x1c8c	Not handled yet
-0x1c8d	Not handled yet
-0x1c8e	Not handled yet
-0x1c8f	Not handled yet
-0x1c90	Not handled yet
-0x1c91	Not handled yet
-0x1c92	Not handled yet
-0x1c93	Not handled yet
-0x1c94	Not handled yet
-0x1c95	Not handled yet
-0x1c96	Not handled yet
-0x1c97	Not handled yet
-0x1c98	Not handled yet
-0x1c99	Not handled yet
-0x1c9a	Not handled yet
-0x1c9b	Not handled yet
-0x1c9c	Not handled yet
-0x1c9d	Not handled yet
-0x1c9e	Not handled yet
-0x1c9f	Not handled yet
-0x1ca0	Not handled yet
-0x1ca1	Not handled yet
-0x1ca2	Not handled yet
-0x1ca3	Not handled yet
-0x1ca4	Not handled yet
-0x1ca5	STAX	B
-0x1ca6	Not handled yet
-0x1ca7	Not handled yet
-0x1ca8	Not handled yet
-0x1ca9	Not handled yet
-0x1caa	NOP
-0x1cab	INX		B
-0x1cac	Not handled yet
-0x1cad	NOP
-0x1cae	Not handled yet
-0x1caf	STAX	B
-0x1cb0	Not handled yet
-0x1cb1	Not handled yet
-0x1cb2	Not handled yet
-0x1cb3	NOP
-0x1cb4	LXI		B,#$040b
-0x1cb7	Not handled yet
-0x1cb8	STAX	B
-0x1cb9	Not handled yet
-0x1cba	Not handled yet
-0x1cbb	Not handled yet
-0x1cbc	Not handled yet
-0x1cbd	Not handled yet
-0x1cbe	Not handled yet
-0x1cbf	Not handled yet
-0x1cc0	NOP
-0x1cc1	Not handled yet
-0x1cc2	Not handled yet
-0x1cc3	Not handled yet
-0x1cc4	Not handled yet
-0x1cc5	Not handled yet
-0x1cc6	Not handled yet
-0x1cc7	NOP
-0x1cc8	Not handled yet
-0x1cc9	Not handled yet
-0x1cca	Not handled yet
-0x1ccb	Not handled yet
-0x1ccc	Not handled yet
-0x1ccd	Not handled yet
-0x1cce	NOP
-0x1ccf	NOP
-0x1cd0	Not handled yet
-0x1cd1	Not handled yet
-0x1cd2	Not handled yet
-0x1cd3	Not handled yet
-0x1cd4	Not handled yet
-0x1cd5	Not handled yet
-0x1cd6	Not handled yet
-0x1cd7	Not handled yet
-0x1cd8	Not handled yet
-0x1cd9	Not handled yet
-0x1cda	Not handled yet
-0x1cdb	Not handled yet
-0x1cdc	Not handled yet
-0x1cdd	Not handled yet
-0x1cde	Not handled yet
-0x1cdf	Not handled yet
-0x1ce0	Not handled yet
-0x1ce1	Not handled yet
-0x1ce2	Not handled yet
-0x1ce3	Not handled yet
-0x1ce4	Not handled yet
-0x1ce5	Not handled yet
-0x1ce6	Not handled yet
-0x1ce7	Not handled yet
-0x1ce8	Not handled yet
-0x1ce9	Not handled yet
-0x1cea	Not handled yet
-0x1ceb	Not handled yet
-0x1cec	Not handled yet
-0x1ced	Not handled yet
-0x1cee	NOP
-0x1cef	Not handled yet
-0x1cf0	NOP
-0x1cf1	Not handled yet
-0x1cf2	Not handled yet
-0x1cf3	Not handled yet
-0x1cf4	NOP
-0x1cf5	Not handled yet
-0x1cf6	NOP
-0x1cf7	Not handled yet
-0x1cf8	Not handled yet
-0x1cf9	Not handled yet
-0x1cfa	Not handled yet
-0x1cfb	Not handled yet
-0x1cfc	NOP
-0x1cfd	Not handled yet
-0x1cfe	NOP
-0x1cff	NOP
-0x1d00	LXI		B,#$0107
-0x1d03	LXI		B,#$0401
-0x1d06	Not handled yet
-0x1d07	LXI		B,#$0306
-0x1d0a	LXI		B,#$0b01
-0x1d0d	Not handled yet
-0x1d0e	STAX	B
-0x1d0f	Not handled yet
-0x1d10	STAX	B
-0x1d11	Not handled yet
-0x1d12	Not handled yet
-0x1d13	Not handled yet
-0x1d14	Not handled yet
-0x1d15	Not handled yet
-0x1d16	STAX	B
-0x1d17	Not handled yet
-0x1d18	Not handled yet
-0x1d19	Not handled yet
-0x1d1a	Not handled yet
-0x1d1b	Not handled yet
-0x1d1c	Not handled yet
-0x1d1d	Not handled yet
-0x1d1e	Not handled yet
-0x1d1f	INX		B
-0x1d20	Not handled yet
-0x1d21	Not handled yet
-0x1d22	Not handled yet
-0x1d23	Not handled yet
-0x1d24	Not handled yet
-0x1d25	Not handled yet
-0x1d26	Not handled yet
-0x1d27	Not handled yet
-0x1d28	Not handled yet
-0x1d29	Not handled yet
-0x1d2a	Not handled yet
-0x1d2b	Not handled yet
-0x1d2c	Not handled yet
-0x1d2d	Not handled yet
-0x1d2e	Not handled yet
-0x1d2f	Not handled yet
-0x1d30	Not handled yet
-0x1d31	Not handled yet
-0x1d32	Not handled yet
-0x1d33	Not handled yet
-0x1d34	Not handled yet
-0x1d35	Not handled yet
-0x1d36	Not handled yet
-0x1d37	Not handled yet
-0x1d38	Not handled yet
-0x1d39	Not handled yet
-0x1d3a	Not handled yet
-0x1d3b	Not handled yet
-0x1d3c	Not handled yet
-0x1d3d	Not handled yet
-0x1d3e	Not handled yet
-0x1d3f	Not handled yet
-0x1d40	Not handled yet
-0x1d41	Not handled yet
-0x1d42	Not handled yet
-0x1d43	Not handled yet
-0x1d44	Not handled yet
-0x1d45	Not handled yet
-0x1d46	Not handled yet
-0x1d47	Not handled yet
-0x1d48	Not handled yet
-0x1d49	Not handled yet
-0x1d4a	Not handled yet
-0x1d4b	Not handled yet
-0x1d4c	Not handled yet
-0x1d4d	Not handled yet
-0x1d4e	Not handled yet
-0x1d4f	Not handled yet
-0x1d50	Not handled yet
-0x1d51	Not handled yet
-0x1d52	Not handled yet
-0x1d53	Not handled yet
-0x1d54	Not handled yet
-0x1d55	Not handled yet
-0x1d56	Not handled yet
-0x1d57	Not handled yet
-0x1d58	Not handled yet
-0x1d59	Not handled yet
-0x1d5a	Not handled yet
-0x1d5b	Not handled yet
-0x1d5c	Not handled yet
-0x1d5d	Not handled yet
-0x1d5e	Not handled yet
-0x1d5f	Not handled yet
-0x1d60	Not handled yet
-0x1d61	Not handled yet
-0x1d62	Not handled yet
-0x1d63	Not handled yet
-0x1d64	NOP
-0x1d65	NOP
-0x1d66	NOP
-0x1d67	NOP
-0x1d68	Not handled yet
-0x1d69	Not handled yet
-0x1d6a	Not handled yet
-0x1d6b	Not handled yet
-0x1d6c	Not handled yet
-0x1d6d	Not handled yet
-0x1d6e	Not handled yet
-0x1d6f	Not handled yet
-0x1d70	Not handled yet
-0x1d71	Not handled yet
-0x1d72	Not handled yet
-0x1d73	Not handled yet
-0x1d74	Not handled yet
-0x1d75	Not handled yet
-0x1d76	Not handled yet
-0x1d77	Not handled yet
-0x1d78	NOP
-0x1d79	NOP
-0x1d7a	NOP
-0x1d7b	NOP
-0x1d7c	NOP
-0x1d7d	Not handled yet
-0x1d7e	NOP
-0x1d7f	Not handled yet
-0x1d80	Not handled yet
-0x1d81	Not handled yet
-0x1d82	Not handled yet
-0x1d83	Not handled yet
-0x1d84	Not handled yet
-0x1d85	Not handled yet
-0x1d86	Not handled yet
-0x1d87	Not handled yet
-0x1d88	Not handled yet
-0x1d89	Not handled yet
-0x1d8a	Not handled yet
-0x1d8b	Not handled yet
-0x1d8c	Not handled yet
-0x1d8d	Not handled yet
-0x1d8e	Not handled yet
-0x1d8f	Not handled yet
-0x1d90	Not handled yet
-0x1d91	Not handled yet
-0x1d92	NOP
-0x1d93	NOP
-0x1d94	Not handled yet
-0x1d95	Not handled yet
-0x1d96	Not handled yet
-0x1d97	Not handled yet
-0x1d98	Not handled yet
-0x1d99	Not handled yet
-0x1d9a	Not handled yet
-0x1d9b	Not handled yet
-0x1d9c	Not handled yet
-0x1d9d	Not handled yet
-0x1d9e	Not handled yet
-0x1d9f	Not handled yet
-0x1da0	Not handled yet
-0x1da1	Not handled yet
-0x1da2	Not handled yet
-0x1da3	Not handled yet
-0x1da4	Not handled yet
-0x1da5	Not handled yet
-0x1da6	Not handled yet
-0x1da7	Not handled yet
-0x1da8	Not handled yet
-0x1da9	Not handled yet
-0x1daa	Not handled yet
-0x1dab	Not handled yet
-0x1dac	Not handled yet
-0x1dad	NOP
-0x1dae	Not handled yet
-0x1daf	Not handled yet
-0x1db0	Not handled yet
-0x1db1	NOP
-0x1db2	STAX	B
-0x1db3	Not handled yet
-0x1db4	Not handled yet
-0x1db5	Not handled yet
-0x1db6	Not handled yet
-0x1db7	Not handled yet
-0x1db8	Not handled yet
-0x1db9	NOP
-0x1dba	INX		B
-0x1dbb	Not handled yet
-0x1dbc	Not handled yet
-0x1dbd	Not handled yet
-0x1dbe	Not handled yet
-0x1dbf	Not handled yet
-0x1dc0	Not handled yet
-0x1dc1	Not handled yet
-0x1dc2	Not handled yet
-0x1dc3	Not handled yet
-0x1dc4	Not handled yet
-0x1dc5	Not handled yet
-0x1dc6	Not handled yet
-0x1dc7	Not handled yet
-0x1dc8	Not handled yet
-0x1dc9	Not handled yet
-0x1dca	Not handled yet
-0x1dcb	Not handled yet
-0x1dcc	NOP
-0x1dcd	Not handled yet
-0x1dce	Not handled yet
-0x1dcf	Not handled yet
-0x1dd0	Not handled yet
-0x1dd1	Not handled yet
-0x1dd2	Not handled yet
-0x1dd3	Not handled yet
-0x1dd4	Not handled yet
-0x1dd5	Not handled yet
-0x1dd6	Not handled yet
-0x1dd7	Not handled yet
-0x1dd8	Not handled yet
-0x1dd9	Not handled yet
-0x1dda	Not handled yet
-0x1ddb	Not handled yet
-0x1ddc	Not handled yet
-0x1ddd	Not handled yet
-0x1dde	Not handled yet
-0x1ddf	Not handled yet
-0x1de0	Not handled yet
-0x1de1	Not handled yet
-0x1de2	Not handled yet
-0x1de3	Not handled yet
-0x1de4	Not handled yet
-0x1de5	Not handled yet
-0x1de6	Not handled yet
-0x1de7	Not handled yet
-0x1de8	Not handled yet
-0x1de9	Not handled yet
-0x1dea	Not handled yet
-0x1deb	Not handled yet
-0x1dec	Not handled yet
-0x1ded	Not handled yet
-0x1dee	Not handled yet
-0x1def	Not handled yet
-0x1df0	Not handled yet
-0x1df1	Not handled yet
-0x1df2	Not handled yet
-0x1df3	Not handled yet
-0x1df4	Not handled yet
-0x1df5	Not handled yet
-0x1df6	Not handled yet
-0x1df7	Not handled yet
-0x1df8	Not handled yet
-0x1df9	Not handled yet
-0x1dfa	Not handled yet
-0x1dfb	Not handled yet
-0x1dfc	Not handled yet
-0x1dfd	Not handled yet
-0x1dfe	NOP
-0x1dff	NOP
-0x1e00	NOP
-0x1e01	Not handled yet
-0x1e02	Not handled yet
-0x1e03	Not handled yet
-0x1e04	Not handled yet
-0x1e05	Not handled yet
-0x1e06	NOP
-0x1e07	NOP
-0x1e08	NOP
-0x1e09	Not handled yet
-0x1e0a	Not handled yet
-0x1e0b	Not handled yet
-0x1e0c	Not handled yet
-0x1e0d	Not handled yet
-0x1e0e	NOP
-0x1e0f	NOP
-0x1e10	NOP
-0x1e11	Not handled yet
-0x1e12	Not handled yet
-0x1e13	Not handled yet
-0x1e14	Not handled yet
-0x1e15	Not handled yet
-0x1e16	NOP
-0x1e17	NOP
-0x1e18	NOP
-0x1e19	Not handled yet
-0x1e1a	Not handled yet
-0x1e1b	Not handled yet
-0x1e1c	Not handled yet
-0x1e1d	Not handled yet
-0x1e1e	NOP
-0x1e1f	NOP
-0x1e20	NOP
-0x1e21	Not handled yet
-0x1e22	Not handled yet
-0x1e23	Not handled yet
-0x1e24	Not handled yet
-0x1e25	Not handled yet
-0x1e26	NOP
-0x1e27	NOP
-0x1e28	NOP
-0x1e29	Not handled yet
-0x1e2a	Not handled yet
-0x1e2b	Not handled yet
-0x1e2c	Not handled yet
-0x1e2d	Not handled yet
-0x1e2e	NOP
-0x1e2f	NOP
-0x1e30	NOP
-0x1e31	Not handled yet
-0x1e32	Not handled yet
-0x1e33	Not handled yet
-0x1e34	Not handled yet
-0x1e35	Not handled yet
-0x1e36	NOP
-0x1e37	NOP
-0x1e38	NOP
-0x1e39	Not handled yet
-0x1e3a	Not handled yet
-0x1e3b	Not handled yet
-0x1e3c	Not handled yet
-0x1e3d	Not handled yet
-0x1e3e	NOP
-0x1e3f	NOP
-0x1e40	NOP
-0x1e41	NOP
-0x1e42	Not handled yet
-0x1e43	Not handled yet
-0x1e44	Not handled yet
-0x1e45	NOP
-0x1e46	NOP
-0x1e47	NOP
-0x1e48	NOP
-0x1e49	STAX	B
-0x1e4a	LXI		B,#$0101
-0x1e4d	Not handled yet
-0x1e4e	NOP
-0x1e4f	NOP
-0x1e50	NOP
-0x1e51	Not handled yet
-0x1e52	Not handled yet
-0x1e53	Not handled yet
-0x1e54	Not handled yet
-0x1e55	Not handled yet
-0x1e56	NOP
-0x1e57	NOP
-0x1e58	NOP
-0x1e59	Not handled yet
-0x1e5a	LXI		B,#$0101
-0x1e5d	LXI		B,#$0000
-0x1e60	NOP
-0x1e61	Not handled yet
-0x1e62	Not handled yet
-0x1e63	Not handled yet
-0x1e64	Not handled yet
-0x1e65	Not handled yet
-0x1e66	NOP
-0x1e67	NOP
-0x1e68	NOP
-0x1e69	Not handled yet
-0x1e6a	Not handled yet
-0x1e6b	Not handled yet
-0x1e6c	Not handled yet
-0x1e6d	Not handled yet
-0x1e6e	NOP
-0x1e6f	NOP
-0x1e70	NOP
-0x1e71	Not handled yet
-0x1e72	Not handled yet
-0x1e73	Not handled yet
-0x1e74	Not handled yet
-0x1e75	Not handled yet
-0x1e76	NOP
-0x1e77	NOP
-0x1e78	NOP
-0x1e79	Not handled yet
-0x1e7a	Not handled yet
-0x1e7b	Not handled yet
-0x1e7c	Not handled yet
-0x1e7d	Not handled yet
-0x1e7e	NOP
-0x1e7f	NOP
-0x1e80	NOP
-0x1e81	Not handled yet
-0x1e82	Not handled yet
-0x1e83	Not handled yet
-0x1e84	Not handled yet
-0x1e85	Not handled yet
-0x1e86	NOP
-0x1e87	NOP
-0x1e88	NOP
-0x1e89	Not handled yet
-0x1e8a	Not handled yet
-0x1e8b	Not handled yet
-0x1e8c	Not handled yet
-0x1e8d	Not handled yet
-0x1e8e	NOP
-0x1e8f	NOP
-0x1e90	NOP
-0x1e91	Not handled yet
-0x1e92	Not handled yet
-0x1e93	Not handled yet
-0x1e94	Not handled yet
-0x1e95	Not handled yet
-0x1e96	NOP
-0x1e97	NOP
-0x1e98	NOP
-0x1e99	Not handled yet
-0x1e9a	Not handled yet
-0x1e9b	Not handled yet
-0x1e9c	Not handled yet
-0x1e9d	Not handled yet
-0x1e9e	NOP
-0x1e9f	NOP
-0x1ea0	NOP
-0x1ea1	Not handled yet
-0x1ea2	LXI		B,#$0101
-0x1ea5	Not handled yet
-0x1ea6	NOP
-0x1ea7	NOP
-0x1ea8	NOP
-0x1ea9	Not handled yet
-0x1eaa	STAX	B
-0x1eab	LXI		B,#$7c02
-0x1eae	NOP
-0x1eaf	NOP
-0x1eb0	NOP
-0x1eb1	Not handled yet
-0x1eb2	STAX	B
-0x1eb3	Not handled yet
-0x1eb4	STAX	B
-0x1eb5	Not handled yet
-0x1eb6	NOP
-0x1eb7	NOP
-0x1eb8	NOP
-0x1eb9	Not handled yet
-0x1eba	Not handled yet
-0x1ebb	Not handled yet
-0x1ebc	Not handled yet
-0x1ebd	Not handled yet
-0x1ebe	NOP
-0x1ebf	NOP
-0x1ec0	NOP
-0x1ec1	Not handled yet
-0x1ec2	Not handled yet
-0x1ec3	Not handled yet
-0x1ec4	Not handled yet
-0x1ec5	Not handled yet
-0x1ec6	NOP
-0x1ec7	NOP
-0x1ec8	NOP
-0x1ec9	Not handled yet
-0x1eca	Not handled yet
-0x1ecb	Not handled yet
-0x1ecc	Not handled yet
-0x1ecd	Not handled yet
-0x1ece	NOP
-0x1ecf	NOP
-0x1ed0	NOP
-0x1ed1	Not handled yet
-0x1ed2	Not handled yet
-0x1ed3	Not handled yet
-0x1ed4	Not handled yet
-0x1ed5	Not handled yet
-0x1ed6	NOP
-0x1ed7	NOP
-0x1ed8	NOP
-0x1ed9	NOP
-0x1eda	Not handled yet
-0x1edb	Not handled yet
-0x1edc	LXI		B,#$0000
-0x1edf	NOP
-0x1ee0	NOP
-0x1ee1	Not handled yet
-0x1ee2	Not handled yet
-0x1ee3	Not handled yet
-0x1ee4	Not handled yet
-0x1ee5	Not handled yet
-0x1ee6	NOP
-0x1ee7	NOP
-0x1ee8	NOP
-0x1ee9	Not handled yet
-0x1eea	Not handled yet
-0x1eeb	Not handled yet
-0x1eec	Not handled yet
-0x1eed	Not handled yet
-0x1eee	NOP
-0x1eef	NOP
-0x1ef0	NOP
-0x1ef1	Not handled yet
-0x1ef2	Not handled yet
-0x1ef3	Not handled yet
-0x1ef4	Not handled yet
-0x1ef5	Not handled yet
-0x1ef6	NOP
-0x1ef7	NOP
-0x1ef8	NOP
-0x1ef9	Not handled yet
-0x1efa	Not handled yet
-0x1efb	Not handled yet
-0x1efc	Not handled yet
-0x1efd	Not handled yet
-0x1efe	NOP
-0x1eff	NOP
-0x1f00	NOP
-0x1f01	Not handled yet
-0x1f02	Not handled yet
-0x1f03	Not handled yet
-0x1f04	Not handled yet
-0x1f05	Not handled yet
-0x1f06	NOP
-0x1f07	NOP
-0x1f08	NOP
-0x1f09	Not handled yet
-0x1f0a	Not handled yet
-0x1f0b	Not handled yet
-0x1f0c	Not handled yet
-0x1f0d	Not handled yet
-0x1f0e	NOP
-0x1f0f	NOP
-0x1f10	NOP
-0x1f11	Not handled yet
-0x1f12	Not handled yet
-0x1f13	Not handled yet
-0x1f14	Not handled yet
-0x1f15	Not handled yet
-0x1f16	NOP
-0x1f17	NOP
-0x1f18	NOP
-0x1f19	Not handled yet
-0x1f1a	Not handled yet
-0x1f1b	Not handled yet
-0x1f1c	Not handled yet
-0x1f1d	Not handled yet
-0x1f1e	NOP
-0x1f1f	NOP
-0x1f20	NOP
-0x1f21	Not handled yet
-0x1f22	Not handled yet
-0x1f23	Not handled yet
-0x1f24	Not handled yet
-0x1f25	NOP
-0x1f26	NOP
-0x1f27	NOP
-0x1f28	NOP
-0x1f29	NOP
-0x1f2a	Not handled yet
-0x1f2b	Not handled yet
-0x1f2c	Not handled yet
-0x1f2d	Not handled yet
-0x1f2e	NOP
-0x1f2f	NOP
-0x1f30	NOP
-0x1f31	NOP
-0x1f32	NOP
-0x1f33	NOP
-0x1f34	NOP
-0x1f35	NOP
-0x1f36	NOP
-0x1f37	NOP
-0x1f38	NOP
-0x1f39	Not handled yet
-0x1f3a	Not handled yet
-0x1f3b	Not handled yet
-0x1f3c	Not handled yet
-0x1f3d	Not handled yet
-0x1f3e	NOP
-0x1f3f	NOP
-0x1f40	NOP
-0x1f41	Not handled yet
-0x1f42	Not handled yet
-0x1f43	Not handled yet
-0x1f44	Not handled yet
-0x1f45	Not handled yet
-0x1f46	NOP
-0x1f47	NOP
-0x1f48	NOP
-0x1f49	INX		B
-0x1f4a	Not handled yet
-0x1f4b	Not handled yet
-0x1f4c	Not handled yet
-0x1f4d	INX		B
-0x1f4e	NOP
-0x1f4f	NOP
-0x1f50	Not handled yet
-0x1f51	Not handled yet
-0x1f52	Not handled yet
-0x1f53	Not handled yet
-0x1f54	Not handled yet
-0x1f55	Not handled yet
-0x1f56	Not handled yet
-0x1f57	Not handled yet
-0x1f58	Not handled yet
-0x1f59	Not handled yet
-0x1f5a	NOP
-0x1f5b	Not handled yet
-0x1f5c	Not handled yet
-0x1f5d	Not handled yet
-0x1f5e	Not handled yet
-0x1f5f	Not handled yet
-0x1f60	Not handled yet
-0x1f61	Not handled yet
-0x1f62	Not handled yet
-0x1f63	Not handled yet
-0x1f64	Not handled yet
-0x1f65	Not handled yet
-0x1f66	Not handled yet
-0x1f67	NOP
-0x1f68	Not handled yet
-0x1f69	Not handled yet
-0x1f6a	Not handled yet
-0x1f6b	Not handled yet
-0x1f6c	Not handled yet
-0x1f6d	Not handled yet
-0x1f6e	Not handled yet
-0x1f6f	STAX	B
-0x1f70	Not handled yet
-0x1f71	Not handled yet
-0x1f72	Not handled yet
-0x1f73	Not handled yet
-0x1f74	LXI		B,#$0001
-0x1f77	NOP
-0x1f78	LXI		B,#$0200
-0x1f7b	LXI		B,#$0200
-0x1f7e	LXI		B,#$6000
-0x1f81	Not handled yet
-0x1f82	Not handled yet
-0x1f83	Not handled yet
-0x1f84	Not handled yet
-0x1f85	Not handled yet
-0x1f86	Not handled yet
-0x1f87	Not handled yet
-0x1f88	Not handled yet
-0x1f89	Not handled yet
-0x1f8a	Not handled yet
-0x1f8b	Not handled yet
-0x1f8c	Not handled yet
-0x1f8d	Not handled yet
-0x1f8e	Not handled yet
-0x1f8f	NOP
-0x1f90	Not handled yet
-0x1f91	Not handled yet
-0x1f92	Not handled yet
-0x1f93	Not handled yet
-0x1f94	Not handled yet
-0x1f95	Not handled yet
-0x1f96	Not handled yet
-0x1f97	Not handled yet
-0x1f98	STAX	B
-0x1f99	Not handled yet
-0x1f9a	Not handled yet
-0x1f9b	Not handled yet
-0x1f9c	Not handled yet
-0x1f9d	Not handled yet
-0x1f9e	Not handled yet
-0x1f9f	Not handled yet
-0x1fa0	Not handled yet
-0x1fa1	Not handled yet
-0x1fa2	Not handled yet
-0x1fa3	Not handled yet
-0x1fa4	Not handled yet
-0x1fa5	Not handled yet
-0x1fa6	Not handled yet
-0x1fa7	Not handled yet
-0x1fa8	Not handled yet
-0x1fa9	STAX	B
-0x1faa	Not handled yet
-0x1fab	Not handled yet
-0x1fac	INX		B
-0x1fad	Not handled yet
-0x1fae	Not handled yet
-0x1faf	Not handled yet
-0x1fb0	NOP
-0x1fb1	Not handled yet
-0x1fb2	Not handled yet
-0x1fb3	Not handled yet
-0x1fb4	Not handled yet
-0x1fb5	Not handled yet
-0x1fb6	Not handled yet
-0x1fb7	Not handled yet
-0x1fb8	Not handled yet
-0x1fb9	Not handled yet
-0x1fba	Not handled yet
-0x1fbb	Not handled yet
-0x1fbc	Not handled yet
-0x1fbd	Not handled yet
-0x1fbe	Not handled yet
-0x1fbf	NOP
-0x1fc0	NOP
-0x1fc1	Not handled yet
-0x1fc2	Not handled yet
-0x1fc3	Not handled yet
-0x1fc4	Not handled yet
-0x1fc5	Not handled yet
-0x1fc6	NOP
-0x1fc7	NOP
-0x1fc8	NOP
-0x1fc9	NOP
-0x1fca	NOP
-0x1fcb	Not handled yet
-0x1fcc	Not handled yet
-0x1fcd	Not handled yet
-0x1fce	Not handled yet
-0x1fcf	Not handled yet
-0x1fd0	Not handled yet
-0x1fd1	Not handled yet
-0x1fd2	NOP
-0x1fd3	Not handled yet
-0x1fd4	Not handled yet
-0x1fd5	NOP
-0x1fd6	NOP
-0x1fd7	LXI		B,#$22d0
-0x1fda	Not handled yet
-0x1fdb	Not handled yet
-0x1fdc	Not handled yet
-0x1fdd	Not handled yet
-0x1fde	NOP
-0x1fdf	Not handled yet
-0x1fe0	Not handled yet
-0x1fe1	Not handled yet
-0x1fe2	Not handled yet
-0x1fe3	Not handled yet
-0x1fe4	Not handled yet
-0x1fe5	Not handled yet
-0x1fe6	NOP
-0x1fe7	Not handled yet
-0x1fe8	Not handled yet
-0x1fe9	Not handled yet
-0x1fea	Not handled yet
-0x1feb	Not handled yet
-0x1fec	Not handled yet
-0x1fed	Not handled yet
-0x1fee	STAX	B
-0x1fef	Not handled yet
-0x1ff0	Not handled yet
-0x1ff1	Not handled yet
-0x1ff2	Not handled yet
-0x1ff3	Not handled yet
-0x1ff4	Not handled yet
-0x1ff5	Not handled yet
-0x1ff6	Not handled yet
-0x1ff7	Not handled yet
-0x1ff8	NOP
-0x1ff9	Not handled yet
-0x1ffa	Not handled yet
-0x1ffb	Not handled yet
-0x1ffc	Not handled yet
-0x1ffd	Not handled yet
-0x1ffe	NOP
-0x1fff	NOP
+0000	NOP
+0001	NOP
+0002	NOP
+0003	JMP		$18d4
+0006	NOP
+0007	NOP
+0008	PUSH	PSW
+0009	PUSH	B
+000a	PUSH	D
+000b	PUSH	H
+000c	JMP		$008c
+000f	NOP
+0010	PUSH	PSW
+0011	PUSH	B
+0012	PUSH	D
+0013	PUSH	H
+0014	MVI		A, 128
+0016	STA		$2072
+0019	LXI		H, 8384
+001c	DCR		M
+001d	CALL	$17cd
+0020	IN		1
+0022	N/A
+0023	N/A
+0024	N/A
+0025	NOP
+0026	N/A
+0027	N/A
+0028	N/A
+0029	N/A
+002a	N/A
+002b	N/A
+002c	NOP
+002d	N/A
+002e	N/A
+002f	N/A
+0030	N/A
+0031	N/A
+0032	N/A
+0033	MVI		A, 0
+0035	N/A
+0036	LXI		B, 12839
+0039	N/A
+003a	N/A
+003b	CALL	$1947
+003e	N/A
+003f	STA		$20ea
+0042	N/A
+0043	N/A
+0044	N/A
+0045	N/A
+0046	N/A
+0047	N/A
+0048	NOP
+0049	N/A
+004a	N/A
+004b	N/A
+004c	N/A
+004d	N/A
+004e	N/A
+004f	NOP
+0050	N/A
+0051	N/A
+0052	N/A
+0053	N/A
+0054	N/A
+0055	N/A
+0056	NOP
+0057	CALL	$0abf
+005a	JMP		$0082
+005d	N/A
+005e	N/A
+005f	N/A
+0060	N/A
+0061	N/A
+0062	N/A
+0063	NOP
+0064	JMP		$0765
+0067	MVI		A, 1
+0069	STA		$20ea
+006c	JMP		$003f
+006f	CALL	$1740
+0072	N/A
+0073	STA		$3220
+0076	N/A
+0077	N/A
+0078	CALL	$0100
+007b	CALL	$0248
+007e	CALL	$0913
+0081	NOP
+0082	N/A
+0083	N/A
+0084	N/A
+0085	N/A
+0086	N/A
+0087	N/A
+0088	NOP
+0089	NOP
+008a	NOP
+008b	NOP
+008c	N/A
+008d	STA		$2072
+0090	N/A
+0091	N/A
+0092	N/A
+0093	N/A
+0094	N/A
+0095	N/A
+0096	NOP
+0097	N/A
+0098	N/A
+0099	N/A
+009a	N/A
+009b	N/A
+009c	N/A
+009d	NOP
+009e	N/A
+009f	N/A
+00a0	N/A
+00a1	N/A
+00a2	N/A
+00a3	N/A
+00a4	NOP
+00a5	LXI		H, 8224
+00a8	CALL	$024b
+00ab	CALL	$0141
+00ae	JMP		$0082
+00b1	CALL	$0886
+00b4	PUSH	H
+00b5	N/A
+00b6	N/A
+00b7	N/A
+00b8	N/A
+00b9	N/A
+00ba	N/A
+00bb	N/A
+00bc	N/A
+00bd	N/A
+00be	N/A
+00bf	N/A
+00c0	N/A
+00c1	N/A
+00c2	N/A
+00c3	INX		B
+00c4	N/A
+00c5	N/A
+00c6	NOP
+00c7	N/A
+00c8	STA		$2008
+00cb	N/A
+00cc	N/A
+00cd	MVI		A, 0
+00cf	N/A
+00d0	N/A
+00d1	NOP
+00d2	DCR		A
+00d3	STA		$200d
+00d6	N/A
+00d7	MVI		A, 2
+00d9	STA		$21fb
+00dc	STA		$22fb
+00df	JMP		$08e4
+00e2	NOP
+00e3	NOP
+00e4	NOP
+00e5	NOP
+00e6	NOP
+00e7	NOP
+00e8	NOP
+00e9	NOP
+00ea	NOP
+00eb	NOP
+00ec	NOP
+00ed	NOP
+00ee	NOP
+00ef	NOP
+00f0	NOP
+00f1	NOP
+00f2	NOP
+00f3	NOP
+00f4	NOP
+00f5	NOP
+00f6	NOP
+00f7	NOP
+00f8	NOP
+00f9	NOP
+00fa	NOP
+00fb	NOP
+00fc	NOP
+00fd	NOP
+00fe	NOP
+00ff	NOP
+0100	LXI		H, 8194
+0103	N/A
+0104	N/A
+0105	N/A
+0106	N/A
+0107	DCR		D
+0108	PUSH	H
+0109	N/A
+010a	MVI		B, 32
+010c	N/A
+010d	N/A
+010e	N/A
+010f	N/A
+0110	N/A
+0111	N/A
+0112	N/A
+0113	N/A
+0114	N/A
+0115	MVI		M, 1
+0117	N/A
+0118	N/A
+0119	N/A
+011a	N/A
+011b	N/A
+011c	N/A
+011d	N/A
+011e	N/A
+011f	N/A
+0120	N/A
+0121	N/A
+0122	MVI		D, 0
+0124	LXI		H, 7168
+0127	N/A
+0128	N/A
+0129	N/A
+012a	N/A
+012b	N/A
+012c	N/A
+012d	LXI		B, 2858
+0130	N/A
+0131	MVI		B, 16
+0133	CALL	$15d3
+0136	N/A
+0137	STA		$2000
+013a	N/A
+013b	LXI		H, 48
+013e	N/A
+013f	N/A
+0140	N/A
+0141	N/A
+0142	N/A
+0143	N/A
+0144	N/A
+0145	N/A
+0146	N/A
+0147	NOP
+0148	N/A
+0149	N/A
+014a	N/A
+014b	N/A
+014c	N/A
+014d	N/A
+014e	N/A
+014f	N/A
+0150	MVI		B, 32
+0152	MVI		D, 2
+0154	DCR		A
+0155	N/A
+0156	N/A
+0157	N/A
+0158	N/A
+0159	LXI		B, 18031
+015c	DCR		B
+015d	N/A
+015e	N/A
+015f	LXI		B, 1586
+0162	N/A
+0163	CALL	$017a
+0166	N/A
+0167	N/A
+0168	N/A
+0169	N/A
+016a	N/A
+016b	N/A
+016c	N/A
+016d	N/A
+016e	N/A
+016f	N/A
+0170	N/A
+0171	STA		$2004
+0174	MVI		A, 1
+0176	STA		$2000
+0179	N/A
+017a	MVI		D, 0
+017c	N/A
+017d	LXI		H, 8201
+0180	N/A
+0181	N/A
+0182	N/A
+0183	N/A
+0184	N/A
+0185	N/A
+0186	N/A
+0187	LXI		B, 3038
+018a	N/A
+018b	N/A
+018c	N/A
+018d	N/A
+018e	N/A
+018f	N/A
+0190	N/A
+0191	JMP		$0183
+0194	N/A
+0195	N/A
+0196	N/A
+0197	N/A
+0198	N/A
+0199	N/A
+019a	N/A
+019b	N/A
+019c	N/A
+019d	N/A
+019e	JMP		$0195
+01a1	DCR		D
+01a2	N/A
+01a3	CALL	$2101
+01a6	MVI		B, 32
+01a8	MVI		M, 0
+01aa	N/A
+01ab	N/A
+01ac	MVI		M, 0
+01ae	CALL	$01d9
+01b1	LXI		H, 8197
+01b4	N/A
+01b5	DCR		A
+01b6	N/A
+01b7	LXI		B, 44919
+01ba	LXI		H, 8295
+01bd	N/A
+01be	N/A
+01bf	NOP
+01c0	LXI		H, 8448
+01c3	MVI		B, 55
+01c5	MVI		M, 1
+01c7	N/A
+01c8	DCR		B
+01c9	N/A
+01ca	PUSH	B
+01cb	LXI		B, 57801
+01ce	N/A
+01cf	MVI		A, 1
+01d1	MVI		B, 224
+01d3	LXI		H, 9218
+01d6	JMP		$14cc
+01d9	N/A
+01da	N/A
+01db	N/A
+01dc	N/A
+01dd	N/A
+01de	N/A
+01df	N/A
+01e0	N/A
+01e1	N/A
+01e2	N/A
+01e3	N/A
+01e4	MVI		B, 192
+01e6	LXI		D, 6912
+01e9	LXI		H, 8192
+01ec	JMP		$1a32
+01ef	LXI		H, 8514
+01f2	JMP		$01f8
+01f5	LXI		H, 8770
+01f8	MVI		C, 4
+01fa	LXI		D, 7456
+01fd	PUSH	D
+01fe	MVI		B, 44
+0200	CALL	$1a32
+0203	N/A
+0204	N/A
+0205	N/A
+0206	N/A
+0207	LXI		B, 16073
+020a	LXI		B, 7107
+020d	STAX	B
+020e	MVI		A, 1
+0210	JMP		$0214
+0213	N/A
+0214	LXI		D, 8770
+0217	JMP		$021e
+021a	N/A
+021b	LXI		D, 8514
+021e	STA		$2081
+0221	LXI		B, 5634
+0224	LXI		H, 10246
+0227	MVI		A, 4
+0229	PUSH	PSW
+022a	PUSH	B
+022b	N/A
+022c	N/A
+022d	N/A
+022e	N/A
+022f	N/A
+0230	N/A
+0231	STAX	B
+0232	CALL	$1a69
+0235	N/A
+0236	N/A
+0237	N/A
+0238	N/A
+0239	PUSH	D
+023a	LXI		D, 736
+023d	N/A
+023e	N/A
+023f	JMP		$0229
+0242	CALL	$147c
+0245	JMP		$0235
+0248	LXI		H, 8208
+024b	N/A
+024c	N/A
+024d	N/A
+024e	N/A
+024f	N/A
+0250	N/A
+0251	N/A
+0252	N/A
+0253	STAX	B
+0254	N/A
+0255	N/A
+0256	N/A
+0257	N/A
+0258	N/A
+0259	N/A
+025a	N/A
+025b	STAX	B
+025c	N/A
+025d	N/A
+025e	N/A
+025f	N/A
+0260	N/A
+0261	STAX	B
+0262	N/A
+0263	N/A
+0264	N/A
+0265	N/A
+0266	PUSH	H
+0267	N/A
+0268	PUSH	H
+0269	LXI		H, 623
+026c	N/A
+026d	PUSH	D
+026e	N/A
+026f	N/A
+0270	LXI		D, 12
+0273	N/A
+0274	JMP		$024b
+0277	DCR		B
+0278	N/A
+0279	N/A
+027a	N/A
+027b	STAX	B
+027c	N/A
+027d	DCR		B
+027e	N/A
+027f	N/A
+0280	N/A
+0281	LXI		D, 16
+0284	N/A
+0285	JMP		$024b
+0288	DCR		M
+0289	N/A
+028a	N/A
+028b	JMP		$0281
+028e	N/A
+028f	N/A
+0290	N/A
+0291	N/A
+0292	N/A
+0293	N/A
+0294	N/A
+0295	INX		B
+0296	N/A
+0297	DCR		M
+0298	N/A
+0299	N/A
+029a	N/A
+029b	STA		$2068
+029e	STA		$2069
+02a1	MVI		A, 48
+02a3	STA		$206a
+02a6	N/A
+02a7	MVI		M, 5
+02a9	N/A
+02aa	DCR		M
+02ab	N/A
+02ac	N/A
+02ad	INX		B
+02ae	N/A
+02af	N/A
+02b0	N/A
+02b1	MVI		B, 16
+02b3	CALL	$1424
+02b6	LXI		H, 8208
+02b9	LXI		D, 6928
+02bc	MVI		B, 16
+02be	CALL	$1a32
+02c1	MVI		B, 0
+02c3	CALL	$19dc
+02c6	N/A
+02c7	N/A
+02c8	N/A
+02c9	N/A
+02ca	N/A
+02cb	N/A
+02cc	N/A
+02cd	N/A
+02ce	N/A
+02cf	N/A
+02d0	LXI		SP, 9216
+02d3	N/A
+02d4	CALL	$19d7
+02d7	CALL	$092e
+02da	N/A
+02db	N/A
+02dc	N/A
+02dd	MVI		D, 205
+02df	N/A
+02e0	N/A
+02e1	N/A
+02e2	N/A
+02e3	N/A
+02e4	DCR		L
+02e5	INX		B
+02e6	N/A
+02e7	N/A
+02e8	N/A
+02e9	N/A
+02ea	N/A
+02eb	DCR		L
+02ec	INX		B
+02ed	N/A
+02ee	N/A
+02ef	N/A
+02f0	PUSH	PSW
+02f1	N/A
+02f2	N/A
+02f3	STA		$cd03
+02f6	MVI		C, 2
+02f8	CALL	$0878
+02fb	N/A
+02fc	N/A
+02fd	N/A
+02fe	N/A
+02ff	N/A
+0300	N/A
+0301	NOP
+0302	CALL	$01e4
+0305	N/A
+0306	N/A
+0307	MVI		A, 33
+0309	MVI		B, 0
+030b	N/A
+030c	N/A
+030d	INX		B
+030e	MVI		B, 32
+0310	MVI		A, 34
+0312	STA		$2067
+0315	CALL	$0ab6
+0318	N/A
+0319	STA		$2011
+031c	N/A
+031d	N/A
+031e	DCR		B
+031f	DCR		A
+0320	STA		$2098
+0323	CALL	$09d6
+0326	CALL	$1a7f
+0329	JMP		$07f9
+032c	CALL	$1a7f
+032f	JMP		$0817
+0332	CALL	$0209
+0335	JMP		$02f8
+0338	NOP
+0339	NOP
+033a	NOP
+033b	LXI		H, 8296
+033e	MVI		M, 1
+0340	N/A
+0341	N/A
+0342	N/A
+0343	JMP		$03b0
+0346	NOP
+0347	N/A
+0348	MVI		M, 1
+034a	N/A
+034b	N/A
+034c	N/A
+034d	N/A
+034e	N/A
+034f	N/A
+0350	N/A
+0351	N/A
+0352	N/A
+0353	N/A
+0354	INX		B
+0355	N/A
+0356	N/A
+0357	N/A
+0358	N/A
+0359	N/A
+035a	N/A
+035b	INX		B
+035c	N/A
+035d	N/A
+035e	N/A
+035f	INX		B
+0360	JMP		$036f
+0363	CALL	$17c0
+0366	N/A
+0367	N/A
+0368	N/A
+0369	N/A
+036a	INX		B
+036b	N/A
+036c	N/A
+036d	N/A
+036e	INX		B
+036f	LXI		H, 8216
+0372	CALL	$1a3b
+0375	CALL	$1a47
+0378	CALL	$1439
+037b	MVI		A, 0
+037d	STA		$2012
+0380	N/A
+0381	N/A
+0382	N/A
+0383	N/A
+0384	N/A
+0385	N/A
+0386	INX		B
+0387	DCR		A
+0388	STA		$201b
+038b	JMP		$036f
+038e	N/A
+038f	N/A
+0390	N/A
+0391	N/A
+0392	N/A
+0393	INX		B
+0394	N/A
+0395	STA		$201b
+0398	JMP		$036f
+039b	DCR		A
+039c	N/A
+039d	LXI		B, 5426
+03a0	N/A
+03a1	N/A
+03a2	N/A
+03a3	N/A
+03a4	N/A
+03a5	LXI		H, 7280
+03a8	N/A
+03a9	N/A
+03aa	N/A
+03ab	N/A
+03ac	N/A
+03ad	JMP		$036f
+03b0	N/A
+03b1	N/A
+03b2	INX		B
+03b3	N/A
+03b4	DCR		M
+03b5	N/A
+03b6	N/A
+03b7	INX		B
+03b8	JMP		$0346
+03bb	LXI		D, 8234
+03be	CALL	$1a06
+03c1	N/A
+03c2	N/A
+03c3	N/A
+03c4	N/A
+03c5	N/A
+03c6	N/A
+03c7	N/A
+03c8	LXI		B, 64202
+03cb	INX		B
+03cc	N/A
+03cd	STAX	B
+03ce	N/A
+03cf	N/A
+03d0	N/A
+03d1	N/A
+03d2	N/A
+03d3	INX		B
+03d4	N/A
+03d5	N/A
+03d6	N/A
+03d7	DCR		M
+03d8	N/A
+03d9	MVI		M, 4
+03db	N/A
+03dc	N/A
+03dd	N/A
+03de	N/A
+03df	PUSH	H
+03e0	CALL	$0430
+03e3	CALL	$1452
+03e6	N/A
+03e7	N/A
+03e8	N/A
+03e9	N/A
+03ea	N/A
+03eb	DCR		M
+03ec	DCR		M
+03ed	N/A
+03ee	DCR		M
+03ef	DCR		M
+03f0	DCR		M
+03f1	N/A
+03f2	MVI		M, 8
+03f4	CALL	$0430
+03f7	JMP		$1400
+03fa	DCR		A
+03fb	N/A
+03fc	N/A
+03fd	N/A
+03fe	N/A
+03ff	N/A
+0400	N/A
+0401	STA		$202a
+0404	CALL	$0430
+0407	JMP		$1400
+040a	CALL	$0430
+040d	PUSH	D
+040e	PUSH	H
+040f	PUSH	B
+0410	CALL	$1452
+0413	N/A
+0414	N/A
+0415	N/A
+0416	N/A
+0417	DCR		L
+0418	N/A
+0419	N/A
+041a	N/A
+041b	STA		$2029
+041e	CALL	$1491
+0421	N/A
+0422	N/A
+0423	N/A
+0424	N/A
+0425	N/A
+0426	STA		$2002
+0429	N/A
+042a	N/A
+042b	DCR		B
+042c	N/A
+042d	JMP		$0436
+0430	LXI		H, 8231
+0433	JMP		$1a3b
+0436	CALL	$0430
+0439	CALL	$1452
+043c	LXI		H, 8229
+043f	LXI		D, 6949
+0442	MVI		B, 7
+0444	CALL	$1a32
+0447	N/A
+0448	N/A
+0449	N/A
+044a	DCR		L
+044b	N/A
+044c	N/A
+044d	N/A
+044e	N/A
+044f	N/A
+0450	N/A
+0451	MVI		L, 84
+0453	N/A
+0454	N/A
+0455	N/A
+0456	N/A
+0457	N/A
+0458	N/A
+0459	DCR		L
+045a	N/A
+045b	N/A
+045c	N/A
+045d	N/A
+045e	N/A
+045f	N/A
+0460	N/A
+0461	N/A
+0462	N/A
+0463	N/A
+0464	LXI		B, 10497
+0467	STAX	B
+0468	N/A
+0469	N/A
+046a	N/A
+046b	LXI		B, 65248
+046e	LXI		H, 8330
+0471	N/A
+0472	N/A
+0473	N/A
+0474	N/A
+0475	N/A
+0476	N/A
+0477	N/A
+0478	STA		$321b
+047b	STA		$2a20
+047e	N/A
+047f	N/A
+0480	N/A
+0481	N/A
+0482	N/A
+0483	N/A
+0484	N/A
+0485	N/A
+0486	N/A
+0487	N/A
+0488	N/A
+0489	N/A
+048a	LXI		D, 8245
+048d	MVI		A, 249
+048f	CALL	$0550
+0492	N/A
+0493	N/A
+0494	N/A
+0495	STA		$2070
+0498	N/A
+0499	N/A
+049a	N/A
+049b	STA		$2071
+049e	CALL	$0563
+04a1	N/A
+04a2	N/A
+04a3	N/A
+04a4	N/A
+04a5	LXI		H, 8245
+04a8	N/A
+04a9	N/A
+04aa	DCR		B
+04ab	LXI		D, 6960
+04ae	LXI		H, 8240
+04b1	MVI		B, 16
+04b3	JMP		$1a32
+04b6	N/A
+04b7	N/A
+04b8	N/A
+04b9	N/A
+04ba	N/A
+04bb	N/A
+04bc	N/A
+04bd	N/A
+04be	N/A
+04bf	N/A
+04c0	LXI		B, 4544
+04c3	N/A
+04c4	N/A
+04c5	MVI		A, 237
+04c7	CALL	$0550
+04ca	N/A
+04cb	MVI		M, 32
+04cd	STA		$2070
+04d0	N/A
+04d1	N/A
+04d2	N/A
+04d3	STA		$2071
+04d6	CALL	$0563
+04d9	N/A
+04da	N/A
+04db	N/A
+04dc	N/A
+04dd	N/A
+04de	N/A
+04df	N/A
+04e0	N/A
+04e1	N/A
+04e2	N/A
+04e3	N/A
+04e4	STA		$2076
+04e7	N/A
+04e8	N/A
+04e9	N/A
+04ea	N/A
+04eb	LXI		H, 8261
+04ee	N/A
+04ef	N/A
+04f0	DCR		B
+04f1	LXI		D, 6976
+04f4	LXI		H, 8256
+04f7	MVI		B, 16
+04f9	CALL	$1a32
+04fc	N/A
+04fd	N/A
+04fe	N/A
+04ff	N/A
+0500	N/A
+0501	N/A
+0502	DCR		B
+0503	MVI		A, 1
+0505	STA		$206e
+0508	N/A
+0509	N/A
+050a	N/A
+050b	JMP		$067e
+050e	N/A
+050f	LXI		D, 8277
+0512	MVI		A, 219
+0514	CALL	$0550
+0517	N/A
+0518	N/A
+0519	N/A
+051a	STA		$2070
+051d	N/A
+051e	MVI		M, 32
+0520	STA		$2071
+0523	CALL	$0563
+0526	N/A
+0527	N/A
+0528	N/A
+0529	N/A
+052a	DCR		D
+052b	N/A
+052c	N/A
+052d	DCR		B
+052e	N/A
+052f	N/A
+0530	N/A
+0531	STA		$2076
+0534	N/A
+0535	N/A
+0536	N/A
+0537	N/A
+0538	LXI		H, 8277
+053b	N/A
+053c	N/A
+053d	DCR		B
+053e	LXI		D, 6992
+0541	LXI		H, 8272
+0544	MVI		B, 16
+0546	CALL	$1a32
+0549	N/A
+054a	N/A
+054b	N/A
+054c	N/A
+054d	N/A
+054e	N/A
+054f	N/A
+0550	STA		$207f
+0553	LXI		H, 8307
+0556	MVI		B, 11
+0558	JMP		$1a32
+055b	LXI		D, 8307
+055e	MVI		B, 11
+0560	JMP		$1a32
+0563	LXI		H, 8307
+0566	N/A
+0567	N/A
+0568	N/A
+0569	N/A
+056a	N/A
+056b	DCR		B
+056c	N/A
+056d	N/A
+056e	N/A
+056f	N/A
+0570	N/A
+0571	N/A
+0572	N/A
+0573	N/A
+0574	N/A
+0575	N/A
+0576	DCR		B
+0577	N/A
+0578	N/A
+0579	N/A
+057a	MVI		M, 0
+057c	N/A
+057d	N/A
+057e	N/A
+057f	N/A
+0580	N/A
+0581	N/A
+0582	DCR		B
+0583	N/A
+0584	N/A
+0585	N/A
+0586	N/A
+0587	N/A
+0588	N/A
+0589	N/A
+058a	N/A
+058b	N/A
+058c	N/A
+058d	N/A
+058e	N/A
+058f	DCR		B
+0590	N/A
+0591	N/A
+0592	N/A
+0593	N/A
+0594	N/A
+0595	N/A
+0596	N/A
+0597	N/A
+0598	N/A
+0599	N/A
+059a	N/A
+059b	MVI		B, 42
+059d	N/A
+059e	N/A
+059f	N/A
+05a0	N/A
+05a1	NOP
+05a2	N/A
+05a3	N/A
+05a4	N/A
+05a5	CALL	$062f
+05a8	N/A
+05a9	CALL	$017a
+05ac	N/A
+05ad	N/A
+05ae	N/A
+05af	N/A
+05b0	N/A
+05b1	N/A
+05b2	N/A
+05b3	N/A
+05b4	N/A
+05b5	N/A
+05b6	N/A
+05b7	LXI		H, 8307
+05ba	N/A
+05bb	N/A
+05bc	N/A
+05bd	N/A
+05be	N/A
+05bf	N/A
+05c0	N/A
+05c1	LXI		D, 8316
+05c4	CALL	$1a06
+05c7	N/A
+05c8	N/A
+05c9	N/A
+05ca	N/A
+05cb	LXI		B, 17602
+05ce	MVI		B, 35
+05d0	N/A
+05d1	CALL	$0675
+05d4	N/A
+05d5	N/A
+05d6	N/A
+05d7	N/A
+05d8	INX		B
+05d9	LXI		H, 8319
+05dc	N/A
+05dd	N/A
+05de	N/A
+05df	DCR		B
+05e0	N/A
+05e1	DCR		C
+05e2	STA		$2079
+05e5	N/A
+05e6	N/A
+05e7	N/A
+05e8	N/A
+05e9	N/A
+05ea	N/A
+05eb	N/A
+05ec	N/A
+05ed	STA		$207b
+05f0	CALL	$066c
+05f3	N/A
+05f4	N/A
+05f5	N/A
+05f6	N/A
+05f7	DCR		D
+05f8	N/A
+05f9	N/A
+05fa	MVI		B, 58
+05fc	N/A
+05fd	N/A
+05fe	N/A
+05ff	N/A
+0600	N/A
+0601	N/A
+0602	N/A
+0603	N/A
+0604	MVI		E, 218
+0606	N/A
+0607	MVI		B, 254
+0609	N/A
+060a	NOP
+060b	N/A
+060c	N/A
+060d	MVI		B, 151
+060f	STA		$2015
+0612	N/A
+0613	N/A
+0614	N/A
+0615	N/A
+0616	LXI		B, 29490
+0619	N/A
+061a	N/A
+061b	N/A
+061c	N/A
+061d	N/A
+061e	N/A
+061f	N/A
+0620	N/A
+0621	CALL	$156f
+0624	N/A
+0625	N/A
+0626	DCR		C
+0627	N/A
+0628	N/A
+0629	DCR		B
+062a	MVI		C, 11
+062c	JMP		$05a5
+062f	N/A
+0630	N/A
+0631	N/A
+0632	N/A
+0633	N/A
+0634	N/A
+0635	MVI		D, 5
+0637	N/A
+0638	N/A
+0639	N/A
+063a	N/A
+063b	N/A
+063c	N/A
+063d	N/A
+063e	N/A
+063f	DCR		D
+0640	N/A
+0641	N/A
+0642	MVI		B, 201
+0644	LXI		H, 8312
+0647	DCR		M
+0648	N/A
+0649	N/A
+064a	INX		B
+064b	N/A
+064c	N/A
+064d	MVI		B, 205
+064f	N/A
+0650	MVI		B, 33
+0652	N/A
+0653	DCR		E
+0654	N/A
+0655	N/A
+0656	N/A
+0657	LXI		H, 8316
+065a	DCR		M
+065b	DCR		M
+065c	N/A
+065d	DCR		M
+065e	DCR		M
+065f	MVI		A, 6
+0661	STA		$207d
+0664	JMP		$066c
+0667	N/A
+0668	N/A
+0669	JMP		$0675
+066c	LXI		H, 8313
+066f	CALL	$1a3b
+0672	JMP		$1491
+0675	LXI		H, 8313
+0678	CALL	$1a3b
+067b	JMP		$1452
+067e	N/A
+067f	N/A
+0680	N/A
+0681	N/A
+0682	N/A
+0683	N/A
+0684	N/A
+0685	N/A
+0686	N/A
+0687	STAX	B
+0688	N/A
+0689	LXI		H, 8323
+068c	N/A
+068d	N/A
+068e	N/A
+068f	N/A
+0690	DCR		B
+0691	N/A
+0692	N/A
+0693	N/A
+0694	N/A
+0695	N/A
+0696	N/A
+0697	DCR		B
+0698	N/A
+0699	N/A
+069a	N/A
+069b	N/A
+069c	N/A
+069d	MVI		B, 58
+069f	N/A
+06a0	N/A
+06a1	N/A
+06a2	N/A
+06a3	N/A
+06a4	N/A
+06a5	DCR		B
+06a6	MVI		M, 1
+06a8	CALL	$073c
+06ab	LXI		D, 8330
+06ae	CALL	$1a06
+06b1	N/A
+06b2	LXI		H, 8325
+06b5	N/A
+06b6	N/A
+06b7	N/A
+06b8	N/A
+06b9	MVI		B, 33
+06bb	N/A
+06bc	N/A
+06bd	N/A
+06be	N/A
+06bf	N/A
+06c0	N/A
+06c1	STA		$208a
+06c4	CALL	$073c
+06c7	LXI		H, 8330
+06ca	N/A
+06cb	N/A
+06cc	N/A
+06cd	N/A
+06ce	N/A
+06cf	MVI		B, 254
+06d1	N/A
+06d2	N/A
+06d3	N/A
+06d4	MVI		B, 201
+06d6	MVI		B, 254
+06d8	CALL	$19dc
+06db	N/A
+06dc	DCR		M
+06dd	N/A
+06de	N/A
+06df	N/A
+06e0	N/A
+06e1	N/A
+06e2	N/A
+06e3	N/A
+06e4	N/A
+06e5	N/A
+06e6	DCR		C
+06e7	N/A
+06e8	N/A
+06e9	N/A
+06ea	MVI		B, 239
+06ec	LXI		H, 8344
+06ef	N/A
+06f0	N/A
+06f1	N/A
+06f2	N/A
+06f3	N/A
+06f4	N/A
+06f5	DCR		B
+06f6	NOP
+06f7	NOP
+06f8	NOP
+06f9	CALL	$0742
+06fc	CALL	$14cb
+06ff	LXI		H, 8323
+0702	MVI		B, 10
+0704	CALL	$075f
+0707	MVI		B, 254
+0709	JMP		$19dc
+070c	MVI		A, 1
+070e	STA		$20f1
+0711	N/A
+0712	N/A
+0713	N/A
+0714	N/A
+0715	MVI		C, 4
+0717	LXI		H, 7504
+071a	LXI		D, 7500
+071d	N/A
+071e	N/A
+071f	N/A
+0720	N/A
+0721	N/A
+0722	N/A
+0723	N/A
+0724	N/A
+0725	N/A
+0726	N/A
+0727	N/A
+0728	N/A
+0729	STA		$2087
+072c	MVI		H, 0
+072e	N/A
+072f	N/A
+0730	N/A
+0731	N/A
+0732	N/A
+0733	N/A
+0734	N/A
+0735	N/A
+0736	CALL	$0742
+0739	JMP		$08f1
+073c	CALL	$0742
+073f	JMP		$1439
+0742	LXI		H, 8327
+0745	CALL	$1a3b
+0748	JMP		$1a47
+074b	MVI		B, 16
+074d	LXI		H, 8344
+0750	N/A
+0751	N/A
+0752	N/A
+0753	CALL	$1770
+0756	LXI		H, 7548
+0759	N/A
+075a	N/A
+075b	N/A
+075c	JMP		$073c
+075f	LXI		D, 7043
+0762	JMP		$1a32
+0765	MVI		A, 1
+0767	STA		$2093
+076a	LXI		SP, 9216
+076d	N/A
+076e	CALL	$1979
+0771	CALL	$09d6
+0774	LXI		H, 12307
+0777	LXI		D, 8179
+077a	MVI		C, 4
+077c	CALL	$08f3
+077f	N/A
+0780	N/A
+0781	N/A
+0782	N/A
+0783	LXI		H, 10256
+0786	MVI		C, 20
+0788	N/A
+0789	N/A
+078a	N/A
+078b	LXI		D, 6863
+078e	CALL	$08f3
+0791	IN		1
+0793	N/A
+0794	N/A
+0795	N/A
+0796	N/A
+0797	N/A
+0798	MVI		B, 153
+079a	N/A
+079b	STA		$20ce
+079e	N/A
+079f	N/A
+07a0	N/A
+07a1	N/A
+07a2	N/A
+07a3	STA		$20eb
+07a6	CALL	$1947
+07a9	LXI		H, 0
+07ac	N/A
+07ad	N/A
+07ae	N/A
+07af	N/A
+07b0	N/A
+07b1	N/A
+07b2	CALL	$1925
+07b5	CALL	$192b
+07b8	CALL	$19d7
+07bb	LXI		H, 257
+07be	N/A
+07bf	STA		$20ef
+07c2	N/A
+07c3	N/A
+07c4	N/A
+07c5	N/A
+07c6	PUSH	H
+07c7	N/A
+07c8	CALL	$1956
+07cb	CALL	$01ef
+07ce	CALL	$01f5
+07d1	CALL	$08d1
+07d4	STA		$21ff
+07d7	STA		$22ff
+07da	CALL	$00d7
+07dd	N/A
+07de	STA		$21fe
+07e1	STA		$22fe
+07e4	CALL	$01c0
+07e7	CALL	$1904
+07ea	LXI		H, 14456
+07ed	N/A
+07ee	N/A
+07ef	LXI		H, 64546
+07f2	N/A
+07f3	CALL	$01e4
+07f6	CALL	$1a7f
+07f9	CALL	$088d
+07fc	CALL	$09d6
+07ff	NOP
+0800	N/A
+0801	STA		$20c1
+0804	CALL	$01cf
+0807	N/A
+0808	N/A
+0809	N/A
+080a	N/A
+080b	N/A
+080c	N/A
+080d	N/A
+080e	CALL	$0213
+0811	CALL	$01cf
+0814	CALL	$00b1
+0817	CALL	$19d1
+081a	MVI		B, 32
+081c	CALL	$18fa
+081f	CALL	$1618
+0822	CALL	$190a
+0825	CALL	$15f3
+0828	CALL	$0988
+082b	N/A
+082c	N/A
+082d	N/A
+082e	N/A
+082f	N/A
+0830	N/A
+0831	N/A
+0832	CALL	$170e
+0835	CALL	$0935
+0838	CALL	$08d8
+083b	CALL	$172c
+083e	CALL	$0a59
+0841	N/A
+0842	N/A
+0843	N/A
+0844	MVI		B, 4
+0846	CALL	$18fa
+0849	CALL	$1775
+084c	N/A
+084d	MVI		B, 205
+084f	N/A
+0850	N/A
+0851	JMP		$081f
+0854	NOP
+0855	NOP
+0856	NOP
+0857	LXI		D, 6842
+085a	CALL	$08f3
+085d	MVI		B, 152
+085f	IN		1
+0861	N/A
+0862	N/A
+0863	N/A
+0864	N/A
+0865	N/A
+0866	N/A
+0867	N/A
+0868	N/A
+0869	N/A
+086a	JMP		$077f
+086d	MVI		A, 1
+086f	JMP		$079b
+0872	CALL	$021a
+0875	JMP		$0814
+0878	N/A
+0879	N/A
+087a	N/A
+087b	N/A
+087c	N/A
+087d	N/A
+087e	N/A
+087f	N/A
+0880	JMP		$0886
+0883	NOP
+0884	NOP
+0885	NOP
+0886	N/A
+0887	N/A
+0888	N/A
+0889	N/A
+088a	MVI		L, 252
+088c	N/A
+088d	LXI		H, 11025
+0890	LXI		D, 7024
+0893	MVI		C, 14
+0895	CALL	$08f3
+0898	N/A
+0899	N/A
+089a	N/A
+089b	N/A
+089c	MVI		A, 28
+089e	LXI		H, 14097
+08a1	N/A
+08a2	N/A
+08a3	N/A
+08a4	MVI		A, 176
+08a6	STA		$20c0
+08a9	N/A
+08aa	N/A
+08ab	N/A
+08ac	N/A
+08ad	N/A
+08ae	N/A
+08af	N/A
+08b0	N/A
+08b1	N/A
+08b2	N/A
+08b3	CALL	$09ca
+08b6	CALL	$1931
+08b9	JMP		$08a9
+08bc	MVI		B, 32
+08be	LXI		H, 10012
+08c1	N/A
+08c2	N/A
+08c3	N/A
+08c4	N/A
+08c5	N/A
+08c6	N/A
+08c7	N/A
+08c8	LXI		H, 14620
+08cb	CALL	$14cb
+08ce	JMP		$08a9
+08d1	IN		2
+08d3	N/A
+08d4	INX		B
+08d5	N/A
+08d6	INX		B
+08d7	N/A
+08d8	N/A
+08d9	N/A
+08da	N/A
+08db	N/A
+08dc	N/A
+08dd	N/A
+08de	MVI		A, 251
+08e0	STA		$207e
+08e3	N/A
+08e4	N/A
+08e5	N/A
+08e6	N/A
+08e7	N/A
+08e8	N/A
+08e9	LXI		H, 14620
+08ec	MVI		B, 32
+08ee	JMP		$14cb
+08f1	MVI		C, 3
+08f3	N/A
+08f4	PUSH	D
+08f5	CALL	$08ff
+08f8	N/A
+08f9	N/A
+08fa	N/A
+08fb	N/A
+08fc	N/A
+08fd	N/A
+08fe	N/A
+08ff	LXI		D, 7680
+0902	PUSH	H
+0903	MVI		H, 0
+0905	N/A
+0906	N/A
+0907	N/A
+0908	N/A
+0909	N/A
+090a	N/A
+090b	N/A
+090c	MVI		B, 8
+090e	N/A
+090f	MVI		B, 195
+0911	N/A
+0912	N/A
+0913	N/A
+0914	N/A
+0915	N/A
+0916	N/A
+0917	N/A
+0918	N/A
+0919	N/A
+091a	N/A
+091b	N/A
+091c	N/A
+091d	N/A
+091e	N/A
+091f	N/A
+0920	N/A
+0921	LXI		H, 1536
+0924	MVI		A, 1
+0926	STA		$2083
+0929	N/A
+092a	N/A
+092b	N/A
+092c	N/A
+092d	N/A
+092e	CALL	$1611
+0931	MVI		L, 255
+0933	N/A
+0934	N/A
+0935	CALL	$1910
+0938	N/A
+0939	N/A
+093a	N/A
+093b	N/A
+093c	N/A
+093d	MVI		B, 21
+093f	IN		2
+0941	N/A
+0942	N/A
+0943	N/A
+0944	N/A
+0945	N/A
+0946	MVI		B, 16
+0948	CALL	$09ca
+094b	N/A
+094c	N/A
+094d	N/A
+094e	N/A
+094f	CALL	$092e
+0952	N/A
+0953	N/A
+0954	PUSH	PSW
+0955	LXI		H, 9473
+0958	N/A
+0959	N/A
+095a	N/A
+095b	N/A
+095c	N/A
+095d	N/A
+095e	MVI		B, 16
+0960	LXI		D, 7264
+0963	CALL	$1439
+0966	N/A
+0967	DCR		A
+0968	CALL	$1a8b
+096b	CALL	$1910
+096e	N/A
+096f	N/A
+0970	MVI		M, 0
+0972	MVI		A, 255
+0974	STA		$2099
+0977	MVI		B, 16
+0979	JMP		$18fa
+097c	LXI		H, 7584
+097f	N/A
+0980	STAX	B
+0981	N/A
+0982	N/A
+0983	N/A
+0984	N/A
+0985	N/A
+0986	N/A
+0987	N/A
+0988	CALL	$09ca
+098b	N/A
+098c	N/A
+098d	N/A
+098e	N/A
+098f	N/A
+0990	N/A
+0991	STA		$20f1
+0994	PUSH	H
+0995	N/A
+0996	N/A
+0997	N/A
+0998	N/A
+0999	N/A
+099a	N/A
+099b	N/A
+099c	N/A
+099d	N/A
+099e	N/A
+099f	N/A
+09a0	N/A
+09a1	N/A
+09a2	N/A
+09a3	N/A
+09a4	N/A
+09a5	N/A
+09a6	N/A
+09a7	N/A
+09a8	N/A
+09a9	N/A
+09aa	JMP		$09ad
+09ad	N/A
+09ae	CALL	$09b2
+09b1	N/A
+09b2	PUSH	D
+09b3	PUSH	PSW
+09b4	N/A
+09b5	N/A
+09b6	N/A
+09b7	N/A
+09b8	N/A
+09b9	N/A
+09ba	CALL	$09c5
+09bd	N/A
+09be	N/A
+09bf	N/A
+09c0	CALL	$09c5
+09c3	N/A
+09c4	N/A
+09c5	N/A
+09c6	N/A
+09c7	JMP		$08ff
+09ca	N/A
+09cb	N/A
+09cc	N/A
+09cd	N/A
+09ce	LXI		H, 8440
+09d1	N/A
+09d2	LXI		H, 8444
+09d5	N/A
+09d6	LXI		H, 9218
+09d9	MVI		M, 0
+09db	N/A
+09dc	N/A
+09dd	N/A
+09de	N/A
+09df	N/A
+09e0	DCR		E
+09e1	N/A
+09e2	N/A
+09e3	N/A
+09e4	LXI		D, 6
+09e7	N/A
+09e8	N/A
+09e9	N/A
+09ea	N/A
+09eb	N/A
+09ec	N/A
+09ed	N/A
+09ee	N/A
+09ef	CALL	$0a3c
+09f2	N/A
+09f3	STA		$20e9
+09f6	CALL	$09d6
+09f9	N/A
+09fa	N/A
+09fb	N/A
+09fc	PUSH	PSW
+09fd	CALL	$01e4
+0a00	N/A
+0a01	STA		$2067
+0a04	N/A
+0a05	N/A
+0a06	N/A
+0a07	N/A
+0a08	PUSH	H
+0a09	MVI		L, 254
+0a0b	N/A
+0a0c	N/A
+0a0d	N/A
+0a0e	DCR		A
+0a0f	N/A
+0a10	LXI		H, 7586
+0a13	N/A
+0a14	N/A
+0a15	N/A
+0a16	N/A
+0a17	N/A
+0a18	N/A
+0a19	N/A
+0a1a	MVI		L, 252
+0a1c	N/A
+0a1d	N/A
+0a1e	MVI		M, 56
+0a20	N/A
+0a21	N/A
+0a22	N/A
+0a23	N/A
+0a24	N/A
+0a25	MVI		A, 33
+0a27	STA		$2098
+0a2a	CALL	$01f5
+0a2d	CALL	$1904
+0a30	JMP		$0804
+0a33	CALL	$01ef
+0a36	CALL	$01c0
+0a39	JMP		$0804
+0a3c	CALL	$0a59
+0a3f	N/A
+0a40	N/A
+0a41	N/A
+0a42	MVI		A, 48
+0a44	STA		$20c0
+0a47	N/A
+0a48	N/A
+0a49	N/A
+0a4a	N/A
+0a4b	N/A
+0a4c	CALL	$0a59
+0a4f	N/A
+0a50	N/A
+0a51	N/A
+0a52	CALL	$0a59
+0a55	N/A
+0a56	N/A
+0a57	N/A
+0a58	N/A
+0a59	N/A
+0a5a	DCR		D
+0a5b	N/A
+0a5c	N/A
+0a5d	N/A
+0a5e	N/A
+0a5f	N/A
+0a60	N/A
+0a61	N/A
+0a62	N/A
+0a63	N/A
+0a64	N/A
+0a65	N/A
+0a66	N/A
+0a67	MVI		B, 8
+0a69	CALL	$18fa
+0a6c	N/A
+0a6d	N/A
+0a6e	CALL	$097c
+0a71	N/A
+0a72	LXI		H, 8435
+0a75	MVI		M, 0
+0a77	N/A
+0a78	N/A
+0a79	N/A
+0a7a	MVI		M, 1
+0a7c	LXI		H, 8290
+0a7f	N/A
+0a80	MVI		A, 2
+0a82	STA		$20c1
+0a85	N/A
+0a86	MVI		B, 58
+0a88	N/A
+0a89	N/A
+0a8a	N/A
+0a8b	N/A
+0a8c	N/A
+0a8d	N/A
+0a8e	N/A
+0a8f	STA		$20c1
+0a92	N/A
+0a93	PUSH	D
+0a94	N/A
+0a95	CALL	$08ff
+0a98	N/A
+0a99	MVI		A, 7
+0a9b	STA		$20c0
+0a9e	N/A
+0a9f	N/A
+0aa0	N/A
+0aa1	N/A
+0aa2	N/A
+0aa3	N/A
+0aa4	N/A
+0aa5	N/A
+0aa6	N/A
+0aa7	N/A
+0aa8	N/A
+0aa9	N/A
+0aaa	N/A
+0aab	LXI		H, 8272
+0aae	JMP		$024b
+0ab1	MVI		A, 64
+0ab3	JMP		$0ad7
+0ab6	MVI		A, 128
+0ab8	JMP		$0ad7
+0abb	N/A
+0abc	JMP		$0072
+0abf	N/A
+0ac0	N/A
+0ac1	N/A
+0ac2	N/A
+0ac3	N/A
+0ac4	N/A
+0ac5	N/A
+0ac6	N/A
+0ac7	N/A
+0ac8	N/A
+0ac9	N/A
+0aca	N/A
+0acb	N/A
+0acc	N/A
+0acd	N/A
+0ace	N/A
+0acf	LXI		H, 11028
+0ad2	MVI		C, 15
+0ad4	JMP		$0a93
+0ad7	STA		$20c0
+0ada	N/A
+0adb	N/A
+0adc	N/A
+0add	N/A
+0ade	N/A
+0adf	N/A
+0ae0	N/A
+0ae1	N/A
+0ae2	LXI		H, 8386
+0ae5	MVI		B, 12
+0ae7	JMP		$1a32
+0aea	N/A
+0aeb	N/A
+0aec	INX		B
+0aed	N/A
+0aee	DCR		B
+0aef	CALL	$1982
+0af2	N/A
+0af3	CALL	$0ab1
+0af6	N/A
+0af7	N/A
+0af8	N/A
+0af9	N/A
+0afa	LXI		H, 12311
+0afd	MVI		C, 4
+0aff	N/A
+0b00	N/A
+0b01	N/A
+0b02	LXI		D, 7418
+0b05	CALL	$0a93
+0b08	LXI		D, 7599
+0b0b	CALL	$0acf
+0b0e	CALL	$0ab1
+0b11	CALL	$1815
+0b14	CALL	$0ab6
+0b17	N/A
+0b18	N/A
+0b19	N/A
+0b1a	N/A
+0b1b	N/A
+0b1c	N/A
+0b1d	N/A
+0b1e	LXI		D, 6805
+0b21	CALL	$0ae2
+0b24	CALL	$0a80
+0b27	LXI		D, 7088
+0b2a	CALL	$0ae2
+0b2d	CALL	$0a80
+0b30	CALL	$0ab1
+0b33	LXI		D, 8137
+0b36	CALL	$0ae2
+0b39	CALL	$0a80
+0b3c	CALL	$0ab1
+0b3f	LXI		H, 13239
+0b42	MVI		B, 10
+0b44	CALL	$14cb
+0b47	CALL	$0ab6
+0b4a	CALL	$09d6
+0b4d	N/A
+0b4e	N/A
+0b4f	LXI		H, 49831
+0b52	N/A
+0b53	N/A
+0b54	CALL	$08d1
+0b57	STA		$21ff
+0b5a	CALL	$1a7f
+0b5d	CALL	$01e4
+0b60	CALL	$01c0
+0b63	CALL	$01ef
+0b66	CALL	$021a
+0b69	MVI		A, 1
+0b6b	STA		$20c1
+0b6e	CALL	$01cf
+0b71	CALL	$1618
+0b74	CALL	$0bf1
+0b77	N/A
+0b78	MVI		B, 205
+0b7a	N/A
+0b7b	N/A
+0b7c	N/A
+0b7d	N/A
+0b7e	N/A
+0b7f	N/A
+0b80	STA		$2025
+0b83	CALL	$0a59
+0b86	N/A
+0b87	N/A
+0b88	N/A
+0b89	N/A
+0b8a	STA		$20c1
+0b8d	CALL	$0ab1
+0b90	CALL	$1988
+0b93	MVI		C, 12
+0b95	LXI		H, 11281
+0b98	LXI		D, 8080
+0b9b	CALL	$08f3
+0b9e	N/A
+0b9f	N/A
+0ba0	N/A
+0ba1	N/A
+0ba2	NOP
+0ba3	N/A
+0ba4	N/A
+0ba5	N/A
+0ba6	LXI		H, 13073
+0ba9	MVI		A, 2
+0bab	CALL	$08ff
+0bae	LXI		B, 8092
+0bb1	CALL	$1856
+0bb4	CALL	$184c
+0bb7	IN		2
+0bb9	N/A
+0bba	N/A
+0bbb	JMP		$010b
+0bbe	N/A
+0bbf	N/A
+0bc0	CALL	$183a
+0bc3	CALL	$0ab6
+0bc6	N/A
+0bc7	N/A
+0bc8	N/A
+0bc9	N/A
+0bca	NOP
+0bcb	N/A
+0bcc	N/A
+0bcd	N/A
+0bce	LXI		D, 8149
+0bd1	CALL	$0ae2
+0bd4	CALL	$0a80
+0bd7	CALL	$189e
+0bda	LXI		H, 8428
+0bdd	N/A
+0bde	DCR		A
+0bdf	N/A
+0be0	LXI		B, 52599
+0be3	N/A
+0be4	N/A
+0be5	JMP		$18df
+0be8	LXI		D, 7595
+0beb	CALL	$0a93
+0bee	JMP		$0b0b
+0bf1	CALL	$190a
+0bf4	JMP		$199a
+0bf7	N/A
+0bf8	NOP
+0bf9	N/A
+0bfa	N/A
+0bfb	MVI		C, 38
+0bfd	STAX	B
+0bfe	MVI		C, 15
+0c00	NOP
+0c01	NOP
+0c02	NOP
+0c03	NOP
+0c04	NOP
+0c05	NOP
+0c06	NOP
+0c07	NOP
+0c08	NOP
+0c09	NOP
+0c0a	NOP
+0c0b	NOP
+0c0c	NOP
+0c0d	NOP
+0c0e	NOP
+0c0f	NOP
+0c10	NOP
+0c11	NOP
+0c12	NOP
+0c13	NOP
+0c14	NOP
+0c15	NOP
+0c16	NOP
+0c17	NOP
+0c18	NOP
+0c19	NOP
+0c1a	NOP
+0c1b	NOP
+0c1c	NOP
+0c1d	NOP
+0c1e	NOP
+0c1f	NOP
+0c20	NOP
+0c21	NOP
+0c22	NOP
+0c23	NOP
+0c24	NOP
+0c25	NOP
+0c26	NOP
+0c27	NOP
+0c28	NOP
+0c29	NOP
+0c2a	NOP
+0c2b	NOP
+0c2c	NOP
+0c2d	NOP
+0c2e	NOP
+0c2f	NOP
+0c30	NOP
+0c31	NOP
+0c32	NOP
+0c33	NOP
+0c34	NOP
+0c35	NOP
+0c36	NOP
+0c37	NOP
+0c38	NOP
+0c39	NOP
+0c3a	NOP
+0c3b	NOP
+0c3c	NOP
+0c3d	NOP
+0c3e	NOP
+0c3f	NOP
+0c40	NOP
+0c41	NOP
+0c42	NOP
+0c43	NOP
+0c44	NOP
+0c45	NOP
+0c46	NOP
+0c47	NOP
+0c48	NOP
+0c49	NOP
+0c4a	NOP
+0c4b	NOP
+0c4c	NOP
+0c4d	NOP
+0c4e	NOP
+0c4f	NOP
+0c50	NOP
+0c51	NOP
+0c52	NOP
+0c53	NOP
+0c54	NOP
+0c55	NOP
+0c56	NOP
+0c57	NOP
+0c58	NOP
+0c59	NOP
+0c5a	NOP
+0c5b	NOP
+0c5c	NOP
+0c5d	NOP
+0c5e	NOP
+0c5f	NOP
+0c60	NOP
+0c61	NOP
+0c62	NOP
+0c63	NOP
+0c64	NOP
+0c65	NOP
+0c66	NOP
+0c67	NOP
+0c68	NOP
+0c69	NOP
+0c6a	NOP
+0c6b	NOP
+0c6c	NOP
+0c6d	NOP
+0c6e	NOP
+0c6f	NOP
+0c70	NOP
+0c71	NOP
+0c72	NOP
+0c73	NOP
+0c74	NOP
+0c75	NOP
+0c76	NOP
+0c77	NOP
+0c78	NOP
+0c79	NOP
+0c7a	NOP
+0c7b	NOP
+0c7c	NOP
+0c7d	NOP
+0c7e	NOP
+0c7f	NOP
+0c80	NOP
+0c81	NOP
+0c82	NOP
+0c83	NOP
+0c84	NOP
+0c85	NOP
+0c86	NOP
+0c87	NOP
+0c88	NOP
+0c89	NOP
+0c8a	NOP
+0c8b	NOP
+0c8c	NOP
+0c8d	NOP
+0c8e	NOP
+0c8f	NOP
+0c90	NOP
+0c91	NOP
+0c92	NOP
+0c93	NOP
+0c94	NOP
+0c95	NOP
+0c96	NOP
+0c97	NOP
+0c98	NOP
+0c99	NOP
+0c9a	NOP
+0c9b	NOP
+0c9c	NOP
+0c9d	NOP
+0c9e	NOP
+0c9f	NOP
+0ca0	NOP
+0ca1	NOP
+0ca2	NOP
+0ca3	NOP
+0ca4	NOP
+0ca5	NOP
+0ca6	NOP
+0ca7	NOP
+0ca8	NOP
+0ca9	NOP
+0caa	NOP
+0cab	NOP
+0cac	NOP
+0cad	NOP
+0cae	NOP
+0caf	NOP
+0cb0	NOP
+0cb1	NOP
+0cb2	NOP
+0cb3	NOP
+0cb4	NOP
+0cb5	NOP
+0cb6	NOP
+0cb7	NOP
+0cb8	NOP
+0cb9	NOP
+0cba	NOP
+0cbb	NOP
+0cbc	NOP
+0cbd	NOP
+0cbe	NOP
+0cbf	NOP
+0cc0	NOP
+0cc1	NOP
+0cc2	NOP
+0cc3	NOP
+0cc4	NOP
+0cc5	NOP
+0cc6	NOP
+0cc7	NOP
+0cc8	NOP
+0cc9	NOP
+0cca	NOP
+0ccb	NOP
+0ccc	NOP
+0ccd	NOP
+0cce	NOP
+0ccf	NOP
+0cd0	NOP
+0cd1	NOP
+0cd2	NOP
+0cd3	NOP
+0cd4	NOP
+0cd5	NOP
+0cd6	NOP
+0cd7	NOP
+0cd8	NOP
+0cd9	NOP
+0cda	NOP
+0cdb	NOP
+0cdc	NOP
+0cdd	NOP
+0cde	NOP
+0cdf	NOP
+0ce0	NOP
+0ce1	NOP
+0ce2	NOP
+0ce3	NOP
+0ce4	NOP
+0ce5	NOP
+0ce6	NOP
+0ce7	NOP
+0ce8	NOP
+0ce9	NOP
+0cea	NOP
+0ceb	NOP
+0cec	NOP
+0ced	NOP
+0cee	NOP
+0cef	NOP
+0cf0	NOP
+0cf1	NOP
+0cf2	NOP
+0cf3	NOP
+0cf4	NOP
+0cf5	NOP
+0cf6	NOP
+0cf7	NOP
+0cf8	NOP
+0cf9	NOP
+0cfa	NOP
+0cfb	NOP
+0cfc	NOP
+0cfd	NOP
+0cfe	NOP
+0cff	NOP
+0d00	NOP
+0d01	NOP
+0d02	NOP
+0d03	NOP
+0d04	NOP
+0d05	NOP
+0d06	NOP
+0d07	NOP
+0d08	NOP
+0d09	NOP
+0d0a	NOP
+0d0b	NOP
+0d0c	NOP
+0d0d	NOP
+0d0e	NOP
+0d0f	NOP
+0d10	NOP
+0d11	NOP
+0d12	NOP
+0d13	NOP
+0d14	NOP
+0d15	NOP
+0d16	NOP
+0d17	NOP
+0d18	NOP
+0d19	NOP
+0d1a	NOP
+0d1b	NOP
+0d1c	NOP
+0d1d	NOP
+0d1e	NOP
+0d1f	NOP
+0d20	NOP
+0d21	NOP
+0d22	NOP
+0d23	NOP
+0d24	NOP
+0d25	NOP
+0d26	NOP
+0d27	NOP
+0d28	NOP
+0d29	NOP
+0d2a	NOP
+0d2b	NOP
+0d2c	NOP
+0d2d	NOP
+0d2e	NOP
+0d2f	NOP
+0d30	NOP
+0d31	NOP
+0d32	NOP
+0d33	NOP
+0d34	NOP
+0d35	NOP
+0d36	NOP
+0d37	NOP
+0d38	NOP
+0d39	NOP
+0d3a	NOP
+0d3b	NOP
+0d3c	NOP
+0d3d	NOP
+0d3e	NOP
+0d3f	NOP
+0d40	NOP
+0d41	NOP
+0d42	NOP
+0d43	NOP
+0d44	NOP
+0d45	NOP
+0d46	NOP
+0d47	NOP
+0d48	NOP
+0d49	NOP
+0d4a	NOP
+0d4b	NOP
+0d4c	NOP
+0d4d	NOP
+0d4e	NOP
+0d4f	NOP
+0d50	NOP
+0d51	NOP
+0d52	NOP
+0d53	NOP
+0d54	NOP
+0d55	NOP
+0d56	NOP
+0d57	NOP
+0d58	NOP
+0d59	NOP
+0d5a	NOP
+0d5b	NOP
+0d5c	NOP
+0d5d	NOP
+0d5e	NOP
+0d5f	NOP
+0d60	NOP
+0d61	NOP
+0d62	NOP
+0d63	NOP
+0d64	NOP
+0d65	NOP
+0d66	NOP
+0d67	NOP
+0d68	NOP
+0d69	NOP
+0d6a	NOP
+0d6b	NOP
+0d6c	NOP
+0d6d	NOP
+0d6e	NOP
+0d6f	NOP
+0d70	NOP
+0d71	NOP
+0d72	NOP
+0d73	NOP
+0d74	NOP
+0d75	NOP
+0d76	NOP
+0d77	NOP
+0d78	NOP
+0d79	NOP
+0d7a	NOP
+0d7b	NOP
+0d7c	NOP
+0d7d	NOP
+0d7e	NOP
+0d7f	NOP
+0d80	NOP
+0d81	NOP
+0d82	NOP
+0d83	NOP
+0d84	NOP
+0d85	NOP
+0d86	NOP
+0d87	NOP
+0d88	NOP
+0d89	NOP
+0d8a	NOP
+0d8b	NOP
+0d8c	NOP
+0d8d	NOP
+0d8e	NOP
+0d8f	NOP
+0d90	NOP
+0d91	NOP
+0d92	NOP
+0d93	NOP
+0d94	NOP
+0d95	NOP
+0d96	NOP
+0d97	NOP
+0d98	NOP
+0d99	NOP
+0d9a	NOP
+0d9b	NOP
+0d9c	NOP
+0d9d	NOP
+0d9e	NOP
+0d9f	NOP
+0da0	NOP
+0da1	NOP
+0da2	NOP
+0da3	NOP
+0da4	NOP
+0da5	NOP
+0da6	NOP
+0da7	NOP
+0da8	NOP
+0da9	NOP
+0daa	NOP
+0dab	NOP
+0dac	NOP
+0dad	NOP
+0dae	NOP
+0daf	NOP
+0db0	NOP
+0db1	NOP
+0db2	NOP
+0db3	NOP
+0db4	NOP
+0db5	NOP
+0db6	NOP
+0db7	NOP
+0db8	NOP
+0db9	NOP
+0dba	NOP
+0dbb	NOP
+0dbc	NOP
+0dbd	NOP
+0dbe	NOP
+0dbf	NOP
+0dc0	NOP
+0dc1	NOP
+0dc2	NOP
+0dc3	NOP
+0dc4	NOP
+0dc5	NOP
+0dc6	NOP
+0dc7	NOP
+0dc8	NOP
+0dc9	NOP
+0dca	NOP
+0dcb	NOP
+0dcc	NOP
+0dcd	NOP
+0dce	NOP
+0dcf	NOP
+0dd0	NOP
+0dd1	NOP
+0dd2	NOP
+0dd3	NOP
+0dd4	NOP
+0dd5	NOP
+0dd6	NOP
+0dd7	NOP
+0dd8	NOP
+0dd9	NOP
+0dda	NOP
+0ddb	NOP
+0ddc	NOP
+0ddd	NOP
+0dde	NOP
+0ddf	NOP
+0de0	NOP
+0de1	NOP
+0de2	NOP
+0de3	NOP
+0de4	NOP
+0de5	NOP
+0de6	NOP
+0de7	NOP
+0de8	NOP
+0de9	NOP
+0dea	NOP
+0deb	NOP
+0dec	NOP
+0ded	NOP
+0dee	NOP
+0def	NOP
+0df0	NOP
+0df1	NOP
+0df2	NOP
+0df3	NOP
+0df4	NOP
+0df5	NOP
+0df6	NOP
+0df7	NOP
+0df8	NOP
+0df9	NOP
+0dfa	NOP
+0dfb	NOP
+0dfc	NOP
+0dfd	NOP
+0dfe	NOP
+0dff	NOP
+0e00	NOP
+0e01	NOP
+0e02	NOP
+0e03	NOP
+0e04	NOP
+0e05	NOP
+0e06	NOP
+0e07	NOP
+0e08	NOP
+0e09	NOP
+0e0a	NOP
+0e0b	NOP
+0e0c	NOP
+0e0d	NOP
+0e0e	NOP
+0e0f	NOP
+0e10	NOP
+0e11	NOP
+0e12	NOP
+0e13	NOP
+0e14	NOP
+0e15	NOP
+0e16	NOP
+0e17	NOP
+0e18	NOP
+0e19	NOP
+0e1a	NOP
+0e1b	NOP
+0e1c	NOP
+0e1d	NOP
+0e1e	NOP
+0e1f	NOP
+0e20	NOP
+0e21	NOP
+0e22	NOP
+0e23	NOP
+0e24	NOP
+0e25	NOP
+0e26	NOP
+0e27	NOP
+0e28	NOP
+0e29	NOP
+0e2a	NOP
+0e2b	NOP
+0e2c	NOP
+0e2d	NOP
+0e2e	NOP
+0e2f	NOP
+0e30	NOP
+0e31	NOP
+0e32	NOP
+0e33	NOP
+0e34	NOP
+0e35	NOP
+0e36	NOP
+0e37	NOP
+0e38	NOP
+0e39	NOP
+0e3a	NOP
+0e3b	NOP
+0e3c	NOP
+0e3d	NOP
+0e3e	NOP
+0e3f	NOP
+0e40	NOP
+0e41	NOP
+0e42	NOP
+0e43	NOP
+0e44	NOP
+0e45	NOP
+0e46	NOP
+0e47	NOP
+0e48	NOP
+0e49	NOP
+0e4a	NOP
+0e4b	NOP
+0e4c	NOP
+0e4d	NOP
+0e4e	NOP
+0e4f	NOP
+0e50	NOP
+0e51	NOP
+0e52	NOP
+0e53	NOP
+0e54	NOP
+0e55	NOP
+0e56	NOP
+0e57	NOP
+0e58	NOP
+0e59	NOP
+0e5a	NOP
+0e5b	NOP
+0e5c	NOP
+0e5d	NOP
+0e5e	NOP
+0e5f	NOP
+0e60	NOP
+0e61	NOP
+0e62	NOP
+0e63	NOP
+0e64	NOP
+0e65	NOP
+0e66	NOP
+0e67	NOP
+0e68	NOP
+0e69	NOP
+0e6a	NOP
+0e6b	NOP
+0e6c	NOP
+0e6d	NOP
+0e6e	NOP
+0e6f	NOP
+0e70	NOP
+0e71	NOP
+0e72	NOP
+0e73	NOP
+0e74	NOP
+0e75	NOP
+0e76	NOP
+0e77	NOP
+0e78	NOP
+0e79	NOP
+0e7a	NOP
+0e7b	NOP
+0e7c	NOP
+0e7d	NOP
+0e7e	NOP
+0e7f	NOP
+0e80	NOP
+0e81	NOP
+0e82	NOP
+0e83	NOP
+0e84	NOP
+0e85	NOP
+0e86	NOP
+0e87	NOP
+0e88	NOP
+0e89	NOP
+0e8a	NOP
+0e8b	NOP
+0e8c	NOP
+0e8d	NOP
+0e8e	NOP
+0e8f	NOP
+0e90	NOP
+0e91	NOP
+0e92	NOP
+0e93	NOP
+0e94	NOP
+0e95	NOP
+0e96	NOP
+0e97	NOP
+0e98	NOP
+0e99	NOP
+0e9a	NOP
+0e9b	NOP
+0e9c	NOP
+0e9d	NOP
+0e9e	NOP
+0e9f	NOP
+0ea0	NOP
+0ea1	NOP
+0ea2	NOP
+0ea3	NOP
+0ea4	NOP
+0ea5	NOP
+0ea6	NOP
+0ea7	NOP
+0ea8	NOP
+0ea9	NOP
+0eaa	NOP
+0eab	NOP
+0eac	NOP
+0ead	NOP
+0eae	NOP
+0eaf	NOP
+0eb0	NOP
+0eb1	NOP
+0eb2	NOP
+0eb3	NOP
+0eb4	NOP
+0eb5	NOP
+0eb6	NOP
+0eb7	NOP
+0eb8	NOP
+0eb9	NOP
+0eba	NOP
+0ebb	NOP
+0ebc	NOP
+0ebd	NOP
+0ebe	NOP
+0ebf	NOP
+0ec0	NOP
+0ec1	NOP
+0ec2	NOP
+0ec3	NOP
+0ec4	NOP
+0ec5	NOP
+0ec6	NOP
+0ec7	NOP
+0ec8	NOP
+0ec9	NOP
+0eca	NOP
+0ecb	NOP
+0ecc	NOP
+0ecd	NOP
+0ece	NOP
+0ecf	NOP
+0ed0	NOP
+0ed1	NOP
+0ed2	NOP
+0ed3	NOP
+0ed4	NOP
+0ed5	NOP
+0ed6	NOP
+0ed7	NOP
+0ed8	NOP
+0ed9	NOP
+0eda	NOP
+0edb	NOP
+0edc	NOP
+0edd	NOP
+0ede	NOP
+0edf	NOP
+0ee0	NOP
+0ee1	NOP
+0ee2	NOP
+0ee3	NOP
+0ee4	NOP
+0ee5	NOP
+0ee6	NOP
+0ee7	NOP
+0ee8	NOP
+0ee9	NOP
+0eea	NOP
+0eeb	NOP
+0eec	NOP
+0eed	NOP
+0eee	NOP
+0eef	NOP
+0ef0	NOP
+0ef1	NOP
+0ef2	NOP
+0ef3	NOP
+0ef4	NOP
+0ef5	NOP
+0ef6	NOP
+0ef7	NOP
+0ef8	NOP
+0ef9	NOP
+0efa	NOP
+0efb	NOP
+0efc	NOP
+0efd	NOP
+0efe	NOP
+0eff	NOP
+0f00	NOP
+0f01	NOP
+0f02	NOP
+0f03	NOP
+0f04	NOP
+0f05	NOP
+0f06	NOP
+0f07	NOP
+0f08	NOP
+0f09	NOP
+0f0a	NOP
+0f0b	NOP
+0f0c	NOP
+0f0d	NOP
+0f0e	NOP
+0f0f	NOP
+0f10	NOP
+0f11	NOP
+0f12	NOP
+0f13	NOP
+0f14	NOP
+0f15	NOP
+0f16	NOP
+0f17	NOP
+0f18	NOP
+0f19	NOP
+0f1a	NOP
+0f1b	NOP
+0f1c	NOP
+0f1d	NOP
+0f1e	NOP
+0f1f	NOP
+0f20	NOP
+0f21	NOP
+0f22	NOP
+0f23	NOP
+0f24	NOP
+0f25	NOP
+0f26	NOP
+0f27	NOP
+0f28	NOP
+0f29	NOP
+0f2a	NOP
+0f2b	NOP
+0f2c	NOP
+0f2d	NOP
+0f2e	NOP
+0f2f	NOP
+0f30	NOP
+0f31	NOP
+0f32	NOP
+0f33	NOP
+0f34	NOP
+0f35	NOP
+0f36	NOP
+0f37	NOP
+0f38	NOP
+0f39	NOP
+0f3a	NOP
+0f3b	NOP
+0f3c	NOP
+0f3d	NOP
+0f3e	NOP
+0f3f	NOP
+0f40	NOP
+0f41	NOP
+0f42	NOP
+0f43	NOP
+0f44	NOP
+0f45	NOP
+0f46	NOP
+0f47	NOP
+0f48	NOP
+0f49	NOP
+0f4a	NOP
+0f4b	NOP
+0f4c	NOP
+0f4d	NOP
+0f4e	NOP
+0f4f	NOP
+0f50	NOP
+0f51	NOP
+0f52	NOP
+0f53	NOP
+0f54	NOP
+0f55	NOP
+0f56	NOP
+0f57	NOP
+0f58	NOP
+0f59	NOP
+0f5a	NOP
+0f5b	NOP
+0f5c	NOP
+0f5d	NOP
+0f5e	NOP
+0f5f	NOP
+0f60	NOP
+0f61	NOP
+0f62	NOP
+0f63	NOP
+0f64	NOP
+0f65	NOP
+0f66	NOP
+0f67	NOP
+0f68	NOP
+0f69	NOP
+0f6a	NOP
+0f6b	NOP
+0f6c	NOP
+0f6d	NOP
+0f6e	NOP
+0f6f	NOP
+0f70	NOP
+0f71	NOP
+0f72	NOP
+0f73	NOP
+0f74	NOP
+0f75	NOP
+0f76	NOP
+0f77	NOP
+0f78	NOP
+0f79	NOP
+0f7a	NOP
+0f7b	NOP
+0f7c	NOP
+0f7d	NOP
+0f7e	NOP
+0f7f	NOP
+0f80	NOP
+0f81	NOP
+0f82	NOP
+0f83	NOP
+0f84	NOP
+0f85	NOP
+0f86	NOP
+0f87	NOP
+0f88	NOP
+0f89	NOP
+0f8a	NOP
+0f8b	NOP
+0f8c	NOP
+0f8d	NOP
+0f8e	NOP
+0f8f	NOP
+0f90	NOP
+0f91	NOP
+0f92	NOP
+0f93	NOP
+0f94	NOP
+0f95	NOP
+0f96	NOP
+0f97	NOP
+0f98	NOP
+0f99	NOP
+0f9a	NOP
+0f9b	NOP
+0f9c	NOP
+0f9d	NOP
+0f9e	NOP
+0f9f	NOP
+0fa0	NOP
+0fa1	NOP
+0fa2	NOP
+0fa3	NOP
+0fa4	NOP
+0fa5	NOP
+0fa6	NOP
+0fa7	NOP
+0fa8	NOP
+0fa9	NOP
+0faa	NOP
+0fab	NOP
+0fac	NOP
+0fad	NOP
+0fae	NOP
+0faf	NOP
+0fb0	NOP
+0fb1	NOP
+0fb2	NOP
+0fb3	NOP
+0fb4	NOP
+0fb5	NOP
+0fb6	NOP
+0fb7	NOP
+0fb8	NOP
+0fb9	NOP
+0fba	NOP
+0fbb	NOP
+0fbc	NOP
+0fbd	NOP
+0fbe	NOP
+0fbf	NOP
+0fc0	NOP
+0fc1	NOP
+0fc2	NOP
+0fc3	NOP
+0fc4	NOP
+0fc5	NOP
+0fc6	NOP
+0fc7	NOP
+0fc8	NOP
+0fc9	NOP
+0fca	NOP
+0fcb	NOP
+0fcc	NOP
+0fcd	NOP
+0fce	NOP
+0fcf	NOP
+0fd0	NOP
+0fd1	NOP
+0fd2	NOP
+0fd3	NOP
+0fd4	NOP
+0fd5	NOP
+0fd6	NOP
+0fd7	NOP
+0fd8	NOP
+0fd9	NOP
+0fda	NOP
+0fdb	NOP
+0fdc	NOP
+0fdd	NOP
+0fde	NOP
+0fdf	NOP
+0fe0	NOP
+0fe1	NOP
+0fe2	NOP
+0fe3	NOP
+0fe4	NOP
+0fe5	NOP
+0fe6	NOP
+0fe7	NOP
+0fe8	NOP
+0fe9	NOP
+0fea	NOP
+0feb	NOP
+0fec	NOP
+0fed	NOP
+0fee	NOP
+0fef	NOP
+0ff0	NOP
+0ff1	NOP
+0ff2	NOP
+0ff3	NOP
+0ff4	NOP
+0ff5	NOP
+0ff6	NOP
+0ff7	NOP
+0ff8	NOP
+0ff9	NOP
+0ffa	NOP
+0ffb	NOP
+0ffc	NOP
+0ffd	NOP
+0ffe	NOP
+0fff	NOP
+1000	NOP
+1001	NOP
+1002	NOP
+1003	NOP
+1004	NOP
+1005	NOP
+1006	NOP
+1007	NOP
+1008	NOP
+1009	NOP
+100a	NOP
+100b	NOP
+100c	NOP
+100d	NOP
+100e	NOP
+100f	NOP
+1010	NOP
+1011	NOP
+1012	NOP
+1013	NOP
+1014	NOP
+1015	NOP
+1016	NOP
+1017	NOP
+1018	NOP
+1019	NOP
+101a	NOP
+101b	NOP
+101c	NOP
+101d	NOP
+101e	NOP
+101f	NOP
+1020	NOP
+1021	NOP
+1022	NOP
+1023	NOP
+1024	NOP
+1025	NOP
+1026	NOP
+1027	NOP
+1028	NOP
+1029	NOP
+102a	NOP
+102b	NOP
+102c	NOP
+102d	NOP
+102e	NOP
+102f	NOP
+1030	NOP
+1031	NOP
+1032	NOP
+1033	NOP
+1034	NOP
+1035	NOP
+1036	NOP
+1037	NOP
+1038	NOP
+1039	NOP
+103a	NOP
+103b	NOP
+103c	NOP
+103d	NOP
+103e	NOP
+103f	NOP
+1040	NOP
+1041	NOP
+1042	NOP
+1043	NOP
+1044	NOP
+1045	NOP
+1046	NOP
+1047	NOP
+1048	NOP
+1049	NOP
+104a	NOP
+104b	NOP
+104c	NOP
+104d	NOP
+104e	NOP
+104f	NOP
+1050	NOP
+1051	NOP
+1052	NOP
+1053	NOP
+1054	NOP
+1055	NOP
+1056	NOP
+1057	NOP
+1058	NOP
+1059	NOP
+105a	NOP
+105b	NOP
+105c	NOP
+105d	NOP
+105e	NOP
+105f	NOP
+1060	NOP
+1061	NOP
+1062	NOP
+1063	NOP
+1064	NOP
+1065	NOP
+1066	NOP
+1067	NOP
+1068	NOP
+1069	NOP
+106a	NOP
+106b	NOP
+106c	NOP
+106d	NOP
+106e	NOP
+106f	NOP
+1070	NOP
+1071	NOP
+1072	NOP
+1073	NOP
+1074	NOP
+1075	NOP
+1076	NOP
+1077	NOP
+1078	NOP
+1079	NOP
+107a	NOP
+107b	NOP
+107c	NOP
+107d	NOP
+107e	NOP
+107f	NOP
+1080	NOP
+1081	NOP
+1082	NOP
+1083	NOP
+1084	NOP
+1085	NOP
+1086	NOP
+1087	NOP
+1088	NOP
+1089	NOP
+108a	NOP
+108b	NOP
+108c	NOP
+108d	NOP
+108e	NOP
+108f	NOP
+1090	NOP
+1091	NOP
+1092	NOP
+1093	NOP
+1094	NOP
+1095	NOP
+1096	NOP
+1097	NOP
+1098	NOP
+1099	NOP
+109a	NOP
+109b	NOP
+109c	NOP
+109d	NOP
+109e	NOP
+109f	NOP
+10a0	NOP
+10a1	NOP
+10a2	NOP
+10a3	NOP
+10a4	NOP
+10a5	NOP
+10a6	NOP
+10a7	NOP
+10a8	NOP
+10a9	NOP
+10aa	NOP
+10ab	NOP
+10ac	NOP
+10ad	NOP
+10ae	NOP
+10af	NOP
+10b0	NOP
+10b1	NOP
+10b2	NOP
+10b3	NOP
+10b4	NOP
+10b5	NOP
+10b6	NOP
+10b7	NOP
+10b8	NOP
+10b9	NOP
+10ba	NOP
+10bb	NOP
+10bc	NOP
+10bd	NOP
+10be	NOP
+10bf	NOP
+10c0	NOP
+10c1	NOP
+10c2	NOP
+10c3	NOP
+10c4	NOP
+10c5	NOP
+10c6	NOP
+10c7	NOP
+10c8	NOP
+10c9	NOP
+10ca	NOP
+10cb	NOP
+10cc	NOP
+10cd	NOP
+10ce	NOP
+10cf	NOP
+10d0	NOP
+10d1	NOP
+10d2	NOP
+10d3	NOP
+10d4	NOP
+10d5	NOP
+10d6	NOP
+10d7	NOP
+10d8	NOP
+10d9	NOP
+10da	NOP
+10db	NOP
+10dc	NOP
+10dd	NOP
+10de	NOP
+10df	NOP
+10e0	NOP
+10e1	NOP
+10e2	NOP
+10e3	NOP
+10e4	NOP
+10e5	NOP
+10e6	NOP
+10e7	NOP
+10e8	NOP
+10e9	NOP
+10ea	NOP
+10eb	NOP
+10ec	NOP
+10ed	NOP
+10ee	NOP
+10ef	NOP
+10f0	NOP
+10f1	NOP
+10f2	NOP
+10f3	NOP
+10f4	NOP
+10f5	NOP
+10f6	NOP
+10f7	NOP
+10f8	NOP
+10f9	NOP
+10fa	NOP
+10fb	NOP
+10fc	NOP
+10fd	NOP
+10fe	NOP
+10ff	NOP
+1100	NOP
+1101	NOP
+1102	NOP
+1103	NOP
+1104	NOP
+1105	NOP
+1106	NOP
+1107	NOP
+1108	NOP
+1109	NOP
+110a	NOP
+110b	NOP
+110c	NOP
+110d	NOP
+110e	NOP
+110f	NOP
+1110	NOP
+1111	NOP
+1112	NOP
+1113	NOP
+1114	NOP
+1115	NOP
+1116	NOP
+1117	NOP
+1118	NOP
+1119	NOP
+111a	NOP
+111b	NOP
+111c	NOP
+111d	NOP
+111e	NOP
+111f	NOP
+1120	NOP
+1121	NOP
+1122	NOP
+1123	NOP
+1124	NOP
+1125	NOP
+1126	NOP
+1127	NOP
+1128	NOP
+1129	NOP
+112a	NOP
+112b	NOP
+112c	NOP
+112d	NOP
+112e	NOP
+112f	NOP
+1130	NOP
+1131	NOP
+1132	NOP
+1133	NOP
+1134	NOP
+1135	NOP
+1136	NOP
+1137	NOP
+1138	NOP
+1139	NOP
+113a	NOP
+113b	NOP
+113c	NOP
+113d	NOP
+113e	NOP
+113f	NOP
+1140	NOP
+1141	NOP
+1142	NOP
+1143	NOP
+1144	NOP
+1145	NOP
+1146	NOP
+1147	NOP
+1148	NOP
+1149	NOP
+114a	NOP
+114b	NOP
+114c	NOP
+114d	NOP
+114e	NOP
+114f	NOP
+1150	NOP
+1151	NOP
+1152	NOP
+1153	NOP
+1154	NOP
+1155	NOP
+1156	NOP
+1157	NOP
+1158	NOP
+1159	NOP
+115a	NOP
+115b	NOP
+115c	NOP
+115d	NOP
+115e	NOP
+115f	NOP
+1160	NOP
+1161	NOP
+1162	NOP
+1163	NOP
+1164	NOP
+1165	NOP
+1166	NOP
+1167	NOP
+1168	NOP
+1169	NOP
+116a	NOP
+116b	NOP
+116c	NOP
+116d	NOP
+116e	NOP
+116f	NOP
+1170	NOP
+1171	NOP
+1172	NOP
+1173	NOP
+1174	NOP
+1175	NOP
+1176	NOP
+1177	NOP
+1178	NOP
+1179	NOP
+117a	NOP
+117b	NOP
+117c	NOP
+117d	NOP
+117e	NOP
+117f	NOP
+1180	NOP
+1181	NOP
+1182	NOP
+1183	NOP
+1184	NOP
+1185	NOP
+1186	NOP
+1187	NOP
+1188	NOP
+1189	NOP
+118a	NOP
+118b	NOP
+118c	NOP
+118d	NOP
+118e	NOP
+118f	NOP
+1190	NOP
+1191	NOP
+1192	NOP
+1193	NOP
+1194	NOP
+1195	NOP
+1196	NOP
+1197	NOP
+1198	NOP
+1199	NOP
+119a	NOP
+119b	NOP
+119c	NOP
+119d	NOP
+119e	NOP
+119f	NOP
+11a0	NOP
+11a1	NOP
+11a2	NOP
+11a3	NOP
+11a4	NOP
+11a5	NOP
+11a6	NOP
+11a7	NOP
+11a8	NOP
+11a9	NOP
+11aa	NOP
+11ab	NOP
+11ac	NOP
+11ad	NOP
+11ae	NOP
+11af	NOP
+11b0	NOP
+11b1	NOP
+11b2	NOP
+11b3	NOP
+11b4	NOP
+11b5	NOP
+11b6	NOP
+11b7	NOP
+11b8	NOP
+11b9	NOP
+11ba	NOP
+11bb	NOP
+11bc	NOP
+11bd	NOP
+11be	NOP
+11bf	NOP
+11c0	NOP
+11c1	NOP
+11c2	NOP
+11c3	NOP
+11c4	NOP
+11c5	NOP
+11c6	NOP
+11c7	NOP
+11c8	NOP
+11c9	NOP
+11ca	NOP
+11cb	NOP
+11cc	NOP
+11cd	NOP
+11ce	NOP
+11cf	NOP
+11d0	NOP
+11d1	NOP
+11d2	NOP
+11d3	NOP
+11d4	NOP
+11d5	NOP
+11d6	NOP
+11d7	NOP
+11d8	NOP
+11d9	NOP
+11da	NOP
+11db	NOP
+11dc	NOP
+11dd	NOP
+11de	NOP
+11df	NOP
+11e0	NOP
+11e1	NOP
+11e2	NOP
+11e3	NOP
+11e4	NOP
+11e5	NOP
+11e6	NOP
+11e7	NOP
+11e8	NOP
+11e9	NOP
+11ea	NOP
+11eb	NOP
+11ec	NOP
+11ed	NOP
+11ee	NOP
+11ef	NOP
+11f0	NOP
+11f1	NOP
+11f2	NOP
+11f3	NOP
+11f4	NOP
+11f5	NOP
+11f6	NOP
+11f7	NOP
+11f8	NOP
+11f9	NOP
+11fa	NOP
+11fb	NOP
+11fc	NOP
+11fd	NOP
+11fe	NOP
+11ff	NOP
+1200	NOP
+1201	NOP
+1202	NOP
+1203	NOP
+1204	NOP
+1205	NOP
+1206	NOP
+1207	NOP
+1208	NOP
+1209	NOP
+120a	NOP
+120b	NOP
+120c	NOP
+120d	NOP
+120e	NOP
+120f	NOP
+1210	NOP
+1211	NOP
+1212	NOP
+1213	NOP
+1214	NOP
+1215	NOP
+1216	NOP
+1217	NOP
+1218	NOP
+1219	NOP
+121a	NOP
+121b	NOP
+121c	NOP
+121d	NOP
+121e	NOP
+121f	NOP
+1220	NOP
+1221	NOP
+1222	NOP
+1223	NOP
+1224	NOP
+1225	NOP
+1226	NOP
+1227	NOP
+1228	NOP
+1229	NOP
+122a	NOP
+122b	NOP
+122c	NOP
+122d	NOP
+122e	NOP
+122f	NOP
+1230	NOP
+1231	NOP
+1232	NOP
+1233	NOP
+1234	NOP
+1235	NOP
+1236	NOP
+1237	NOP
+1238	NOP
+1239	NOP
+123a	NOP
+123b	NOP
+123c	NOP
+123d	NOP
+123e	NOP
+123f	NOP
+1240	NOP
+1241	NOP
+1242	NOP
+1243	NOP
+1244	NOP
+1245	NOP
+1246	NOP
+1247	NOP
+1248	NOP
+1249	NOP
+124a	NOP
+124b	NOP
+124c	NOP
+124d	NOP
+124e	NOP
+124f	NOP
+1250	NOP
+1251	NOP
+1252	NOP
+1253	NOP
+1254	NOP
+1255	NOP
+1256	NOP
+1257	NOP
+1258	NOP
+1259	NOP
+125a	NOP
+125b	NOP
+125c	NOP
+125d	NOP
+125e	NOP
+125f	NOP
+1260	NOP
+1261	NOP
+1262	NOP
+1263	NOP
+1264	NOP
+1265	NOP
+1266	NOP
+1267	NOP
+1268	NOP
+1269	NOP
+126a	NOP
+126b	NOP
+126c	NOP
+126d	NOP
+126e	NOP
+126f	NOP
+1270	NOP
+1271	NOP
+1272	NOP
+1273	NOP
+1274	NOP
+1275	NOP
+1276	NOP
+1277	NOP
+1278	NOP
+1279	NOP
+127a	NOP
+127b	NOP
+127c	NOP
+127d	NOP
+127e	NOP
+127f	NOP
+1280	NOP
+1281	NOP
+1282	NOP
+1283	NOP
+1284	NOP
+1285	NOP
+1286	NOP
+1287	NOP
+1288	NOP
+1289	NOP
+128a	NOP
+128b	NOP
+128c	NOP
+128d	NOP
+128e	NOP
+128f	NOP
+1290	NOP
+1291	NOP
+1292	NOP
+1293	NOP
+1294	NOP
+1295	NOP
+1296	NOP
+1297	NOP
+1298	NOP
+1299	NOP
+129a	NOP
+129b	NOP
+129c	NOP
+129d	NOP
+129e	NOP
+129f	NOP
+12a0	NOP
+12a1	NOP
+12a2	NOP
+12a3	NOP
+12a4	NOP
+12a5	NOP
+12a6	NOP
+12a7	NOP
+12a8	NOP
+12a9	NOP
+12aa	NOP
+12ab	NOP
+12ac	NOP
+12ad	NOP
+12ae	NOP
+12af	NOP
+12b0	NOP
+12b1	NOP
+12b2	NOP
+12b3	NOP
+12b4	NOP
+12b5	NOP
+12b6	NOP
+12b7	NOP
+12b8	NOP
+12b9	NOP
+12ba	NOP
+12bb	NOP
+12bc	NOP
+12bd	NOP
+12be	NOP
+12bf	NOP
+12c0	NOP
+12c1	NOP
+12c2	NOP
+12c3	NOP
+12c4	NOP
+12c5	NOP
+12c6	NOP
+12c7	NOP
+12c8	NOP
+12c9	NOP
+12ca	NOP
+12cb	NOP
+12cc	NOP
+12cd	NOP
+12ce	NOP
+12cf	NOP
+12d0	NOP
+12d1	NOP
+12d2	NOP
+12d3	NOP
+12d4	NOP
+12d5	NOP
+12d6	NOP
+12d7	NOP
+12d8	NOP
+12d9	NOP
+12da	NOP
+12db	NOP
+12dc	NOP
+12dd	NOP
+12de	NOP
+12df	NOP
+12e0	NOP
+12e1	NOP
+12e2	NOP
+12e3	NOP
+12e4	NOP
+12e5	NOP
+12e6	NOP
+12e7	NOP
+12e8	NOP
+12e9	NOP
+12ea	NOP
+12eb	NOP
+12ec	NOP
+12ed	NOP
+12ee	NOP
+12ef	NOP
+12f0	NOP
+12f1	NOP
+12f2	NOP
+12f3	NOP
+12f4	NOP
+12f5	NOP
+12f6	NOP
+12f7	NOP
+12f8	NOP
+12f9	NOP
+12fa	NOP
+12fb	NOP
+12fc	NOP
+12fd	NOP
+12fe	NOP
+12ff	NOP
+1300	NOP
+1301	NOP
+1302	NOP
+1303	NOP
+1304	NOP
+1305	NOP
+1306	NOP
+1307	NOP
+1308	NOP
+1309	NOP
+130a	NOP
+130b	NOP
+130c	NOP
+130d	NOP
+130e	NOP
+130f	NOP
+1310	NOP
+1311	NOP
+1312	NOP
+1313	NOP
+1314	NOP
+1315	NOP
+1316	NOP
+1317	NOP
+1318	NOP
+1319	NOP
+131a	NOP
+131b	NOP
+131c	NOP
+131d	NOP
+131e	NOP
+131f	NOP
+1320	NOP
+1321	NOP
+1322	NOP
+1323	NOP
+1324	NOP
+1325	NOP
+1326	NOP
+1327	NOP
+1328	NOP
+1329	NOP
+132a	NOP
+132b	NOP
+132c	NOP
+132d	NOP
+132e	NOP
+132f	NOP
+1330	NOP
+1331	NOP
+1332	NOP
+1333	NOP
+1334	NOP
+1335	NOP
+1336	NOP
+1337	NOP
+1338	NOP
+1339	NOP
+133a	NOP
+133b	NOP
+133c	NOP
+133d	NOP
+133e	NOP
+133f	NOP
+1340	NOP
+1341	NOP
+1342	NOP
+1343	NOP
+1344	NOP
+1345	NOP
+1346	NOP
+1347	NOP
+1348	NOP
+1349	NOP
+134a	NOP
+134b	NOP
+134c	NOP
+134d	NOP
+134e	NOP
+134f	NOP
+1350	NOP
+1351	NOP
+1352	NOP
+1353	NOP
+1354	NOP
+1355	NOP
+1356	NOP
+1357	NOP
+1358	NOP
+1359	NOP
+135a	NOP
+135b	NOP
+135c	NOP
+135d	NOP
+135e	NOP
+135f	NOP
+1360	NOP
+1361	NOP
+1362	NOP
+1363	NOP
+1364	NOP
+1365	NOP
+1366	NOP
+1367	NOP
+1368	NOP
+1369	NOP
+136a	NOP
+136b	NOP
+136c	NOP
+136d	NOP
+136e	NOP
+136f	NOP
+1370	NOP
+1371	NOP
+1372	NOP
+1373	NOP
+1374	NOP
+1375	NOP
+1376	NOP
+1377	NOP
+1378	NOP
+1379	NOP
+137a	NOP
+137b	NOP
+137c	NOP
+137d	NOP
+137e	NOP
+137f	NOP
+1380	NOP
+1381	NOP
+1382	NOP
+1383	NOP
+1384	NOP
+1385	NOP
+1386	NOP
+1387	NOP
+1388	NOP
+1389	NOP
+138a	NOP
+138b	NOP
+138c	NOP
+138d	NOP
+138e	NOP
+138f	NOP
+1390	NOP
+1391	NOP
+1392	NOP
+1393	NOP
+1394	NOP
+1395	NOP
+1396	NOP
+1397	NOP
+1398	NOP
+1399	NOP
+139a	NOP
+139b	NOP
+139c	NOP
+139d	NOP
+139e	NOP
+139f	NOP
+13a0	NOP
+13a1	NOP
+13a2	NOP
+13a3	NOP
+13a4	NOP
+13a5	NOP
+13a6	NOP
+13a7	NOP
+13a8	NOP
+13a9	NOP
+13aa	NOP
+13ab	NOP
+13ac	NOP
+13ad	NOP
+13ae	NOP
+13af	NOP
+13b0	NOP
+13b1	NOP
+13b2	NOP
+13b3	NOP
+13b4	NOP
+13b5	NOP
+13b6	NOP
+13b7	NOP
+13b8	NOP
+13b9	NOP
+13ba	NOP
+13bb	NOP
+13bc	NOP
+13bd	NOP
+13be	NOP
+13bf	NOP
+13c0	NOP
+13c1	NOP
+13c2	NOP
+13c3	NOP
+13c4	NOP
+13c5	NOP
+13c6	NOP
+13c7	NOP
+13c8	NOP
+13c9	NOP
+13ca	NOP
+13cb	NOP
+13cc	NOP
+13cd	NOP
+13ce	NOP
+13cf	NOP
+13d0	NOP
+13d1	NOP
+13d2	NOP
+13d3	NOP
+13d4	NOP
+13d5	NOP
+13d6	NOP
+13d7	NOP
+13d8	NOP
+13d9	NOP
+13da	NOP
+13db	NOP
+13dc	NOP
+13dd	NOP
+13de	NOP
+13df	NOP
+13e0	NOP
+13e1	NOP
+13e2	NOP
+13e3	NOP
+13e4	NOP
+13e5	NOP
+13e6	NOP
+13e7	NOP
+13e8	NOP
+13e9	NOP
+13ea	NOP
+13eb	NOP
+13ec	NOP
+13ed	NOP
+13ee	NOP
+13ef	NOP
+13f0	NOP
+13f1	NOP
+13f2	NOP
+13f3	NOP
+13f4	NOP
+13f5	NOP
+13f6	NOP
+13f7	NOP
+13f8	NOP
+13f9	NOP
+13fa	NOP
+13fb	NOP
+13fc	NOP
+13fd	NOP
+13fe	NOP
+13ff	NOP
+1400	NOP
+1401	CALL	$1474
+1404	NOP
+1405	PUSH	B
+1406	PUSH	H
+1407	N/A
+1408	N/A
+1409	N/A
+140a	IN		3
+140c	N/A
+140d	N/A
+140e	N/A
+140f	N/A
+1410	N/A
+1411	N/A
+1412	N/A
+1413	IN		3
+1415	N/A
+1416	N/A
+1417	N/A
+1418	LXI		B, 32
+141b	N/A
+141c	N/A
+141d	DCR		B
+141e	N/A
+141f	DCR		B
+1420	N/A
+1421	N/A
+1422	NOP
+1423	NOP
+1424	CALL	$1474
+1427	PUSH	B
+1428	PUSH	H
+1429	N/A
+142a	N/A
+142b	N/A
+142c	N/A
+142d	N/A
+142e	N/A
+142f	LXI		B, 32
+1432	N/A
+1433	N/A
+1434	DCR		B
+1435	N/A
+1436	N/A
+1437	N/A
+1438	N/A
+1439	PUSH	B
+143a	N/A
+143b	N/A
+143c	N/A
+143d	LXI		B, 32
+1440	N/A
+1441	N/A
+1442	DCR		B
+1443	N/A
+1444	N/A
+1445	N/A
+1446	N/A
+1447	NOP
+1448	NOP
+1449	NOP
+144a	NOP
+144b	NOP
+144c	NOP
+144d	NOP
+144e	NOP
+144f	NOP
+1450	NOP
+1451	NOP
+1452	CALL	$1474
+1455	PUSH	B
+1456	PUSH	H
+1457	N/A
+1458	N/A
+1459	N/A
+145a	IN		3
+145c	N/A
+145d	N/A
+145e	N/A
+145f	N/A
+1460	N/A
+1461	N/A
+1462	N/A
+1463	N/A
+1464	IN		3
+1466	N/A
+1467	N/A
+1468	N/A
+1469	N/A
+146a	LXI		B, 32
+146d	N/A
+146e	N/A
+146f	DCR		B
+1470	N/A
+1471	N/A
+1472	N/A
+1473	N/A
+1474	N/A
+1475	N/A
+1476	N/A
+1477	N/A
+1478	STAX	B
+1479	JMP		$1a47
+147c	PUSH	B
+147d	PUSH	H
+147e	N/A
+147f	N/A
+1480	N/A
+1481	N/A
+1482	N/A
+1483	N/A
+1484	N/A
+1485	N/A
+1486	N/A
+1487	LXI		B, 32
+148a	N/A
+148b	N/A
+148c	DCR		B
+148d	N/A
+148e	N/A
+148f	N/A
+1490	N/A
+1491	CALL	$1474
+1494	N/A
+1495	STA		$2061
+1498	PUSH	B
+1499	PUSH	H
+149a	N/A
+149b	N/A
+149c	N/A
+149d	IN		3
+149f	PUSH	PSW
+14a0	N/A
+14a1	N/A
+14a2	N/A
+14a3	N/A
+14a4	MVI		A, 1
+14a6	STA		$2061
+14a9	N/A
+14aa	N/A
+14ab	N/A
+14ac	N/A
+14ad	N/A
+14ae	N/A
+14af	N/A
+14b0	N/A
+14b1	IN		3
+14b3	PUSH	PSW
+14b4	N/A
+14b5	N/A
+14b6	N/A
+14b7	N/A
+14b8	MVI		A, 1
+14ba	STA		$2061
+14bd	N/A
+14be	N/A
+14bf	N/A
+14c0	N/A
+14c1	LXI		B, 32
+14c4	N/A
+14c5	N/A
+14c6	DCR		B
+14c7	N/A
+14c8	N/A
+14c9	N/A
+14ca	N/A
+14cb	N/A
+14cc	PUSH	B
+14cd	N/A
+14ce	LXI		B, 32
+14d1	N/A
+14d2	N/A
+14d3	DCR		B
+14d4	N/A
+14d5	N/A
+14d6	N/A
+14d7	N/A
+14d8	N/A
+14d9	DCR		H
+14da	N/A
+14db	N/A
+14dc	DCR		B
+14dd	N/A
+14de	N/A
+14df	STAX	B
+14e0	N/A
+14e1	N/A
+14e2	N/A
+14e3	N/A
+14e4	N/A
+14e5	N/A
+14e6	N/A
+14e7	N/A
+14e8	N/A
+14e9	DCR		D
+14ea	N/A
+14eb	STAX	B
+14ec	N/A
+14ed	N/A
+14ee	N/A
+14ef	N/A
+14f0	N/A
+14f1	N/A
+14f2	N/A
+14f3	N/A
+14f4	DCR		D
+14f5	N/A
+14f6	MVI		B, 71
+14f8	N/A
+14f9	N/A
+14fa	N/A
+14fb	N/A
+14fc	N/A
+14fd	N/A
+14fe	N/A
+14ff	DCR		D
+1500	N/A
+1501	N/A
+1502	N/A
+1503	DCR		D
+1504	N/A
+1505	CALL	$1562
+1508	N/A
+1509	N/A
+150a	N/A
+150b	N/A
+150c	CALL	$156f
+150f	N/A
+1510	N/A
+1511	N/A
+1512	MVI		A, 5
+1514	STA		$2025
+1517	CALL	$1581
+151a	N/A
+151b	N/A
+151c	N/A
+151d	N/A
+151e	DCR		D
+151f	MVI		M, 0
+1521	CALL	$0a5f
+1524	CALL	$1a3b
+1527	CALL	$15d3
+152a	MVI		A, 16
+152c	STA		$2003
+152f	N/A
+1530	MVI		A, 3
+1532	STA		$2025
+1535	JMP		$154a
+1538	LXI		H, 8195
+153b	DCR		M
+153c	N/A
+153d	N/A
+153e	N/A
+153f	N/A
+1540	MVI		B, 16
+1542	CALL	$1424
+1545	MVI		A, 4
+1547	STA		$2025
+154a	N/A
+154b	STA		$2002
+154e	MVI		B, 247
+1550	JMP		$19dc
+1553	NOP
+1554	MVI		C, 0
+1556	N/A
+1557	N/A
+1558	N/A
+1559	DCR		D
+155a	N/A
+155b	N/A
+155c	N/A
+155d	N/A
+155e	DCR		C
+155f	JMP		$155a
+1562	N/A
+1563	N/A
+1564	N/A
+1565	N/A
+1566	CALL	$1554
+1569	N/A
+156a	DCR		B
+156b	N/A
+156c	N/A
+156d	N/A
+156e	N/A
+156f	N/A
+1570	N/A
+1571	N/A
+1572	CALL	$1554
+1575	N/A
+1576	N/A
+1577	N/A
+1578	N/A
+1579	MVI		A, 1
+157b	STA		$2085
+157e	JMP		$1545
+1581	N/A
+1582	N/A
+1583	N/A
+1584	N/A
+1585	N/A
+1586	N/A
+1587	N/A
+1588	N/A
+1589	N/A
+158a	N/A
+158b	N/A
+158c	N/A
+158d	N/A
+158e	N/A
+158f	N/A
+1590	DCR		C
+1591	N/A
+1592	N/A
+1593	N/A
+1594	N/A
+1595	DCR		D
+1596	N/A
+1597	N/A
+1598	N/A
+1599	N/A
+159a	N/A
+159b	N/A
+159c	N/A
+159d	DCR		D
+159e	LXI		H, 16036
+15a1	CALL	$15c5
+15a4	N/A
+15a5	MVI		B, 254
+15a7	MVI		A, 1
+15a9	STA		$200d
+15ac	N/A
+15ad	STA		$2008
+15b0	N/A
+15b1	MVI		C, 32
+15b3	STA		$2007
+15b6	N/A
+15b7	LXI		H, 9508
+15ba	CALL	$15c5
+15bd	N/A
+15be	CALL	$18f1
+15c1	N/A
+15c2	JMP		$15a9
+15c5	MVI		B, 23
+15c7	N/A
+15c8	N/A
+15c9	N/A
+15ca	N/A
+15cb	MVI		D, 35
+15cd	DCR		B
+15ce	N/A
+15cf	N/A
+15d0	DCR		D
+15d1	N/A
+15d2	NOP
+15d3	CALL	$1474
+15d6	PUSH	H
+15d7	PUSH	B
+15d8	PUSH	H
+15d9	N/A
+15da	N/A
+15db	N/A
+15dc	IN		3
+15de	N/A
+15df	N/A
+15e0	N/A
+15e1	N/A
+15e2	N/A
+15e3	N/A
+15e4	IN		3
+15e6	N/A
+15e7	N/A
+15e8	LXI		B, 32
+15eb	N/A
+15ec	N/A
+15ed	DCR		B
+15ee	N/A
+15ef	N/A
+15f0	DCR		D
+15f1	N/A
+15f2	N/A
+15f3	CALL	$1611
+15f6	LXI		B, 14080
+15f9	N/A
+15fa	N/A
+15fb	N/A
+15fc	N/A
+15fd	DCR		D
+15fe	DCR		C
+15ff	N/A
+1600	DCR		B
+1601	N/A
+1602	N/A
+1603	DCR		D
+1604	N/A
+1605	STA		$2082
+1608	N/A
+1609	LXI		B, 8640
+160c	N/A
+160d	N/A
+160e	MVI		M, 1
+1610	N/A
+1611	MVI		L, 0
+1613	N/A
+1614	N/A
+1615	N/A
+1616	N/A
+1617	N/A
+1618	N/A
+1619	DCR		D
+161a	N/A
+161b	N/A
+161c	N/A
+161d	N/A
+161e	LXI		H, 8208
+1621	N/A
+1622	N/A
+1623	N/A
+1624	N/A
+1625	N/A
+1626	N/A
+1627	DCR		H
+1628	N/A
+1629	N/A
+162a	N/A
+162b	N/A
+162c	N/A
+162d	N/A
+162e	N/A
+162f	N/A
+1630	N/A
+1631	MVI		D, 58
+1633	N/A
+1634	N/A
+1635	N/A
+1636	N/A
+1637	N/A
+1638	MVI		D, 205
+163a	N/A
+163b	N/A
+163c	N/A
+163d	N/A
+163e	N/A
+163f	MVI		A, 1
+1641	STA		$2025
+1644	STA		$202d
+1647	N/A
+1648	CALL	$17c0
+164b	N/A
+164c	N/A
+164d	N/A
+164e	STA		$202d
+1651	N/A
+1652	LXI		H, 8229
+1655	MVI		M, 1
+1657	N/A
+1658	N/A
+1659	N/A
+165a	N/A
+165b	N/A
+165c	N/A
+165d	N/A
+165e	N/A
+165f	N/A
+1660	MVI		D, 46
+1662	N/A
+1663	N/A
+1664	N/A
+1665	N/A
+1666	N/A
+1667	STA		$201d
+166a	N/A
+166b	N/A
+166c	N/A
+166d	N/A
+166e	CALL	$1a8b
+1671	CALL	$1910
+1674	MVI		M, 0
+1676	CALL	$09ca
+1679	N/A
+167a	LXI		D, 8437
+167d	N/A
+167e	N/A
+167f	N/A
+1680	N/A
+1681	N/A
+1682	N/A
+1683	N/A
+1684	MVI		D, 210
+1686	N/A
+1687	MVI		D, 195
+1689	N/A
+168a	MVI		D, 190
+168c	N/A
+168d	N/A
+168e	MVI		D, 126
+1690	N/A
+1691	N/A
+1692	N/A
+1693	N/A
+1694	N/A
+1695	CALL	$1950
+1698	N/A
+1699	N/A
+169a	N/A
+169b	N/A
+169c	N/A
+169d	N/A
+169e	MVI		D, 33
+16a0	INX		B
+16a1	N/A
+16a2	LXI		D, 6822
+16a5	MVI		C, 20
+16a7	CALL	$0a93
+16aa	DCR		H
+16ab	DCR		H
+16ac	MVI		B, 27
+16ae	N/A
+16af	N/A
+16b0	N/A
+16b1	N/A
+16b2	N/A
+16b3	N/A
+16b4	MVI		D, 6
+16b6	DCR		E
+16b7	N/A
+16b8	CALL	$08ff
+16bb	CALL	$0ab1
+16be	CALL	$18e7
+16c1	N/A
+16c2	N/A
+16c3	N/A
+16c4	N/A
+16c5	MVI		D, 195
+16c7	N/A
+16c8	STAX	B
+16c9	LXI		H, 11544
+16cc	LXI		D, 6822
+16cf	MVI		C, 10
+16d1	CALL	$0a93
+16d4	CALL	$0ab6
+16d7	CALL	$09d6
+16da	N/A
+16db	STA		$20ef
+16de	N/A
+16df	DCR		B
+16e0	CALL	$19d1
+16e3	JMP		$0b89
+16e6	LXI		SP, 9216
+16e9	N/A
+16ea	N/A
+16eb	STA		$2015
+16ee	CALL	$14d8
+16f1	MVI		B, 4
+16f3	CALL	$18fa
+16f6	CALL	$0a59
+16f9	N/A
+16fa	N/A
+16fb	MVI		D, 205
+16fd	N/A
+16fe	N/A
+16ff	LXI		H, 9985
+1702	CALL	$19fa
+1705	N/A
+1706	CALL	$1a8b
+1709	MVI		B, 251
+170b	JMP		$196b
+170e	CALL	$09ca
+1711	N/A
+1712	N/A
+1713	LXI		D, 7352
+1716	LXI		H, 6817
+1719	MVI		C, 4
+171b	N/A
+171c	N/A
+171d	N/A
+171e	N/A
+171f	N/A
+1720	N/A
+1721	N/A
+1722	N/A
+1723	N/A
+1724	N/A
+1725	DCR		E
+1726	N/A
+1727	N/A
+1728	STA		$20cf
+172b	N/A
+172c	N/A
+172d	DCR		H
+172e	N/A
+172f	N/A
+1730	NOP
+1731	N/A
+1732	N/A
+1733	N/A
+1734	MVI		B, 253
+1736	JMP		$19dc
+1739	MVI		B, 2
+173b	JMP		$18fa
+173e	NOP
+173f	NOP
+1740	LXI		H, 8347
+1743	DCR		M
+1744	N/A
+1745	N/A
+1746	N/A
+1747	N/A
+1748	N/A
+1749	N/A
+174a	N/A
+174b	N/A
+174c	N/A
+174d	N/A
+174e	LXI		H, 8342
+1751	DCR		M
+1752	N/A
+1753	LXI		H, 8344
+1756	N/A
+1757	N/A
+1758	DCR		B
+1759	N/A
+175a	N/A
+175b	N/A
+175c	N/A
+175d	N/A
+175e	N/A
+175f	N/A
+1760	N/A
+1761	N/A
+1762	N/A
+1763	N/A
+1764	N/A
+1765	MVI		M, 1
+1767	MVI		A, 4
+1769	STA		$209b
+176c	N/A
+176d	N/A
+176e	N/A
+176f	N/A
+1770	N/A
+1771	N/A
+1772	N/A
+1773	DCR		B
+1774	N/A
+1775	N/A
+1776	N/A
+1777	N/A
+1778	N/A
+1779	N/A
+177a	N/A
+177b	N/A
+177c	LXI		H, 6673
+177f	LXI		D, 6689
+1782	N/A
+1783	N/A
+1784	N/A
+1785	N/A
+1786	N/A
+1787	N/A
+1788	N/A
+1789	N/A
+178a	N/A
+178b	JMP		$1785
+178e	N/A
+178f	STA		$2097
+1792	LXI		H, 8344
+1795	N/A
+1796	N/A
+1797	N/A
+1798	N/A
+1799	N/A
+179a	N/A
+179b	N/A
+179c	N/A
+179d	N/A
+179e	N/A
+179f	N/A
+17a0	N/A
+17a1	N/A
+17a2	MVI		A, 1
+17a4	N/A
+17a5	N/A
+17a6	N/A
+17a7	STA		$2095
+17aa	LXI		H, 8345
+17ad	DCR		M
+17ae	N/A
+17af	MVI		B, 239
+17b1	JMP		$19dc
+17b4	MVI		B, 239
+17b6	LXI		H, 8344
+17b9	N/A
+17ba	N/A
+17bb	N/A
+17bc	N/A
+17bd	DCR		B
+17be	N/A
+17bf	NOP
+17c0	N/A
+17c1	N/A
+17c2	N/A
+17c3	N/A
+17c4	N/A
+17c5	N/A
+17c6	N/A
+17c7	IN		1
+17c9	N/A
+17ca	IN		2
+17cc	N/A
+17cd	IN		2
+17cf	N/A
+17d0	N/A
+17d1	N/A
+17d2	N/A
+17d3	N/A
+17d4	N/A
+17d5	N/A
+17d6	N/A
+17d7	LXI		SP, 9216
+17da	MVI		B, 4
+17dc	CALL	$09d6
+17df	DCR		B
+17e0	N/A
+17e1	N/A
+17e2	N/A
+17e3	MVI		A, 1
+17e5	STA		$209a
+17e8	CALL	$19d7
+17eb	N/A
+17ec	LXI		D, 7356
+17ef	LXI		H, 12310
+17f2	MVI		C, 4
+17f4	CALL	$0a93
+17f7	CALL	$0ab1
+17fa	N/A
+17fb	STA		$209a
+17fe	STA		$2093
+1801	JMP		$16c9
+1804	LXI		H, 8324
+1807	N/A
+1808	N/A
+1809	N/A
+180a	N/A
+180b	N/A
+180c	N/A
+180d	N/A
+180e	N/A
+180f	N/A
+1810	MVI		B, 1
+1812	JMP		$18fa
+1815	LXI		H, 10256
+1818	LXI		D, 7331
+181b	MVI		C, 21
+181d	CALL	$08f3
+1820	MVI		A, 10
+1822	STA		$206c
+1825	LXI		B, 7614
+1828	CALL	$1856
+182b	N/A
+182c	N/A
+182d	N/A
+182e	CALL	$1844
+1831	JMP		$1828
+1834	CALL	$0ab1
+1837	LXI		B, 7631
+183a	CALL	$1856
+183d	N/A
+183e	CALL	$184c
+1841	JMP		$183a
+1844	PUSH	B
+1845	MVI		B, 16
+1847	CALL	$1439
+184a	N/A
+184b	N/A
+184c	PUSH	B
+184d	N/A
+184e	N/A
+184f	N/A
+1850	N/A
+1851	CALL	$0a93
+1854	N/A
+1855	N/A
+1856	N/A
+1857	N/A
+1858	N/A
+1859	N/A
+185a	N/A
+185b	N/A
+185c	INX		B
+185d	N/A
+185e	N/A
+185f	INX		B
+1860	N/A
+1861	N/A
+1862	INX		B
+1863	N/A
+1864	N/A
+1865	INX		B
+1866	N/A
+1867	N/A
+1868	LXI		H, 8386
+186b	N/A
+186c	N/A
+186d	N/A
+186e	CALL	$01d9
+1871	N/A
+1872	N/A
+1873	N/A
+1874	N/A
+1875	N/A
+1876	N/A
+1877	N/A
+1878	N/A
+1879	N/A
+187a	N/A
+187b	N/A
+187c	N/A
+187d	N/A
+187e	N/A
+187f	N/A
+1880	N/A
+1881	N/A
+1882	N/A
+1883	N/A
+1884	LXI		D, 48
+1887	N/A
+1888	N/A
+1889	N/A
+188a	N/A
+188b	LXI		H, 8389
+188e	CALL	$1a3b
+1891	N/A
+1892	JMP		$15d3
+1895	NOP
+1896	NOP
+1897	NOP
+1898	MVI		A, 1
+189a	STA		$20cb
+189d	N/A
+189e	LXI		H, 8272
+18a1	LXI		D, 7104
+18a4	MVI		B, 16
+18a6	CALL	$1a32
+18a9	MVI		A, 2
+18ab	STA		$2080
+18ae	MVI		A, 255
+18b0	STA		$207e
+18b3	MVI		A, 4
+18b5	STA		$20c1
+18b8	N/A
+18b9	N/A
+18ba	N/A
+18bb	N/A
+18bc	LXI		B, 47306
+18bf	N/A
+18c0	N/A
+18c1	N/A
+18c2	N/A
+18c3	N/A
+18c4	LXI		B, 49346
+18c7	N/A
+18c8	LXI		H, 13073
+18cb	MVI		A, 38
+18cd	NOP
+18ce	CALL	$08ff
+18d1	JMP		$0ab6
+18d4	LXI		SP, 9216
+18d7	MVI		B, 0
+18d9	CALL	$01e6
+18dc	CALL	$1956
+18df	MVI		A, 8
+18e1	STA		$20cf
+18e4	JMP		$0aea
+18e7	N/A
+18e8	N/A
+18e9	N/A
+18ea	LXI		H, 8423
+18ed	N/A
+18ee	N/A
+18ef	N/A
+18f0	N/A
+18f1	MVI		B, 2
+18f3	N/A
+18f4	N/A
+18f5	N/A
+18f6	N/A
+18f7	N/A
+18f8	N/A
+18f9	N/A
+18fa	N/A
+18fb	N/A
+18fc	N/A
+18fd	N/A
+18fe	STA		$2094
+1901	N/A
+1902	INX		B
+1903	N/A
+1904	LXI		H, 8704
+1907	JMP		$01c3
+190a	CALL	$14d8
+190d	JMP		$1597
+1910	LXI		H, 8423
+1913	N/A
+1914	N/A
+1915	N/A
+1916	N/A
+1917	N/A
+1918	N/A
+1919	N/A
+191a	MVI		C, 28
+191c	LXI		H, 9246
+191f	LXI		D, 6884
+1922	JMP		$08f3
+1925	LXI		H, 8440
+1928	JMP		$1931
+192b	LXI		H, 8444
+192e	JMP		$1931
+1931	N/A
+1932	N/A
+1933	N/A
+1934	N/A
+1935	N/A
+1936	N/A
+1937	N/A
+1938	N/A
+1939	JMP		$09ad
+193c	MVI		C, 7
+193e	LXI		H, 13569
+1941	LXI		D, 8105
+1944	JMP		$08f3
+1947	N/A
+1948	N/A
+1949	N/A
+194a	LXI		H, 15361
+194d	JMP		$09b2
+1950	LXI		H, 8436
+1953	JMP		$1931
+1956	CALL	$1a5c
+1959	CALL	$191a
+195c	CALL	$1925
+195f	CALL	$192b
+1962	CALL	$1950
+1965	CALL	$193c
+1968	JMP		$1947
+196b	CALL	$19dc
+196e	JMP		$1671
+1971	MVI		A, 1
+1973	STA		$206d
+1976	JMP		$16e6
+1979	CALL	$19d7
+197c	CALL	$1947
+197f	JMP		$193c
+1982	STA		$20c1
+1985	N/A
+1986	N/A
+1987	N/A
+1988	JMP		$09d6
+198b	LXI		H, 10243
+198e	LXI		D, 6590
+1991	MVI		C, 19
+1993	JMP		$08f3
+1996	NOP
+1997	NOP
+1998	NOP
+1999	NOP
+199a	N/A
+199b	MVI		E, 32
+199d	N/A
+199e	N/A
+199f	N/A
+19a0	N/A
+19a1	IN		1
+19a3	N/A
+19a4	N/A
+19a5	N/A
+19a6	N/A
+19a7	N/A
+19a8	DCR		A
+19a9	STA		$201e
+19ac	IN		1
+19ae	N/A
+19af	N/A
+19b0	N/A
+19b1	N/A
+19b2	N/A
+19b3	LXI		H, 11803
+19b6	LXI		D, 3063
+19b9	MVI		C, 9
+19bb	JMP		$08f3
+19be	N/A
+19bf	N/A
+19c0	NOP
+19c1	N/A
+19c2	N/A
+19c3	MVI		C, 38
+19c5	STAX	B
+19c6	MVI		C, 17
+19c8	N/A
+19c9	MVI		C, 17
+19cb	NOP
+19cc	N/A
+19cd	N/A
+19ce	MVI		C, 13
+19d0	N/A
+19d1	MVI		A, 1
+19d3	STA		$20e9
+19d6	N/A
+19d7	N/A
+19d8	JMP		$19d3
+19db	NOP
+19dc	N/A
+19dd	N/A
+19de	N/A
+19df	N/A
+19e0	STA		$2094
+19e3	N/A
+19e4	INX		B
+19e5	N/A
+19e6	LXI		H, 9985
+19e9	N/A
+19ea	N/A
+19eb	N/A
+19ec	LXI		D, 7264
+19ef	MVI		B, 16
+19f1	N/A
+19f2	CALL	$1439
+19f5	N/A
+19f6	N/A
+19f7	N/A
+19f8	N/A
+19f9	N/A
+19fa	MVI		B, 16
+19fc	CALL	$14cb
+19ff	N/A
+1a00	N/A
+1a01	DCR		M
+1a02	N/A
+1a03	N/A
+1a04	N/A
+1a05	N/A
+1a06	LXI		H, 8306
+1a09	N/A
+1a0a	N/A
+1a0b	N/A
+1a0c	N/A
+1a0d	N/A
+1a0e	N/A
+1a0f	N/A
+1a10	N/A
+1a11	STA		$242b
+1a14	DCR		E
+1a15	MVI		D, 17
+1a17	N/A
+1a18	N/A
+1a19	N/A
+1a1a	N/A
+1a1b	MVI		B, 5
+1a1d	N/A
+1a1e	INX		B
+1a1f	STAX	B
+1a20	LXI		B, 11828
+1a23	N/A
+1a24	N/A
+1a25	DCR		E
+1a26	N/A
+1a27	DCR		D
+1a28	N/A
+1a29	N/A
+1a2a	MVI		C, 13
+1a2c	DCR		C
+1a2d	N/A
+1a2e	N/A
+1a2f	N/A
+1a30	DCR		B
+1a31	N/A
+1a32	N/A
+1a33	N/A
+1a34	N/A
+1a35	N/A
+1a36	DCR		B
+1a37	N/A
+1a38	STA		$c91a
+1a3b	N/A
+1a3c	N/A
+1a3d	N/A
+1a3e	N/A
+1a3f	N/A
+1a40	N/A
+1a41	N/A
+1a42	N/A
+1a43	N/A
+1a44	N/A
+1a45	N/A
+1a46	N/A
+1a47	PUSH	B
+1a48	MVI		B, 3
+1a4a	N/A
+1a4b	N/A
+1a4c	N/A
+1a4d	N/A
+1a4e	N/A
+1a4f	N/A
+1a50	DCR		B
+1a51	N/A
+1a52	N/A
+1a53	N/A
+1a54	N/A
+1a55	N/A
+1a56	N/A
+1a57	N/A
+1a58	N/A
+1a59	N/A
+1a5a	N/A
+1a5b	N/A
+1a5c	LXI		H, 9216
+1a5f	MVI		M, 0
+1a61	N/A
+1a62	N/A
+1a63	N/A
+1a64	N/A
+1a65	N/A
+1a66	N/A
+1a67	N/A
+1a68	N/A
+1a69	PUSH	B
+1a6a	PUSH	H
+1a6b	N/A
+1a6c	N/A
+1a6d	N/A
+1a6e	N/A
+1a6f	N/A
+1a70	N/A
+1a71	N/A
+1a72	N/A
+1a73	N/A
+1a74	N/A
+1a75	LXI		B, 32
+1a78	N/A
+1a79	N/A
+1a7a	DCR		B
+1a7b	N/A
+1a7c	N/A
+1a7d	N/A
+1a7e	N/A
+1a7f	CALL	$092e
+1a82	N/A
+1a83	N/A
+1a84	PUSH	PSW
+1a85	N/A
+1a86	N/A
+1a87	CALL	$19e6
+1a8a	N/A
+1a8b	LXI		H, 9473
+1a8e	N/A
+1a8f	N/A
+1a90	JMP		$09c5
+1a93	NOP
+1a94	NOP
+1a95	NOP
+1a96	NOP
+1a97	N/A
+1a98	N/A
+1a99	N/A
+1a9a	N/A
+1a9b	DCR		E
+1a9c	N/A
+1a9d	N/A
+1a9e	NOP
+1a9f	N/A
+1aa0	DCR		E
+1aa1	N/A
+1aa2	N/A
+1aa3	N/A
+1aa4	N/A
+1aa5	N/A
+1aa6	MVI		B, 0
+1aa8	DCR		C
+1aa9	N/A
+1aaa	MVI		H, 14
+1aac	DCR		D
+1aad	N/A
+1aae	LXI		D, 9766
+1ab1	N/A
+1ab2	N/A
+1ab3	NOP
+1ab4	N/A
+1ab5	N/A
+1ab6	LXI		D, 9764
+1ab9	DCR		H
+1aba	N/A
+1abb	MVI		H, 14
+1abd	LXI		D, 7206
+1ac0	N/A
+1ac1	N/A
+1ac2	NOP
+1ac3	N/A
+1ac4	N/A
+1ac5	LXI		D, 9746
+1ac8	LXI		B, 4884
+1acb	N/A
+1acc	MVI		C, 13
+1ace	MVI		H, 14
+1ad0	N/A
+1ad1	N/A
+1ad2	N/A
+1ad3	MVI		H, 27
+1ad5	N/A
+1ad6	N/A
+1ad7	NOP
+1ad8	N/A
+1ad9	N/A
+1ada	LXI		D, 9766
+1add	LXI		B, 4884
+1ae0	N/A
+1ae1	MVI		C, 13
+1ae3	MVI		H, 38
+1ae5	N/A
+1ae6	STAX	B
+1ae7	MVI		C, 17
+1ae9	N/A
+1aea	N/A
+1aeb	N/A
+1aec	DCR		H
+1aed	MVI		H, 7
+1aef	N/A
+1af0	N/A
+1af1	N/A
+1af2	STAX	B
+1af3	MVI		C, 17
+1af5	N/A
+1af6	MVI		H, 18
+1af8	STAX	B
+1af9	MVI		C, 17
+1afb	N/A
+1afc	N/A
+1afd	DCR		E
+1afe	DCR		H
+1aff	MVI		H, 1
+1b01	NOP
+1b02	NOP
+1b03	N/A
+1b04	NOP
+1b05	NOP
+1b06	NOP
+1b07	NOP
+1b08	STAX	B
+1b09	N/A
+1b0a	N/A
+1b0b	N/A
+1b0c	N/A
+1b0d	NOP
+1b0e	N/A
+1b0f	NOP
+1b10	NOP
+1b11	N/A
+1b12	NOP
+1b13	N/A
+1b14	STAX	B
+1b15	N/A
+1b16	DCR		B
+1b17	DCR		C
+1b18	N/A
+1b19	DCR		E
+1b1a	N/A
+1b1b	N/A
+1b1c	N/A
+1b1d	LXI		B, 0
+1b20	NOP
+1b21	NOP
+1b22	NOP
+1b23	N/A
+1b24	INX		B
+1b25	NOP
+1b26	N/A
+1b27	N/A
+1b28	DCR		E
+1b29	N/A
+1b2a	N/A
+1b2b	LXI		B, 4
+1b2e	N/A
+1b2f	N/A
+1b30	NOP
+1b31	NOP
+1b32	STAX	B
+1b33	N/A
+1b34	N/A
+1b35	NOP
+1b36	NOP
+1b37	NOP
+1b38	NOP
+1b39	NOP
+1b3a	N/A
+1b3b	N/A
+1b3c	DCR		E
+1b3d	NOP
+1b3e	NOP
+1b3f	INX		B
+1b40	NOP
+1b41	NOP
+1b42	NOP
+1b43	N/A
+1b44	N/A
+1b45	NOP
+1b46	NOP
+1b47	LXI		B, 7424
+1b4a	N/A
+1b4b	N/A
+1b4c	DCR		E
+1b4d	NOP
+1b4e	NOP
+1b4f	INX		B
+1b50	NOP
+1b51	NOP
+1b52	NOP
+1b53	N/A
+1b54	MVI		B, 0
+1b56	NOP
+1b57	LXI		B, 7430
+1b5a	N/A
+1b5b	N/A
+1b5c	DCR		E
+1b5d	NOP
+1b5e	NOP
+1b5f	INX		B
+1b60	N/A
+1b61	NOP
+1b62	N/A
+1b63	DCR		E
+1b64	NOP
+1b65	NOP
+1b66	N/A
+1b67	LXI		H, 1
+1b6a	N/A
+1b6b	NOP
+1b6c	N/A
+1b6d	NOP
+1b6e	NOP
+1b6f	NOP
+1b70	N/A
+1b71	N/A
+1b72	NOP
+1b73	N/A
+1b74	MVI		H, 15
+1b76	N/A
+1b77	NOP
+1b78	N/A
+1b79	N/A
+1b7a	LXI		D, 6948
+1b7d	DCR		H
+1b7e	N/A
+1b7f	NOP
+1b80	LXI		B, 65535
+1b83	NOP
+1b84	NOP
+1b85	NOP
+1b86	N/A
+1b87	N/A
+1b88	N/A
+1b89	N/A
+1b8a	N/A
+1b8b	N/A
+1b8c	STAX	B
+1b8d	N/A
+1b8e	N/A
+1b8f	NOP
+1b90	N/A
+1b91	NOP
+1b92	MVI		B, 0
+1b94	NOP
+1b95	LXI		B, 64
+1b98	LXI		B, 0
+1b9b	N/A
+1b9c	N/A
+1b9d	NOP
+1b9e	N/A
+1b9f	DCR		E
+1ba0	NOP
+1ba1	INX		B
+1ba2	N/A
+1ba3	N/A
+1ba4	N/A
+1ba5	N/A
+1ba6	N/A
+1ba7	N/A
+1ba8	N/A
+1ba9	N/A
+1baa	N/A
+1bab	N/A
+1bac	N/A
+1bad	N/A
+1bae	N/A
+1baf	NOP
+1bb0	NOP
+1bb1	NOP
+1bb2	LXI		B, 39096
+1bb5	N/A
+1bb6	N/A
+1bb7	N/A
+1bb8	N/A
+1bb9	NOP
+1bba	N/A
+1bbb	N/A
+1bbc	NOP
+1bbd	NOP
+1bbe	NOP
+1bbf	NOP
+1bc0	NOP
+1bc1	N/A
+1bc2	NOP
+1bc3	MVI		C, 5
+1bc5	NOP
+1bc6	NOP
+1bc7	NOP
+1bc8	NOP
+1bc9	NOP
+1bca	N/A
+1bcb	N/A
+1bcc	DCR		E
+1bcd	N/A
+1bce	N/A
+1bcf	INX		B
+1bd0	NOP
+1bd1	NOP
+1bd2	INX		B
+1bd3	N/A
+1bd4	N/A
+1bd5	N/A
+1bd6	N/A
+1bd7	N/A
+1bd8	N/A
+1bd9	N/A
+1bda	N/A
+1bdb	N/A
+1bdc	N/A
+1bdd	N/A
+1bde	N/A
+1bdf	NOP
+1be0	NOP
+1be1	NOP
+1be2	NOP
+1be3	NOP
+1be4	NOP
+1be5	NOP
+1be6	NOP
+1be7	NOP
+1be8	NOP
+1be9	LXI		B, 0
+1bec	LXI		B, 8052
+1bef	NOP
+1bf0	N/A
+1bf1	NOP
+1bf2	NOP
+1bf3	NOP
+1bf4	NOP
+1bf5	NOP
+1bf6	DCR		E
+1bf7	N/A
+1bf8	NOP
+1bf9	NOP
+1bfa	DCR		E
+1bfb	N/A
+1bfc	NOP
+1bfd	NOP
+1bfe	DCR		E
+1bff	N/A
+1c00	NOP
+1c01	NOP
+1c02	N/A
+1c03	N/A
+1c04	N/A
+1c05	N/A
+1c06	N/A
+1c07	N/A
+1c08	N/A
+1c09	N/A
+1c0a	N/A
+1c0b	N/A
+1c0c	N/A
+1c0d	N/A
+1c0e	NOP
+1c0f	NOP
+1c10	NOP
+1c11	NOP
+1c12	NOP
+1c13	N/A
+1c14	N/A
+1c15	N/A
+1c16	N/A
+1c17	DCR		A
+1c18	DCR		A
+1c19	DCR		A
+1c1a	N/A
+1c1b	N/A
+1c1c	N/A
+1c1d	N/A
+1c1e	NOP
+1c1f	NOP
+1c20	NOP
+1c21	NOP
+1c22	NOP
+1c23	NOP
+1c24	N/A
+1c25	N/A
+1c26	N/A
+1c27	N/A
+1c28	N/A
+1c29	N/A
+1c2a	N/A
+1c2b	N/A
+1c2c	NOP
+1c2d	NOP
+1c2e	NOP
+1c2f	NOP
+1c30	NOP
+1c31	NOP
+1c32	N/A
+1c33	N/A
+1c34	N/A
+1c35	N/A
+1c36	N/A
+1c37	N/A
+1c38	N/A
+1c39	N/A
+1c3a	N/A
+1c3b	N/A
+1c3c	N/A
+1c3d	N/A
+1c3e	NOP
+1c3f	NOP
+1c40	NOP
+1c41	NOP
+1c42	NOP
+1c43	MVI		C, 24
+1c45	N/A
+1c46	N/A
+1c47	N/A
+1c48	DCR		A
+1c49	N/A
+1c4a	N/A
+1c4b	N/A
+1c4c	N/A
+1c4d	MVI		C, 0
+1c4f	NOP
+1c50	NOP
+1c51	NOP
+1c52	NOP
+1c53	NOP
+1c54	N/A
+1c55	N/A
+1c56	N/A
+1c57	N/A
+1c58	N/A
+1c59	N/A
+1c5a	N/A
+1c5b	N/A
+1c5c	NOP
+1c5d	NOP
+1c5e	NOP
+1c5f	NOP
+1c60	NOP
+1c61	NOP
+1c62	N/A
+1c63	N/A
+1c64	N/A
+1c65	N/A
+1c66	N/A
+1c67	N/A
+1c68	N/A
+1c69	N/A
+1c6a	N/A
+1c6b	N/A
+1c6c	N/A
+1c6d	N/A
+1c6e	N/A
+1c6f	NOP
+1c70	NOP
+1c71	N/A
+1c72	LXI		B, 787
+1c75	N/A
+1c76	N/A
+1c77	N/A
+1c78	N/A
+1c79	INX		B
+1c7a	N/A
+1c7b	N/A
+1c7c	N/A
+1c7d	INX		B
+1c7e	NOP
+1c7f	LXI		B, 2112
+1c82	DCR		B
+1c83	N/A
+1c84	N/A
+1c85	INX		B
+1c86	N/A
+1c87	N/A
+1c88	N/A
+1c89	N/A
+1c8a	N/A
+1c8b	N/A
+1c8c	N/A
+1c8d	N/A
+1c8e	LXI		D, 3912
+1c91	N/A
+1c92	DCR		A
+1c93	N/A
+1c94	N/A
+1c95	N/A
+1c96	MVI		A, 124
+1c98	N/A
+1c99	N/A
+1c9a	N/A
+1c9b	N/A
+1c9c	MVI		H, 15
+1c9e	MVI		C, 8
+1ca0	N/A
+1ca1	N/A
+1ca2	N/A
+1ca3	N/A
+1ca4	N/A
+1ca5	STAX	B
+1ca6	MVI		C, 17
+1ca8	N/A
+1ca9	MVI		H, 0
+1cab	INX		B
+1cac	DCR		D
+1cad	NOP
+1cae	N/A
+1caf	STAX	B
+1cb0	N/A
+1cb1	MVI		H, 19
+1cb3	NOP
+1cb4	LXI		B, 1035
+1cb7	N/A
+1cb8	STAX	B
+1cb9	N/A
+1cba	N/A
+1cbb	N/A
+1cbc	N/A
+1cbd	N/A
+1cbe	N/A
+1cbf	N/A
+1cc0	NOP
+1cc1	N/A
+1cc2	N/A
+1cc3	N/A
+1cc4	N/A
+1cc5	N/A
+1cc6	N/A
+1cc7	NOP
+1cc8	N/A
+1cc9	N/A
+1cca	N/A
+1ccb	N/A
+1ccc	N/A
+1ccd	N/A
+1cce	NOP
+1ccf	NOP
+1cd0	N/A
+1cd1	N/A
+1cd2	N/A
+1cd3	N/A
+1cd4	N/A
+1cd5	N/A
+1cd6	N/A
+1cd7	N/A
+1cd8	N/A
+1cd9	N/A
+1cda	N/A
+1cdb	N/A
+1cdc	N/A
+1cdd	DCR		D
+1cde	N/A
+1cdf	N/A
+1ce0	N/A
+1ce1	DCR		H
+1ce2	N/A
+1ce3	N/A
+1ce4	N/A
+1ce5	N/A
+1ce6	N/A
+1ce7	N/A
+1ce8	N/A
+1ce9	N/A
+1cea	N/A
+1ceb	N/A
+1cec	N/A
+1ced	N/A
+1cee	NOP
+1cef	N/A
+1cf0	NOP
+1cf1	N/A
+1cf2	N/A
+1cf3	N/A
+1cf4	NOP
+1cf5	N/A
+1cf6	NOP
+1cf7	N/A
+1cf8	N/A
+1cf9	N/A
+1cfa	N/A
+1cfb	N/A
+1cfc	NOP
+1cfd	N/A
+1cfe	NOP
+1cff	NOP
+1d00	LXI		B, 263
+1d03	LXI		B, 1025
+1d06	N/A
+1d07	LXI		B, 774
+1d0a	LXI		B, 2817
+1d0d	N/A
+1d0e	STAX	B
+1d0f	N/A
+1d10	STAX	B
+1d11	N/A
+1d12	N/A
+1d13	N/A
+1d14	N/A
+1d15	DCR		B
+1d16	STAX	B
+1d17	DCR		B
+1d18	N/A
+1d19	MVI		B, 7
+1d1b	N/A
+1d1c	N/A
+1d1d	MVI		B, 10
+1d1f	INX		B
+1d20	N/A
+1d21	N/A
+1d22	N/A
+1d23	N/A
+1d24	N/A
+1d25	N/A
+1d26	N/A
+1d27	N/A
+1d28	N/A
+1d29	N/A
+1d2a	N/A
+1d2b	N/A
+1d2c	N/A
+1d2d	N/A
+1d2e	N/A
+1d2f	N/A
+1d30	N/A
+1d31	N/A
+1d32	N/A
+1d33	N/A
+1d34	N/A
+1d35	N/A
+1d36	N/A
+1d37	N/A
+1d38	N/A
+1d39	N/A
+1d3a	N/A
+1d3b	N/A
+1d3c	N/A
+1d3d	N/A
+1d3e	N/A
+1d3f	N/A
+1d40	N/A
+1d41	N/A
+1d42	N/A
+1d43	N/A
+1d44	N/A
+1d45	N/A
+1d46	N/A
+1d47	N/A
+1d48	N/A
+1d49	N/A
+1d4a	N/A
+1d4b	N/A
+1d4c	DCR		B
+1d4d	N/A
+1d4e	DCR		D
+1d4f	N/A
+1d50	N/A
+1d51	N/A
+1d52	N/A
+1d53	N/A
+1d54	N/A
+1d55	DCR		B
+1d56	DCR		B
+1d57	N/A
+1d58	DCR		D
+1d59	N/A
+1d5a	N/A
+1d5b	DCR		B
+1d5c	N/A
+1d5d	N/A
+1d5e	N/A
+1d5f	N/A
+1d60	DCR		B
+1d61	DCR		D
+1d62	N/A
+1d63	DCR		B
+1d64	NOP
+1d65	NOP
+1d66	NOP
+1d67	NOP
+1d68	N/A
+1d69	DCR		C
+1d6a	MVI		E, 55
+1d6c	MVI		A, 124
+1d6e	N/A
+1d6f	N/A
+1d70	N/A
+1d71	N/A
+1d72	N/A
+1d73	MVI		A, 55
+1d75	MVI		E, 12
+1d77	N/A
+1d78	NOP
+1d79	NOP
+1d7a	NOP
+1d7b	NOP
+1d7c	NOP
+1d7d	N/A
+1d7e	NOP
+1d7f	N/A
+1d80	N/A
+1d81	N/A
+1d82	N/A
+1d83	N/A
+1d84	N/A
+1d85	DCR		A
+1d86	MVI		M, 29
+1d88	N/A
+1d89	N/A
+1d8a	N/A
+1d8b	N/A
+1d8c	N/A
+1d8d	N/A
+1d8e	N/A
+1d8f	N/A
+1d90	N/A
+1d91	N/A
+1d92	NOP
+1d93	NOP
+1d94	MVI		H, 31
+1d96	N/A
+1d97	N/A
+1d98	N/A
+1d99	N/A
+1d9a	N/A
+1d9b	N/A
+1d9c	N/A
+1d9d	N/A
+1d9e	N/A
+1d9f	N/A
+1da0	N/A
+1da1	N/A
+1da2	N/A
+1da3	N/A
+1da4	N/A
+1da5	N/A
+1da6	N/A
+1da7	N/A
+1da8	N/A
+1da9	N/A
+1daa	N/A
+1dab	N/A
+1dac	N/A
+1dad	NOP
+1dae	N/A
+1daf	N/A
+1db0	N/A
+1db1	NOP
+1db2	STAX	B
+1db3	N/A
+1db4	MVI		H, 38
+1db6	N/A
+1db7	N/A
+1db8	DCR		D
+1db9	NOP
+1dba	INX		B
+1dbb	N/A
+1dbc	LXI		D, 3602
+1dbf	DCR		L
+1dc0	N/A
+1dc1	N/A
+1dc2	DCR		C
+1dc3	DCR		L
+1dc4	N/A
+1dc5	DCR		E
+1dc6	N/A
+1dc7	DCR		L
+1dc8	N/A
+1dc9	DCR		E
+1dca	N/A
+1dcb	DCR		L
+1dcc	NOP
+1dcd	DCR		E
+1dce	N/A
+1dcf	MVI		C, 46
+1dd1	N/A
+1dd2	N/A
+1dd3	DCR		C
+1dd4	MVI		L, 234
+1dd6	N/A
+1dd7	N/A
+1dd8	MVI		L, 244
+1dda	N/A
+1ddb	N/A
+1ddc	MVI		L, 153
+1dde	DCR		E
+1ddf	N/A
+1de0	N/A
+1de1	N/A
+1de2	MVI		H, 12
+1de4	N/A
+1de5	N/A
+1de6	N/A
+1de7	N/A
+1de8	LXI		D, 10008
+1deb	N/A
+1dec	N/A
+1ded	MVI		H, 15
+1def	MVI		C, 8
+1df1	N/A
+1df2	N/A
+1df3	N/A
+1df4	N/A
+1df5	DCR		E
+1df6	N/A
+1df7	MVI		H, 15
+1df9	MVI		C, 8
+1dfb	N/A
+1dfc	N/A
+1dfd	N/A
+1dfe	NOP
+1dff	NOP
+1e00	NOP
+1e01	N/A
+1e02	N/A
+1e03	N/A
+1e04	N/A
+1e05	N/A
+1e06	NOP
+1e07	NOP
+1e08	NOP
+1e09	N/A
+1e0a	N/A
+1e0b	N/A
+1e0c	N/A
+1e0d	MVI		M, 0
+1e0f	NOP
+1e10	NOP
+1e11	MVI		A, 65
+1e13	N/A
+1e14	N/A
+1e15	N/A
+1e16	NOP
+1e17	NOP
+1e18	NOP
+1e19	N/A
+1e1a	N/A
+1e1b	N/A
+1e1c	N/A
+1e1d	MVI		A, 0
+1e1f	NOP
+1e20	NOP
+1e21	N/A
+1e22	N/A
+1e23	N/A
+1e24	N/A
+1e25	N/A
+1e26	NOP
+1e27	NOP
+1e28	NOP
+1e29	N/A
+1e2a	N/A
+1e2b	N/A
+1e2c	N/A
+1e2d	N/A
+1e2e	NOP
+1e2f	NOP
+1e30	NOP
+1e31	MVI		A, 65
+1e33	N/A
+1e34	N/A
+1e35	N/A
+1e36	NOP
+1e37	NOP
+1e38	NOP
+1e39	N/A
+1e3a	N/A
+1e3b	N/A
+1e3c	N/A
+1e3d	N/A
+1e3e	NOP
+1e3f	NOP
+1e40	NOP
+1e41	NOP
+1e42	N/A
+1e43	N/A
+1e44	N/A
+1e45	NOP
+1e46	NOP
+1e47	NOP
+1e48	NOP
+1e49	STAX	B
+1e4a	LXI		B, 257
+1e4d	N/A
+1e4e	NOP
+1e4f	NOP
+1e50	NOP
+1e51	N/A
+1e52	N/A
+1e53	N/A
+1e54	N/A
+1e55	N/A
+1e56	NOP
+1e57	NOP
+1e58	NOP
+1e59	N/A
+1e5a	LXI		B, 257
+1e5d	LXI		B, 0
+1e60	NOP
+1e61	N/A
+1e62	N/A
+1e63	N/A
+1e64	N/A
+1e65	N/A
+1e66	NOP
+1e67	NOP
+1e68	NOP
+1e69	N/A
+1e6a	N/A
+1e6b	N/A
+1e6c	N/A
+1e6d	N/A
+1e6e	NOP
+1e6f	NOP
+1e70	NOP
+1e71	MVI		A, 65
+1e73	N/A
+1e74	N/A
+1e75	MVI		A, 0
+1e77	NOP
+1e78	NOP
+1e79	N/A
+1e7a	N/A
+1e7b	N/A
+1e7c	N/A
+1e7d	N/A
+1e7e	NOP
+1e7f	NOP
+1e80	NOP
+1e81	MVI		A, 65
+1e83	N/A
+1e84	N/A
+1e85	N/A
+1e86	NOP
+1e87	NOP
+1e88	NOP
+1e89	N/A
+1e8a	N/A
+1e8b	N/A
+1e8c	N/A
+1e8d	LXI		SP, 0
+1e90	NOP
+1e91	STA		$4949
+1e94	N/A
+1e95	MVI		H, 0
+1e97	NOP
+1e98	NOP
+1e99	N/A
+1e9a	N/A
+1e9b	N/A
+1e9c	N/A
+1e9d	N/A
+1e9e	NOP
+1e9f	NOP
+1ea0	NOP
+1ea1	N/A
+1ea2	LXI		B, 257
+1ea5	N/A
+1ea6	NOP
+1ea7	NOP
+1ea8	NOP
+1ea9	N/A
+1eaa	STAX	B
+1eab	LXI		B, 31746
+1eae	NOP
+1eaf	NOP
+1eb0	NOP
+1eb1	N/A
+1eb2	STAX	B
+1eb3	DCR		C
+1eb4	STAX	B
+1eb5	N/A
+1eb6	NOP
+1eb7	NOP
+1eb8	NOP
+1eb9	N/A
+1eba	N/A
+1ebb	N/A
+1ebc	N/A
+1ebd	N/A
+1ebe	NOP
+1ebf	NOP
+1ec0	NOP
+1ec1	N/A
+1ec2	N/A
+1ec3	N/A
+1ec4	N/A
+1ec5	N/A
+1ec6	NOP
+1ec7	NOP
+1ec8	NOP
+1ec9	N/A
+1eca	N/A
+1ecb	N/A
+1ecc	N/A
+1ecd	N/A
+1ece	NOP
+1ecf	NOP
+1ed0	NOP
+1ed1	MVI		A, 69
+1ed3	N/A
+1ed4	N/A
+1ed5	MVI		A, 0
+1ed7	NOP
+1ed8	NOP
+1ed9	NOP
+1eda	LXI		H, 383
+1edd	NOP
+1ede	NOP
+1edf	NOP
+1ee0	NOP
+1ee1	N/A
+1ee2	N/A
+1ee3	N/A
+1ee4	N/A
+1ee5	LXI		SP, 0
+1ee8	NOP
+1ee9	N/A
+1eea	N/A
+1eeb	N/A
+1eec	N/A
+1eed	N/A
+1eee	NOP
+1eef	NOP
+1ef0	NOP
+1ef1	DCR		C
+1ef2	N/A
+1ef3	N/A
+1ef4	N/A
+1ef5	N/A
+1ef6	NOP
+1ef7	NOP
+1ef8	NOP
+1ef9	N/A
+1efa	N/A
+1efb	N/A
+1efc	N/A
+1efd	N/A
+1efe	NOP
+1eff	NOP
+1f00	NOP
+1f01	MVI		E, 41
+1f03	N/A
+1f04	N/A
+1f05	N/A
+1f06	NOP
+1f07	NOP
+1f08	NOP
+1f09	N/A
+1f0a	N/A
+1f0b	N/A
+1f0c	N/A
+1f0d	N/A
+1f0e	NOP
+1f0f	NOP
+1f10	NOP
+1f11	MVI		M, 73
+1f13	N/A
+1f14	N/A
+1f15	MVI		M, 0
+1f17	NOP
+1f18	NOP
+1f19	LXI		SP, 18761
+1f1c	N/A
+1f1d	DCR		A
+1f1e	NOP
+1f1f	NOP
+1f20	NOP
+1f21	N/A
+1f22	N/A
+1f23	N/A
+1f24	N/A
+1f25	NOP
+1f26	NOP
+1f27	NOP
+1f28	NOP
+1f29	NOP
+1f2a	N/A
+1f2b	N/A
+1f2c	N/A
+1f2d	N/A
+1f2e	NOP
+1f2f	NOP
+1f30	NOP
+1f31	NOP
+1f32	NOP
+1f33	NOP
+1f34	NOP
+1f35	NOP
+1f36	NOP
+1f37	NOP
+1f38	NOP
+1f39	N/A
+1f3a	N/A
+1f3b	N/A
+1f3c	N/A
+1f3d	N/A
+1f3e	NOP
+1f3f	NOP
+1f40	NOP
+1f41	N/A
+1f42	N/A
+1f43	N/A
+1f44	N/A
+1f45	N/A
+1f46	NOP
+1f47	NOP
+1f48	NOP
+1f49	INX		B
+1f4a	N/A
+1f4b	N/A
+1f4c	N/A
+1f4d	INX		B
+1f4e	NOP
+1f4f	NOP
+1f50	N/A
+1f51	N/A
+1f52	MVI		H, 14
+1f54	LXI		D, 7206
+1f57	MVI		H, 15
+1f59	N/A
+1f5a	NOP
+1f5b	N/A
+1f5c	N/A
+1f5d	LXI		D, 9490
+1f60	MVI		H, 38
+1f62	N/A
+1f63	N/A
+1f64	MVI		H, 15
+1f66	N/A
+1f67	NOP
+1f68	N/A
+1f69	N/A
+1f6a	LXI		D, 9766
+1f6d	N/A
+1f6e	MVI		H, 2
+1f70	MVI		C, 8
+1f72	N/A
+1f73	MVI		H, 1
+1f75	LXI		B, 0
+1f78	LXI		B, 512
+1f7b	LXI		B, 512
+1f7e	LXI		B, 24576
+1f81	N/A
+1f82	N/A
+1f83	N/A
+1f84	N/A
+1f85	N/A
+1f86	N/A
+1f87	N/A
+1f88	N/A
+1f89	N/A
+1f8a	N/A
+1f8b	N/A
+1f8c	N/A
+1f8d	N/A
+1f8e	N/A
+1f8f	NOP
+1f90	N/A
+1f91	N/A
+1f92	N/A
+1f93	N/A
+1f94	LXI		D, 9747
+1f97	MVI		H, 2
+1f99	MVI		C, 8
+1f9b	N/A
+1f9c	N/A
+1f9d	N/A
+1f9e	N/A
+1f9f	N/A
+1fa0	N/A
+1fa1	N/A
+1fa2	N/A
+1fa3	N/A
+1fa4	N/A
+1fa5	N/A
+1fa6	N/A
+1fa7	N/A
+1fa8	N/A
+1fa9	STAX	B
+1faa	LXI		D, 772
+1fad	N/A
+1fae	N/A
+1faf	MVI		H, 0
+1fb1	N/A
+1fb2	N/A
+1fb3	N/A
+1fb4	N/A
+1fb5	N/A
+1fb6	N/A
+1fb7	N/A
+1fb8	N/A
+1fb9	N/A
+1fba	N/A
+1fbb	N/A
+1fbc	N/A
+1fbd	N/A
+1fbe	N/A
+1fbf	NOP
+1fc0	NOP
+1fc1	N/A
+1fc2	N/A
+1fc3	N/A
+1fc4	N/A
+1fc5	N/A
+1fc6	NOP
+1fc7	NOP
+1fc8	NOP
+1fc9	NOP
+1fca	NOP
+1fcb	N/A
+1fcc	N/A
+1fcd	N/A
+1fce	N/A
+1fcf	N/A
+1fd0	N/A
+1fd1	N/A
+1fd2	NOP
+1fd3	N/A
+1fd4	N/A
+1fd5	NOP
+1fd6	NOP
+1fd7	LXI		B, 8912
+1fda	N/A
+1fdb	DCR		E
+1fdc	N/A
+1fdd	N/A
+1fde	NOP
+1fdf	N/A
+1fe0	DCR		E
+1fe1	N/A
+1fe2	DCR		E
+1fe3	MVI		H, 15
+1fe5	N/A
+1fe6	NOP
+1fe7	N/A
+1fe8	N/A
+1fe9	LXI		D, 9746
+1fec	DCR		E
+1fed	MVI		H, 2
+1fef	MVI		C, 8
+1ff1	N/A
+1ff2	N/A
+1ff3	N/A
+1ff4	N/A
+1ff5	N/A
+1ff6	N/A
+1ff7	MVI		H, 0
+1ff9	N/A
+1ffa	N/A
+1ffb	N/A
+1ffc	N/A
+1ffd	N/A
+1ffe	NOP
+1fff	NOP

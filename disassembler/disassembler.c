@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 	/* While pc hasnt reached the end of the buffer */
 	while (pc < rom_size) {
 		/* Write opcode positon at start of line */
-		fprintf(asm_file, "0x%0.4x\t", pc);
+		fprintf(asm_file, "%0.4x\t", pc);
 
 		/* Decode opcode and write to assembly file */
 		pc = disassemble_8080(rom_buffer, pc, asm_file);
@@ -92,10 +92,24 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
 			fprintf(asm_file, "NOP\n");
 			pc += 1;
 			break;
+
 		case 0x01:	/* LXI B,data16 */
-			fprintf(asm_file, "LXI\t\tB,#$%0.2x%0.2x\n", opcode[2], opcode[1]);
+			fprintf(asm_file, "LXI\t\tB, %d\n", (opcode[2] << 8) | opcode[1]);
 			pc += 3;
 			break;
+		case 0x11:	/* LXI D,data16 */
+			fprintf(asm_file, "LXI\t\tD, %d\n", (opcode[2] << 8) | opcode[1]);
+			pc += 3;
+			break;
+		case 0x21:	/* LXI H,data16 */
+			fprintf(asm_file, "LXI\t\tH, %d\n", (opcode[2] << 8) | opcode[1]);
+			pc += 3;
+			break;
+		case 0x31:	/* LXI SP,data16 */
+			fprintf(asm_file, "LXI\t\tSP, %d\n", (opcode[2] << 8) | opcode[1]);
+			pc += 3;
+			break;
+
 		case 0x02:	/* STAX B */
 			fprintf(asm_file, "STAX\tB\n");
 			pc += 1;
@@ -104,12 +118,111 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
 			fprintf(asm_file, "INX\t\tB\n");
 			pc += 1;
 			break;
-		case 0xc3:	/* JMP addr*/
-			fprintf(asm_file, "JMP\t\t$%0.2x%0.2x\n", opcode[2], opcode[1]);
+		case 0x32: /* STA addr */
+			fprintf(asm_file, "STA\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
 			pc += 3;
 			break;
+
+		case 0x05: /* DCR B */
+			fprintf(asm_file, "DCR\t\tB\n");
+			pc += 1;
+			break;
+		case 0x0c: /* DCR C */
+			fprintf(asm_file, "DCR\t\tC\n");
+			pc += 1;
+			break;
+		case 0x15: /* DCR D */
+			fprintf(asm_file, "DCR\t\tD\n");
+			pc += 1;
+			break;
+		case 0x1c: /* DCR E */
+			fprintf(asm_file, "DCR\t\tE\n");
+			pc += 1;
+			break;
+		case 0x25: /* DCR H */
+			fprintf(asm_file, "DCR\t\tH\n");
+			pc += 1;
+			break;
+		case 0x2c: /* DCR L */
+			fprintf(asm_file, "DCR\t\tL\n");
+			pc += 1;
+			break;
+		case 0x35: /* DCR (HL) */
+			fprintf(asm_file, "DCR\t\tM\n");
+			pc += 1;
+			break;
+		case 0x3c: /* DCR A */
+			fprintf(asm_file, "DCR\t\tA\n");
+			pc += 1;
+			break;
+
+		case 0x06: /* MVI B,data8 */
+			fprintf(asm_file, "MVI\t\tB, %d\n", opcode[1]);
+			pc += 2;
+			break;
+		case 0x0e: /* MVI C,data8 */
+			fprintf(asm_file, "MVI\t\tC, %d\n", opcode[1]);
+			pc += 2;
+			break;
+		case 0x16: /* MVI D,data8 */
+			fprintf(asm_file, "MVI\t\tD, %d\n", opcode[1]);
+			pc += 2;
+			break;
+		case 0x1e: /* MVI E,data8 */
+			fprintf(asm_file, "MVI\t\tE, %d\n", opcode[1]);
+			pc += 2;
+			break;
+		case 0x26: /* MVI H,data8 */
+			fprintf(asm_file, "MVI\t\tH, %d\n", opcode[1]);
+			pc += 2;
+			break;
+		case 0x2e: /* MVI L,data8 */
+			fprintf(asm_file, "MVI\t\tL, %d\n", opcode[1]);
+			pc += 2;
+			break;
+		case 0x36: /* MVI (HL),data8 */
+			fprintf(asm_file, "MVI\t\tM, %d\n", opcode[1]);
+			pc += 2;
+			break;
+		case 0x3e: /* MVI A,data8 */
+			fprintf(asm_file, "MVI\t\tA, %d\n", opcode[1]);
+			pc += 2;
+			break;
+
+		case 0xc3:	/* JMP addr */
+			fprintf(asm_file, "JMP\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
+			pc += 3;
+			break;
+
+		case 0xcd: /* CALL addr */
+			fprintf(asm_file, "CALL\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
+			pc += 3;
+			break;
+
+		case 0xdb: /* IN port */
+			fprintf(asm_file, "IN\t\t%d\n", opcode[1]);
+			pc += 2;
+			break;
+
+		case 0xc5: /* PUSH B */
+			fprintf(asm_file, "PUSH\tB\n");
+			pc += 1;
+			break;
+		case 0xd5: /* PUSH D */
+			fprintf(asm_file, "PUSH\tD\n");
+			pc += 1;
+			break;
+		case 0xe5: /* PUSH H */
+			fprintf(asm_file, "PUSH\tH\n");
+			pc += 1;
+			break;
+		case 0xf5: /* PUSH PSW */
+			fprintf(asm_file, "PUSH\tPSW\n");
+			pc += 1;
+			break;
+			
 		default:
-			fprintf(asm_file, "Not handled yet\n");
+			fprintf(asm_file, "N/A\n");
 			pc += 1;
 	}
 
