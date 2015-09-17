@@ -93,34 +93,302 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
             pc += 1;
             break;
 
-        case 0x01:    /* LXI B,data16 */
+        case 0x01: /* LXI B,data16 */
             fprintf(asm_file, "LXI\t\tB, %d\n", (opcode[2] << 8) | opcode[1]);
             pc += 3;
             break;
-        case 0x11:    /* LXI D,data16 */
+        case 0x11: /* LXI D,data16 */
             fprintf(asm_file, "LXI\t\tD, %d\n", (opcode[2] << 8) | opcode[1]);
             pc += 3;
             break;
-        case 0x21:    /* LXI H,data16 */
+        case 0x21: /* LXI H,data16 */
             fprintf(asm_file, "LXI\t\tH, %d\n", (opcode[2] << 8) | opcode[1]);
             pc += 3;
             break;
-        case 0x31:    /* LXI SP,data16 */
+        case 0x31: /* LXI SP,data16 */
             fprintf(asm_file, "LXI\t\tSP, %d\n", (opcode[2] << 8) | opcode[1]);
             pc += 3;
             break;
 
-        case 0x02:    /* STAX B */
+        case 0x02: /* STAX B */
             fprintf(asm_file, "STAX\tB\n");
             pc += 1;
             break;
-        case 0x03:    /* INX B */
+        case 0x03: /* INX B */
             fprintf(asm_file, "INX\t\tB\n");
             pc += 1;
             break;
         case 0x32: /* STA addr */
             fprintf(asm_file, "STA\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
             pc += 3;
+            break;
+        case 0x3a: /* LDA addr */
+            fprintf(asm_file, "LDA\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
+            break;
+
+        case 0x80: /* ADD B */
+            fprintf(asm_file, "ADD\t\tB\n");
+            pc += 1;
+            break;
+        case 0x81: /* ADD C */
+            fprintf(asm_file, "ADD\t\tC\n");
+            pc += 1;
+            break;
+        case 0x82: /* ADD D */
+            fprintf(asm_file, "ADD\t\tD\n");
+            pc += 1;
+            break;
+        case 0x83: /* ADD E */
+            fprintf(asm_file, "ADD\t\tE\n");
+            pc += 1;
+            break;
+        case 0x84: /* ADD H */
+            fprintf(asm_file, "ADD\t\tH\n");
+            pc += 1;
+            break;
+        case 0x85: /* ADD L */
+            fprintf(asm_file, "ADD\t\tL\n");
+            pc += 1;
+            break;
+        case 0x86: /* ADD M */
+            fprintf(asm_file, "ADD\t\tM\n");
+            pc += 1;
+            break;
+        case 0x87: /* ADD A */
+            fprintf(asm_file, "ADD\t\tA\n");
+            pc += 1;
+            break;
+
+        case 0x88: /* ADC B */
+            fprintf(asm_file, "ADC\t\tB\n");
+            pc += 1;
+            break;
+        case 0x89: /* ADC C */
+            fprintf(asm_file, "ADC\t\tC\n");
+            pc += 1;
+            break;
+        case 0x8a: /* ADC D */
+            fprintf(asm_file, "ADC\t\tD\n");
+            pc += 1;
+            break;
+        case 0x8b: /* ADC E */
+            fprintf(asm_file, "ADC\t\tE\n");
+            pc += 1;
+            break;
+        case 0x8c: /* ADC H */
+            fprintf(asm_file, "ADC\t\tH\n");
+            pc += 1;
+            break;
+        case 0x8d: /* ADC L */
+            fprintf(asm_file, "ADC\t\tL\n");
+            pc += 1;
+            break;
+        case 0x8e: /* ADC M */
+            fprintf(asm_file, "ADC\t\tM\n");
+            pc += 1;
+            break;
+        case 0x8f: /* ADC A */
+            fprintf(asm_file, "ADC\t\tA\n");
+            pc += 1;
+            break;
+
+        case 0x90: /* SUB B */
+            fprintf(asm_file, "SUB\t\tB\n");
+            pc += 1;
+            break;
+        case 0x91: /* SUB C */
+            fprintf(asm_file, "SUB\t\tC\n");
+            pc += 1;
+            break;
+        case 0x92: /* SUB D */
+            fprintf(asm_file, "SUB\t\tD\n");
+            pc += 1;
+            break;
+        case 0x93: /* SUB E */
+            fprintf(asm_file, "SUB\t\tE\n");
+            pc += 1;
+            break;
+        case 0x94: /* SUB H */
+            fprintf(asm_file, "SUB\t\tH\n");
+            pc += 1;
+            break;
+        case 0x95: /* SUB L */
+            fprintf(asm_file, "SUB\t\tL\n");
+            pc += 1;
+            break;
+        case 0x96: /* SUB M */
+            fprintf(asm_file, "SUB\t\tM\n");
+            pc += 1;
+            break;
+        case 0x97: /* SUB A */
+            fprintf(asm_file, "SUB\t\tA\n");
+            pc += 1;
+            break;
+
+        case 0x98: /* SBB B */
+            fprintf(asm_file, "SBB\t\tB\n");
+            pc += 1;
+            break;
+        case 0x99: /* SBB C */
+            fprintf(asm_file, "SBB\t\tC\n");
+            pc += 1;
+            break;
+        case 0x9a: /* SBB D */
+            fprintf(asm_file, "SBB\t\tD\n");
+            pc += 1;
+            break;
+        case 0x9b: /* SBB E */
+            fprintf(asm_file, "SBB\t\tE\n");
+            pc += 1;
+            break;
+        case 0x9c: /* SBB H */
+            fprintf(asm_file, "SBB\t\tH\n");
+            pc += 1;
+            break;
+        case 0x9d: /* SBB L */
+            fprintf(asm_file, "SBB\t\tL\n");
+            pc += 1;
+            break;
+        case 0x9e: /* SBB M */
+            fprintf(asm_file, "SBB\t\tM\n");
+            pc += 1;
+            break;
+        case 0x9f: /* SBB A */
+            fprintf(asm_file, "SBB\t\tA\n");
+            pc += 1;
+            break;
+
+        case 0xa0: /* ANA B */
+            fprintf(asm_file, "ANA\t\tB\n");
+            pc += 1;
+            break;
+        case 0xa1: /* ANA C */
+            fprintf(asm_file, "ANA\t\tC\n");
+            pc += 1;
+            break;
+        case 0xa2: /* ANA D */
+            fprintf(asm_file, "ANA\t\tD\n");
+            pc += 1;
+            break;
+        case 0xa3: /* ANA E */
+            fprintf(asm_file, "ANA\t\tE\n");
+            pc += 1;
+            break;
+        case 0xa4: /* ANA H */
+            fprintf(asm_file, "ANA\t\tH\n");
+            pc += 1;
+            break;
+        case 0xa5: /* ANA L */
+            fprintf(asm_file, "ANA\t\tL\n");
+            pc += 1;
+            break;
+        case 0xa6: /* ANA M */
+            fprintf(asm_file, "ANA\t\tM\n");
+            pc += 1;
+            break;
+        case 0xa7: /* ANA A */
+            fprintf(asm_file, "ANA\t\tA\n");
+            pc += 1;
+            break;
+
+        case 0xa8: /* XRA B */
+            fprintf(asm_file, "XRA\t\tB\n");
+            pc += 1;
+            break;
+        case 0xa9: /* XRA C */
+            fprintf(asm_file, "XRA\t\tC\n");
+            pc += 1;
+            break;
+        case 0xaa: /* XRA D */
+            fprintf(asm_file, "XRA\t\tD\n");
+            pc += 1;
+            break;
+        case 0xab: /* XRA E */
+            fprintf(asm_file, "XRA\t\tE\n");
+            pc += 1;
+            break;
+        case 0xac: /* XRA H */
+            fprintf(asm_file, "XRA\t\tH\n");
+            pc += 1;
+            break;
+        case 0xad: /* XRA L */
+            fprintf(asm_file, "XRA\t\tL\n");
+            pc += 1;
+            break;
+        case 0xae: /* XRA M */
+            fprintf(asm_file, "XRA\t\tM\n");
+            pc += 1;
+            break;
+        case 0xaf: /* XRA A */
+            fprintf(asm_file, "XRA\t\tA\n");
+            pc += 1;
+            break;
+
+        case 0xb0: /* ORA B */
+            fprintf(asm_file, "ORA\t\tB\n");
+            pc += 1;
+            break;
+        case 0xb1: /* ORA C */
+            fprintf(asm_file, "ORA\t\tC\n");
+            pc += 1;
+            break;
+        case 0xb2: /* ORA D */
+            fprintf(asm_file, "ORA\t\tD\n");
+            pc += 1;
+            break;
+        case 0xb3: /* ORA E */
+            fprintf(asm_file, "ORA\t\tE\n");
+            pc += 1;
+            break;
+        case 0xb4: /* ORA H */
+            fprintf(asm_file, "ORA\t\tH\n");
+            pc += 1;
+            break;
+        case 0xb5: /* ORA L */
+            fprintf(asm_file, "ORA\t\tL\n");
+            pc += 1;
+            break;
+        case 0xb6: /* ORA M */
+            fprintf(asm_file, "ORA\t\tM\n");
+            pc += 1;
+            break;
+        case 0xb7: /* ORA A */
+            fprintf(asm_file, "ORA\t\tA\n");
+            pc += 1;
+            break;
+
+        case 0xb8: /* CMP B */
+            fprintf(asm_file, "CMP\t\tB\n");
+            pc += 1;
+            break;
+        case 0xb9: /* CMP C */
+            fprintf(asm_file, "CMP\t\tC\n");
+            pc += 1;
+            break;
+        case 0xba: /* CMP D */
+            fprintf(asm_file, "CMP\t\tD\n");
+            pc += 1;
+            break;
+        case 0xbb: /* CMP E */
+            fprintf(asm_file, "CMP\t\tE\n");
+            pc += 1;
+            break;
+        case 0xbc: /* CMP H */
+            fprintf(asm_file, "CMP\t\tH\n");
+            pc += 1;
+            break;
+        case 0xbd: /* CMP L */
+            fprintf(asm_file, "CMP\t\tL\n");
+            pc += 1;
+            break;
+        case 0xbe: /* CMP M */
+            fprintf(asm_file, "CMP\t\tM\n");
+            pc += 1;
+            break;
+        case 0xbf: /* CMP A */
+            fprintf(asm_file, "CMP\t\tA\n");
+            pc += 1;
             break;
 
         case 0x05: /* DCR B */
@@ -189,8 +457,40 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
             pc += 2;
             break;
 
-        case 0xc3:    /* JMP addr */
+        case 0xc2: /* JNZ addr */
+            fprintf(asm_file, "JNZ\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
+            break;
+        case 0xc3: /* JMP addr */
             fprintf(asm_file, "JMP\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
+            break;
+        case 0xca: /* JZ addr */
+            fprintf(asm_file, "JZ\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
+            break;
+        case 0xd2: /* JNC addr */
+            fprintf(asm_file, "JNC\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
+            break;
+        case 0xda: /* JC addr */
+            fprintf(asm_file, "JC\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
+            break;
+        case 0xe2: /* JPO addr */
+            fprintf(asm_file, "JPO\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
+            break;
+        case 0xea: /* JPE addr */
+            fprintf(asm_file, "JPE\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
+            break;
+        case 0xf2: /* JP addr */
+            fprintf(asm_file, "JP\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
+            break;
+        case 0xfa: /* JM addr */
+            fprintf(asm_file, "JM\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
             pc += 3;
             break;
 
