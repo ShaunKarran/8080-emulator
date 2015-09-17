@@ -97,12 +97,12 @@
 00c1	MOV		A, M
 00c2	CPI		$03
 00c4	JNZ		$00c8
-00c7	N/A
+00c7	DCR		A
 00c8	STA		$2008
 00cb	CPI		$fe
 00cd	MVI		A, $00
 00cf	JNZ		$00d3
-00d2	DCR		A
+00d2	INR		A
 00d3	STA		$200d
 00d6	RET
 00d7	MVI		A, $02
@@ -157,10 +157,10 @@
 0119	MOV		A, M
 011a	INX		H
 011b	MOV		B, M
-011c	N/A
-011d	CPI		$07
-011f	N/A
-0120	N/A
+011c	ANI		$fe
+011e	RLC
+011f	RLC
+0120	RLC
 0121	MOV		E, A
 0122	MVI		D, $00
 0124	LXI		H, $1c00
@@ -191,7 +191,7 @@
 014e	MOV		H, A
 014f	LDA		$2006
 0152	MVI		D, $02
-0154	DCR		A
+0154	INR		A
 0155	CPI		$37
 0157	N/A
 0158	ANA		C
@@ -225,7 +225,7 @@
 018c	ADI		$10
 018e	MOV		B, A
 018f	MOV		A, E
-0190	N/A
+0190	INR		D
 0191	JMP		$0183
 0194	MOV		L, B
 0195	ANA		A
@@ -235,7 +235,7 @@
 0199	ADI		$10
 019b	MOV		C, A
 019c	MOV		A, E
-019d	N/A
+019d	DCR		A
 019e	JMP		$0195
 01a1	DCR		D
 01a2	JZ		$01cd
@@ -247,9 +247,10 @@
 01ae	CALL	$01d9
 01b1	LXI		H, $2005
 01b4	MOV		A, M
-01b5	DCR		A
-01b6	N/A
-01b7	LXI		B, $af77
+01b5	INR		A
+01b6	ANI		$01
+01b8	MOV		M, A
+01b9	XRA		A
 01ba	LXI		H, $2067
 01bd	MOV		H, M
 01be	RET
@@ -291,7 +292,7 @@
 01fe	MVI		B, $2c
 0200	CALL	$1a32
 0203	POP		D
-0204	N/A
+0204	DCR		C
 0205	JNZ		$01fd
 0208	RET
 0209	MVI		A, $01
@@ -315,7 +316,7 @@
 0232	CALL	$1a69
 0235	POP		B
 0236	POP		PSW
-0237	N/A
+0237	DCR		A
 0238	N/A
 0239	PUSH	D
 023a	LXI		D, $02e0
@@ -356,9 +357,9 @@
 0273	N/A
 0274	JMP		$024b
 0277	DCR		B
-0278	N/A
+0278	INR		B
 0279	JNZ		$027d
-027c	N/A
+027c	DCR		A
 027d	DCR		B
 027e	MOV		M, B
 027f	DCX		H
@@ -445,7 +446,7 @@
 031c	MOV		A, B
 031d	N/A
 031e	DCR		B
-031f	DCR		A
+031f	INR		A
 0320	STA		$2098
 0323	CALL	$09d6
 0326	CALL	$1a7f
@@ -478,10 +479,10 @@
 035d	JC		$038e
 0360	JMP		$036f
 0363	CALL	$17c0
-0366	N/A
-0367	N/A
+0366	RLC
+0367	RLC
 0368	JC		$0381
-036b	N/A
+036b	RLC
 036c	JC		$038e
 036f	LXI		H, $2018
 0372	CALL	$1a3b
@@ -493,23 +494,22 @@
 0381	MOV		A, B
 0382	CPI		$d9
 0384	JZ		$036f
-0387	DCR		A
+0387	INR		A
 0388	STA		$201b
 038b	JMP		$036f
 038e	MOV		A, B
 038f	CPI		$30
 0391	JZ		$036f
-0394	N/A
+0394	DCR		A
 0395	STA		$201b
 0398	JMP		$036f
-039b	DCR		A
-039c	N/A
-039d	LXI		B, $1532
-03a0	N/A
-03a1	N/A
-03a2	N/A
-03a3	N/A
-03a4	N/A
+039b	INR		A
+039c	ANI		$01
+039e	STA		$2015
+03a1	RLC
+03a2	RLC
+03a3	RLC
+03a4	RLC
 03a5	LXI		H, $1c70
 03a8	ADD		L
 03a9	MOV		L, A
@@ -545,7 +545,7 @@
 03e3	CALL	$1452
 03e6	POP		H
 03e7	INX		H
-03e8	N/A
+03e8	INR		M
 03e9	INX		H
 03ea	INX		H
 03eb	DCR		M
@@ -558,7 +558,7 @@
 03f2	MVI		M, $08
 03f4	CALL	$0430
 03f7	JMP		$1400
-03fa	DCR		A
+03fa	INR		A
 03fb	MOV		M, A
 03fc	LDA		$201b
 03ff	ADI		$08
@@ -595,22 +595,21 @@
 0442	MVI		B, $07
 0444	CALL	$1a32
 0447	LHLD	$208d
-044a	DCR		L
+044a	INR		L
 044b	MOV		A, L
 044c	CPI		$63
 044e	JC		$0453
 0451	MVI		L, $54
 0453	SHLD	$208d
 0456	LHLD	$208f
-0459	DCR		L
+0459	INR		L
 045a	SHLD	$208f
 045d	LDA		$2084
 0460	ANA		A
 0461	N/A
 0462	MOV		A, M
-0463	N/A
-0464	LXI		B, $2901
-0467	STAX	B
+0463	ANI		$01
+0465	LXI		B, $0229
 0468	JNZ		$046e
 046b	LXI		B, $fee0
 046e	LXI		H, $208a
@@ -674,7 +673,7 @@
 04f7	MVI		B, $10
 04f9	CALL	$1a32
 04fc	LDA		$2082
-04ff	N/A
+04ff	DCR		A
 0500	JNZ		$0508
 0503	MVI		A, $01
 0505	STA		$206e
@@ -714,8 +713,7 @@
 0560	JMP		$1a32
 0563	LXI		H, $2073
 0566	MOV		A, M
-0567	N/A
-0568	ADD		B
+0567	ANI		$80
 0569	JNZ		$05c1
 056c	LDA		$20c1
 056f	CPI		$04
@@ -765,17 +763,17 @@
 05bc	ADD		B
 05bd	MOV		M, A
 05be	INX		H
-05bf	N/A
+05bf	INR		M
 05c0	RET
 05c1	LXI		D, $207c
 05c4	CALL	$1a06
 05c7	N/A
 05c8	INX		H
 05c9	MOV		A, M
-05ca	N/A
-05cb	LXI		B, $44c2
-05ce	MVI		B, $23
-05d0	N/A
+05ca	ANI		$01
+05cc	JNZ		$0644
+05cf	INX		H
+05d0	INR		M
 05d1	CALL	$0675
 05d4	LDA		$2079
 05d7	ADI		$03
@@ -783,7 +781,7 @@
 05dc	CMP		M
 05dd	JC		$05e2
 05e0	N/A
-05e1	DCR		C
+05e1	INR		C
 05e2	STA		$2079
 05e5	LDA		$207b
 05e8	MOV		B, A
@@ -819,7 +817,7 @@
 0627	JC		$05a5
 062a	MVI		C, $0b
 062c	JMP		$05a5
-062f	N/A
+062f	DCR		C
 0630	LDA		$2067
 0633	MOV		H, A
 0634	MOV		L, C
@@ -919,8 +917,7 @@
 06ef	MOV		A, M
 06f0	ANA		B
 06f1	MOV		M, A
-06f2	N/A
-06f3	N/A
+06f2	ANI		$20
 06f4	N/A
 06f5	DCR		B
 06f6	NOP
@@ -945,7 +942,7 @@
 071f	JZ		$0728
 0722	INX		H
 0723	INX		D
-0724	N/A
+0724	DCR		C
 0725	JNZ		$071d
 0728	MOV		A, M
 0729	STA		$2087
@@ -985,15 +982,14 @@
 077a	MVI		C, $04
 077c	CALL	$08f3
 077f	LDA		$20eb
-0782	N/A
+0782	DCR		A
 0783	LXI		H, $2810
 0786	MVI		C, $14
 0788	JNZ		$0857
 078b	LXI		D, $1acf
 078e	CALL	$08f3
 0791	IN		$01
-0793	N/A
-0794	N/A
+0793	ANI		$04
 0795	JZ		$077f
 0798	MVI		B, $99
 079a	XRA		A
@@ -1064,7 +1060,7 @@
 0849	CALL	$1775
 084c	N/A
 084d	MVI		B, $cd
-084f	N/A
+084f	INR		B
 0850	N/A
 0851	JMP		$081f
 0854	NOP
@@ -1112,8 +1108,7 @@
 08a9	LDA		$20c0
 08ac	ANA		A
 08ad	N/A
-08ae	N/A
-08af	N/A
+08ae	ANI		$04
 08b0	JNZ		$08bc
 08b3	CALL	$09ca
 08b6	CALL	$1931
@@ -1127,8 +1122,7 @@
 08cb	CALL	$14cb
 08ce	JMP		$08a9
 08d1	IN		$02
-08d3	N/A
-08d4	INX		B
+08d3	ANI		$03
 08d5	ADI		$03
 08d7	RET
 08d8	LDA		$2082
@@ -1149,7 +1143,7 @@
 08f5	CALL	$08ff
 08f8	POP		D
 08f9	INX		D
-08fa	N/A
+08fa	DCR		C
 08fb	JNZ		$08f3
 08fe	RET
 08ff	LXI		D, $1e00
@@ -1166,7 +1160,7 @@
 090e	N/A
 090f	MVI		B, $c3
 0911	N/A
-0912	N/A
+0912	INR		D
 0913	LDA		$2009
 0916	CPI		$78
 0918	N/A
@@ -1192,8 +1186,7 @@
 093c	N/A
 093d	MVI		B, $15
 093f	IN		$02
-0941	N/A
-0942	N/A
+0941	ANI		$08
 0943	JZ		$0948
 0946	MVI		B, $10
 0948	CALL	$09ca
@@ -1202,19 +1195,19 @@
 094d	CMP		B
 094e	N/A
 094f	CALL	$092e
-0952	N/A
+0952	INR		M
 0953	MOV		A, M
 0954	PUSH	PSW
 0955	LXI		H, $2501
-0958	N/A
-0959	N/A
-095a	N/A
+0958	INR		H
+0959	INR		H
+095a	DCR		A
 095b	JNZ		$0958
 095e	MVI		B, $10
 0960	LXI		D, $1c60
 0963	CALL	$1439
 0966	POP		PSW
-0967	DCR		A
+0967	INR		A
 0968	CALL	$1a8b
 096b	CALL	$1910
 096e	DCX		H
@@ -1268,12 +1261,10 @@
 09b5	RRC
 09b6	RRC
 09b7	RRC
-09b8	N/A
-09b9	RRC
+09b8	ANI		$0f
 09ba	CALL	$09c5
 09bd	POP		PSW
-09be	N/A
-09bf	RRC
+09be	ANI		$0f
 09c0	CALL	$09c5
 09c3	POP		D
 09c4	RET
@@ -1289,8 +1280,7 @@
 09d9	MVI		M, $00
 09db	INX		H
 09dc	MOV		A, L
-09dd	N/A
-09de	N/A
+09dd	ANI		$1f
 09df	CPI		$1c
 09e1	JC		$09e8
 09e4	LXI		D, $0006
@@ -1313,13 +1303,12 @@
 0a08	PUSH	H
 0a09	MVI		L, $fe
 0a0b	MOV		A, M
-0a0c	N/A
-0a0d	N/A
-0a0e	DCR		A
+0a0c	ANI		$07
+0a0e	INR		A
 0a0f	MOV		M, A
 0a10	LXI		H, $1da2
 0a13	INX		H
-0a14	N/A
+0a14	DCR		A
 0a15	JNZ		$0a13
 0a18	MOV		A, M
 0a19	POP		H
@@ -1389,10 +1378,10 @@
 0a99	MVI		A, $07
 0a9b	STA		$20c0
 0a9e	LDA		$20c0
-0aa1	N/A
+0aa1	DCR		A
 0aa2	JNZ		$0a9e
 0aa5	INX		D
-0aa6	N/A
+0aa6	DCR		C
 0aa7	JNZ		$0a93
 0aaa	RET
 0aab	LXI		H, $2050
@@ -1503,7 +1492,7 @@
 0bb1	CALL	$1856
 0bb4	CALL	$184c
 0bb7	IN		$02
-0bb9	N/A
+0bb9	RLC
 0bba	JC		$0bc3
 0bbd	LXI		B, $1fa0
 0bc0	CALL	$183a
@@ -1517,11 +1506,10 @@
 0bd7	CALL	$189e
 0bda	LXI		H, $20ec
 0bdd	MOV		A, M
-0bde	DCR		A
-0bdf	N/A
-0be0	LXI		B, $cd77
-0be3	N/A
-0be4	N/A
+0bde	INR		A
+0bdf	ANI		$01
+0be1	MOV		M, A
+0be2	CALL	$09d6
 0be5	JMP		$18df
 0be8	LXI		D, $1dab
 0beb	CALL	$0a93
@@ -3590,7 +3578,7 @@
 1406	PUSH	H
 1407	N/A
 1408	N/A
-1409	N/A
+1409	INR		B
 140a	IN		$03
 140c	ORA		M
 140d	MOV		M, A
@@ -3598,7 +3586,7 @@
 140f	INX		D
 1410	XRA		A
 1411	N/A
-1412	N/A
+1412	INR		B
 1413	IN		$03
 1415	ORA		M
 1416	MOV		M, A
@@ -3652,7 +3640,7 @@
 1456	PUSH	H
 1457	N/A
 1458	N/A
-1459	N/A
+1459	INR		B
 145a	IN		$03
 145c	N/A
 145d	ANA		M
@@ -3661,7 +3649,7 @@
 1460	INX		D
 1461	XRA		A
 1462	N/A
-1463	N/A
+1463	INR		B
 1464	IN		$03
 1466	N/A
 1467	ANA		M
@@ -3674,8 +3662,7 @@
 1470	JNZ		$1455
 1473	RET
 1474	MOV		A, L
-1475	N/A
-1476	N/A
+1475	ANI		$07
 1477	N/A
 1478	STAX	B
 1479	JMP		$1a47
@@ -3685,7 +3672,7 @@
 147f	N/A
 1480	INX		D
 1481	INX		H
-1482	N/A
+1482	DCR		C
 1483	JNZ		$147e
 1486	POP		H
 1487	LXI		B, $0020
@@ -3701,7 +3688,7 @@
 1499	PUSH	H
 149a	N/A
 149b	N/A
-149c	N/A
+149c	INR		B
 149d	IN		$03
 149f	PUSH	PSW
 14a0	ANA		M
@@ -3715,7 +3702,7 @@
 14ad	INX		D
 14ae	XRA		A
 14af	N/A
-14b0	N/A
+14b0	INR		B
 14b1	IN		$03
 14b3	PUSH	PSW
 14b4	ANA		M
@@ -3806,7 +3793,7 @@
 155a	CMP		H
 155b	N/A
 155c	ADI		$10
-155e	DCR		C
+155e	INR		C
 155f	JMP		$155a
 1562	LDA		$2009
 1565	MOV		H, L
@@ -3827,19 +3814,19 @@
 157b	STA		$2085
 157e	JMP		$1545
 1581	MOV		A, B
-1582	N/A
-1583	N/A
-1584	N/A
+1582	RLC
+1583	RLC
+1584	RLC
 1585	ADD		B
 1586	ADD		B
 1587	ADD		B
 1588	ADD		C
-1589	N/A
+1589	DCR		A
 158a	MOV		L, A
 158b	LDA		$2067
 158e	MOV		H, A
 158f	RET
-1590	DCR		C
+1590	INR		C
 1591	ADI		$10
 1593	JM		$1590
 1596	RET
@@ -3878,14 +3865,14 @@
 15d8	PUSH	H
 15d9	N/A
 15da	N/A
-15db	N/A
+15db	INR		B
 15dc	IN		$03
 15de	MOV		M, A
 15df	INX		H
 15e0	INX		D
 15e1	XRA		A
 15e2	N/A
-15e3	N/A
+15e3	INR		B
 15e4	IN		$03
 15e6	MOV		M, A
 15e7	POP		H
@@ -3901,7 +3888,7 @@
 15f9	MOV		A, M
 15fa	ANA		A
 15fb	JZ		$15ff
-15fe	DCR		C
+15fe	INR		C
 15ff	INX		H
 1600	DCR		B
 1601	JNZ		$15f9
@@ -3935,16 +3922,14 @@
 1635	ANA		A
 1636	JNZ		$1648
 1639	CALL	$17c0
-163c	N/A
-163d	N/A
+163c	ANI		$10
 163e	N/A
 163f	MVI		A, $01
 1641	STA		$2025
 1644	STA		$202d
 1647	RET
 1648	CALL	$17c0
-164b	N/A
-164c	N/A
+164b	ANI		$10
 164d	N/A
 164e	STA		$202d
 1651	RET
@@ -4048,7 +4033,7 @@
 171e	JNC		$1727
 1721	INX		H
 1722	INX		D
-1723	N/A
+1723	DCR		C
 1724	JNZ		$171c
 1727	MOV		A, M
 1728	STA		$20cf
@@ -4090,8 +4075,7 @@
 1769	STA		$209b
 176c	RET
 176d	LDA		$2098
-1770	N/A
-1771	N/A
+1770	ANI		$30
 1772	N/A
 1773	DCR		B
 1774	RET
@@ -4110,13 +4094,11 @@
 178f	STA		$2097
 1792	LXI		H, $2098
 1795	MOV		A, M
-1796	N/A
-1797	N/A
+1796	ANI		$30
 1798	MOV		B, A
 1799	MOV		A, M
-179a	N/A
-179b	RRC
-179c	N/A
+179a	ANI		$0f
+179c	RLC
 179d	CPI		$10
 179f	JNZ		$17a4
 17a2	MVI		A, $01
@@ -4146,8 +4128,7 @@
 17ca	IN		$02
 17cc	RET
 17cd	IN		$02
-17cf	N/A
-17d0	N/A
+17cf	ANI		$04
 17d1	N/A
 17d2	LDA		$209a
 17d5	ANA		A
@@ -4226,7 +4207,7 @@
 1866	ANA		A
 1867	RET
 1868	LXI		H, $20c2
-186b	N/A
+186b	INR		M
 186c	INX		H
 186d	MOV		C, M
 186e	CALL	$01d9
@@ -4235,8 +4216,7 @@
 1875	CMP		B
 1876	JZ		$1898
 1879	LDA		$20c2
-187c	N/A
-187d	N/A
+187c	ANI		$04
 187e	LHLD	$20cc
 1881	JNZ		$1888
 1884	LXI		D, $0030
@@ -4263,13 +4243,11 @@
 18b3	MVI		A, $04
 18b5	STA		$20c1
 18b8	LDA		$2055
-18bb	N/A
-18bc	LXI		B, $b8ca
-18bf	N/A
+18bb	ANI		$01
+18bd	JZ		$18b8
 18c0	LDA		$2055
-18c3	N/A
-18c4	LXI		B, $c0c2
-18c7	N/A
+18c3	ANI		$01
+18c5	JNZ		$18c0
 18c8	LXI		H, $3311
 18cb	MVI		A, $26
 18cd	NOP
@@ -4290,9 +4268,9 @@
 18f0	RET
 18f1	MVI		B, $02
 18f3	LDA		$2082
-18f6	N/A
+18f6	DCR		A
 18f7	N/A
-18f8	N/A
+18f8	INR		B
 18f9	RET
 18fa	LDA		$2094
 18fd	ORA		B
@@ -4368,16 +4346,14 @@
 199d	ANA		A
 199e	JNZ		$19ac
 19a1	IN		$01
-19a3	N/A
-19a4	N/A
+19a3	ANI		$76
 19a5	N/A
 19a6	MOV		M, D
 19a7	N/A
-19a8	DCR		A
+19a8	INR		A
 19a9	STA		$201e
 19ac	IN		$01
-19ae	N/A
-19af	N/A
+19ae	ANI		$76
 19b0	CPI		$34
 19b2	N/A
 19b3	LXI		H, $2e1b
@@ -4418,7 +4394,7 @@
 19f1	MOV		C, A
 19f2	CALL	$1439
 19f5	MOV		A, C
-19f6	N/A
+19f6	DCR		A
 19f7	JNZ		$19ec
 19fa	MVI		B, $10
 19fc	CALL	$14cb
@@ -4429,21 +4405,20 @@
 1a06	LXI		H, $2072
 1a09	MOV		B, M
 1a0a	N/A
-1a0b	N/A
-1a0c	ADD		B
+1a0b	ANI		$80
 1a0d	XRA		B
 1a0e	N/A
 1a0f	N/A
 1a10	RET
 1a11	STA		$242b
-1a14	DCR		E
+1a14	INR		E
 1a15	MVI		D, $11
-1a17	N/A
+1a17	DCR		C
 1a18	N/A
 1a19	N/A
-1a1a	N/A
+1a1a	RLC
 1a1b	MVI		B, $05
-1a1d	N/A
+1a1d	INR		B
 1a1e	INX		B
 1a1f	STAX	B
 1a20	LXI		B, $2e34
@@ -4453,10 +4428,10 @@
 1a28	INX		D
 1a29	N/A
 1a2a	MVI		C, $0d
-1a2c	DCR		C
+1a2c	INR		C
 1a2d	DCX		B
 1a2e	N/A
-1a2f	N/A
+1a2f	RLC
 1a30	DCR		B
 1a31	N/A
 1a32	N/A
@@ -4489,8 +4464,7 @@
 1a50	DCR		B
 1a51	JNZ		$1a4a
 1a54	MOV		A, H
-1a55	N/A
-1a56	N/A
+1a55	ANI		$3f
 1a57	N/A
 1a58	N/A
 1a59	MOV		H, A
@@ -4510,7 +4484,7 @@
 1a6d	MOV		M, A
 1a6e	INX		D
 1a6f	INX		H
-1a70	N/A
+1a70	DCR		C
 1a71	JNZ		$1a6b
 1a74	POP		H
 1a75	LXI		B, $0020
@@ -4523,13 +4497,12 @@
 1a82	ANA		A
 1a83	N/A
 1a84	PUSH	PSW
-1a85	N/A
+1a85	DCR		A
 1a86	MOV		M, A
 1a87	CALL	$19e6
 1a8a	POP		PSW
 1a8b	LXI		H, $2501
-1a8e	N/A
-1a8f	RRC
+1a8e	ANI		$0f
 1a90	JMP		$09c5
 1a93	NOP
 1a94	NOP
@@ -4538,29 +4511,29 @@
 1a97	N/A
 1a98	CMP		B
 1a99	CPI		$20
-1a9b	DCR		E
+1a9b	INR		E
 1a9c	N/A
 1a9d	SBB		M
 1a9e	NOP
 1a9f	N/A
-1aa0	DCR		E
+1aa0	INR		E
 1aa1	N/A
 1aa2	N/A
 1aa3	DCX		B
 1aa4	N/A
-1aa5	N/A
+1aa5	RLC
 1aa6	MVI		B, $00
-1aa8	DCR		C
-1aa9	N/A
+1aa8	INR		C
+1aa9	INR		B
 1aaa	MVI		H, $0e
 1aac	DCR		D
-1aad	N/A
+1aad	INR		B
 1aae	LXI		D, $2626
 1ab1	RRC
 1ab2	DCX		B
 1ab3	NOP
 1ab4	N/A
-1ab5	N/A
+1ab5	INR		B
 1ab6	LXI		D, $2624
 1ab9	DCR		H
 1aba	DCX		D
@@ -4570,13 +4543,13 @@
 1ac1	DCX		B
 1ac2	NOP
 1ac3	N/A
-1ac4	N/A
+1ac4	INR		B
 1ac5	LXI		D, $2612
 1ac8	LXI		B, $1314
 1acb	INX		D
 1acc	MVI		C, $0d
 1ace	MVI		H, $0e
-1ad0	N/A
+1ad0	DCR		C
 1ad1	DCX		B
 1ad2	N/A
 1ad3	MVI		H, $1b
@@ -4584,7 +4557,7 @@
 1ad6	DCX		B
 1ad7	NOP
 1ad8	N/A
-1ad9	N/A
+1ad9	INR		B
 1ada	LXI		D, $2626
 1add	LXI		B, $1314
 1ae0	INX		D
@@ -4593,8 +4566,8 @@
 1ae5	N/A
 1ae6	STAX	B
 1ae7	MVI		C, $11
-1ae9	N/A
-1aea	N/A
+1ae9	INR		B
+1aea	INR		H
 1aeb	DCX		D
 1aec	DCR		H
 1aed	MVI		H, $07
@@ -4603,13 +4576,13 @@
 1af1	N/A
 1af2	STAX	B
 1af3	MVI		C, $11
-1af5	N/A
+1af5	INR		B
 1af6	MVI		H, $12
 1af8	STAX	B
 1af9	MVI		C, $11
-1afb	N/A
-1afc	N/A
-1afd	DCR		E
+1afb	INR		B
+1afc	INR		H
+1afd	INR		E
 1afe	DCR		H
 1aff	MVI		H, $01
 1b01	NOP
@@ -4634,9 +4607,9 @@
 1b14	STAX	B
 1b15	N/A
 1b16	DCR		B
-1b17	DCR		C
+1b17	INR		C
 1b18	MOV		H, B
-1b19	DCR		E
+1b19	INR		E
 1b1a	N/A
 1b1b	N/A
 1b1c	N/A
@@ -4649,7 +4622,7 @@
 1b25	NOP
 1b26	N/A
 1b27	SUB		B
-1b28	DCR		E
+1b28	INR		E
 1b29	N/A
 1b2a	N/A
 1b2b	LXI		B, $0004
@@ -4659,15 +4632,15 @@
 1b31	NOP
 1b32	STAX	B
 1b33	N/A
-1b34	N/A
+1b34	INR		B
 1b35	NOP
 1b36	NOP
 1b37	NOP
 1b38	NOP
 1b39	NOP
-1b3a	N/A
+1b3a	INR		B
 1b3b	N/A
-1b3c	DCR		E
+1b3c	INR		E
 1b3d	NOP
 1b3e	NOP
 1b3f	INX		B
@@ -4675,11 +4648,11 @@
 1b41	NOP
 1b42	NOP
 1b43	ORA		M
-1b44	N/A
+1b44	INR		B
 1b45	NOP
 1b46	NOP
 1b47	LXI		B, $1d00
-1b4a	N/A
+1b4a	INR		B
 1b4b	JPO		$001c
 1b4e	NOP
 1b4f	INX		B
@@ -4690,16 +4663,16 @@
 1b54	MVI		B, $00
 1b56	NOP
 1b57	LXI		B, $1d06
-1b5a	N/A
+1b5a	INR		B
 1b5b	N/A
-1b5c	DCR		E
+1b5c	INR		E
 1b5d	NOP
 1b5e	NOP
 1b5f	INX		B
 1b60	N/A
 1b61	NOP
 1b62	N/A
-1b63	DCR		E
+1b63	INR		E
 1b64	NOP
 1b65	NOP
 1b66	N/A
@@ -4718,7 +4691,7 @@
 1b76	DCX		B
 1b77	NOP
 1b78	N/A
-1b79	N/A
+1b79	INR		B
 1b7a	LXI		D, $1b24
 1b7d	DCR		H
 1b7e	N/A
@@ -4729,13 +4702,13 @@
 1b85	NOP
 1b86	N/A
 1b87	MOV		H, H
-1b88	N/A
+1b88	DCR		E
 1b89	N/A
 1b8a	N/A
 1b8b	N/A
 1b8c	STAX	B
 1b8d	MOV		D, H
-1b8e	N/A
+1b8e	DCR		E
 1b8f	NOP
 1b90	N/A
 1b91	NOP
@@ -4747,21 +4720,21 @@
 1b9c	SBB		M
 1b9d	NOP
 1b9e	N/A
-1b9f	DCR		E
+1b9f	INR		E
 1ba0	NOP
 1ba1	INX		B
-1ba2	N/A
+1ba2	INR		B
 1ba3	MOV		A, B
-1ba4	N/A
+1ba4	INR		D
 1ba5	INX		D
 1ba6	N/A
 1ba7	N/A
-1ba8	N/A
+1ba8	DCR		A
 1ba9	MOV		L, B
 1baa	N/A
 1bab	N/A
 1bac	MOV		L, B
-1bad	N/A
+1bad	DCR		A
 1bae	N/A
 1baf	NOP
 1bb0	NOP
@@ -4787,18 +4760,18 @@
 1bc7	NOP
 1bc8	NOP
 1bc9	NOP
-1bca	N/A
+1bca	RLC
 1bcb	N/A
-1bcc	DCR		E
+1bcc	INR		E
 1bcd	N/A
 1bce	SBB		E
 1bcf	INX		B
 1bd0	NOP
 1bd1	NOP
 1bd2	INX		B
-1bd3	N/A
+1bd3	INR		B
 1bd4	MOV		A, B
-1bd5	N/A
+1bd5	INR		D
 1bd6	DCX		B
 1bd7	N/A
 1bd8	LDA		$fa6d
@@ -4823,15 +4796,15 @@
 1bf3	NOP
 1bf4	NOP
 1bf5	NOP
-1bf6	DCR		E
+1bf6	INR		E
 1bf7	N/A
 1bf8	NOP
 1bf9	NOP
-1bfa	DCR		E
+1bfa	INR		E
 1bfb	DAA
 1bfc	NOP
 1bfd	NOP
-1bfe	DCR		E
+1bfe	INR		E
 1bff	N/A
 1c00	NOP
 1c01	NOP
@@ -4851,15 +4824,15 @@
 1c11	NOP
 1c12	NOP
 1c13	MOV		A, B
-1c14	N/A
+1c14	DCR		E
 1c15	CMP		M
 1c16	MOV		L, H
-1c17	DCR		A
-1c18	DCR		A
-1c19	DCR		A
+1c17	INR		A
+1c18	INR		A
+1c19	INR		A
 1c1a	MOV		L, H
 1c1b	CMP		M
-1c1c	N/A
+1c1c	DCR		E
 1c1d	MOV		A, B
 1c1e	NOP
 1c1f	NOP
@@ -4895,9 +4868,9 @@
 1c43	MVI		C, $18
 1c45	CMP		M
 1c46	MOV		L, L
-1c47	N/A
-1c48	DCR		A
-1c49	N/A
+1c47	DCR		A
+1c48	INR		A
+1c49	DCR		A
 1c4a	MOV		L, L
 1c4b	CMP		M
 1c4c	N/A
@@ -4908,12 +4881,12 @@
 1c52	NOP
 1c53	NOP
 1c54	N/A
-1c55	N/A
+1c55	DCR		A
 1c56	MOV		L, B
 1c57	N/A
 1c58	N/A
 1c59	MOV		L, B
-1c5a	N/A
+1c5a	DCR		A
 1c5b	N/A
 1c5c	NOP
 1c5d	NOP
@@ -4936,16 +4909,16 @@
 1c6e	RRC
 1c6f	NOP
 1c70	NOP
-1c71	N/A
+1c71	INR		B
 1c72	LXI		B, $0313
-1c75	N/A
+1c75	RLC
 1c76	ORA		E
 1c77	RRC
 1c78	N/A
 1c79	INX		B
 1c7a	N/A
 1c7b	MOV		C, C
-1c7c	N/A
+1c7c	INR		B
 1c7d	INX		B
 1c7e	NOP
 1c7f	LXI		B, $0840
@@ -4963,9 +4936,9 @@
 1c8d	ADD		H
 1c8e	LXI		D, $0f48
 1c91	SBB		C
-1c92	DCR		A
+1c92	INR		A
 1c93	MOV		A, M
-1c94	N/A
+1c94	DCR		A
 1c95	CMP		H
 1c96	MVI		A, $7c
 1c98	SBB		C
@@ -4974,21 +4947,21 @@
 1c9b	N/A
 1c9c	MVI		H, $0f
 1c9e	MVI		C, $08
-1ca0	N/A
+1ca0	DCR		C
 1ca1	INX		D
 1ca2	N/A
 1ca3	N/A
 1ca4	N/A
 1ca5	STAX	B
 1ca6	MVI		C, $11
-1ca8	N/A
+1ca8	INR		B
 1ca9	MVI		H, $00
 1cab	INX		B
 1cac	DCR		D
 1cad	NOP
-1cae	N/A
+1cae	DCR		C
 1caf	STAX	B
-1cb0	N/A
+1cb0	INR		B
 1cb1	MVI		H, $13
 1cb3	NOP
 1cb4	LXI		B, $040b
@@ -5009,7 +4982,7 @@
 1cc7	NOP
 1cc8	MOV		B, D
 1cc9	ADD		C
-1cca	N/A
+1cca	INR		D
 1ccb	SHLD	$0849
 1cce	NOP
 1ccf	NOP
@@ -5027,9 +5000,9 @@
 1cdf	N/A
 1ce0	MOV		E, M
 1ce1	DCR		H
-1ce2	N/A
+1ce2	INR		B
 1ce3	N/A
-1ce4	N/A
+1ce4	INR		B
 1ce5	N/A
 1ce6	N/A
 1ce7	N/A
@@ -5041,7 +5014,7 @@
 1ced	ADD		B
 1cee	NOP
 1cef	CPI		$00
-1cf1	N/A
+1cf1	INR		H
 1cf2	CPI		$12
 1cf4	NOP
 1cf5	CPI		$00
@@ -5063,13 +5036,13 @@
 1d0f	N/A
 1d10	STAX	B
 1d11	DCX		B
-1d12	N/A
-1d13	N/A
+1d12	INR		B
+1d13	RLC
 1d14	N/A
 1d15	DCR		B
 1d16	STAX	B
 1d17	DCR		B
-1d18	N/A
+1d18	INR		B
 1d19	MVI		B, $07
 1d1b	N/A
 1d1c	N/A
@@ -5147,8 +5120,8 @@
 1d65	NOP
 1d66	NOP
 1d67	NOP
-1d68	N/A
-1d69	DCR		C
+1d68	INR		B
+1d69	INR		C
 1d6a	MVI		E, $37
 1d6c	MVI		A, $7c
 1d6e	MOV		M, H
@@ -5158,7 +5131,7 @@
 1d72	MOV		A, H
 1d73	MVI		A, $37
 1d75	MVI		E, $0c
-1d77	N/A
+1d77	INR		B
 1d78	NOP
 1d79	NOP
 1d7a	NOP
@@ -5168,15 +5141,15 @@
 1d80	MOV		B, B
 1d81	N/A
 1d82	SBB		B
-1d83	N/A
+1d83	DCR		A
 1d84	ORA		M
-1d85	DCR		A
+1d85	INR		A
 1d86	MVI		M, $1d
 1d88	N/A
 1d89	MOV		C, B
 1d8a	MOV		H, D
 1d8b	ORA		M
-1d8c	N/A
+1d8c	DCR		E
 1d8d	SBB		B
 1d8e	N/A
 1d8f	MOV		B, D
@@ -5192,7 +5165,7 @@
 1d9a	DCX		D
 1d9b	N/A
 1d9c	N/A
-1d9d	N/A
+1d9d	DCR		E
 1d9e	N/A
 1d9f	N/A
 1da0	N/A
@@ -5214,43 +5187,43 @@
 1db0	RRC
 1db1	NOP
 1db2	STAX	B
-1db3	N/A
+1db3	INR		B
 1db4	MVI		H, $26
 1db6	N/A
-1db7	N/A
+1db7	DCR		C
 1db8	DCR		D
 1db9	NOP
 1dba	INX		B
-1dbb	N/A
+1dbb	INR		B
 1dbc	LXI		D, $0e12
-1dbf	DCR		L
+1dbf	INR		L
 1dc0	MOV		L, B
-1dc1	N/A
-1dc2	DCR		C
-1dc3	DCR		L
+1dc1	DCR		E
+1dc2	INR		C
+1dc3	INR		L
 1dc4	N/A
-1dc5	DCR		E
+1dc5	INR		E
 1dc6	N/A
-1dc7	DCR		L
+1dc7	INR		L
 1dc8	MOV		B, B
-1dc9	DCR		E
+1dc9	INR		E
 1dca	N/A
-1dcb	DCR		L
+1dcb	INR		L
 1dcc	NOP
-1dcd	DCR		E
+1dcd	INR		E
 1dce	N/A
 1dcf	MVI		C, $2e
 1dd1	N/A
-1dd2	N/A
-1dd3	DCR		C
+1dd2	DCR		E
+1dd3	INR		C
 1dd4	MVI		L, $ea
-1dd6	N/A
+1dd6	DCR		E
 1dd7	N/A
 1dd8	MVI		L, $f4
-1dda	N/A
+1dda	DCR		E
 1ddb	N/A
 1ddc	MVI		L, $99
-1dde	DCR		E
+1dde	INR		E
 1ddf	N/A
 1de0	DAA
 1de1	N/A
@@ -5258,30 +5231,30 @@
 1de4	N/A
 1de5	N/A
 1de6	INX		D
-1de7	N/A
+1de7	INR		B
 1de8	LXI		D, $2718
-1deb	N/A
+1deb	DCR		E
 1dec	N/A
 1ded	MVI		H, $0f
 1def	MVI		C, $08
-1df1	N/A
+1df1	DCR		C
 1df2	INX		D
 1df3	N/A
 1df4	DAA
-1df5	DCR		E
+1df5	INR		E
 1df6	N/A
 1df7	MVI		H, $0f
 1df9	MVI		C, $08
-1dfb	N/A
+1dfb	DCR		C
 1dfc	INX		D
 1dfd	N/A
 1dfe	NOP
 1dff	NOP
 1e00	NOP
 1e01	N/A
-1e02	N/A
+1e02	INR		H
 1e03	MOV		B, H
-1e04	N/A
+1e04	INR		H
 1e05	N/A
 1e06	NOP
 1e07	NOP
@@ -5352,7 +5325,7 @@
 1e50	NOP
 1e51	MOV		A, A
 1e52	N/A
-1e53	N/A
+1e53	INR		D
 1e54	SHLD	$0041
 1e57	NOP
 1e58	NOP
@@ -5371,7 +5344,7 @@
 1e69	MOV		A, A
 1e6a	N/A
 1e6b	N/A
-1e6c	N/A
+1e6c	INR		B
 1e6d	MOV		A, A
 1e6e	NOP
 1e6f	NOP
@@ -5393,7 +5366,7 @@
 1e81	MVI		A, $41
 1e83	MOV		B, L
 1e84	MOV		B, D
-1e85	N/A
+1e85	DCR		A
 1e86	NOP
 1e87	NOP
 1e88	NOP
@@ -5430,16 +5403,16 @@
 1eb0	NOP
 1eb1	MOV		A, A
 1eb2	STAX	B
-1eb3	DCR		C
+1eb3	INR		C
 1eb4	STAX	B
 1eb5	MOV		A, A
 1eb6	NOP
 1eb7	NOP
 1eb8	NOP
 1eb9	MOV		H, E
-1eba	N/A
+1eba	INR		D
 1ebb	N/A
-1ebc	N/A
+1ebc	INR		D
 1ebd	MOV		H, E
 1ebe	NOP
 1ebf	NOP
@@ -5486,11 +5459,11 @@
 1eee	NOP
 1eef	NOP
 1ef0	NOP
-1ef1	DCR		C
-1ef2	N/A
-1ef3	N/A
+1ef1	INR		C
+1ef2	INR		D
+1ef3	INR		H
 1ef4	MOV		A, A
-1ef5	N/A
+1ef5	INR		B
 1ef6	NOP
 1ef7	NOP
 1ef8	NOP
@@ -5525,12 +5498,12 @@
 1f18	NOP
 1f19	LXI		SP, $4949
 1f1c	MOV		C, D
-1f1d	DCR		A
+1f1d	INR		A
 1f1e	NOP
 1f1f	NOP
 1f20	NOP
 1f21	N/A
-1f22	N/A
+1f22	INR		D
 1f23	SHLD	$0041
 1f26	NOP
 1f27	NOP
@@ -5549,26 +5522,26 @@
 1f36	NOP
 1f37	NOP
 1f38	NOP
-1f39	N/A
-1f3a	N/A
-1f3b	N/A
-1f3c	N/A
-1f3d	N/A
+1f39	INR		D
+1f3a	INR		D
+1f3b	INR		D
+1f3c	INR		D
+1f3d	INR		D
 1f3e	NOP
 1f3f	NOP
 1f40	NOP
 1f41	SHLD	$7f14
-1f44	N/A
+1f44	INR		D
 1f45	SHLD	$0000
 1f48	NOP
 1f49	INX		B
-1f4a	N/A
+1f4a	INR		B
 1f4b	MOV		A, B
-1f4c	N/A
+1f4c	INR		B
 1f4d	INX		B
 1f4e	NOP
 1f4f	NOP
-1f50	N/A
+1f50	INR		H
 1f51	DCX		D
 1f52	MVI		H, $0e
 1f54	LXI		D, $1c26
@@ -5576,7 +5549,7 @@
 1f59	DCX		B
 1f5a	NOP
 1f5b	N/A
-1f5c	N/A
+1f5c	INR		B
 1f5d	LXI		D, $2512
 1f60	MVI		H, $26
 1f62	N/A
@@ -5585,12 +5558,12 @@
 1f66	DCX		B
 1f67	NOP
 1f68	N/A
-1f69	N/A
+1f69	INR		B
 1f6a	LXI		D, $2626
 1f6d	DCX		D
 1f6e	MVI		H, $02
 1f70	MVI		C, $08
-1f72	N/A
+1f72	DCR		C
 1f73	MVI		H, $01
 1f75	LXI		B, $0000
 1f78	LXI		B, $0200
@@ -5603,27 +5576,27 @@
 1f85	N/A
 1f86	N/A
 1f87	N/A
-1f88	N/A
+1f88	DCR		A
 1f89	MOV		L, B
 1f8a	N/A
 1f8b	N/A
 1f8c	MOV		L, B
-1f8d	N/A
+1f8d	DCR		A
 1f8e	N/A
 1f8f	NOP
 1f90	N/A
-1f91	N/A
+1f91	DCR		C
 1f92	N/A
-1f93	N/A
+1f93	INR		B
 1f94	LXI		D, $2613
 1f97	MVI		H, $02
 1f99	MVI		C, $08
-1f9b	N/A
-1f9c	N/A
+1f9b	DCR		C
+1f9c	DCR		C
 1f9d	LHLD	$1f50
 1fa0	N/A
 1fa1	LHLD	$1f62
-1fa4	N/A
+1fa4	RLC
 1fa5	LHLD	$1fe1
 1fa8	N/A
 1fa9	STAX	B
@@ -5667,29 +5640,29 @@
 1fd6	NOP
 1fd7	LXI		B, $22d0
 1fda	N/A
-1fdb	DCR		E
+1fdb	INR		E
 1fdc	N/A
 1fdd	SUB		H
 1fde	NOP
 1fdf	N/A
-1fe0	DCR		E
+1fe0	INR		E
 1fe1	N/A
-1fe2	DCR		E
+1fe2	INR		E
 1fe3	MVI		H, $0f
 1fe5	DCX		B
 1fe6	NOP
 1fe7	N/A
-1fe8	N/A
+1fe8	INR		B
 1fe9	LXI		D, $2612
-1fec	DCR		E
+1fec	INR		E
 1fed	MVI		H, $02
 1fef	MVI		C, $08
-1ff1	N/A
+1ff1	DCR		C
 1ff2	N/A
 1ff3	RRC
-1ff4	N/A
+1ff4	INR		D
 1ff5	N/A
-1ff6	N/A
+1ff6	RLC
 1ff7	MVI		H, $00
 1ff9	N/A
 1ffa	N/A

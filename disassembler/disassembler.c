@@ -98,6 +98,39 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
             pc += 1;
             break;
 
+        case 0x04: /* INR B */
+            fprintf(asm_file, "INR\t\tB\n");
+            pc += 1;
+            break;
+        case 0x0c: /* INR C */
+            fprintf(asm_file, "INR\t\tC\n");
+            pc += 1;
+            break;
+        case 0x14: /* INR D */
+            fprintf(asm_file, "INR\t\tD\n");
+            pc += 1;
+            break;
+        case 0x1c: /* INR E */
+            fprintf(asm_file, "INR\t\tE\n");
+            pc += 1;
+            break;
+        case 0x24: /* INR H */
+            fprintf(asm_file, "INR\t\tH\n");
+            pc += 1;
+            break;
+        case 0x2c: /* INR L */
+            fprintf(asm_file, "INR\t\tL\n");
+            pc += 1;
+            break;
+        case 0x34: /* INR M */
+            fprintf(asm_file, "INR\t\tM\n");
+            pc += 1;
+            break;
+        case 0x3c: /* INR A */
+            fprintf(asm_file, "INR\t\tA\n");
+            pc += 1;
+            break;
+
         case 0x0b: /* DCX B */
             fprintf(asm_file, "DCX\t\tB\n");
             pc += 1;
@@ -195,6 +228,10 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
 
         case 0xc6: /* ADI data8 */
             fprintf(asm_file, "ADI\t\t$%0.2x\n", opcode[1]);
+            pc += 2;
+            break;
+        case 0xe6: /* ANI data8 */
+            fprintf(asm_file, "ANI\t\t$%0.2x\n", opcode[1]);
             pc += 2;
             break;
         case 0xfe: /* CPI data8 */
@@ -492,7 +529,7 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
             fprintf(asm_file, "DCR\t\tB\n");
             pc += 1;
             break;
-        case 0x0c: /* DCR C */
+        case 0x0d: /* DCR C */
             fprintf(asm_file, "DCR\t\tC\n");
             pc += 1;
             break;
@@ -500,7 +537,7 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
             fprintf(asm_file, "DCR\t\tD\n");
             pc += 1;
             break;
-        case 0x1c: /* DCR E */
+        case 0x1d: /* DCR E */
             fprintf(asm_file, "DCR\t\tE\n");
             pc += 1;
             break;
@@ -508,15 +545,15 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
             fprintf(asm_file, "DCR\t\tH\n");
             pc += 1;
             break;
-        case 0x2c: /* DCR L */
+        case 0x2d: /* DCR L */
             fprintf(asm_file, "DCR\t\tL\n");
             pc += 1;
             break;
-        case 0x35: /* DCR (HL) */
+        case 0x35: /* DCR M */
             fprintf(asm_file, "DCR\t\tM\n");
             pc += 1;
             break;
-        case 0x3c: /* DCR A */
+        case 0x3d: /* DCR A */
             fprintf(asm_file, "DCR\t\tA\n");
             pc += 1;
             break;
@@ -601,11 +638,14 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
             pc += 2;
             break;
 
+        case 0x07: /* RLC */
+            fprintf(asm_file, "RLC\n");
+            pc += 1;
+            break;
         case 0x0f: /* RRC */
             fprintf(asm_file, "RRC\n");
             pc += 1;
             break;
-
 
         case 0x40: /* MOV B, B */
             fprintf(asm_file, "MOV\t\tB, B\n");
