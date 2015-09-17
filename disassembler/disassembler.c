@@ -93,30 +93,35 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
             pc += 1;
             break;
 
-        case 0x01: /* LXI B,data16 */
-            fprintf(asm_file, "LXI\t\tB, %d\n", (opcode[2] << 8) | opcode[1]);
-            pc += 3;
-            break;
-        case 0x11: /* LXI D,data16 */
-            fprintf(asm_file, "LXI\t\tD, %d\n", (opcode[2] << 8) | opcode[1]);
-            pc += 3;
-            break;
-        case 0x21: /* LXI H,data16 */
-            fprintf(asm_file, "LXI\t\tH, %d\n", (opcode[2] << 8) | opcode[1]);
-            pc += 3;
-            break;
-        case 0x31: /* LXI SP,data16 */
-            fprintf(asm_file, "LXI\t\tSP, %d\n", (opcode[2] << 8) | opcode[1]);
-            pc += 3;
-            break;
-
         case 0x02: /* STAX B */
             fprintf(asm_file, "STAX\tB\n");
             pc += 1;
             break;
-        case 0x03: /* INX B */
-            fprintf(asm_file, "INX\t\tB\n");
+
+        case 0x0b: /* DCX B */
+            fprintf(asm_file, "DCX\t\tB\n");
             pc += 1;
+            break;
+        case 0x1b: /* DCX D */
+            fprintf(asm_file, "DCX\t\tD\n");
+            pc += 1;
+            break;
+        case 0x2b: /* DCX H */
+            fprintf(asm_file, "DCX\t\tH\n");
+            pc += 1;
+            break;
+        case 0x3b: /* DCX SP */
+            fprintf(asm_file, "DCX\t\tSP\n");
+            pc += 1;
+            break;
+
+        case 0x22: /* SHLD addr */
+            fprintf(asm_file, "SHLD\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
+            break;
+        case 0x2a: /* LHLD addr */
+            fprintf(asm_file, "LHLD\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
             break;
         case 0x32: /* STA addr */
             fprintf(asm_file, "STA\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
@@ -124,6 +129,98 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
             break;
         case 0x3a: /* LDA addr */
             fprintf(asm_file, "LDA\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
+            break;
+
+        case 0x03: /* INX B */
+            fprintf(asm_file, "INX\t\tB\n");
+            pc += 1;
+            break;
+        case 0x13: /* INX D */
+            fprintf(asm_file, "INX\t\tD\n");
+            pc += 1;
+            break;
+        case 0x23: /* INX H */
+            fprintf(asm_file, "INX\t\tH\n");
+            pc += 1;
+            break;
+        case 0x33: /* INX SP */
+            fprintf(asm_file, "INX\t\tSP\n");
+            pc += 1;
+            break;
+
+        case 0xc9: /* RET*/
+            fprintf(asm_file, "RET\n");
+            pc += 1;
+            break;
+
+        case 0xfb: /* EI */
+            fprintf(asm_file, "EI\n");
+            pc += 1;
+            break;
+
+        case 0xc1: /* POP B */
+            fprintf(asm_file, "POP\t\tB\n");
+            pc += 1;
+            break;
+        case 0xd1: /* POP D */
+            fprintf(asm_file, "POP\t\tD\n");
+            pc += 1;
+            break;
+        case 0xe1: /* POP H */
+            fprintf(asm_file, "POP\t\tH\n");
+            pc += 1;
+            break;
+        case 0xf1: /* POP PSW */
+            fprintf(asm_file, "POP\t\tPSW\n");
+            pc += 1;
+            break;
+
+        case 0xc5: /* PUSH B */
+            fprintf(asm_file, "PUSH\tB\n");
+            pc += 1;
+            break;
+        case 0xd5: /* PUSH D */
+            fprintf(asm_file, "PUSH\tD\n");
+            pc += 1;
+            break;
+        case 0xe5: /* PUSH H */
+            fprintf(asm_file, "PUSH\tH\n");
+            pc += 1;
+            break;
+        case 0xf5: /* PUSH PSW */
+            fprintf(asm_file, "PUSH\tPSW\n");
+            pc += 1;
+            break;
+
+        case 0xc6: /* ADI data8 */
+            fprintf(asm_file, "ADI\t\t$%0.2x\n", opcode[1]);
+            pc += 2;
+            break;
+        case 0xfe: /* CPI data8 */
+            fprintf(asm_file, "CPI\t\t$%0.2x\n", opcode[1]);
+            pc += 2;
+            break;
+
+        case 0x27: /* DAA */
+            fprintf(asm_file, "DAA\n");
+            pc += 1;
+            break;
+
+        case 0x01: /* LXI B,data16 */
+            fprintf(asm_file, "LXI\t\tB, $%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
+            break;
+        case 0x11: /* LXI D,data16 */
+            fprintf(asm_file, "LXI\t\tD, $%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
+            break;
+        case 0x21: /* LXI H,data16 */
+            fprintf(asm_file, "LXI\t\tH, $%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
+            break;
+        case 0x31: /* LXI SP,data16 */
+            fprintf(asm_file, "LXI\t\tSP, $%0.4x\n", (opcode[2] << 8) | opcode[1]);
             pc += 3;
             break;
 
@@ -425,35 +522,35 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
             break;
 
         case 0x06: /* MVI B,data8 */
-            fprintf(asm_file, "MVI\t\tB, %d\n", opcode[1]);
+            fprintf(asm_file, "MVI\t\tB, $%0.2x\n", opcode[1]);
             pc += 2;
             break;
         case 0x0e: /* MVI C,data8 */
-            fprintf(asm_file, "MVI\t\tC, %d\n", opcode[1]);
+            fprintf(asm_file, "MVI\t\tC, $%0.2x\n", opcode[1]);
             pc += 2;
             break;
         case 0x16: /* MVI D,data8 */
-            fprintf(asm_file, "MVI\t\tD, %d\n", opcode[1]);
+            fprintf(asm_file, "MVI\t\tD, $%0.2x\n", opcode[1]);
             pc += 2;
             break;
         case 0x1e: /* MVI E,data8 */
-            fprintf(asm_file, "MVI\t\tE, %d\n", opcode[1]);
+            fprintf(asm_file, "MVI\t\tE, $%0.2x\n", opcode[1]);
             pc += 2;
             break;
         case 0x26: /* MVI H,data8 */
-            fprintf(asm_file, "MVI\t\tH, %d\n", opcode[1]);
+            fprintf(asm_file, "MVI\t\tH, $%0.2x\n", opcode[1]);
             pc += 2;
             break;
         case 0x2e: /* MVI L,data8 */
-            fprintf(asm_file, "MVI\t\tL, %d\n", opcode[1]);
+            fprintf(asm_file, "MVI\t\tL, $%0.2x\n", opcode[1]);
             pc += 2;
             break;
         case 0x36: /* MVI (HL),data8 */
-            fprintf(asm_file, "MVI\t\tM, %d\n", opcode[1]);
+            fprintf(asm_file, "MVI\t\tM, $%0.2x\n", opcode[1]);
             pc += 2;
             break;
         case 0x3e: /* MVI A,data8 */
-            fprintf(asm_file, "MVI\t\tA, %d\n", opcode[1]);
+            fprintf(asm_file, "MVI\t\tA, $%0.2x\n", opcode[1]);
             pc += 2;
             break;
 
@@ -500,7 +597,7 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
             break;
 
         case 0xdb: /* IN port */
-            fprintf(asm_file, "IN\t\t%d\n", opcode[1]);
+            fprintf(asm_file, "IN\t\t$%0.2x\n", opcode[1]);
             pc += 2;
             break;
 
@@ -509,22 +606,6 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
             pc += 1;
             break;
 
-        case 0xc5: /* PUSH B */
-            fprintf(asm_file, "PUSH\tB\n");
-            pc += 1;
-            break;
-        case 0xd5: /* PUSH D */
-            fprintf(asm_file, "PUSH\tD\n");
-            pc += 1;
-            break;
-        case 0xe5: /* PUSH H */
-            fprintf(asm_file, "PUSH\tH\n");
-            pc += 1;
-            break;
-        case 0xf5: /* PUSH PSW */
-            fprintf(asm_file, "PUSH\tPSW\n");
-            pc += 1;
-            break;
 
         case 0x40: /* MOV B, B */
             fprintf(asm_file, "MOV\t\tB, B\n");
