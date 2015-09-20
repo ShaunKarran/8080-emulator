@@ -93,8 +93,227 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
             pc += 1;
             break;
 
+        case 0xe3: /* XTHL */
+            fprintf(asm_file, "XTHL\n");
+            pc += 1;
+            break;
+        case 0xeb: /* XCHG */
+            fprintf(asm_file, "XCHG\n");
+            pc += 1;
+            break;
+
+        case 0x76:
+            fprintf(asm_file, "HLT\n");
+            pc += 1;
+            break;
+
+        case 0xd3: /* OUT data8 */
+            fprintf(asm_file, "OUT\t\t$%0.2x\n", opcode[1]);
+            pc += 2;
+            break;
+
+        case 0x07: /* RLC */
+            fprintf(asm_file, "RLC\n");
+            pc += 1;
+            break;
+        case 0x0f: /* RRC */
+            fprintf(asm_file, "RRC\n");
+            pc += 1;
+            break;
+        case 0x17: /* RAL */
+            fprintf(asm_file, "RAL\n");
+            pc += 1;
+            break;
+        case 0x1f: /* RAR */
+            fprintf(asm_file, "RAR\n");
+            pc += 1;
+            break;
+
+        case 0xc7: /* RST 0 */
+            fprintf(asm_file, "RST\t\t0\n");
+            pc += 1;
+            break;
+        case 0xcf: /* RST 1 */
+            fprintf(asm_file, "RST\t\t1\n");
+            pc += 1;
+            break;
+        case 0xd7: /* RST 2 */
+            fprintf(asm_file, "RST\t\t2\n");
+            pc += 1;
+            break;
+        case 0xdf: /* RST 3 */
+            fprintf(asm_file, "RST\t\t3\n");
+            pc += 1;
+            break;
+        case 0xe7: /* RST 4 */
+            fprintf(asm_file, "RST\t\t4\n");
+            pc += 1;
+            break;
+        case 0xef: /* RST 5 */
+            fprintf(asm_file, "RST\t\t5\n");
+            pc += 1;
+            break;
+        case 0xf7: /* RST 6 */
+            fprintf(asm_file, "RST\t\t6\n");
+            pc += 1;
+            break;
+        case 0xff: /* RST 7 */
+            fprintf(asm_file, "RST\t\t7\n");
+            pc += 1;
+            break;
+
+        case 0x2f: /* CMA */
+            fprintf(asm_file, "CMA\n");
+            pc += 1;
+            break;
+
+        case 0x37: /* STC */
+            fprintf(asm_file, "STC\n");
+            pc += 1;
+            break;
+        case 0x3f: /* CMC */
+            fprintf(asm_file, "CMC\n");
+            pc += 1;
+            break;
+
         case 0x02: /* STAX B */
-            fprintf(asm_file, "STAX\tB\n");
+            fprintf(asm_file, "STAX\t\tB\n");
+            pc += 1;
+            break;
+        case 0x12: /* STAX D */
+            fprintf(asm_file, "STAX\t\tD\n");
+            pc += 1;
+            break;
+        case 0x0a: /* LDAX B */
+            fprintf(asm_file, "LDAX\t\tB\n");
+            pc += 1;
+            break;
+        case 0x1a: /* LDAX D */
+            fprintf(asm_file, "LDAX\t\tD\n");
+            pc += 1;
+            break;
+
+        case 0xc6: /* ADI data8 */
+            fprintf(asm_file, "ADI\t\t$%0.2x\n", opcode[1]);
+            pc += 2;
+            break;
+        case 0xce: /* ACI data8 */
+            fprintf(asm_file, "ACI\t\t$%0.2x\n", opcode[1]);
+            pc += 2;
+            break;
+        case 0xd6: /* SUI data8 */
+            fprintf(asm_file, "SUI\t\t$%0.2x\n", opcode[1]);
+            pc += 2;
+            break;
+        case 0xde: /* SBI data8 */
+            fprintf(asm_file, "SBI\t\t$%0.2x\n", opcode[1]);
+            pc += 2;
+            break;
+        case 0xe6: /* ANI data8 */
+            fprintf(asm_file, "ANI\t\t$%0.2x\n", opcode[1]);
+            pc += 2;
+            break;
+        case 0xee: /* XRI data8 */
+            fprintf(asm_file, "XRI\t\t$%0.2x\n", opcode[1]);
+            pc += 2;
+            break;
+        case 0xf6: /* ORI data8 */
+            fprintf(asm_file, "ORI\t\t$%0.2x\n", opcode[1]);
+            pc += 2;
+            break;
+        case 0xfe: /* CPI data8 */
+            fprintf(asm_file, "CPI\t\t$%0.2x\n", opcode[1]);
+            pc += 2;
+            break;
+
+        case 0xc0: /* RNZ */
+            fprintf(asm_file, "RNZ\n");
+            pc += 1;
+            break;
+        case 0xc8: /* RZ */
+            fprintf(asm_file, "RZ\n");
+            pc += 1;
+            break;
+        case 0xc9: /* RET */
+            fprintf(asm_file, "RET\n");
+            pc += 1;
+            break;
+        case 0xd0: /* RNC */
+            fprintf(asm_file, "RNC\n");
+            pc += 1;
+            break;
+        case 0xd8: /* RC */
+            fprintf(asm_file, "RC\n");
+            pc += 1;
+            break;
+        case 0xe0: /* RPO */
+            fprintf(asm_file, "RPO\n");
+            pc += 1;
+            break;
+        case 0xe8: /* RPE */
+            fprintf(asm_file, "RPE\n");
+            pc += 1;
+            break;
+        case 0xf0: /* RP */
+            fprintf(asm_file, "RP\n");
+            pc += 1;
+            break;
+        case 0xf8: /* RM */
+            fprintf(asm_file, "RM\n");
+            pc += 1;
+            break;
+
+        case 0xc4: /* CNZ addr */
+            fprintf(asm_file, "CNZ\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
+            break;
+        case 0xcc: /* CZ addr */
+            fprintf(asm_file, "CZ\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
+            break;
+        case 0xcd: /* CALL addr */
+            fprintf(asm_file, "CALL\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
+            break;
+        case 0xd4: /* CNC addr */
+            fprintf(asm_file, "CNC\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
+            break;
+        case 0xdc: /* CC addr */
+            fprintf(asm_file, "CC\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
+            break;
+        case 0xe4: /* CPO addr */
+            fprintf(asm_file, "CPO\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
+            break;
+        case 0xec: /* CPE addr */
+            fprintf(asm_file, "CPE\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
+            break;
+        case 0xf4: /* CP addr */
+            fprintf(asm_file, "CP\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
+            break;
+        case 0xfc: /* CM addr */
+            fprintf(asm_file, "CM\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
+            pc += 3;
+            break;
+
+        case 0x09: /* DAD B */
+            fprintf(asm_file, "DAD\t\tB\n");
+            pc += 1;
+            break;
+        case 0x19: /* DAD D */
+            fprintf(asm_file, "DAD\t\tD\n");
+            pc += 1;
+            break;
+        case 0x29: /* DAD H */
+            fprintf(asm_file, "DAD\t\tH\n");
+            pc += 1;
+            break;
+        case 0x39: /* DAD SP */
+            fprintf(asm_file, "DAD\t\tSP\n");
             pc += 1;
             break;
 
@@ -182,11 +401,6 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
             pc += 1;
             break;
 
-        case 0xc9: /* RET*/
-            fprintf(asm_file, "RET\n");
-            pc += 1;
-            break;
-
         case 0xfb: /* EI */
             fprintf(asm_file, "EI\n");
             pc += 1;
@@ -224,19 +438,6 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
         case 0xf5: /* PUSH PSW */
             fprintf(asm_file, "PUSH\tPSW\n");
             pc += 1;
-            break;
-
-        case 0xc6: /* ADI data8 */
-            fprintf(asm_file, "ADI\t\t$%0.2x\n", opcode[1]);
-            pc += 2;
-            break;
-        case 0xe6: /* ANI data8 */
-            fprintf(asm_file, "ANI\t\t$%0.2x\n", opcode[1]);
-            pc += 2;
-            break;
-        case 0xfe: /* CPI data8 */
-            fprintf(asm_file, "CPI\t\t$%0.2x\n", opcode[1]);
-            pc += 2;
             break;
 
         case 0x27: /* DAA */
@@ -591,6 +792,10 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
             pc += 2;
             break;
 
+        case 0xe9: /* PCHL */
+            fprintf(asm_file, "PCHL\n");
+            pc += 1;
+            break;
         case 0xc2: /* JNZ addr */
             fprintf(asm_file, "JNZ\t\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
             pc += 3;
@@ -628,23 +833,9 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
             pc += 3;
             break;
 
-        case 0xcd: /* CALL addr */
-            fprintf(asm_file, "CALL\t$%0.4x\n", (opcode[2] << 8) | opcode[1]);
-            pc += 3;
-            break;
-
         case 0xdb: /* IN port */
             fprintf(asm_file, "IN\t\t$%0.2x\n", opcode[1]);
             pc += 2;
-            break;
-
-        case 0x07: /* RLC */
-            fprintf(asm_file, "RLC\n");
-            pc += 1;
-            break;
-        case 0x0f: /* RRC */
-            fprintf(asm_file, "RRC\n");
-            pc += 1;
             break;
 
         case 0x40: /* MOV B, B */
@@ -899,9 +1090,38 @@ int disassemble_8080(unsigned char *buffer, int pc, FILE *asm_file)
             fprintf(asm_file, "MOV\t\tA, A\n");
             pc += 1;
             break;
+
+        case 0x08:
+            fprintf(asm_file, "NOCODE\n");
+            pc += 1;
+            break;
+        case 0x10:
+            fprintf(asm_file, "NOCODE\n");
+            pc += 1;
+            break;
+        case 0x18:
+            fprintf(asm_file, "NOCODE\n");
+            pc += 1;
+            break;
+        case 0x20: /* RIM according to site */
+            fprintf(asm_file, "NOCODE\n");
+            pc += 1;
+            break;
+        case 0x28:
+            fprintf(asm_file, "NOCODE\n");
+            pc += 1;
+            break;
+        case 0x30:
+            fprintf(asm_file, "NOCODE\n");
+            pc += 1;
+            break;
+        case 0x38:
+            fprintf(asm_file, "NOCODE\n");
+            pc += 1;
+            break;
             
         default:
-            fprintf(asm_file, "N/A\n");
+            fprintf(asm_file, "N/A\t\t0x%0.2x\n", opcode[0]);
             pc += 1;
     }
 
